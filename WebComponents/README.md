@@ -11,7 +11,10 @@ Source: https://developer.mozilla.org/en-US/docs/Web/Web_Components
 > (Web) Components are the building blocks of modern web applications.
 Source: https://developers.google.com/web/fundamentals/web-components/
 
- - - - Insert Drawing here - - - 
+```
+  Insert Drawing here 
+```
+  
 
 Web Components are the result of an effort by the web community to have a common specs for these 'building blocks of web'
 There are two broad categories in which this can be used:
@@ -22,7 +25,10 @@ There are two broad categories in which this can be used:
 ## Basic Concepts
 To understand and discuss the 3 technologies that are used to make Web components a thing, we need to first see what happens usually when a HTML page is renderd.
 
-- - - Now we discuss about JavaScript, Browser APIs, ECMA (ES6) and polyfills - - - 
+```
+ Now we discuss about JavaScript, Browser APIs, ECMA (ES6) and polyfills
+ ```
+ 
 
 This page is usually what I refer to as the base: [Web Technologies](https://developer.mozilla.org/en-US/docs/Web)
 
