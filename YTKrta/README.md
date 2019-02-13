@@ -1,5 +1,12 @@
 # YTKrta
 
+# Things That need to be done
+* Draft to Send to YT Partners
+* Finalize & Iterate on the E-com site to share: [merch site](http://merch.akriya.co.in)
+* Merchendise Base Product Design Sprint for V1
+* Make Video with Base Product with Branding for 1 Partner
+* Make YTKrta APP if needed
+* Twitch Extensions for Streamer
 
 # Attempt at Design Breif
 * The device is ment to be a merchandise product for Youtube and Twitch Streamers
