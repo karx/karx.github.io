@@ -1,6 +1,6 @@
-# Web Components - Is 2019 the year for Web components?
+# Web Components - For Micro-frontends and Re-usable components
 
-## What are Web Components
+## What are Web Components?
 > Web components are a set of web platform APIs that allow you to create new custom, reusable, encapsulated HTML tags to use in web pages and web apps. 
 Source: https://www.webcomponents.org/introduction
 
