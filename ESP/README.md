@@ -2,7 +2,7 @@
 ESP8266 and ESP32 is a series of low-cost, low-power system on a chip microcontrollers with integrated Wi-Fi and dual-mode Bluetooth.
 
 created and developed by Espressif Systems, a Shanghai-based Chinese company
-![ESP32](https://en.wikipedia.org/wiki/File:Espressif_ESP-WROOM-32_Wi-Fi_%26_Bluetooth_Module.jpg)
+![ESP32](https://www.espressif.com/sites/default/files/modules/esp32-wroom-32-01-s.png)
 
 
 ## Feature List of the board
@@ -55,8 +55,16 @@ Note here that the underlying framework is Arduino.
 * MicroPython
 MicroPython is a vibrant community of enthusiasts that have build this implementation of CPython Specs, tailored for these class of Processors
 Python on device
+[Micropython](https://karx.github.io/Micropython)
 
 * Esprunio
 JS on device
-[Esprunio](karx.github.io/Esprunio)
+[Esprunio](https://karx.github.io/Esprunio)
+
+
+## Choose your Board
+* ESP8266
+* ESP32
+* ARM based
+* Framework native boards - PyBoard, Pixl.js, etc
 
