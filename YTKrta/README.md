@@ -28,3 +28,4 @@ Best place to communicate would be in order
 * Raise an issue on this Github repo 
 * Leave a message Discord. Our channel: https://discord.gg/Ud5TuCr
 * Contact me on Twitter @karx_brb
+* Slack Channel Invite Link: [Invite](https://join.slack.com/t/akriya/shared_invite/enQtNDMwOTM2NjExMzQ0LTZmODYzZDUyNDYyMjhhNmNhMzk2MzVjY2NmZGM0YjNkYzViZTJjMDc2Nzg4MTA5NjAzOTQ1ZWZhMDc0OWI3OGU) 
