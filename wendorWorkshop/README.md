@@ -22,7 +22,7 @@ This is more like workshop sessions, on the following topics:
 Hopefully interactive session to build/create something from this very session.
 * Story of Wendor
 * Our Belifs for Makers: The Code
-* Time to Code: Live demo of ESP32 + JS. To solve/build something in Realtime
+* Time to Code: Live demo of ESP32 + JS. To solve/build something in Realtime  (More thought needed)
 * How Wendor can help you do more
 
 # Further
