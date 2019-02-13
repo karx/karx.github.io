@@ -8,7 +8,7 @@
 * Make YTKrta APP if needed
 * Twitch Extensions for Streamer
 
-# Attempt at Design Breif
+# Attempt at Design Brief
 * The device is ment to be a merchandise product for Youtube and Twitch Streamers
 * The device provides few Realtime interaction capabilities with the Steam and Streamer 
     * Notification when Steamer Tweets
