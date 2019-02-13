@@ -2,7 +2,7 @@
 Here is a curated list of topics 
 
 * Embedded Systems
-    * Getting Started with IoT Development - ESP: [Workshop Link] (https://karx.github.io/ESP/)
+    * Getting Started with IoT Development - ESP: [Workshop Link](https://karx.github.io/ESP)
     * https://www.espruino.com/ESP32. JavaScript on ESP: [Workshop Link](https://karx.github.io/Esprunio/)
     * MicroPython 
 
