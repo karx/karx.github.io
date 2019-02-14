@@ -16,9 +16,8 @@ Here is a curated list of topics
 * Serverless
     * Github pages for everyone
     * Getting hands on with Lamda Function AWS
-    * Guide to Firebase 
+    * Guide to Firebase
         * Security Rules in Firebase
 
 * Data
     * Wikidata - Largest Crowd sources Knowledge Graph - Open Data: [Link](https://karx.github.io/Wikidata/)
-    * SPARQL + Wikidata
