@@ -60,4 +60,6 @@ WHERE
 } 
 ```
 
+You can do alot with these queries, [here](https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/queries/examples) is a list of examples queries listed. A must visit page of the internet.
 
+\< A live query building session to follow \>
