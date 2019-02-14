@@ -63,3 +63,16 @@ WHERE
 You can do alot with these queries, [here](https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/queries/examples) is a list of examples queries listed. A must visit page of the internet.
 
 \< A live query building session to follow \>
+
+
+
+## Thanks and for further Communications
+Thanks for going through this material, hope I was able to help in some form or way.
+
+Any help, updating this page, or something broader would be highly appreciated.
+Best place to communicate would be in order
+* Contact me on Twitter @karx_brb
+* Raise an issue on this Github repo, 
+* Leave a message Discord. Our channel: [Akriya Discord](https://discord.gg/Ud5TuCr)
+* Slack Channel Invite Link: [Invite](https://join.slack.com/t/akriya/shared_invite/enQtNDMwOTM2NjExMzQ0LTZmODYzZDUyNDYyMjhhNmNhMzk2MzVjY2NmZGM0YjNkYzViZTJjMDc2Nzg4MTA5NjAzOTQ1ZWZhMDc0OWI3OGU) 
+* [Wikipedia Talk page](https://en.wikipedia.org/wiki/User_talk:Kaaro01)

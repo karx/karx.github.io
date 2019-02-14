@@ -20,5 +20,5 @@ Here is a curated list of topics
         * Security Rules in Firebase
 
 * Data
-    * Wikidata - Largest Crowd sources Knowledge Graph - Open Data
+    * Wikidata - Largest Crowd sources Knowledge Graph - Open Data: [Link](https://karx.github.io/Wikidata/)
     * SPARQL + Wikidata
