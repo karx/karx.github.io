@@ -48,3 +48,16 @@ Wikidata provides a beautiful tool for querying known as [Wikidata Query Service
 ## Let build a query now.
 
 * For the first query, lets simply get a count of people that have a spouse listed. (ever married)
+
+```
+#Query for Wikidata intro
+SELECT (COUNT(?item) AS ?count) 
+WHERE 
+{
+  ?item wdt:P31 wd:Q5.
+  ?item wdt:P26 ?spouse.
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+} 
+```
+
+
