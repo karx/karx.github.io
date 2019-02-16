@@ -21,3 +21,7 @@ Here is a curated list of topics
 
 * Data
     * Wikidata - Largest Crowd sources Knowledge Graph - Open Data: [Link](https://karx.github.io/Wikidata/)
+
+## List of Session to prepare
+* Node-RED
+* Blender
