@@ -31,5 +31,9 @@ for(let i=0;i < allTopics.length; i++) {
 }
 console.log(dataToSet);
 
+// usexport PATH="$PATH:/home/karx/development/flutter/bin"e this dataset to generate a bullshit bingo matrix.
+
+// Flutter app to actually play Bullshit bingo
+
 
 
