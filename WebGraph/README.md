@@ -20,6 +20,7 @@ It is not always possible to maintain a Graph DB for all the projects that I do.
 ## EduGraph - The college days
 This was our first attempt at formalizing a data set in terms of a Graph DB.
 The use-case we had was for an Edu-Tech company, and we proposed them to store their Courses as a Dependecy Graphs. Also we generated a few quizes for live demo, given such structuring.
+
 Our core ask was to move away from a 'Wall of Text'.
 Best 2 days of College. Well maybe.
 
@@ -41,6 +42,7 @@ Wikidata, now that I am not working for the corporate world, Wikidata provides m
 Writing SPARQL queries for answering queries like 'does being married have a co-relation with how long you live?' became a favorite pass-time for me.
 
 I would like to say, Wikidata, the development, the community efforts, the discussions and the data set itself, provides a great __OPEN__ view to how such a system evolves, its needs, etc. There are many questions that the community on a daily basis takes care of and it is an engine, worth more eyeballs.
+
 I have been attempting to write a small [introduction/engager for Wikidata](https://karx.github.io/Wikidata) if anyone is interested.
 
 
@@ -51,13 +53,14 @@ So the following toolkit has really enabled me to fullfill my whim of modeling/s
     This really helps people wrap their head around the concept and the possiblities. Their Graphical Language - Cypher is very fun to teach
 * RDF syntax - Well the document would have been incomplete without mentioning either RDF or OWL. Getting the idea of structuring things as Triples.
 * Wikidata - A complete end to end engine + data + develeopment which is Open for us to be involved.
-* 
+
 
 ## Conclutions
 Storing or Stucturing or Modelling things in terms of a Graph Data base is something that is Needed, not invented.
 The evolution that we are seeing in this domain is one of the most facinating ones. And the use-cases and applications of such well structured data with the current compute abilities are mind-blowing.
 
 Appologies for this, but I could not help myself from creating this.
+
 ![Graph Data Meme](https://i.imgflip.com/2u5b0a.jpg)
 
 
