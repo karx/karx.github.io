@@ -15,3 +15,14 @@ I would like to add a concept of self-referencial computes here early on. These 
 These evolved systems of self-referencial computes are we call 'living'
 
 as compared to 'non-living' compute systems.
+
+
+
+## Self-referencial Compute Systems
+What we call living beings. Well the ones we have acknowledged.
+One repercution of thinking of living beings as Self-referencial compute systems is, the online communities that we see, are also examples of living beings, the rain we see are compute outputs of a much larger being.
+
+
+
+## Computes that you like
+This abstraction really is amazing.
