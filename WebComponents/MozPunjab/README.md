@@ -39,3 +39,9 @@ Social profiles:
 
 ### Availability (When would you be able to give the talk?) 
 Would be available on 23rd-24th March
+
+
+## Things to do
+* Sound wave generator component - Polymer most likely
+* Pokemon - Raw JS
+* Only base for Pokedex - Angular Elements
