@@ -18,7 +18,7 @@ Source: https://developers.google.com/web/fundamentals/web-components/
 ```
   Insert Drawing here 
 ```
-  
+   
 
 Web Components are the result of an effort by the web community to have a common specs for these 'building blocks of web'
 There are two broad categories in which this can be used:
