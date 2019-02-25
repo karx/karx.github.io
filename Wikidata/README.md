@@ -66,7 +66,40 @@ You can do alot with these queries, [here](https://www.wikidata.org/wiki/Wikidat
 \< A live query building session to follow \>
 
 Lets see on an average, how many spouses are listed, if any.
+```
+SELECT (STR(?year) AS ?yearString) (AVG(?count) AS ?avgSpouse) WHERE
+{
+    SELECT ?item ?year (COUNT(?spouse) AS ?count) 
+    WHERE 
+    {
+        ?item wdt:P31 wd:Q5.
+        ?item wdt:P26 ?spouse.
+        ?item wdt:P569 ?birthday
+        BIND(YEAR(?birthday) AS ?year)
+        FILTER( ?year > 1900 )
+        
+        SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+    } 
+    GROUP BY ?item ?year
 
+
+} 
+GROUP BY ?year 
+ORDER BY ?year
+```
+[Try out](http://tinyurl.com/y2n299pr)
+
+Then I tried to see if I could see any patterns based on countries [link here](http://tinyurl.com/yxb24hyu)
+We can now filter this noise by say, only get countries with significant population, say above 10^^7
+
+To improve this, we dont have a log Function.
+Surfing the ever so amazing world wide web, I came across this, [page]https://www.wikidata.org/wiki/Wikidata_talk:SPARQL_query_service/queries/Archive/2016#Log()_function?
+Workaround -> strlen(STR(ROUND(?quantity)))
+So, this is number of average number of marriges (excluding 0), for each segment, segments are based on the countries population (log10).
+
+Lets tweek the filters and see what we get.
+
+Average Number of Kids if any: [Link](http://tinyurl.com/y4kdhdge)
 
 
 ## Thanks and for further Communications
