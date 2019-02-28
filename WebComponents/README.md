@@ -66,4 +66,4 @@ Our options:
 * [Slim.js](http://slimjs.com/#/getting-started) is a lightweight web component authoring library
 
 
-In this session we will build one using - Choice
+In this session we will build one using - Pokemon!!!
