@@ -45,3 +45,9 @@ Would be available on 23rd-24th March
 * Sound wave generator component - Polymer most likely
 * Pokemon - Raw JS
 * Only base for Pokedex - Angular Elements
+
+
+### Pointers
+* While moving to api/http/firebase
+    A phone without network is a brick with lights
+    
