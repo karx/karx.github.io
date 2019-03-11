@@ -40,9 +40,8 @@ These Karta devices are defined as any device with compute capabilities + Networ
 Karta devices have indivisually a very pure purpose, event driven (also have the capability of fabricating their own computes)
 The inital draft also wanted these devices to reproduce automatically, a version similar to themself, but that as you guessed was not engineered because of implementaion capabilites.
 
-Though, for all practical purposes, this version of Simulation device is stable. A group or hive of them, does in turn create an impressive system with amazingly broad spectrum of capabilities.
+Though, for all practical purposes, this version of Simulation device is stable. A group or hive of them, does in turn create an impressive system with amazingly broad spectrum of capabilities. 
+But extreamly primitive. And no way to replicate makes it useless.
 
-
-
-
-
+## Visualizations
+This mostly comprises of the idea of having a phyical/mental/visual manifestation in the 'here and now' of the system or a part of it atleast.
