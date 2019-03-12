@@ -3,7 +3,6 @@ Creating Bridges: RDF, Property Graph and SQL
 
 ## This document
 This document is to created to submit/forward my understanding, views and experience on the topic. I will break this down, into indivisual encounters/chapters. 
-Also, this is also a call for allowing me to if possible, digitally attend the [W3C Workshop on Web Standardization for Graph Data](https://www.w3.org/Data/events/data-ws-2019/cfp.html)
 
 ## Introduction
 I am deeply pationate about the very core of the concept, of formalizing our knowledge/data in form of a graph, which I do not need to justify to anyone keen enough to read this document.
@@ -67,7 +66,6 @@ Appologies for this, but I could not help myself from creating this.
 ## Thanks and for further Communications
 Thanks for going through this material, hope I was able to help in some form or way.
 
-Any help, updating this page, or something broader would be highly appreciated.
 Best place to communicate would be in order
 * Contact me on Twitter @karx_brb
 * Raise an issue on this Github repo, 
