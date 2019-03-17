@@ -16,9 +16,10 @@ Source: https://developer.mozilla.org/en-US/docs/Web/Web_Components
 Source: https://developers.google.com/web/fundamentals/web-components/
 
 ```
-  Insert Drawing here 
+  ![Insert Drawing here](https://cdn-images-1.medium.com/max/800/0*RkhhR4vWy4O9nemq.png)
 ```
    
+   [Another Blog With Drawing](https://medium.freecodecamp.org/use-web-components-to-create-gradient-transitions-f9aad648824a)
 
 Web Components are the result of an effort by the web community to have a common specs for these 'building blocks of web'
 There are two broad categories in which this can be used:
@@ -67,3 +68,22 @@ Our options:
 
 
 In this session we will build one using - Pokemon!!!
+
+
+## Definations
+* DOM
+* Most composible Web Unit
+* iframe
+
+
+
+## 1
+Definations
+Problems 
+Then solution Angular type
+But more was needed
+Then examples
+Then Lets build on our own
+
+
+## 2

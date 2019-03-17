@@ -51,3 +51,32 @@ Would be available on 23rd-24th March
 * While moving to api/http/firebase
     A phone without network is a brick with lights
     
+
+
+
+## Abstract for posters
+Today, the Web is 30 years old. It's quater life crises are officialy over!
+
+The journey thus far had not been easy, and without the tireless efforts of the Corporates, NGOs, Governments and the people, such a technological marvel could not have existed.
+
+The specifications commities have a huge role in shaping the Web, and one such specification is Web Components. A specifications to define, register and render your own HTML components was passed in 2015, and since then has really improved too!
+Let's get building!
+
+
+## Abstract for posters - Less than 60 words
+
+Want to build a re-usable input tag? 
+Want to build an embeddable chat widget?
+Or you just want a customizable video tag?
+
+Web Components is where it converges. 
+
+
+## Abstract for posters - Less than 60 words - more relateable 
+<moz-talk-intro>
+    Want to build a re-usable input tag? 
+    Want to build an embeddable chat widget?
+    Or you just want a customizable video tag?
+
+    Web Components - a recipe for all!
+</moz-talk-intro>
