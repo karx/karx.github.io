@@ -19,15 +19,15 @@ Use this skeleton application to quickly setup and start working on a new IoT ap
 
 ## Business Specification
 
-### Connectivity
-    * Beacon
-    * Bluetooth
-    * Wifi - Hotspot
-    * Wifi 
-    * SIM/
-    * Intranet
+#### Connectivity
+* Beacon
+* Bluetooth
+* Wifi - Hotspot
+* Wifi 
+* SIM/
+* Intranet
 
-### ACTUATORS and Sensors 
+#### ACTUATORS and Sensors 
 * Actuators
     * Motors
     * Linear Atuators
@@ -45,12 +45,12 @@ Use this skeleton application to quickly setup and start working on a new IoT ap
     * Digital Sensor 
     * Camera
 
-### Authorization 
-    * RFID
-    * Fingerprint
-    * ESP camera
-        * Face recognition 
-        * Voice recognition
+#### Authorization 
+* RFID
+* Fingerprint
+* ESP camera
+    * Face recognition 
+    * Voice recognition
 
 
 #### I/O Modules
