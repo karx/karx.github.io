@@ -26,10 +26,13 @@ Use this skeleton application to quickly setup and start working on a new IoT ap
 * Wifi 
 * SIM/
 * Intranet
+* RFID
 
 #### ACTUATORS and Sensors 
 * Actuators
     * Motors
+        * servo
+        * stepper
     * Linear Atuators
     * Light
     * Relay
@@ -39,15 +42,29 @@ Use this skeleton application to quickly setup and start working on a new IoT ap
         * Temperature 
         * Pressure 
         * Load Cell 
+        * accelerometers
+        * inertia measurement
     * Chemical Sensors
         * Ph Sensor
         * Gas Sensor
     * Digital Sensor 
     * Camera
+    * soil sensors
+    * Usual sensors
+        * IR 
+        * Ultrasonic
+        * hall effect sensor
+        * proximity sensor
+        * motion sensor 
+        * flame sensor
+        * LDR
+        * rain drop detection sensor
+        * wind speed sensor
 
 #### Authorization 
-* RFID
+* RFID/NFC
 * Fingerprint
+* Coin Collector
 * ESP camera
     * Face recognition 
     * Voice recognition
@@ -60,13 +77,47 @@ Use this skeleton application to quickly setup and start working on a new IoT ap
     * PS2 controller
     * Touch TFT
     * Camera
+    * Mic
+    * Keypad
+    * capasitive touch buttons
 
-* Display/Output  Modules
+* Display/Output  Modules  (can be used for logging/debugging)
     * VGA screen
     * oLED 
     * HDMI output
     * LCD 
     * Speaker 
+        * Aux
+        * buzzer
+        * voice output 
+        * recording playback module
     * LED 
     * Touchg TFT
 
+#### Oscilometer code 
+* detecing AC current / Voltage
+* detecting DC current / voltage
+
+#### Inbuilt IC support
+* Should support 3*8 demux by default 
+* Should support 4*16 demux by default 
+* Analog to digital converter 
+
+#### Power backup / stablization 
+* should not lose state/data in case of minor power fluctuation / loss 
+* Real time clock 
+* multiple type of batteries/ chanrging ports (like esp has vin pin and also takes in using microUSB)
+* solar panel
+
+## Industry Requirements
+ * Stable/ Reliable
+ * OAT 
+ * Plug and play devices
+ * Easy to deploy code to device
+ * (Module) Easy to maintain by multiple deveopers at once 
+ * Servicability
+    * Problem isolation V important (not a PhD will go to repair the module.) 
+    * parts should be removable should not have to remove entire motherboard.
+ * 
+
+## 
