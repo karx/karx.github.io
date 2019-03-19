@@ -1,6 +1,6 @@
 ## Karta-Dharam
-This document is to serve 
-
+This document is to serve as Spec doc in the future for
+' Our framework/toolchain we use to deploy/run/debug logic on embedded systems '
 
 ## Content
 * Purpose

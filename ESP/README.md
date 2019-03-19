@@ -68,3 +68,6 @@ JS on device
 * ARM based
 * Framework native boards - PyBoard, Pixl.js, etc
 
+
+## OTA
+* We can wrap the entire "sketch" inside an OTA version management system so to say.
