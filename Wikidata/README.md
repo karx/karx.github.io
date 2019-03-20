@@ -60,46 +60,14 @@ WHERE
 } 
 ```
 
-
 You can do alot with these queries, [here](https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/queries/examples) is a list of examples queries listed. A must visit page of the internet.
 
 \< A live query building session to follow \>
 
-Lets see on an average, how many spouses are listed, if any.
-```
-SELECT (STR(?year) AS ?yearString) (AVG(?count) AS ?avgSpouse) WHERE
-{
-    SELECT ?item ?year (COUNT(?spouse) AS ?count) 
-    WHERE 
-    {
-        ?item wdt:P31 wd:Q5.
-        ?item wdt:P26 ?spouse.
-        ?item wdt:P569 ?birthday
-        BIND(YEAR(?birthday) AS ?year)
-        FILTER( ?year > 1900 )
-        
-        SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
-    } 
-    GROUP BY ?item ?year
+[Query for Nuclear plants setup per country in last 60 years](https://query.wikidata.org/#%23defaultView%3ABarChart%0ASELECT%20%3FyearLabel%20%28COUNT%28%3Fcountry%29%20AS%20%3Fcount%29%20%28SAMPLE%28%3FcLabel%29%20AS%20%3FcLabel%29%20WHERE%20%7B%0A%20%20%3Fyear%20wdt%3AP31%20wd%3AQ577%3B%0A%20%20%20%20wdt%3AP156%2Fwdt%3AP585%20%3Fnext_year_point%3B%0A%20%20%20%20wdt%3AP585%20%3Fyear_point.%0A%20%20FILTER%28%221950-01-01%22%5E%5Exsd%3AdateTime%20%3C%3D%20%3Fyear_point%20%26%26%20%3Fyear_point%20%3C%20%222000-01-01%22%5E%5Exsd%3AdateTime%29.%0A%20%20OPTIONAL%20%7B%20%3Fobject%20%28wdt%3AP31%2Fwdt%3AP279%2A%29%20wd%3AQ134447.%0A%20%20%3Fobject%20wdt%3AP571%20%3F_inception.%0A%20%20%3Fobject%20wdt%3AP17%20%3Fcountry.%0A%20%20%3Fcountry%20rdfs%3Alabel%20%3FcountryLabel.%20FILTER%28%28LANG%28%3FcountryLabel%29%29%20%3D%20%22en%22%29%0A%20%20FILTER%28%3Fyear_point%20%3C%3D%20%3F_inception%20%26%26%20%3F_inception%20%3C%20%3Fnext_year_point%29%0A%20%20%7D%0A%20%20BIND%28IF%28BOUND%28%3Fcountry%29%2C%3FcountryLabel%2C%22none%22%29%20AS%20%3FcLabel%29%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22%20%7D%0A%7D%20GROUP%20BY%20%3FyearLabel%20%3Fcountry%0AORDER%20BY%20%3FyearLabel)
 
 
-} 
-GROUP BY ?year 
-ORDER BY ?year
-```
-[Try out](http://tinyurl.com/y2n299pr)
 
-Then I tried to see if I could see any patterns based on countries [link here](http://tinyurl.com/yxb24hyu)
-We can now filter this noise by say, only get countries with significant population, say above 10^^7
-
-To improve this, we dont have a log Function.
-Surfing the ever so amazing world wide web, I came across this, [page]https://www.wikidata.org/wiki/Wikidata_talk:SPARQL_query_service/queries/Archive/2016#Log()_function?
-Workaround -> strlen(STR(ROUND(?quantity)))
-So, this is number of average number of marriges (excluding 0), for each segment, segments are based on the countries population (log10).
-
-Lets tweek the filters and see what we get.
-
-Average Number of Kids if any: [Link](http://tinyurl.com/y4kdhdge)
 
 
 ## Thanks and for further Communications

@@ -20,93 +20,52 @@ Document prepared by
 
 
 ## Executive Summary
-This documentation is to serve as a 'Statement of Work' or SOW for implementing few Digital Transformations at a Fitso facility to enhance and empower Administrations. The advancement in the field of IoT, 
+This documentation is to serve as a 'Statement of Work' or SOW for implementing few Digital Infrastructure for Smart Bikes to enable and enhance the buisness. The advancement in the field of IoT 
 Networks, Computing and Data Science has made possible Integrated systems that can really help business.
 Such a system would include a means to capture, catalog and analyze data, along with tools to enforce 'business logic'.
 
 Akriya Technologies will work with Fitso to:
 
-* Designing the Smart Fitso Facility Architecture
-* Identify options to integrate various systems - both Fitso Internal and External
-* Develop and Engineer the system
-* Deploy said system to a Fitso Facility
+* Designing the SmartBike Data Logging Architecture
+* Designing the SmartBike Operations Architecture
+* Identify and integrate SmartBike infrastructure
+* Develop and Engineer the systems
+* Deploy said systems for SmartBike
 * Provide documentation of the new system
-* Knowledge Transfer/Integrate with Fitso Tech team
+* Knowledge Transfer/Integrate 
 
-Akriya Technologies proposes to design, develop and provide installation of v1.0 of the proposed system to 1 Fitso Facility.
-This activity will require 8 weeks. The estimated cost for this activity would be 2 lakhs INR plus per device cost which averages around 4000 INR. 
+Akriya Technologies proposes to design, develop and provide installation of v1.0 of the proposed system to cater for 100-200 Bikes.
+This activity will require 4-6ss weeks. The estimated cost for this activity would be 2 lakhs INR plus additional charges after deployment, valued around 3 Lakhsss
 
 The Value Proposition of using Akriya Technologies for this project are:
 * Proven engineering techniques for making Integrated systems.
-* Leveraging our experience in working with IoT toolkit (ESP) to bootstrap your effort. 
+* Leveraging our experience in working with IoT toolkit (ESP).
+* Data Architecture and Solution experience
 * Using our subject matter experts to complete the project quickly. Rapid project completion minimizes disruptions and allows organizations to realize cost saving quickly.
 
 ## Delivery Scope
 
-* Project Definition
-    - A review of the current Fitso Administration System of 1 Fitso Facility.
-    - A project kickoff meeting to discuss and document the complete scope of Digital Transformation of Fitso Facility and the goals and requirements of this project.
+## Devices/HW
 
-## Devices
-
-* In-Pool Device
+* On-Bike Module
 
 ```
-Data to Capture:    Water Temperature
-                    Chlorine Level
-                    pH level
-                    Water TDS
+Data to Capture:    Battery percentage
+                    Load on Bike
+                    Bike Location
 
 ```
-* In-Facility Device
 
-```
-Data to Capture:    Humidity
-                    Temperature
-                    Number of people*
-                    
-```
-
-* Equipment Interfaces
-
-    * Heatpump Controller:
-
-    ``` 
-    Data to Capture:    In-let temprature of water
-                        Outlet temperature of the water
-                        Operating hours
-    ``` 
-
-
-    * Geyser:
-
-    ```
-    Data to Capture:    Operating hours
-                        In-let temprature of water
-                        Outlet temprature of water
-    ```
-
-
-    * Water Motors:
-
-    ```
-    Data to Capture:    Operating hours
-    ```
-
-
-    * Filter Unit
-
-    ```
-    Data to Capture:    Operating hours
-                        Operating state*
-    ```
 
 ## Web/Software
-* Admin SDK / APIs for Devices
-Native packages to interact with the devices. 
+* Data SDK / APIs for SmartBike Telemetry
+We will be recording and cataloging the real time telemetry of the SmartBike.
+This would include a query endpoint, to query this set.
+Also, APIs that we would consume to make the User Journey possible (like number of bikes available around a geolocations)
 
-* Dashboard
-A user interface exposed as a PWA on any domain required by Fitso. 
+* Dashboard - Admin
+Admin Interface to overlook and manage the system.
+
 (It would be recommended to use Admin SDK or APIs in Fitso's existing dashboards.)
 Design/Requirements for this dashboard to be agreed upon prior to any further development.
 
