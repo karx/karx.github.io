@@ -65,13 +65,24 @@ Also, APIs that we would consume to make the User Journey possible (like number 
 
 * Dashboard - Admin
 Admin Interface to overlook and manage the system.
+    * Views
+        * User View
+        * Bike view
+        * Dashboard page
+        * Transactions Page
 
-(It would be recommended to use Admin SDK or APIs in Fitso's existing dashboards.)
+    * Notifications
+        * Bike fencing
+        * Requirements if any
+
+    * Admin privleges
+        * Options to block users
+        * Options to manage status of Bikes
+
 Design/Requirements for this dashboard to be agreed upon prior to any further development.
 
-* On Premise Portal
-()
-A UI to be displayed on a screen/system inside the facility for the on-premise staff.
+* User App
+
 
 ## Maintenance
 To be maintained for 6 months and then rediscuss based on new requirements and learnings.
