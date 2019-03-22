@@ -80,10 +80,10 @@ Admin Interface to overlook and manage the system.
         * Options to manage status of Bikes
 
 Design/Requirements for this dashboard to be agreed upon prior to any further development.
-![Admin App Flow][/images/SmartBikeAdmin.png]
+![Admin App Flow](/images/SmartBikeAdmin.png)
 
 * User App
-![User App Flow][/images/SmartBikeUser.png]
+![User App Flow](/images/SmartBikeUser.png)
 
 
 ## Maintenance
