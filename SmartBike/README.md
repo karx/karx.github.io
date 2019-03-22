@@ -113,14 +113,7 @@ Access top level Git repositories for the Dashboard, mobile Apps, and admin inte
 ## Investment and Cost
 * Man-hour required: 1 months: 2 lakh INR
 
-* Hardware required: On Cost  : 
-    * In Pool Device : 25,000 INR
-    * In Facility Device : 5,000 INR
-    * Heatpump Controller: 5,000 INR
-    * Geyser : 2,000 INR
-    * Water Motors : 2,500 INR
-    * Filter Unit : 5,000 INR
-    * On premise Wifi/Internet Router : 2,000 INR
+* Hardware cost (if required) to be paid by SmartBike
     
 * Server/Web hosting charges:
     * 60$ / month = 4000 INR
