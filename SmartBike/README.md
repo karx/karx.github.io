@@ -175,10 +175,11 @@ Position:
 
 
 ## Things to do
+* All processes involved
 * Schema for 
     * User
     * Bike
     * Transaction
     * Activities
-
+* Payments 
 * Details of devices/sensors/tech on bike
