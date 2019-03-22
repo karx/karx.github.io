@@ -183,3 +183,13 @@ Position:
     * Activities
 * Payments 
 * Details of devices/sensors/tech on bike
+
+
+## Req for NDA
+* Company Name
+* Date of Reg
+* Name of Act
+* Address
+* Category
+* Class of company
+* Auth person with designation
