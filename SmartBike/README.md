@@ -172,20 +172,6 @@ Date:
 Position:   
 
 
-## Admin Panel
-* Views
-    * User View
-    * Bike view
-    * Dashboard page
-    * Transactions Page
-
-* Notifications
-    * Bike fencing
-    * Requirements if any
-
-* Admin privleges
-
-
 
 ## Questions
 * Do we want to know the drop location while booking.
