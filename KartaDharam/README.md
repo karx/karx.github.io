@@ -120,4 +120,9 @@ Use this skeleton application to quickly setup and start working on a new IoT ap
     * parts should be removable should not have to remove entire motherboard.
  * 
 
-## 
+## Soft-requrements
+* EASY
+* 15 mins
+* No electronics required at all
+* SPI and I2C can be abstracted ?
+* GPIO and serial out should feel same

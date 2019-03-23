@@ -26,3 +26,13 @@ One repercution of thinking of living beings as Self-referencial compute systems
 
 ## Computes that you like
 This abstraction really is amazing.
+
+
+
+## You - a compute system.
+
+
+
+## To study/experiment
+Interactions between diffrenet types of compute systems.
+Like humans and online communities
