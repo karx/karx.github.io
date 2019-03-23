@@ -15,9 +15,9 @@ Source: https://developer.mozilla.org/en-US/docs/Web/Web_Components
 
 Source: https://developers.google.com/web/fundamentals/web-components/
 
-```
+
   ![Insert Drawing here](https://cdn-images-1.medium.com/max/800/0*RkhhR4vWy4O9nemq.png)
-```
+
    
    [Another Blog With Drawing](https://medium.freecodecamp.org/use-web-components-to-create-gradient-transitions-f9aad648824a)
 
