@@ -69,6 +69,12 @@ Our options:
 
 In this session we will build one using - Pokemon!!!
 
+Good reads:
+* [Custom elements everywhere](https://custom-elements-everywhere.com/)
+* [Custome Element Reaction Diagram](https://andyogo.github.io/custom-element-reactions-diagram/)
+* [w3 specs custom elements](https://w3c.github.io/webcomponents/spec/custom/)
+* [Github Issue](https://github.com/w3c/webcomponents/issues)
+
 
 ## Definations
 * DOM
@@ -77,13 +83,3 @@ In this session we will build one using - Pokemon!!!
 
 
 
-## 1
-Definations
-Problems 
-Then solution Angular type
-But more was needed
-Then examples
-Then Lets build on our own
-
-
-## 2
