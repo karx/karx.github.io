@@ -18,7 +18,6 @@ Document prepared by
 * Approvals
 
 
-
 ## Executive Summary
 This documentation is to serve as a 'Statement of Work' or SOW for implementing few Digital Infrastructure for Smart Bikes to enable and enhance the buisness. The advancement in the field of IoT 
 Networks, Computing and Data Science has made possible Integrated systems that can really help business.

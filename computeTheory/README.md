@@ -30,6 +30,7 @@ This abstraction really is amazing.
 
 
 ## You - a compute system.
+Embracing the idea, like all such ideas makes it 'actually powerfull'.
 
 
 

@@ -19,4 +19,16 @@ Things discussed -
 * More info at [smartBike](/SmartBike) and [smartBikes/updates](/SmartBike/updates)
 
 
+## App designs and implementations
+* We shall design and develop templates for reusability purposes
+* Try Flutter, PWA-polymer, PWA-alt, Native
+* Types of pages
+
+## KartaDharam
+[KartaDharam](/KartaDharam)
+
+## Apply for pitches!
+
+
+
 
