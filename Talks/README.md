@@ -1,0 +1,1 @@
+Would list all topics for which we have good content for a talk
