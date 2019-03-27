@@ -53,7 +53,7 @@ Would be available on 23rd-24th March
     
 ### Link to slides
 [Link to slides @MozillaPunjab LPU on 24th March ](https://slides.com/kartikarora-1/web-componentss)
-
+[Link to github repo used](http://github.com/karx/webcomponents)
 
 ## Abstract for posters
 Today, the Web is 30 years old. It's quater life crises are officialy over!

@@ -84,5 +84,5 @@ Good reads:
 
 
 [Link to slides @MozillaPunjab LPU on 24th March ](https://slides.com/kartikarora-1/web-componentss)
-
+[Link to github repo used](http://github.com/karx/webcomponents)
 
