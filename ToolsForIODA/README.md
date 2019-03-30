@@ -24,5 +24,5 @@ This page is a running list of available tools for diffrenet use cases prepared 
 
 ### Online whiteboards
 * [Realtimeboard](https://realtimeboard.com/)
-* [Stormboard](https://stormboard.com/)
+* [Stormboard](https://stormboard.com/j)
 * [Deekit](https://www.deekit.com/)
