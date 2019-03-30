@@ -11,6 +11,9 @@ Here is a curated list of topics
 
 * JavaScript (HTML/CSS - Realtime Web)
     * Webcomponents - For Microfrontends or Re-usable Components: [Link](https://karx.github.io/WebComponents)
+        [Link to slides @MozillaPunjab LPU on 24th March ](https://slides.com/kartikarora-1/web-componentss)
+        [Link to github repo used](http://github.com/karx/webcomponents)
+
     * HTML Canvas - WebGL: [Link](https://karx.github.io/kCanvas)
 
 * Serverless

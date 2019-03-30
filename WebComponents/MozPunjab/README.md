@@ -51,8 +51,9 @@ Would be available on 23rd-24th March
 * While moving to api/http/firebase
     A phone without network is a brick with lights
     
-
-
+### Link to slides
+[Link to slides @MozillaPunjab LPU on 24th March ](https://slides.com/kartikarora-1/web-componentss)
+[Link to github repo used](http://github.com/karx/webcomponents)
 
 ## Abstract for posters
 Today, the Web is 30 years old. It's quater life crises are officialy over!
@@ -73,6 +74,7 @@ Web Components is where it converges.
 
 
 ## Abstract for posters - Less than 60 words - more relateable 
+```
 <moz-talk-intro>
     Want to build a re-usable input tag? 
     Want to build an embeddable chat widget?
@@ -80,3 +82,7 @@ Web Components is where it converges.
 
     Web Components - a recipe for all!
 </moz-talk-intro>
+```
+
+
+
