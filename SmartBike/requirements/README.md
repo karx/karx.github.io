@@ -1,6 +1,5 @@
 
 # Smart Bike Deliverables
-By default: logging each step
 
 ## Actors and Entities in the System
 * Users
