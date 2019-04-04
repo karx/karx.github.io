@@ -164,31 +164,4 @@ Date:
 Position:   
 
 
-
-## Questions
-* Do we want to know the drop location while booking.
-    * Can we have a deepdive into the Pickup process or any other process definations
-* How do we cater to payments. Any pre-auth (minimum balance requirements)
-* How do we link App/User to Bike - Bar-Code or any parallel technology preference
-    * Based on the review on the App on play store, we have seen alot of issues faced by the user using Bluetooth for connection.
-
-
-## Things to do
-* All processes involved
-* Schema for 
-    * User
-    * Bike
-    * Transaction
-    * Activities
-* Payments 
-* Details of devices/sensors/tech on bike
-
-
-## Req for NDA
-* Company Name
-* Date of Reg
-* Name of Act
-* Address
-* Category
-* Class of company
-* Auth person with designation
+[SmartBike system doc](/SmartBike/requirements)
