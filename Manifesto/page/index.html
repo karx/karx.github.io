@@ -13,16 +13,24 @@
     <script src="https://unpkg.com/aframe-environment-component@1.1.0/dist/aframe-environment-component.min.js"></script>
 
     <script src="https://cdn.rawgit.com/donmccurdy/aframe-extras/v6.0.0/dist/aframe-extras.min.js"></script>
-
+    <script src="https://rawgit.com/protyze/aframe-curve-component/master/dist/aframe-curve-component.min.js"></script>
+    <script src="https://rawgit.com/protyze/aframe-alongpath-component/master/dist/aframe-alongpath-component.min.js"></script>
 </head>
 
 <body>
     <a-scene>
         <!-- <a-entity shake2show visible="false"></a-entity> -->
-        <a-entity camera movement-controls="fly:true; speed:0.3"></a-entity>
+        <a-entity id="rig" >
+            <a-curve id="track1">
+                    <a-curve-point position="-2 2 -3"></a-curve-point>
+                    <a-curve-point position="100 100 30"></a-curve-point>
+                    <a-curve-point position="0 40 -30"></a-curve-point>
+            </a-curve>
+            <a-camera alongpath="curve: #track1; dur:10000"></a-camera>
+        </a-entity>
         <!-- <a-entity  environment="preset: dream"></a-entity> -->
         <a-cylinder position="1 0.75 -1" radius="0.5" height="10.5" color="#FFC65D"></a-cylinder>
-        <a-cylinder shake2show visible="false" position="10 10.75 -1" radius="0.1" height="18.5" color="#20FF5D"></a-cylinder>
+        <a-cylinder shake2show visible="false" position="0 0 -90" radius="0.1" height="18.5" color="#20FF5D"></a-cylinder>
 
         <a-hexgrid src="91.json" material="color: #2383B9"></a-hexgrid>
     </a-scene>
