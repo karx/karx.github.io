@@ -50,8 +50,7 @@ The following table defines the SBS System Design roles and responsibilities. Th
 * Ashtam     Lead Designer – IoT     (777) 555-1215     ashtam@artiosys.com
 
 ## Project References
-
-The SBS system is designed in accordance with several organizational guidelines, standards, analyses, and findings. These references serve as the basis for the requirement of a new maintenance management system. The following is a list of references. It should be noted that some of these documents are periodically updated and if more detailed information is needed, they should be referred to individually.
+> TBD
 
 
 
@@ -86,11 +85,11 @@ The SBS design is based on the individual design of all components based on the 
 
 ## Database/Server Design
 
-This section should describe the design of the database or data hosting environment. The database is the repository where all of the data utilized by the system resides. It is important that the design achieves interoperability between the user-facing portion of the system and the background data. This section should describe how the database is designed/configured to achieve this. Depending on the complexity of the system, diagrams showing the database design and/or the relationship between the database and the user interface may be helpful. It is also possible that this section references another document(s) which may contain more detailed technical data.
+> This section should describe the design of the database or data hosting environment. 
 
 
 ## Hardware and Software Detailed Design
-> This portion of the system design document should describe the design of the hardware and software in more detailed terms. In the event that the system utilizes the existing design of the hardware or software, it may not be necessary to restate the existing design in detailed terms. Again, like many other sections, the contents of this section may depend upon the complexity of the system design. The more complex, generally the more explanation and detail is required to communicate the design. Systems with a high level of complexity may require diagrams and/or conceptual illustrations to more easily convey understanding.
+> This portion of the system design document should describe the design of the hardware and software in more detailed terms. 
 
 ### Hardware:
 
