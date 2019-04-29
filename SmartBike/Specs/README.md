@@ -2,24 +2,24 @@
 
 ### System Design Document
 
-The System Design Document is a required document for every project. It should include a high level description of why the System Design Document has been created, provide what the new system is intended for or is intended to replace and contain detailed descriptions of the architecture and system components.
+The System Design Document is a required document for every project. It should include a high-level description of why the System Design Document has been created, provide what the new system is intended for or is intended to replace and contain detailed descriptions of the architecture and system components.
 
 ### Introduction
 
-This System Design Document has been created to outline the proposed system design for new SmartBike System (SBS). The SBS is intended to help run e-bike renting opertations by Intactual and Instinct E-bikes. By designing, testing, and deploying the SBS, Akriya Technologies will improve its capabilities in maintenance management, tracking, and reporting. This document and the technical specifications listed herein comply with all Akriya Technologies technical standards and infrastructure.
+This System Design Document has been created to outline the proposed system design for new SmartBike System (SBS). The SBS is intended to help run e-bike renting operations by Intactual and Instinct E-bikes. By designing, testing, and deploying the SBS, Akriya Technologies will improve its capabilities in maintenance management, tracking, and reporting. This document and the technical specifications listed herein comply with all Akriya Technologies technical standards and infrastructure.
 Purpose
 
-The purpose of this System Design Document is to provide a description for how the new SBS will be constructed. The Systems Design Document was created to ensure that the SBS design meets the requirements specified in the SBS project requirements documentation. The System Design Document provides a description of the system architecture, software, hardware, database design, and security.
+The purpose of this System Design Document is to provide a description of how the new SBS will be constructed. The Systems Design Document was created to ensure that the SBS design meets the requirements specified in the SBS project requirements documentation. The System Design Document provides a description of the system architecture, software, hardware, database design, and security.
 
 ### System Overview
 
-Based on the market research and breif, we have seen that to run a succesfull e-bike renting solution, we need to focus on customer delight, ease-of use, tracking and reporting. The proposed SBS system will utilize our toolkit in hardware and software to provide an solution which will help run and improve the efficiency of an e-bike renting opertation.
+Based on the market research and brief, we have seen that to run a successful e-bike renting solution, we need to focus on customer delight, ease-of-use, tracking, and reporting. The proposed SBS system will utilize our toolkit in hardware and software to provide a solution which will help run and improve the efficiency of an e-bike renting operation.
 
-The SBS system is also compatible with and/or utilizes 3rd party services for services like payments, user authentication, emailing and tracking. The SBS system includes 2 user interfaces which will allow end-user experience, tracking, report generation and operational control. It will also allow for a realtime reporting and operational infrastucture to exist.
+The SBS system is also compatible with and/or utilizes 3rd party services for services like payments, user authentication, emailing and tracking. The SBS system includes 2 user interfaces which will allow end-user experience, tracking, report generation, and operational control. It will also allow for real-time reporting and operational infrastructure to exist.
 
 The new SBS system will provide the following capabilities:
 
-* Portal to view and maintain current e-bike sytem data.
+* Portal to view and maintain current e-bike system data.
 * End-user experience - Mobile app
     * Andriod + iOS + Web
     * Payment Support
@@ -27,7 +27,7 @@ The new SBS system will provide the following capabilities:
     * Integrations with maps for Navigation control
     * Bike booking
     * On-ride experience
-* Realtime SmartBike Services
+* Real-time SmartBike Services
 * Bike Simulator
 To test and work the SBS.
 
@@ -45,10 +45,10 @@ The SBS Project Team identified several constraints which will impact and limit 
 
 The following table defines the SBS System Design roles and responsibilities. This matrix also serves as the list of points of contact for issues and concerns relating to the SBS System Design.
 
-* Kartik Arora 	Project Manager 	(91)-8437166272 	kartik@akriya.co.in
-* Sarthak Verma 	Tech Lead	(91) 8979080101 	sarthak@artiosys.com
-* Rahul 	Lead Designer – Architecture 	(777) 555-1214 	rahul@artiosys.com
-* Ashtam 	Lead Designer – IoT 	(777) 555-1215 	ashtam@artiosys.com
+* Kartik Arora     Project Manager     (91)-8437166272     kartik@akriya.co.in
+* Sarthak Verma     Tech Lead    (91) 8979080101     sarthak@artiosys.com
+* Rahul     Lead Designer – Architecture     (777) 555-1214     rahul@artiosys.com
+* Ashtam     Lead Designer – IoT     (777) 555-1215     ashtam@artiosys.com
 
 ## Project References
 
@@ -68,9 +68,9 @@ The SBS design is based on existing hardware architecture already deployed by TB
 
 #### Software:
 
-The SBS design is based on the individual design of all components based on the type of user interacting with it. The software architecture is designed to incorporate different senarios and challenges into web based app which help runs a e-bike renting opertation in real-time. The components which comprise the software architecture include:
+The SBS design is based on the individual design of all components based on the type of user interacting with it. The software architecture is designed to incorporate different scenarios and challenges into a web-based app which help runs an e-bike renting operation in real-time. The components which comprise the software architecture include:
 
-* End-User App Module: This component provides the user interfaces to all end-users of the renting operations. This component consists of several sub-components to include:
+* End-User App Module: This component provides the user interfaces to all end-users of the renting service. This component consists of several sub-components to include:
     – Onboarding mechanism
     - Training mechanism
     - Scanning/Renting Module
@@ -78,7 +78,7 @@ The SBS design is based on the individual design of all components based on the 
     - Payment module
     - Personal Tracking and reporting
     
-* Realtime SmartBike Module: This component is responsible for maintaining the state of the system. This also exposes ways to consume and update the state.
+* Real-time SmartBike Module: This component is responsible for maintaining the state of the system. This also exposes ways to consume and update the state.
 
 * Automated Reporting Module: This component provides all of the pre-built automated reporting capabilities. These are reports that are generated regularly and repetitively at known intervals.
 
@@ -87,11 +87,11 @@ The SBS design is based on the individual design of all components based on the 
 
 ## Database/Server Design
 
-This section should describe the design of the database or data hosting environment. The database is the repository where all of the data utilized by the system resides. It is important that the design achieves interoperability between the user facing portion of the system and the background data. This section should describe how the database is designed/configured to achieve this. Depending on the complexity of the system, diagrams showing the database design and/or the relationship between the database and the user interface may be helpful. It is also possible that this section references another document(s) which may contain more detailed technical data.
+This section should describe the design of the database or data hosting environment. The database is the repository where all of the data utilized by the system resides. It is important that the design achieves interoperability between the user-facing portion of the system and the background data. This section should describe how the database is designed/configured to achieve this. Depending on the complexity of the system, diagrams showing the database design and/or the relationship between the database and the user interface may be helpful. It is also possible that this section references another document(s) which may contain more detailed technical data.
 
 
 ## Hardware and Software Detailed Design
-> This portion of the system design document should describe the design of the hardware and software in more detailed terms. In the event that system utilizes the existing design of the hardware or software, it may not be necessary to restate the existing design in detailed terms. Again, like many other sections, the contents of this section may depend upon the complexity of the system design. The more complex, generally the more explanation and detail is required to communicate the design. Systems with a high level of complexity may require diagrams and/or conceptual illustrations to more easily convey understanding.
+> This portion of the system design document should describe the design of the hardware and software in more detailed terms. In the event that the system utilizes the existing design of the hardware or software, it may not be necessary to restate the existing design in detailed terms. Again, like many other sections, the contents of this section may depend upon the complexity of the system design. The more complex, generally the more explanation and detail is required to communicate the design. Systems with a high level of complexity may require diagrams and/or conceptual illustrations to more easily convey understanding.
 
 ### Hardware:
 
