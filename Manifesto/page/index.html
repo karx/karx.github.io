@@ -15,6 +15,7 @@
     <script src="https://cdn.rawgit.com/donmccurdy/aframe-extras/v6.0.0/dist/aframe-extras.min.js"></script>
     <script src="https://rawgit.com/protyze/aframe-curve-component/master/dist/aframe-curve-component.min.js"></script>
     <script src="https://rawgit.com/protyze/aframe-alongpath-component/master/dist/aframe-alongpath-component.min.js"></script>
+    <script src="main.js"></script>
 </head>
 
 <body>
@@ -26,13 +27,52 @@
                     <a-curve-point position="100 100 30"></a-curve-point>
                     <a-curve-point position="0 40 -30"></a-curve-point>
             </a-curve>
-            <a-camera alongpath="curve: #track1; dur:10000"></a-camera>
+
+            <a-curve id="track2">
+                    <a-curve-point position="0 10 -80"></a-curve-point>
+                    <a-curve-point position="5 15 -80"></a-curve-point>
+                    <a-curve-point position="5 20 -80"></a-curve-point>
+                    <a-curve-point position="0 25 -80"></a-curve-point>
+                    <a-curve-point position="-5 20 -80"></a-curve-point>
+                    <a-curve-point position="-5 15 -80"></a-curve-point>
+                    <a-curve-point position="0 10 -80"></a-curve-point>
+                    
+                    
+            </a-curve>
+            
+            <a-camera alongpath="curve: #track1; dur:10000">
+                    <a-entity cursor="fuse: true; fuseTimeout: 50"
+                    position="0 0 -1"
+                    geometry="primitive: ring; radiusInner: 0.02; radiusOuter: 0.03"
+                    material="color: black; shader: flat"></a-entity>
+            </a-camera>
         </a-entity>
         <!-- <a-entity  environment="preset: dream"></a-entity> -->
-        <a-cylinder position="1 0.75 -1" radius="0.5" height="10.5" color="#FFC65D"></a-cylinder>
+        <a-cylinder log="whatisUpGreen" position="1 0.75 -1" radius="0.5" height="10.5" color="#FFC65D"></a-cylinder>
         <a-cylinder shake2show visible="false" position="10 10.75 -1" radius="0.1" height="18.5" color="#20FF5D"></a-cylinder>
 
         <a-hexgrid src="91.json" material="color: #2383B9"></a-hexgrid>
+
+
+        <a-entity bird-listeners class="birds birds-class-1" geometry="primitive: torusKnot; p: 3; q:7" position="24 4 -20"></a-entity>
+        <a-entity bird-listeners class="birds birds-class-1" geometry="primitive: torusKnot; p: 3; q:7" position="24 4 -24"></a-entity>
+        <a-entity bird-listeners class="birds birds-class-1" geometry="primitive: torusKnot; p: 3; q:7" position="20 4 -24"></a-entity>
+        <a-entity bird-listeners class="birds birds-class-1" geometry="primitive: torusKnot; p: 3; q:7" position="20 4 -20"></a-entity>
+
+        <a-entity bird-listeners class="birds birds-class-2" geometry="primitive: torusKnot; p: 3; q:7" position="54 4 -60"></a-entity>
+        <a-entity bird-listeners class="birds birds-class-2" geometry="primitive: torusKnot; p: 3; q:7" position="54 4 -64"></a-entity>
+        <a-entity bird-listeners class="birds birds-class-2" geometry="primitive: torusKnot; p: 3; q:7" position="50 4 -64"></a-entity>
+        <a-entity bird-listeners class="birds birds-class-2" geometry="primitive: torusKnot; p: 3; q:7" position="50 4 -60"></a-entity>
+
+        <a-entity bird-listeners class="birds birds-class-3" geometry="primitive: torusKnot; p: 3; q:7" position="4 4 -30"></a-entity>
+        <a-entity bird-listeners class="birds birds-class-3" geometry="primitive: torusKnot; p: 3; q:7" position="4 4 -34"></a-entity>
+        <a-entity bird-listeners class="birds birds-class-3" geometry="primitive: torusKnot; p: 3; q:7" position="0 4 -34"></a-entity>
+        <a-entity bird-listeners class="birds birds-class-3" geometry="primitive: torusKnot; p: 3; q:7" position="0 4 -30"></a-entity>
+        
+        <a-entity bird-listeners class="birds birds-class-4" geometry="primitive: torusKnot; p: 3; q:7" position="14 4 -110"></a-entity>
+        <a-entity bird-listeners class="birds birds-class-4" geometry="primitive: torusKnot; p: 3; q:7" position="14 4 -114"></a-entity>
+        <a-entity bird-listeners class="birds birds-class-4" geometry="primitive: torusKnot; p: 3; q:7" position="10 4 -114"></a-entity>
+        <a-entity bird-listeners class="birds birds-class-4" geometry="primitive: torusKnot; p: 3; q:7" position="10 4 -110"></a-entity>
     </a-scene>
 </body>
 
