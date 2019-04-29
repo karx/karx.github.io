@@ -1,13 +1,13 @@
-## SmartBike Specs
-
-### System Design Document
+## SmartBike
+## System Design Document
 
 The System Design Document is a required document for every project. It should include a high-level description of why the System Design Document has been created, provide what the new system is intended for or is intended to replace and contain detailed descriptions of the architecture and system components.
 
-### Introduction
+## Introduction
 
 This System Design Document has been created to outline the proposed system design for new SmartBike System (SBS). The SBS is intended to help run e-bike renting operations by Intactual and Instinct E-bikes. By designing, testing, and deploying the SBS, Akriya Technologies will improve its capabilities in maintenance management, tracking, and reporting. This document and the technical specifications listed herein comply with all Akriya Technologies technical standards and infrastructure.
-Purpose
+
+## Purpose
 
 The purpose of this System Design Document is to provide a description of how the new SBS will be constructed. The Systems Design Document was created to ensure that the SBS design meets the requirements specified in the SBS project requirements documentation. The System Design Document provides a description of the system architecture, software, hardware, database design, and security.
 
@@ -41,7 +41,6 @@ The SBS Project Team identified several constraints which will impact and limit 
 * SBS must comply with all industry regulatory policies and guidelines. These policies and guidelines will impact the tool by requiring certain standards of coding, user interfaces, security, and management of the tool.
 
 ## Roles and Responsibilities
-
 
 The following table defines the SBS System Design roles and responsibilities. This matrix also serves as the list of points of contact for issues and concerns relating to the SBS System Design.
 
