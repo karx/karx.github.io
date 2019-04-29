@@ -27,8 +27,9 @@ The new SBS system will provide the following capabilities:
     * Integrations with maps for Navigation control
     * Bike booking
     * On-ride experience
+* Realtime SmartBike Services
 * Bike Simulator
-    To test and work the SBS.
+To test and work the SBS.
 
 ### Design Constraints
 
@@ -52,7 +53,7 @@ The following table defines the SBS System Design roles and responsibilities. Th
 ## Project References
 
 The SBS system is designed in accordance with several organizational guidelines, standards, analyses, and findings. These references serve as the basis for the requirement of a new maintenance management system. The following is a list of references. It should be noted that some of these documents are periodically updated and if more detailed information is needed, they should be referred to individually.
--
+
 
 
 ## System Architecture
@@ -77,7 +78,8 @@ The SBS design is based on the individual design of all components based on the 
     - Payment module
     - Personal Tracking and reporting
     
-    
+* Realtime SmartBike Module: This component is responsible for maintaining the state of the system. This also exposes ways to consume and update the state.
+
 * Automated Reporting Module: This component provides all of the pre-built automated reporting capabilities. These are reports that are generated regularly and repetitively at known intervals.
 
 * Admin/Operation Module: This component provides a superuser interface to view, update and maintain the SBS system. 
