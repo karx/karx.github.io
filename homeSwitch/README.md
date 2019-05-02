@@ -53,64 +53,36 @@ The feasibility of few techniques to have such a system, would be conducted whil
 ```
     Max connected devices to App: 1
 ```
-To connect to this device, we hop into the indivisual operating channel of the device.
+To connect to any device, we hop into the indivisual operating channel of the device.
 
+> ToBe Tested: We would want to have online logging mechanism if feasible
 
-* In-Facility Device
+* Online - Always connected Devices
 
 ```
-Data to Capture:    Humidity
-                    Temperature
-                    Number of people*
-                    
+    Max connected devices to App: All n
 ```
+To connect to any device, we would maintain a central state, which then interfaces with the devices. There is no direct link b/w App and devices
 
-* Equipment Interfaces
+> Logging mechanism would provide, indivisual event wise telemetry
 
-    * Heatpump Controller:
+* homeSwitch Specs
 
-    ``` 
-    Data to Capture:    In-let temprature of water
-                        Outlet temperature of the water
-                        Operating hours
-    ``` 
+``` 
+Sensors :   8 x 5V digital Input
 
-
-    * Geyser:
-
-    ```
-    Data to Capture:    Operating hours
-                        In-let temprature of water
-                        Outlet temprature of water
-    ```
-
-
-    * Water Motors:
-
-    ```
-    Data to Capture:    Operating hours
-    ```
-
-
-    * Filter Unit
-
-    ```
-    Data to Capture:    Operating hours
-                        Operating state*
-    ```
+Actuators:  8 x 5V digital Output
+``` 
+This hardware is supplied by Abacus Services, and we provide firmware to make it work as a homeSwitch System component
 
 ## Web/Software
 * Admin SDK / APIs for Devices
 Native packages to interact with the devices. 
 
-* Dashboard
-A user interface exposed as a PWA on any domain required by Fitso. 
-(It would be recommended to use Admin SDK or APIs in Fitso's existing dashboards.)
-Design/Requirements for this dashboard to be agreed upon prior to any further development.
+* End-user App
+A user interface exposed as a mobile Application as required by Abacus Services.
 
-* On Premise Portal
-()
-A UI to be displayed on a screen/system inside the facility for the on-premise staff.
+Design/Requirements for this App to be agreed upon prior to any further development.
 
 ## Maintenance
 To be maintained for 6 months and then rediscuss based on new requirements and learnings.
@@ -121,13 +93,13 @@ The followings are excluded from the project scope
 
 ## Deliverables
 The deliverables are listed below.
-* Devices. 
-To be installed in 1 Fitso facility, and 50% spare**.
+* Device - firmwares
+This would include the source codes along with a protoype device to demonstrate the working system.
 
 * Software
-Access top level Git repositories for the Dashboard, on-premise portal, and admin interface package.
+Access top level Git repositories for the User App and Admin SDK
 
-* Documentation and graphical depictions of the new proposed Smart Fitso Facility System.
+* Documentation and graphical depictions of the new proposed homeSwitch System.
 
 
 ## Customer Responsibilities
@@ -137,18 +109,9 @@ Access top level Git repositories for the Dashboard, on-premise portal, and admi
 * Client will provide a work area space with desk, chair, Internet access for use by Akriya Technologies to conduct project business while working on-site.
 
 ## Investment and Cost
-* Man-hour required: 2 months: 2 lakh INR
-
-* Hardware required: On Cost  : 
-    * In Pool Device : 25,000 INR
-    * In Facility Device : 5,000 INR
-    * Heatpump Controller: 5,000 INR
-    * Geyser : 2,000 INR
-    * Water Motors : 2,500 INR
-    * Filter Unit : 5,000 INR
-    * On premise Wifi/Internet Router : 2,000 INR
+* Man-hour required: 1 months: 2 lakh INR
     
-* Server/Web hosting charges:
+* Server/Web hosting charges*:
     * 60$ / month = 4000 INR
 
 *Bill separately for travel costs will be billed at actual cost and will not exceed 10,000 INR for the entire project.
@@ -158,20 +121,20 @@ Access top level Git repositories for the Dashboard, on-premise portal, and admi
 | Milestone                                 | Percentage    | Amount    |
 | -------------                             |:-------------:| -----:    |
 | Requirement Finalization                  | 0%            | 50,000 INR|
-| First 3 device Installation               | 33%           | 50,000 INR|
-| Dashboard + Software handoaver            | 66%           | 50,000 INR|
-| Final Delivery                            | 100%          | 50,000 INR|
+| First prototype testing + validation              | 33%           | 25,000 INR|
+| App and System-wide testing + validation            | 66%           | 25,000 INR|
+| Final Delivery                            | 100%          | 100,000 INR|
 
 Devices cost to be paid on the day of installation.
 Server cost to be paid directly or at the start of each month.
 Travel reimbursements as and when declared.
 
 ## Acceptance Criteria
-At the conclusion of this evaluation, all deliverables for this phase will be presented to Fitso for review.
+At the conclusion of this evaluation, all deliverables for this phase will be presented to Abacus Services for review.
 
-Fisto or its representative will have five business days from the date of delivery of any document that is a deliverable to review it and request any changes.  If Akriya Technologies does not receive notification of any required changes within this period, the document will be deemed to have been accepted without modification and will be reissued as a final copy.
+Abacus Services or its representative will have five business days from the date of delivery of any document that is a deliverable to review it and request any changes.  If Akriya Technologies does not receive notification of any required changes within this period, the document will be deemed to have been accepted without modification and will be reissued as a final copy.
 
-If Akriya Technologies is notified by Fitso, within the above time frame, of any changes required, Akriya Technologies will within two business days of such notification implement those changes as have been agreed between the parties.  A final copy of the document will then be submitted to Fitso.
+If Akriya Technologies is notified by Abacus Services, within the above time frame, of any changes required, Akriya Technologies will within two business days of such notification implement those changes as have been agreed between the parties.  A final copy of the document will then be submitted to Abacus Services.
 
 ## Assumptions
 * General
@@ -180,16 +143,16 @@ If Akriya Technologies is notified by Fitso, within the above time frame, of any
 
 * Commercial
     * Additional costs may be incurred where any delay not under the control of Akriya Technologies that causes Akriya Technologies personnel to not fulfill their scheduled tasks.
-    * An authorized delegate of Fitso will be available at the time of completion of the build phase so that all documentation can be accepted and signed.
-    * Additional costs may be incurred where any work scheduled to be undertaken by Akriya Technologies is postponed by Fitso after 24 hours of its commencement.
+    * An authorized delegate of Abacus Services will be available at the time of completion of the build phase so that all documentation can be accepted and signed.
+    * Additional costs may be incurred where any work scheduled to be undertaken by Akriya Technologies is postponed by Abacus Services after 24 hours of its commencement.
     * All changes to the schedule or technical requirements must be provided to Akriya Technologies in written format. Email is included as written format. Receipt of all correspondence should be confirmed by phone wherever possible.
-    * Fitso has accepted the costs/times estimate as detailed in this document
-    * Fitso has accepted the Akriya Technologies standard terms and conditions linked.
+    * Abacus Services has accepted the costs/times estimate as detailed in this document
+    * Abacus Services has accepted the Akriya Technologies standard terms and conditions linked.
 
 ## Intellectual Property
-Unless otherwise agreed in writing, Fitso acknowledges that all intellectual property rights attaching to the products or arising out of the provision of services are and will remain the property of Akriya Technologies (or its suppliers, where such rights are owned by that supplier).
+Unless otherwise agreed in writing, Abacus Services acknowledges that all intellectual property rights attaching to the products or arising out of the provision of services are and will remain the property of Akriya Technologies (or its suppliers, where such rights are owned by that supplier).
 
-The software will be licensed to Fitso on the terms of the relevant license agreement provided with the product or as otherwise agreed between Akriya Technologies and Fitso in writing.
+The software will be licensed to Abacus Services on the terms of the relevant license agreement provided with the product or as otherwise agreed between Akriya Technologies and Abacus Services in writing.
 
 
 ## Approved by
