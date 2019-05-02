@@ -3,8 +3,9 @@ WebComponents - For Microfrontends & Re-usable Components
 
 ### Brief description about the content to be covered
 * What are Web components?
-* Technology used for web components
-* How to build your own web components
+* Need to create web components
+* Web component specification to Technology used => How Web Works (specifications to implementations)
+* How to build your own web components => Reusable Interface unites for the new computing age
 
 ### Prerequisites & reading material (Distributed before the session) 
 * Basic knowledge about JavaScript and the Web ecosystem
