@@ -53,3 +53,52 @@ knowledge and understanding of the world's largest colarborative tool!
 * A youtube page about Food
 
 * Access to Huge Open Data repositories
+
+
+### Things for Tour
+* Enter your name plz
+
+* On-going projects
+    - Smart Bike
+    - YTKarta
+    - Engagement Apps
+    - IoT platform - 
+    - 
+    -
+
+* Projects bagged/looking for contributions
+    - Smart Community
+    - Chat/Ticketing tool
+    - 
+
+* How do we do this? - Community and Tools and Processes
+    - PyDelhi,  IoT-NCR, 91Springboard
+    - Flutter - Android, iOS
+    - Web - HTML, JS, npm, docker
+    - IoT platforms - PlatformIO, ESP, microPython
+    - AR/VR - A-frame, AR.js
+    - Engine - Python, AWS, Google Firebase
+    - Data - Wikidata, Google Trends
+    - Interfaces - Github, Gmail, IFTTT, mailing platforms
+
+* Our content you can consume
+    - Podcast
+    - Blogs
+
+* Our products you can buy
+    -
+
+* Our services our for hire
+    - Contact Us
+
+* How to get involved/contribute
+    - Get in touch with us
+
+* Merchendize!
+    - generate Link for name entered
+
+
+## Things to list on website
+* product catalogue
+* services catalogue
+* Contact us
