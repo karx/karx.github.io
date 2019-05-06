@@ -72,6 +72,9 @@ To connect to any device, we would maintain a central state, which then interfac
 Sensors :   8 x 5V digital Input
 
 Actuators:  8 x 5V digital Output
+
+Addons:     Real-time clock system
+
 ``` 
 This hardware is supplied by Abacus Services, and we provide firmware to make it work as a homeSwitch System component
 
