@@ -1,27 +1,22 @@
 AFRAME.registerComponent('smartcycle', {
     schema: {
         bikeNumber: { type: 'string', default: 'BK1001' },
-        url: { type: 'string', default: 'bot.akriya.co.in' }
-
+        url: { type: 'string', default: 'bot.akriya.co.in' },
+        degreeOffset: {type: 'number', default: 0},
+        circleRadius: { type: 'number', default: 10}
     },
 
     init: function () {
         var data = this.data;
         var el = this.el;
         var position = el.object3D.position;
+        this.bikeDegree = data.degreeOffset;
+        this.circleRadius = data.circleRadius;
         this.bikeNumber = data.bikeNumber;
         console.log(data);
         console.log(el);
         console.log(position);
-        el.addEventListener('connectedMQTT', () => {
-            console.log("in eventListener for connected");
-            el.emit('connectToNewChannel', {
-                topic: 'kaaro',
-                callback: (data) => {
-                    console.log("kaaro: ", data);
-                }
-            });
-        })
+        
         // Do something when component first attached.
         var client = new Paho.MQTT.Client(data.url, 8083, "clientId-webKaaroSim");
         client.onConnectionLost = onConnectionLost;
@@ -36,6 +31,7 @@ AFRAME.registerComponent('smartcycle', {
     
         function onMessageArrived(message) {
             console.log("onMessageArrived:" + message.payloadString);
+            console.log(message.destinationName);
         }
 
         // called when the client connects
@@ -46,17 +42,11 @@ AFRAME.registerComponent('smartcycle', {
             message = new Paho.MQTT.Message("Hello");
             message.destinationName = "World";
             client.send(message);
-            el.addEventListener('connectToNewChannel', (eventData) => {
-                var details = eventData.detail;
-                var topic = details.topic;
-                console.log(eventData);
-                console.log(details.topic);
-                console.log(details.callback);
-                client.subscribe(topic, {
-                    onSuccess: details.callback
-                });
-            });
-            el.emit('connectedMQTT', { connectedTo: data.url });
+            client.subscribe("kaaro/smartbike/#");
+
+            client.subscribe("kaaro");
+
+            
 
         }
     },
@@ -72,9 +62,10 @@ AFRAME.registerComponent('smartcycle', {
     tick: function (time, timeDelta) {
         // Do something on every scene tick or frame.
         var el = this.el;
+        this.bikeDegree += 0.01;
         var position = el.object3D.position;
         el.object3D.position.set(
-            position.x + 0.001, position.y, position.z
+            this.circleRadius * Math.sin(this.bikeDegree), position.y ,this.circleRadius * Math.cos(this.bikeDegree)
         );
     },
 
