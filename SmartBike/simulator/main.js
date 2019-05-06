@@ -10,15 +10,17 @@ AFRAME.registerComponent('smartcycle', {
         var data = this.data;
         var el = this.el;
         var position = el.object3D.position;
-        this.bikeDegree = data.degreeOffset;
-        this.circleRadius = data.circleRadius;
+        this.bikeDegree = data.degreeOffset + (Math.random()%100);
+        this.circleRadius = data.circleRadius + (10*((Math.random()%100)/100));
         this.bikeNumber = data.bikeNumber;
-        console.log(data);
+        this.rotateRate = 0.005 + (0.001*((Math.random()%100)/100));
+
+        console.log(this.rotateRate);
         console.log(el);
         console.log(position);
         
         // Do something when component first attached.
-        var client = new Paho.MQTT.Client(data.url, 8083, "clientId-webKaaroSim");
+        var client = new Paho.MQTT.Client(data.url, 8083, "clientId-webKaaroSim" + Math.random());
         client.onConnectionLost = onConnectionLost;
         client.onMessageArrived = onMessageArrived;
         client.connect({ onSuccess: onConnect });
@@ -62,7 +64,7 @@ AFRAME.registerComponent('smartcycle', {
     tick: function (time, timeDelta) {
         // Do something on every scene tick or frame.
         var el = this.el;
-        this.bikeDegree += 0.01;
+        this.bikeDegree += this.rotateRate;
         var position = el.object3D.position;
         el.object3D.position.set(
             this.circleRadius * Math.sin(this.bikeDegree), position.y ,this.circleRadius * Math.cos(this.bikeDegree)
