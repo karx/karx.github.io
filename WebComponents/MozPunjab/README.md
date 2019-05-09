@@ -61,7 +61,7 @@ Today, the Web is 30 years old. It's quater life crises are officialy over!
 
 The journey thus far had not been easy, and without the tireless efforts of the Corporates, NGOs, Governments and the people, such a technological marvel could not have existed.
 
-The specifications commities have a huge role in shaping the Web, and one such specification is Web Components. A specifications to define, register and render your own HTML components was passed in 2015, and since then has really improved too!
+The specifications committees have a huge role in shaping the Web, and one such specification is Web Components. A specification to define, register and render your own HTML components was passed in 2015, and since then has really improved too!
 Let's get building!
 
 

@@ -1,5 +1,5 @@
 # Web Components - For Micro-frontends and Re-usable components
-Talk for MozillaPunjab
+Let's build em all!
 
 ## What are Web Components?
 > Web components are a set of web platform APIs that allow you to create new custom, reusable, encapsulated HTML tags to use in web pages and web apps. 
