@@ -73,3 +73,7 @@ Consumes Streaming content 4hrs a day
 The perspective
 * Improve the experience for [some segment of customers]
 - the consumers consuming this infine sea of Twitch/Youtube/Instagram/Twitter infuencers data
+
+
+## desc1
+YTKarta is an engagement enhancement system, designed developed and maintained by Akriya Technologies.
