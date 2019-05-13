@@ -76,4 +76,4 @@ The perspective
 
 
 ## desc1
-YTKarta is an engagement enhancement system, designed developed and maintained by Akriya Technologies.
+YTKarta is an engagement enhancement system, designed developed and maintained by Akriya Technologies1cd.
