@@ -7,12 +7,12 @@ We know that xxF has as its mission a desire promote a co-laborative, community 
 We are seeking your support in terms of monitary sponsorship to make our visit a success.
 
 ## Session/Activities planned
-* Talk on WebComponents
-* Talk on Wikidata
-* Workshop on Makey Makey
-* Makey-Makey Steppu Game Insallations
-* Listentree Installation across Bir
-
+* [Talk on WebComponents](https://osem.hillhacks.in/conferences/hillhacks-2019/program/proposals/288)
+* [Talk on Wikidata](https://osem.hillhacks.in/conferences/hillhacks-2019/program/proposals/287)
+* [Workshop on Makey Makey](https://osem.hillhacks.in/conferences/hillhacks-2019/program/proposals/291)
+* [Makey-Makey Steppu Game Insallations](https://osem.hillhacks.in/conferences/hillhacks-2019/program/proposals/291)
+* [Listentree Installation across Bir](https://osem.hillhacks.in/conferences/hillhacks-2019/program/proposals/293)
+[Link to list](https://osem.hillhacks.in/users/858)
 
 ## Budget Required
 
