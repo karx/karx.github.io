@@ -48,7 +48,7 @@ To facilitate these, the following digital tools would help us empower the syste
 
 
     Pros
-    We would be able to get extremely rich live data + data feed about interactions that are out of scope at the moment. i.e 
+    We would be able to get extremely rich live data + data feed about interactions that are out of scope at the moment.
 
     Cons
     Very high intervention into the routine
