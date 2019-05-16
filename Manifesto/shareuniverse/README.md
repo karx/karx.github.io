@@ -50,3 +50,11 @@ To facilitate these, the following digital tools would help us empower the syste
 
     - Cons
     Very high intervention into the routine
+
+* Capturing Geo-tags of Interactions using Image/Geo snapshot
+
+    - Pros
+    Incospicous, great addon on top of anything else we use.
+
+    - Cons
+    In itself, insufficient data
