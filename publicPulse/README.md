@@ -10,7 +10,7 @@ Document prepared by Kartik Arora
 * Maintance
 * Exclusions
 * Deliverables
-* Customer Responsibilities
+* Customer Responsibilities  
 * Investment and Cost
 * Acceptance Criteria
 * Assumptions
