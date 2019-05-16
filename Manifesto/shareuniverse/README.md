@@ -36,20 +36,20 @@ To facilitate these, the following digital tools would help us empower the syste
 ## Current top choices 
 * Capture ambient/all voice in the surrounding
 
-```
-Pros
-Using audio analysis we can have data points for the entire engagement.
 
-Cons
-This would very heavily rely on our omnipresence. Alteast one, if now all participant, would have to be capturing and transmitting this data.
-```
+    Pros
+    Using audio analysis we can have data points for the entire engagement.
+
+    Cons
+    This would very heavily rely on our omnipresence. Alteast one, if now all participant, would have to be capturing and transmitting this data.
+
 
 * Enforcing Video Logs
 
-```
-Pros
-We would be able to get extremely rich live data + data feed about interactions that are out of scope at the moment. i.e 
 
-Cons
-Very high intervention into the routine
-```
+    Pros
+    We would be able to get extremely rich live data + data feed about interactions that are out of scope at the moment. i.e 
+
+    Cons
+    Very high intervention into the routine
+
