@@ -11,7 +11,7 @@ ShareUniverse aims to build a system, that can provide engagement driven behavio
 ## ShareUniverse Proposition
 ShareUniverse will provide a guideline + a toolkit on conduction a Verse building program, where a group/community is selected and then conducts/participates in the program.
 
-The ShareUniverse toolkit will contain everything from Props, items, Apps and content needed for the program, to help conduct, facilitate and maintain the Verse.
+The ShareUniverse toolkit will contain everything from Props, items, infrastructure, Apps, Plugins and content needed for the program, to help conduct, facilitate and maintain the Verse.
 
 The offline interactions (and the direct engagements caused by these meetings) will be central to the system.
 Apart from these, some of the key touch points of the systems are the
@@ -21,16 +21,20 @@ Apart from these, some of the key touch points of the systems are the
 * .
 
 To facilitate these, the following digital tools would help us empower the system.
-* Web+Mobile+IoT Devices = Omnipresent presence, for the trigger as well as for reporting
+* Web+Mobile+IoT Modules = Omnipresent presence, for the trigger as well as for telmetry/reporting
     - For surfacing the instructions/rules of the program
     - for viewing reports 
     - collecting data
-* Profile Management System 
+* Profile Management Modules 
     * for individuals
     * for groups
-* ShareVerse Engine
+* ShareVerse Engine 
     - This engine crunches the real-time numbers (from various sources)
     - Runs computes like grouping people, choosing the next task, etc.
+
+ShareUniverse aims to 
+
+As a first step, ShareUniverse will also focus on the reporting so as to help quantify and observe such intangible growth matrices.  
 
 
 ## Current top choices 
@@ -58,3 +62,4 @@ To facilitate these, the following digital tools would help us empower the syste
 
     - Cons
     In itself, insufficient data
+

@@ -21,3 +21,8 @@ This is going to be a doc for things to target and do in Summer of 2019
 
 Also, this summer, we would be looking at picking up "freelance" work from ecosystem as well to fuel the internships planned.
 
+## List of places to apply for tech
+* SocialCops
+* Wendor.in
+* Dalchini
+* http://www.geekslab.in/about

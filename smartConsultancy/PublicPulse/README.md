@@ -1,11 +1,12 @@
 # Public Pulse
 
 
-## ExceSumm
+## Excutive Summary
 Pubic pulse would act as a data collection platform empowering them to collect data they need efficently. We would do so by providing a set of tools. These tools are engineered to perform these data collection at maximum efficency.
 
-Along with experince for our collaboraters like m2 and IODA, Public Pulse, would have a Knowledge Transfer Pipeline setup that would help users provide nessary information needed for the platform to work at maximum efficency.
-demographic preference wise distribution
+Along with experince for our collaboraters like m2 and IODA, Public Pulse, would have a Knowledge Transfer Pipeline setup that would help users provide nessary information needed for the platform to create a data collection schema. 
+This schema is then forwarded to all the selected types of Plugins to be surfaced on different platforms. 
+All these plugins log the findings to a central repository based on the defined schema. Report generated can be viewed on the dashboard for Public Pulse.
 
 
 ## Plublic Pulse (Immediate) -  Sheet of Ongoing 
