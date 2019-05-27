@@ -4,9 +4,9 @@ Document prepared by Kartik
 ## Table of Content
 
 * Executive Summary
-* Project Defination
+* Project Definition
 * Web/Soft-ware
-* Maintance
+* Maintenance
 * Exclusions
 * Deliverables
 * Customer Responsibilities
@@ -18,17 +18,17 @@ Document prepared by Kartik
 
 
 ## Executive Summary
-This documentation is to serve as a 'Statement of Work' or SOW for implementing the Digital infrastucture and products required for GymVym opertaions.
+This documentation is to serve as a 'Statement of Work' or SOW for implementing the Digital infrastructure and products required for GymVym operations.
 
 Networks, Computing and Data Science has made possible Integrated systems that can really empower business.
-Such a system would include a means to capture, catalog and analyze data, along with tools to enforce 'business logic'.
+Such a system would include a means to capture, catalogue and analyze data, along with tools to enforce 'business logic'.
 
 Akriya Technologies will work with GymVym to:
 
 * Designing the GymVym Services Architecture
 * Design and Development of GymVym Customer Endpoints
 * Develop and Engineer the GymVym Operational Toolkit
-* Deployments of GymVym infrstucture
+* Deployments of GymVym infrastructure
 * Provide documentation of the new system
 * Knowledge Transfer of GymVym 
 
@@ -41,19 +41,19 @@ The Value Proposition of using Akriya Technologies for this project are:
 * Data Architecture and Solution experience
 * Using our subject matter experts to complete the project quickly. Rapid project completion minimizes disruptions and allows organizations to realize cost saving quickly.
 
-## Project Defination
-Based on the project overview, the project can be devided into the following modules for abstractions:
+## Project Definition
+Based on the project overview, the project can be divided into the following modules for abstractions:
 
 * GymVym Services Module
-    This is to include the Facilites, Services, and or any Events happening at an affiliated GymVym Facility.
-    - Viewing, Filtering and Exploring feature for end-users to explore available GymVym facilties
+    This is to include the Facilities, Services, and or any Events happening at an affiliated GymVym Facility.
+    - Viewing, Filtering and Exploring feature for end-users to explore available GymVym facilities
     - Event management features like - Bookings, reminders and RSVP.
 
 * GymVym Products Module
-    This would include an e-commerce like facilities to faciliate sales of GymVym branded products
+    This would include e-commerce like facilities to facilitate sales of GymVym branded products
 
 * GymVym e-Trainer Module
-    A bot system that helps users through out the GymVym experience. It would take care of the following responsibilites
+    A bot system that helps users throughout the GymVym experience. It would take care of the following responsibilities
     - Onboarding of users
     - Daily reporting
     - Live training instructions
@@ -61,18 +61,18 @@ Based on the project overview, the project can be devided into the following mod
     - Feedback and Escalations
 
 * GymVym Subcription + Identity Management
-    Module responsible for managing diffrent users on our platfrom, ranging for different customer categories to operational staff.
+    The module is responsible for managing different users on our platform, ranging for different customer categories to operational staff.
 
 
 ## Software
 
 * Data SDK / APIs for GymVym
-The GymVym Engine would expose all the APIs and enpoints used for creating the GymVym System.
+The GymVym Engine would expose all the APIs and endpoints used for creating the GymVym System.
 This would include a query endpoint, to query facilities, events and products.
 Also, these APIs would make possible to have realtime bot responses.
 
 * Dashboard - Admin
-The admin dashboard would be exposed as a Web App, with identiy mangement.
+The admin dashboard would be exposed as a Web App, with identity management.
 Admin Interface to overlook and manage the system.
     * User View
     * Facilites Management
@@ -84,11 +84,11 @@ Admin Interface to overlook and manage the system.
 * User App
 This would be exposed as a Mobile App on both Android and iOS.
 The mobile app would include the following
-    * Onboarding (exposed as bot)
-    * Facilites exploration with geolocation
+    * Onboarding (exposed as a bot)
+    * Facilities exploration with geolocation
     * Events exploration and booking
     * e-commerce experience to buy Products
-    * Reporting and companion for GymVym system (exposed as bot)
+    * Reporting and companion for GymVym system (exposed as a bot)
     * Subscription management
 
 
@@ -152,7 +152,7 @@ If Akriya Technologies is notified by GymVym, within the above time frame, of an
     * Any modifications to the scope of work will be handled through a change control process and will be agreed to by both parties.
 
 * Commercial
-    * Additional costs may be incurred where any delay not under the control of Akriya Technologies that causes Akriya Technologies personnel to not fulfill their scheduled tasks.
+    * Additional costs may be incurred where any delay not under the control of Akriya Technologies that causes Akriya Technologies personnel to not fulfil their scheduled tasks.
     * An authorized delegate of GymVym will be available at the time of completion of the build phase so that all documentation can be accepted and signed.
     * Additional costs may be incurred where any work scheduled to be undertaken by Akriya Technologies is postponed by GymVym after 24 hours of its commencement.
     * All changes to the schedule or technical requirements must be provided to Akriya Technologies in written format. Email is included as written format. Receipt of all correspondence should be confirmed by phone wherever possible.
