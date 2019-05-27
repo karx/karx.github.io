@@ -126,15 +126,15 @@ Access top level Git repositories for the Dashboard, mobile Apps, and admin inte
 
  * Payment Schedule
 
-| Milestone                                 | Percentage    | Amount    |
+| Milestone                                 | Time    | Amount    |
 | -------------                             |:-------------:| -----:    |
-| Requirement Finalization                  | 10%           | 25,000 INR|
-| Digital Flow Approval                     | 20%           | 50,000 INR|
-| Mobile + Admin app schematic approval     | 40%           | 50,000 INR|
-| Bot schematic approval (~Month 1 end)     | 50%           | 50,000 INR|
-| Month 2 Review                            | 66%             | 2,00,000 INR|
-| Month 3 Review                            | 83%             | 2,00,000 INR|
-| Final Review + Knowledge Transfer                         | 100%             | 25,000 INR|
+| Requirement Finalization                  | Week 1           | 25,000 INR|
+| Digital Flow Approval                     | Week 2           | 50,000 INR|
+| Mobile + Admin app schematic approval     | Week 3           | 50,000 INR|
+| Bot schematic approval (~Month 1 end)     | Week 4           | 50,000 INR|
+| Month 2 Review (Facility Service + Identity Mangement)    | Week 5-6-7-8 | 2,00,000 INR|
+| Month 3 Review (e-Trainer + Product Module)               | Week 9-10-11-12 | 2,00,000 INR|
+| Final Review + Knowledge Transfer                         | Week 13             | 25,000 INR|
 
 Server cost to be paid directly or at the start of each month.
 Travel reimbursements as and when declared.
