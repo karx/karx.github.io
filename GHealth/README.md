@@ -66,35 +66,30 @@ Based on the project overview, the project can be devided into the following mod
 
 ## Software
 
-
-
-## Web/Software
 * Data SDK / APIs for GHealth
-We will be recording and cataloging the real time telemetry of the SmartBike.
-This would include a query endpoint, to query this set.
-Also, APIs that we would consume to make the User Journey possible (like number of bikes available around a geolocations)
+The GHealth Engine would expose all the APIs and enpoints used for creating the GHealth System.
+This would include a query endpoint, to query facilities, events and products.
+Also, these APIs would make possible to have realtime bot responses.
 
 * Dashboard - Admin
+The admin dashboard would be exposed as a Web App, with identiy mangement.
 Admin Interface to overlook and manage the system.
-    * Views
-        * User View
-        * Bike view
-        * Dashboard page
-        * Transactions Page
+    * User View
+    * Facilites Management
+    * Products Management
+    * Booking Management
+    * Finance Management
 
-    * Notifications
-        * Bike fencing
-        * Requirements if any
-
-    * Admin privleges
-        * Options to block users
-        * Options to manage status of Bikes
-
-Design/Requirements for this dashboard to be agreed upon prior to any further development.
-![Admin App Flow](/images/SmartBikeAdmin.png)
 
 * User App
-![User App Flow](/images/SmartBikeUser.png)
+This would be exposed as a Mobile App on both Android and iOS.
+The mobile app would include the following
+    * Onboarding (exposed as bot)
+    * Facilites exploration with geolocation
+    * Events exploration and booking
+    * e-commerce experience to buy Products
+    * Reporting and companion for GHealth system (exposed as bot)
+    * Subscription management
 
 
 ## Maintenance
@@ -106,25 +101,23 @@ The followings are excluded from the project scope
 
 ## Deliverables
 The deliverables are listed below.
-* Devices. 
-To be installed in 1 SmartBike facility, and 50% spare**.
 
 * Software
 Access top level Git repositories for the Dashboard, mobile Apps, and admin interface package.
 
-* Documentation and graphical depictions of the new proposed SmartBike system.
+* Documentation and graphical depictions of the new proposed GHealth system.
 
 
 ## Customer Responsibilities
 * The nature of this engagement dictates that Akriya Technologies receive a frequent and enthusiastic response from the appropriate personnel.
-* A weekly review between the Akriya Technologies consultant and the SmartBike project lead or his designate will ensure that the expectations of this engagement are met.
+* A weekly review between the Akriya Technologies consultant and the GHealth project lead or his designate will ensure that the expectations of this engagement are met.
 * Client will assign a key contact who will be responsible for providing Akriya Technologies with information, access to personnel, and facility access.
 * Client will provide a work area space with desk, chair, Internet access for use by Akriya Technologies to conduct project business while working on-site.
 
 ## Investment and Cost
-* Man-hour required: 1 months: 2 lakh INR
+* Man-hour required: 3 months: 6 lakh INR
 
-* Hardware cost (if required) to be paid by SmartBike
+* Hardware cost (if required) to be paid by GHealth
     
 * Server/Web hosting charges:
     * 60$ / month = 4000 INR
@@ -135,21 +128,23 @@ Access top level Git repositories for the Dashboard, mobile Apps, and admin inte
 
 | Milestone                                 | Percentage    | Amount    |
 | -------------                             |:-------------:| -----:    |
-| Requirement Finalization                  | 0%            | 50,000 INR|
-| Telemetry Systems Demo           | 33%           | 50,000 INR|
-| Dashboard + App shandoaver            | 66%           | 50,000 INR|
-| Final Delivery   s                         | 100%          | 50,000 INR|
+| Requirement Finalization                  | 10%           | 25,000 INR|
+| Digital Flow Approval                     | 20%           | 50,000 INR|
+| Mobile + Admin app schematic approval     | 40%           | 50,000 INR|
+| Bot schematic approval (~Month 1 end)     | 50%           | 50,000 INR|
+| Month 2 Review                            | 66%             | 2,00,000 INR|
+| Month 3 Review                            | 83%             | 2,00,000 INR|
+| Final Review + Knowledge Transfer                         | 100%             | 25,000 INR|
 
-Devices cost to be paid on the day of installation.
 Server cost to be paid directly or at the start of each month.
 Travel reimbursements as and when declared.
 
 ## Acceptance Criteria
-At the conclusion of this evaluation, all deliverables for this phase will be presented to SmartBike for review.
+At the conclusion of this evaluation, all deliverables for this phase will be presented to GHealth for review.
 
-SmartBike or its representative will have five business days from the date of delivery of any document that is a deliverable to review it and request any changes.  If Akriya Technologies does not receive notification of any required changes within this period, the document will be deemed to have been accepted without modification and will be reissued as a final copy.
+GHealth or its representative will have five business days from the date of delivery of any document that is a deliverable to review it and request any changes.  If Akriya Technologies does not receive notification of any required changes within this period, the document will be deemed to have been accepted without modification and will be reissued as a final copy.
 
-If Akriya Technologies is notified by SmartBike, within the above time frame, of any changes required, Akriya Technologies will within two business days of such notification implement those changes as have been agreed between the parties.  A final copy of the document will then be submitted to SmartBike.
+If Akriya Technologies is notified by GHealth, within the above time frame, of any changes required, Akriya Technologies will within two business days of such notification implement those changes as have been agreed between the parties.  A final copy of the document will then be submitted to GHealth.
 
 ## Assumptions
 * General
@@ -158,16 +153,16 @@ If Akriya Technologies is notified by SmartBike, within the above time frame, of
 
 * Commercial
     * Additional costs may be incurred where any delay not under the control of Akriya Technologies that causes Akriya Technologies personnel to not fulfill their scheduled tasks.
-    * An authorized delegate of SmartBike will be available at the time of completion of the build phase so that all documentation can be accepted and signed.
-    * Additional costs may be incurred where any work scheduled to be undertaken by Akriya Technologies is postponed by SmartBike after 24 hours of its commencement.
+    * An authorized delegate of GHealth will be available at the time of completion of the build phase so that all documentation can be accepted and signed.
+    * Additional costs may be incurred where any work scheduled to be undertaken by Akriya Technologies is postponed by GHealth after 24 hours of its commencement.
     * All changes to the schedule or technical requirements must be provided to Akriya Technologies in written format. Email is included as written format. Receipt of all correspondence should be confirmed by phone wherever possible.
-    * SmartBike has accepted the costs/times estimate as detailed in this document
-    * SmartBike has accepted the Akriya Technologies standard terms and conditions linked.
+    * GHealth has accepted the costs/times estimate as detailed in this document
+    * GHealth has accepted the Akriya Technologies standard terms and conditions linked.
 
 ## Intellectual Property
-Unless otherwise agreed in writing, SmartBike acknowledges that all intellectual property rights attaching to the products or arising out of the provision of services are and will remain the property of Akriya Technologies (or its suppliers, where such rights are owned by that supplier).
+Unless otherwise agreed in writing, GHealth acknowledges that all intellectual property rights attaching to the products or arising out of the provision of services are and will remain the property of Akriya Technologies (or its suppliers, where such rights are owned by that supplier).
 
-The software will be licensed to SmartBike on the terms of the relevant license agreement provided with the product or as otherwise agreed between Akriya Technologies and SmartBike in writing.
+The software will be licensed to GHealth on the terms of the relevant license agreement provided with the product or as otherwise agreed between Akriya Technologies and SmartBike in writing.
 
 
 ## Approved by
@@ -175,5 +170,3 @@ Name:
 Date:   
 Position:   
 
-
-[SmartBike system doc](/SmartBike/requirements)
