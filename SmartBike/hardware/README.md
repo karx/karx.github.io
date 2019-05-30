@@ -30,3 +30,8 @@ This includes the following
     I wanted to know if there is any electric or telemetry system in our docking stations ?
 
     
+
+## ITems needed
+* https://www.amazon.in/Raspberry-Bluetooth-Expansion-Compatible-DataTransfer/dp/B076CPX4NN
+* https://www.amazon.in/Raspberry-Pi-Zero-Development-Built/dp/B06XFZC3BX/ref=sr_1_3?keywords=raspberry+pi+zero&qid=1559227487&s=gateway&sr=8-3
+* Step down Voltage 

@@ -17,4 +17,9 @@
 - UI iterations + New Assets
 - App to device handshake using BLE
 - Demo + Delivery to Rakesh Sir
-s
+- Comms Protocol Ideas
+
+## What to expect
+- Improved UI for App
+- Comms with BLE
+- Delivery
