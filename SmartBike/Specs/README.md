@@ -46,8 +46,8 @@ The following table defines the SBS System Design roles and responsibilities. Th
 
 * Kartik Arora     Project Manager     (91)-8437166272     kartik@akriya.co.in
 * Sarthak Verma     Tech Lead    (91) 8979080101     sarthak@artiosys.com
-* Rahul     Lead Designer – Architecture     (777) 555-1214     rahul@artiosys.com
-* Ashtam     Lead Designer – IoT     (777) 555-1215     ashtam@artiosys.com
+* Rahul     Lead Designer – Architecture     NA    rahul@artiosys.com
+* Ashtam     Lead Designer – IoT     NA     ashtam@artiosys.com
 
 ## Project References
 > TBD

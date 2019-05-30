@@ -162,7 +162,7 @@ If Akriya Technologies is notified by GymVym, within the above time frame, of an
 ## Intellectual Property
 Unless otherwise agreed in writing, GymVym acknowledges that all intellectual property rights attaching to the products or arising out of the provision of services are and will remain the property of Akriya Technologies (or its suppliers, where such rights are owned by that supplier).
 
-The software will be licensed to GymVym on the terms of the relevant license agreement provided with the product or as otherwise agreed between Akriya Technologies and SmartBike in writing.
+The software will be licensed to GymVym on the terms of the relevant license agreement provided with the product or as otherwise agreed between Akriya Technologies and GymVym in writing.
 
 
 ## Approved by
