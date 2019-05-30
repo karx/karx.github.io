@@ -65,3 +65,69 @@ ToDo
 ToDo in the upcoming week
  - Portfolio Website for us!
  - Share Lists
+
+# Week - Pacman
+
+## Ongoing
+* homeSwitch
+   - to Demo current work done to Sir
+   - POC of Actions+Alexa+Bot > Dialagflow
+
+* Portfolio Building
+   - Indivisual
+   - Product House 
+   - Startup 
+   - Tech Portfolio
+
+* smartBike 
+   - Testing showcase for Shamiala
+   - R-PI demo
+   - Make e2e hw for a e-bike telemetry
+
+* Fitso
+   - Meeting with Fitso Team for futture
+
+* PublucPulse
+   - Formal start of project
+   - POC of Actions+Alexa+Bit > Dialogflows
+
+* flutterArsenel
+   - Make live and promote
+
+* YTKarta - Merchendise
+   - demo product of Aadu req for Gaurav Gera
+   - Need Sound thingy
+   - Instagram API testings*
+
+* Logistics with Rachit Nice Guy
+   - few hours a day
+
+* Mukesh Sir - Pitch Video
+   - 3 min video 
+
+* Summer19
+   - Formalization and upkeep of Communications and Interactions
+   - 
+
+* Developer Advocacy
+   - Workshops Talks outbound SOPs
+   - List of Topics
+
+* Outreach program
+   - Developer Advocacy
+   - Merch bantte hai
+   - Cold calling (List needed)
+      - MIT
+      - GDG
+      - Dalmia
+      - Senchen - Eric Pen
+
+* KartaDharam
+   - Metric System defination
+   - Wendor boys query
+
+* UI Dharam
+   - Metric System defination
+
+
+
