@@ -122,7 +122,9 @@ Access top level Git repositories for the Dashboard, mobile Apps, and admin inte
 * Server/Web hosting charges:
     * 60$ / month = 4000 INR
 
-*Bill separately for travel costs will be billed at actual cost and will not exceed 10,000 INR for the entire project.
+* Travel Cost
+    * Local travel : Rs 10/km
+    * Outstation: On actuals
 
  * Payment Schedule
 
