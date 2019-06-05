@@ -31,30 +31,24 @@ There are two broad categories in which this can be used:
 ## Basic Concepts
 To understand and discuss the 3 technologies that are used to make Web components a thing, we need to first see what happens usually when an HTML page is rendered.
 
-```
- ...once the server approves your request, the server sends the website files in chunks - called data packets.
- These packets are then assembled by your browser into a complete website and displays it to us.
 
- These chunks are basically out HTML, CSS, and JavaScript, though other technologies are also available.
+...once the server approves your request, the server sends the website files in chunks - called data packets.
+These packets are then assembled by your browser into a complete website and display it to us.
 
-  The browser steps include:
+These chunks are basically out HTML, CSS, and JavaScript, though other technologies are also available.
+The browser steps include:
+* Process HTML markup and build the DOM tree.
+* Process CSS markup and build the CSSOM tree.
+* Combine the DOM and CSSOM into a render tree.
+* Run layout on the render tree to compute geometry of each node.
+* Paint the individual nodes to the screen.
 
-    - Process HTML markup and build the DOM tree.
-    - Process CSS markup and build the CSSOM tree.
-    - Combine the DOM and CSSOM into a render tree.
-    - Run layout on the render tree to compute geometry of each node.
-    - Paint the individual nodes to the screen.
+JavaScript is a dynamic language that runs in a browser and allows us to alter just about every aspect of how the page behaves:
+* JavaScript can query and modify the DOM and the CSSOM.
+* JavaScript execution blocks on the CSSOM.
+* JavaScript blocks DOM construction unless explicitly declared as async.
 
-  JavaScript is a dynamic language that runs in a browser and allows us to alter just about every aspect of how the page behaves:
-    - JavaScript can query and modify the DOM and the CSSOM.
-    - JavaScript execution blocks on the CSSOM.
-    - JavaScript blocks DOM construction unless explicitly declared as async.
-
-
- ```
- 
-
-This page is usually what I refer to as the base: [Web Technologies](https://developer.mozilla.org/en-US/docs/Web)
+Note: This page is usually what I refer to as the base: [Web Technologies](https://developer.mozilla.org/en-US/docs/Web)
 
 I would recommend every developer, associated with Web development, to revisit this page every 3 months, else the dark side WINS!
 
@@ -85,10 +79,12 @@ Our options:
 * [LitElement](https://lit-element.polymer-project.org/) - A simple base class for creating fast, lightweight web components
 * [Slim.js](http://slimjs.com/#/getting-started) is a lightweight web component authoring library
 
-
+## Time to build
 In this session, we will build one using - Pokemon!!!
+[Shared codebase on github for kaaro-pokemon webcomponent](https://github.com/karx/webcomponents/tree/master/Pokemon)
 
-Good reads:
+
+## Good reads/links:
 * [Custom elements everywhere](https://custom-elements-everywhere.com/)
 * [Custome Element Reaction Diagram](https://andyogo.github.io/custom-element-reactions-diagram/)
 * [w3 specs custom elements](https://w3c.github.io/webcomponents/spec/custom/)
