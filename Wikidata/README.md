@@ -26,7 +26,7 @@ Some examples of these knowledge bases:
 ![wikidata sample](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Datamodel_in_Wikidata.svg/484px-Datamodel_in_Wikidata.svg.png)
 
 
-As last update on this page, Wikidata has 54,905,015 data items!
+As last update on this page, Wikidata has  57,255,752 data items!
 If you want get started you self, learn more about how/what and even the why behind wikidata, I would strongly recommend [Wikidata Tour](https://www.wikidata.org/wiki/Wikidata:Tours) which is maintained by the community to help new people get started with Wikidata.
 
 
