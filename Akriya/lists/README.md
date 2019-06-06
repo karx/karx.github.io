@@ -15,3 +15,7 @@ Hope this place ends up where I finally put all my lists. There are so many, so 
 * First memoery + Deja Vu
 * Frameworks in JS
 * Why Erlang is coming back to power
+
+
+#### List of applications to apply
+* 

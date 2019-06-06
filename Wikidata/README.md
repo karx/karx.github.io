@@ -26,7 +26,7 @@ Some examples of these knowledge bases:
 ![wikidata sample](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Datamodel_in_Wikidata.svg/484px-Datamodel_in_Wikidata.svg.png)
 
 
-As last update on this page, Wikidata has 54,905,015 data items!
+As last update on this page, Wikidata has  57,255,752 data items!
 If you want get started you self, learn more about how/what and even the why behind wikidata, I would strongly recommend [Wikidata Tour](https://www.wikidata.org/wiki/Wikidata:Tours) which is maintained by the community to help new people get started with Wikidata.
 
 
@@ -80,3 +80,4 @@ Best place to communicate would be in order
 * Leave a message Discord. Our channel: [Akriya Discord](https://discord.gg/Ud5TuCr)
 * Slack Channel Invite Link: [Invite](https://join.slack.com/t/akriya/shared_invite/enQtNDMwOTM2NjExMzQ0LTZmODYzZDUyNDYyMjhhNmNhMzk2MzVjY2NmZGM0YjNkYzViZTJjMDc2Nzg4MTA5NjAzOTQ1ZWZhMDc0OWI3OGU) 
 * [Wikipedia Talk page](https://en.wikipedia.org/wiki/User_talk:Kaaro01)
+* [Q64391865](https://www.wikidata.org/wiki/Q64391865)

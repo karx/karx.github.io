@@ -16,3 +16,8 @@ I am an aspiring developer advocate, DIY enthusiast, a little extrovert and also
 * [Twitter @karx_brb](https://twitter.com/karx_brb)
 * [Linkedin](https://www.linkedin.com/in/karx01/)
 * [Github karx](https://github.com/karx)
+
+
+## Contact info
+* mail: kartik@akriya.co.in
+* mobile: +91-8437166272

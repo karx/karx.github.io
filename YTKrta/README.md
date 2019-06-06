@@ -1,4 +1,5 @@
 # YTKrta
+IoT enabled Custom Merchandise for Engagement Acceleration
 
 # Things That need to be done
 * Draft to Send to YT Partners
@@ -15,8 +16,10 @@
     * Notification when Stream Starts
     * Steam - New subscription
     * Steamer driven Event 
+    * User interaction - Virtual click events
 * USB Powered
-* Connects to WiFi for connectivity
+* Uses WiFi for connectivity
+* Accompanied by a setting up/companion Mobile App
 
 ## Current Image in head
 * Table top device
