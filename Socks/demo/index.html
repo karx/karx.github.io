@@ -10,7 +10,7 @@
 		<!-- <a-marker type='unknown'>
 			<a-box depth="1" height="1" width="1" position='0 0.5 0' material='opacity: 0.5; side:double; color:blue;'></a-box>
 		</a-marker> -->
-		<a-box position="0 0.5 5" rotation="0 45 0" color="#4CC3D9"></a-box>
+		
 		<!-- handle hiro marker -->
 		<a-marker preset='hiro' id="hiro-test" registerevents>
 			<a-box position='0 0.5 0' material='opacity: 0.5; side: double;color:red;'>
@@ -22,21 +22,23 @@
 
 		<!-- handle matrix marker -->
 		<a-marker type='barcode' value='5' id="bar-5" marker-logger>
-			<a-box position='0 0.5 0' material='opacity: 0.5; side: double;color:pink;'>
-				<a-torus-knot radius='0.26' radius-tubular='0.05'>
+			
+					<a-box position="0 0.5 5" rotation="0 45 0" color="#4CC3D9">
 					<a-animation attribute="rotation" to="360 0 0" dur="5000" easing='linear' repeat="indefinite"></a-animation>
-				</a-torus-knot>
-			</a-box>
+					</a-box>
+			
 		</a-marker>
 
+		<!-- <a-box  rotation="0 0 0" color="#FFFFFF" place-the-box> -->
+		
+		</a-box>
 		
 		<!-- handle matrix marker -->
 		<a-marker type='barcode' value='7' id="bar-7" marker-logger>
-			<a-box position='0 0.5 0' material='opacity: 0.5; side: double;color:yellow;'>
-				<a-torus-knot radius='0.26' radius-tubular='0.05' >
-					<a-animation attribute="rotation" to="360 0 0" dur="5000" easing='linear' repeat="indefinite"></a-animation>
-				</a-torus-knot>
-			</a-box>
+				<a-box position="0 0.5 5" rotation="0 45 0" color="#E4C329">
+						<a-animation attribute="rotation" to="360 0 0" dur="5000" easing='linear' repeat="indefinite"></a-animation>
+				</a-box>
+				
 		</a-marker>
 		
 		<a-marker type='barcode' value='0' id="bar-0" marker-logger>
