@@ -3,9 +3,16 @@
 <script src="https://aframe.io/releases/0.9.1/aframe.min.js"></script>
 <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.7.1/aframe/build/aframe-ar.js"></script>
 <script src="main.js"></script>
+<link rel="stylesheet" href="style.css">
 
 <body style='margin : 0px; overflow: hidden;'>
 
+	<div class="redditOverlay">
+		<h1>Reddit!!!</h1>
+		<h1>Reddit!!!</h1>
+		<h1>Reddit!!!</h1>
+		<h1>Reddit!!!</h1>
+	</div>
 	<a-scene embedded arjs='sourceType: webcam; detectionMode: mono_and_matrix; matrixCodeType: 3x3;'>
 		<!-- handle unknown marker -->
 		<!-- <a-marker type='unknown'>
@@ -29,11 +36,6 @@
 			</a-box>
 
 		</a-marker>
-
-		<a-box rotation="0 0 0" color="#FFFFFF"> </a-box>
-		<a-box postition="10 0 0" rotation="0 0 0" color="#3E3EFF"></a-box>
-		<a-box postition="0 10 0" rotation="0 0 0" color="#3E3EFF"></a-box>
-		<a-box postition="0 0 10" rotation="0 0 0" color="#3E3EFF"></a-box>
 
 		<!-- handle matrix marker -->
 		<a-marker type='barcode' value='7' id="bar-7" marker-logger>
