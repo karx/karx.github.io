@@ -24,7 +24,7 @@ AFRAME.registerComponent('marker-logger', {
 		this.prevPosition = this.el.object3D.position;
 
 	},
-	tick: function (time, timeDelta) {
+	tock: function (time, timeDelta) {
 		
 		var directionVec3 = this.directionVec3;
 		var currentPosition = this.el.object3D.position;
