@@ -81,7 +81,16 @@ AFRAME.registerComponent('marker-logger', {
 				  hazcheeseburger: true
 				}
 			  });
-			  redditOverlayEl.dispatchEvent(event);
+			  if(redditOverlayEl) {
+				redditOverlayEl.dispatchEvent(event);	  
+			  } else {
+				  redditOverlayEl = document.querySelector('#redditOverlay');
+				  redditOverlayEl.addEventListener('R-in-view', e=> {
+					console.log(redditOverlayEl.style);
+					redditOverlayEl.style.opacity = redditOverlayEl.style.opacity + 0.1;
+				});
+			  }
+			  
 		}
 	
 		});
@@ -89,4 +98,4 @@ AFRAME.registerComponent('marker-logger', {
 		redditOverlayEl.addEventListener('R-in-view', e=> {
 			console.log(redditOverlayEl.style);
 			redditOverlayEl.style.opacity = redditOverlayEl.style.opacity + 0.1;
-		})
+		});
