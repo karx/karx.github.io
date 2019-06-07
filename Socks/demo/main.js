@@ -1,3 +1,5 @@
+const redditOverlayEl = document.querySelector('redditOverlay');
+
 AFRAME.registerComponent('registerevents', {
 		init: function () {
 			var marker = this.el;
@@ -71,7 +73,20 @@ AFRAME.registerComponent('marker-logger', {
 		tock: function (time, timeDelta) {
 			
 			var currentPosition = this.el.object3D.position;
+			if (currentPosition.x === currentPosition.y && currentPosition.y === currentPosition.z && currentPosition.z === 0)
+				return;
 			console.log(currentPosition);
+			var event = new CustomEvent("R-in-view", {
+				detail: {
+				  hazcheeseburger: true
+				}
+			  });
+			  redditOverlayEl.dispatchEvent(event);
 		}
 	
 		});
+
+		redditOverlayEl.addEventListener('R-in-view', e=> {
+			console.log(redditOverlayEl.style);
+			redditOverlayEl.style.opacity = redditOverlayEl.style.opacity + 0.1;
+		})
