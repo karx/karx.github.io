@@ -55,18 +55,33 @@ AFRAME.registerComponent('marker-logger', {
 		init: function() {
 			console.log('init the place the box box');
 
-		},
-		tick: function() {
-			if (document.querySelector("#bar-5")) {
-				console.log(document.querySelector("#bar-5"));
-				if(document.querySelector("#bar-5").object3D) {
-					var bar_5_pos = document.querySelector("#bar-5").object3D.position;
-					console.log(bar_5_pos);
-					this.el.object3D.position.set(bar_5_pos);
-
-				}
-			}
 		}
 
 		
 	});
+	
+	AFRAME.registerComponent('move-the-box', {
+			
+		init: function () {
+			console.log('Hello, Mobe the box');
+			this.directionVec3 = new THREE.Vector3();
+			this.prevPosition = this.el.object3D.position;
+	
+		},
+		tock: function (time, timeDelta) {
+			
+			var currentPosition = this.el.object3D.position;
+			if (this.prevPosition)
+			{
+				
+				this.prevPosition = currentPosition;
+				var box_to_move_el = document.querySelector("place-the-box").setAttribute('position', {currentPosition.x, currentPosition.y, currentPosition.z})
+	
+			} else {
+				this.prevPosition = currentPosition;
+			}
+			
+			
+		}
+	
+		});
