@@ -7,13 +7,13 @@
 </script>
 <script src="main.js"></script>
   <body style='margin : 0px; overflow: hidden;'>
-		<model-viewer id="model-to-show" src="https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/AnimatedCube/glTF/AnimatedCube.gltf"></model-viewer>
+		
     <a-scene embedded arjs='sourceType: webcam; detectionMode: mono_and_matrix; matrixCodeType: 3x3;'>
 		<!-- handle unknown marker -->
 		<!-- <a-marker type='unknown'>
 			<a-box depth="1" height="1" width="1" position='0 0.5 0' material='opacity: 0.5; side:double; color:blue;'></a-box>
 		</a-marker> -->
-
+		<a-box position="0 0.5 5" rotation="0 45 0" color="#4CC3D9"></a-box>
 		<!-- handle hiro marker -->
 		<a-marker preset='hiro' id="hiro-test" registerevents>
 			<a-box position='0 0.5 0' material='opacity: 0.5; side: double;color:red;'>
@@ -32,6 +32,7 @@
 			</a-box>
 		</a-marker>
 
+		
 		<!-- handle matrix marker -->
 		<a-marker type='barcode' value='7' id="bar-7" marker-logger>
 			<a-box position='0 0.5 0' material='opacity: 0.5; side: double;color:yellow;'>
