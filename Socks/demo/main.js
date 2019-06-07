@@ -24,13 +24,28 @@ AFRAME.registerComponent('marker-logger', {
 		this.prevPosition = this.el.object3D.position;
 
 	},
-	tock: function (time, timeDelta) {
+	tick: function (time, timeDelta) {
 		
+		var directionVec3 = this.directionVec3;
 		var currentPosition = this.el.object3D.position;
-		console.log(currentPosition);
-		console.log(this.el.id);
+		if (this.prevPosition)
+		{
+			directionVec3.copy(this.prevPosition).sub(currentPosition);
+			var distance = directionVec3.length();
+			if (distance < 1) { return; }
+			var factor = this.data.speed / distance;
+			['x', 'y', 'z'].forEach(function (axis) {
+			  directionVec3[axis] *= factor * (timeDelta / 1000);
+			});
+			console.log("Moved!! " + this.el.id);
+			console.log(directionVec3);
+			this.prevPosition = currentPosition;
+	
+		} else {
+			this.prevPosition = currentPosition;
+		}
+		// console.log(prevPosition);
 		
 	}
-	
 
 	});
