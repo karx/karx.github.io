@@ -1,4 +1,4 @@
-const redditOverlayEl = document.querySelector('redditOverlay');
+const redditOverlayEl = document.querySelector('#redditOverlay');
 
 AFRAME.registerComponent('registerevents', {
 		init: function () {
