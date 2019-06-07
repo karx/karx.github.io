@@ -75,7 +75,9 @@ AFRAME.registerComponent('marker-logger', {
 			{
 				
 				this.prevPosition = currentPosition;
-				var box_to_move_el = document.querySelector("place-the-box").setAttribute('position', {currentPosition.x, currentPosition.y, currentPosition.z})
+				var box_to_move_el = document.querySelector("place-the-box");
+				box_to_move_el.setAttribute('position', {currentPosition.x, currentPosition.y+ 1, currentPosition.z});
+				
 	
 			} else {
 				this.prevPosition = currentPosition;
