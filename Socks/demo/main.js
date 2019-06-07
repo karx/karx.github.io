@@ -29,7 +29,7 @@ AFRAME.registerComponent('marker-logger', {
 		if (this.prevPosition)
 		{
 			console.log(currentPosition);
-			directionVec3.copy(prevPosition).sub(currentPosition);
+			directionVec3.copy(this.prevPosition).sub(currentPosition);
 			var distance = directionVec3.length();
 			if (distance < 1) { return; }
 			var factor = this.data.speed / distance;
