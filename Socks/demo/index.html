@@ -2,8 +2,11 @@
 <html>
 <script src="https://aframe.io/releases/0.9.1/aframe.min.js"></script>
 <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.7.1/aframe/build/aframe-ar.js"></script>
-<script src="https://unpkg.com/aframe-fractal-component/dist/aframe-fractal-component.min.js"></script> 
-<script src="https://unpkg.com/aframe-map/dist/aframe-map.min.js"></script>
+<script src="https://unpkg.com/webrtc-adapter/out/adapter.js"></script> 
+  <script src="https://unpkg.com/aframe-video-billboard"></script> 
+  <script>
+    registerAframeVideoBillboard(window.AFRAME);
+  </script>
 
   <body style='margin : 0px; overflow: hidden;'>
     <a-scene embedded arjs='sourceType: webcam; detectionMode: mono_and_matrix; matrixCodeType: 3x3;'>
@@ -15,18 +18,18 @@
 		<!-- handle hiro marker -->
 		<a-marker preset='hiro'>
 			
-                <a-entity fractal="foo: bar"></a-entity>
+            <a-video-billboard position="0 0 -5"></a-video-billboard>
 			
 		</a-marker>
 
 		<!-- handle matrix marker -->
 		<a-marker type='barcode' value='5'>
-            <a-map position="0 0 -5"></a-map>
+            <a-video-billboard position="0 0 -5"></a-video-billboard>
 		</a-marker>
 		
 		<!-- handle kanji marker -->
 		<a-marker preset='kanji'>
-            <a-map position="0 0 -5"></a-map>
+            <a-video-billboard position="0 0 -5"></a-video-billboard>
 
         </a-marker>
 
