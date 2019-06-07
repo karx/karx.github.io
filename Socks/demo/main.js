@@ -60,7 +60,7 @@ AFRAME.registerComponent('marker-logger', {
 		
 	});
 	
-	AFRAME.registerComponent('move-the-box', {
+	AFRAME.registerComponent('detect-the-box', {
 			
 		init: function () {
 			console.log('Hello, Mobe the box');
@@ -71,19 +71,7 @@ AFRAME.registerComponent('marker-logger', {
 		tock: function (time, timeDelta) {
 			
 			var currentPosition = this.el.object3D.position;
-			if (this.prevPosition)
-			{
-				
-				this.prevPosition = currentPosition;
-				var box_to_move_el = document.querySelector("place-the-box");
-				box_to_move_el.setAttribute('position', {currentPosition.x, currentPosition.y+ 1, currentPosition.z});
-				
-	
-			} else {
-				this.prevPosition = currentPosition;
-			}
-			
-			
+			console.log(currentPosition);
 		}
 	
 		});
