@@ -9,10 +9,11 @@
 <body style='margin : 0px; overflow: hidden;'>
 
 
-	<a-assets>
-		<a-asset-item id="blackHole" src="https://raw.githubusercontent.com/karx/karx.github.io/master/Socks/feed/blackhole/scene.gltf"></a-asset-item>
-	</a-assets>	
+	
 	<a-scene embedded arjs='sourceType: webcam; detectionMode: mono_and_matrix; matrixCodeType: 3x3;'>
+			<a-assets>
+					<a-asset-item id="blackHole" src="https://raw.githubusercontent.com/karx/karx.github.io/master/Socks/feed/blackhole/scene.gltf"></a-asset-item>
+				</a-assets>	
 		<!-- handle unknown marker -->
 		<!-- <a-marker type='unknown'>
 			<a-box depth="1" height="1" width="1" position='0 0.5 0' material='opacity: 0.5; side:double; color:blue;'></a-box>
@@ -24,7 +25,7 @@
 		<a-marker type='barcode' value='5' id="bar-5" >
 
 			<!-- <a-entity environment="preset: dream"></a-entity> -->
-			<a-entity gltf-model="#blackHole"></a-entity>
+			<a-entity position="0 0.5 0" gltf-model="#blackHole"></a-entity>
                 
 		</a-marker>
 
