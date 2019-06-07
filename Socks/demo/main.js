@@ -49,3 +49,24 @@ AFRAME.registerComponent('marker-logger', {
 	}
 
 	});
+
+	AFRAME.registerComponent('place-the-box', {
+		
+		init: function() {
+			console.log('init the place the box box');
+
+		},
+		tick: function() {
+			if (document.querySelector("#bar-5")) {
+				console.log(document.querySelector("#bar-5"));
+				if(document.querySelector("#bar-5").object3D) {
+					var bar_5_pos = document.querySelector("#bar-5").object3D.position;
+					console.log(bar_5_pos);
+					this.el.object3D.position.set(bar_5_pos);
+
+				}
+			}
+		}
+
+		
+	});
