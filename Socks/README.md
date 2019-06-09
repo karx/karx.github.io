@@ -12,3 +12,12 @@
 
 ## Usefull links
 * https://github.com/artoolkit/artoolkit5/tree/master/doc/patterns/Matrix%20code%203x3%20(72dpi)
+
+# About
+web:kaaroSocks:v1.0.0 (by /u/eggor)
+
+----
+
+
+
+

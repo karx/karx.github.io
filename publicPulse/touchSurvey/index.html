@@ -15,12 +15,12 @@
 
     <h2>Public Pulse - 91</h2>
 
-    <h3> When do you check the Social updates first time in the day?</h3>
+    <h3> In India, how many working days per week are enough ?</h3>
 
     <div>
-        <h4> As soon as I get up : <span id="opt1">⌛</span></h4>
-        <h4> Not till afternoon : <span id="opt2">⌛</span></h4>
-        <h4> All-time, anytime : <span id="opt3">⌛</span></h4>
+        <h4> 5 days : <span id="opt1">⌛</span></h4>
+        <h4> 6 days : <span id="opt2">⌛</span></h4>
+        <h4> 7 days are also less : <span id="opt3">⌛</span></h4>
     </div>
 
     <br>
@@ -61,7 +61,7 @@
         firebase.initializeApp(firebaseConfig);
 
         var firestore = firebase.firestore();
-        firestore.collection("q2").onSnapshot( (snapshot) => {
+        firestore.collection("q1").onSnapshot( (snapshot) => {
             var counter = [0,0,0]
             console.log(snapshot);
             snapshot.forEach(doc => {
