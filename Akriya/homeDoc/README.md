@@ -86,13 +86,16 @@ knowledge and understanding of the world's largest colarborative tool!
     - Blogs
 
 * Our products you can buy
-    -
+    - 
+    - 
 
 * Our services our for hire
     - Contact Us
 
 * How to get involved/contribute
     - Get in touch with us
+    - Support
+    - 
 
 * Merchendize!
     - generate Link for name entered

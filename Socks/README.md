@@ -1,5 +1,8 @@
 ## Socks
 
+## About
+Socks provides us 
+
 
 ## Attempted AR.js
 * Using as Input Mechanisms - Scroll Reddit

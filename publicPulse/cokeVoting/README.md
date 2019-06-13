@@ -52,7 +52,7 @@ In the next 4-5 mins I would have told you how to do so. Technical or not, I'm g
 * ESP8266: [Amazon India](https://amzn.to/2XCQ9mo)
 
 
-## Help / Contribute / Connect / Links
+## Help / Contribute / Connect /      1
 * [Facebook](https://www.facebook.com/karx01)
 * [Twitter @karx_brb](https://twitter.com/karx_brb)
 * [Patreon](https://www.patreon.com/kaaro)
