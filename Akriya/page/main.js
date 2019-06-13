@@ -29,14 +29,14 @@ AFRAME.registerComponent('draw-canvas', {
     schema: { default: '' },
 
     init: function () {
-        this.canvas = document.getElementById(this.data);
-        this.ctx = this.canvas.getContext('2d');
+        var canvas = document.getElementById(this.data);
+        ctx = canvas.getContext('2d');
 
-        this.canvas.width = innerWidth;
-        this.canvas.height = innerHeight;
+        canvas.width = innerWidth;
+        canvas.height = innerHeight;
 
-        var imageData = this.ctx.createImageData(this.canvas.width, this.canvas.height);
-        document.body.appendChild(this.canvas);
+        var imageData = ctx.createImageData(canvas.width, canvas.height);
+        document.body.appendChild(canvas);
 
         (function loop() {
 
@@ -44,7 +44,7 @@ AFRAME.registerComponent('draw-canvas', {
                 imageData.data[i] = (Math.random() * 255) | 0;
             }
 
-            this.ctx.putImageData(imageData, 0, 0);
+            ctx.putImageData(imageData, 0, 0);
             requestAnimationFrame(loop);
 
         })();
