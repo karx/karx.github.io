@@ -30,7 +30,7 @@ AFRAME.registerComponent('draw-canvas', {
 
     init: function () {
         this.canvas = document.getElementById(this.data);
-        this.ctx = canvas.getContext('2d');
+        this.ctx = this.canvas.getContext('2d');
 
         this.canvas.width = innerWidth;
         this.canvas.height = innerHeight;
