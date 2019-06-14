@@ -33,7 +33,7 @@ Akriya Technologies will work with GymVym to:
 * Knowledge Transfer of GymVym 
 
 Akriya Technologies proposes to design, develop and deploy v1.0 of the proposed system to cater for 1000-2000 Facilities +and 10,000+ users.
-This activity will require 3 months (~12 weeks). The estimated cost for this activity would be 6 lakhs INR.
+This activity will require 3 months (~12 weeks). The estimated cost for this activity would be 5 lakhs INR.
 
 The Value Proposition of using Akriya Technologies for this project are:
 * Proven engineering techniques for making Integrated systems.
@@ -115,7 +115,7 @@ Access top level Git repositories for the Dashboard, mobile Apps, and admin inte
 * Client will provide a work area space with desk, chair, Internet access for use by Akriya Technologies to conduct project business while working on-site.
 
 ## Investment and Cost
-* Man-hour required: 3 months: 6 lakh INR
+* Man-hour required: 3 months: 5 lakh INR
 
 * Hardware cost (if required) to be paid by GymVym
     
@@ -134,8 +134,8 @@ Access top level Git repositories for the Dashboard, mobile Apps, and admin inte
 | Digital Flow Approval                     | Week 2           | 50,000 INR|
 | Mobile + Admin app schematic approval     | Week 3           | 50,000 INR|
 | Bot schematic approval (~Month 1 end)     | Week 4           | 50,000 INR|
-| Month 2 Review (Facility Service + Identity Mangement)    | Week 5-6-7-8 | 2,00,000 INR|
-| Month 3 Review (e-Trainer + Product Module)               | Week 9-10-11-12 | 2,00,000 INR|
+| Month 2 Review (Facility Service + Identity Mangement)    | Week 5-6-7-8 | 1,50,000 INR|
+| Month 3 Review (e-Trainer + Product Module)               | Week 9-10-11-12 | 1,50,000 INR|
 | Final Review + Knowledge Transfer                         | Week 13             | 25,000 INR|
 
 Server cost to be paid directly or at the start of each month.
