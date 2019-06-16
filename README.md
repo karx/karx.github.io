@@ -9,8 +9,8 @@ You have reached the home directory for kaaro's open github pages.
 * Want to build the most re-usable component for the web? [Webcomponents](/WebComponents)
 
 ## Social profiles
-[Facebook](https://www.facebook.com/karx01)
-[Twitter @karx_brb](https://twitter.com/karx_brb)
-[Linkedin](https://www.linkedin.com/in/karx01/)
-[Github karx](https://github.com/karx)
+* [Facebook](https://www.facebook.com/karx01)
+* [Twitter @karx_brb](https://twitter.com/karx_brb)
+* [Linkedin](https://www.linkedin.com/in/karx01/)
+* [Github karx](https://github.com/karx)
 
