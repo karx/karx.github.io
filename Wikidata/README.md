@@ -69,7 +69,7 @@ You can do alot with these queries, [here](https://www.wikidata.org/wiki/Wikidat
 
 ### Usefull links
 * [The Distributed Game](https://tools.wmflabs.org/wikidata-game/distributed/#)
-
+* [Wikidata Query Service/User Manual/SPARQL Federation endpoints](https://www.mediawiki.org/wiki/Wikidata_Query_Service/User_Manual/SPARQL_Federation_endpoints)
 
 
 
