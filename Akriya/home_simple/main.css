@@ -366,6 +366,10 @@ html, body {
     }
   }
 
-  #modelViewr {
-    background:transparent;
+  #scene-container {
+    position: absolute;
+    top:100px;
+    left: 100px;
+    width: 20%;
+    height: 20%;
   }

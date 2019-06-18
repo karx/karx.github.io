@@ -4,9 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <script type="module"
-    src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js">
-</script>
+    <script src="https://threejs.org/build/three.js"></script>
     <link rel="stylesheet" href="main.css">
     <title>MessageMe</title>
   </head>
@@ -245,7 +243,9 @@ works. You will be surprised how easy it is to use.</p>
               </div>
             </div>
           </div>
-          <model-viewer id="modelViewr" src="http://localhost:8081\Socks\feed\perry_the_platypus\scene.gltf"></model-viewer>
+          <div id="scene-container">
+            <!-- This div will hold our scene-->
+          </div>
 
           <div class="col-sm-12 col-md-2 text-right">
             <i class="fab fa-instagram"></i>
@@ -255,5 +255,6 @@ works. You will be surprised how easy it is to use.</p>
         </div>
       </div>
     </footer>
+    <script src="js/app.js"></script>
   </body>
 </html>
