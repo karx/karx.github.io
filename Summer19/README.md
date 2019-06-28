@@ -26,3 +26,6 @@ Also, this summer, we would be looking at picking up "freelance" work from ecosy
 * Wendor.in
 * Dalchini
 * http://www.geekslab.in/about
+
+## Social Links
+* [kaaroIntern Telegram Group](https://t.me/joinchat/HvNvNBKzRdp0bMqXOXgLOg)

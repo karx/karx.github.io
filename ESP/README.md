@@ -1,5 +1,5 @@
 # ESP
-ESP8266 and ESP32 is a series of low-cost, low-power system on a chip microcontrollers with integrated Wi-Fi and dual-mode Bluetooth.
+ESP8266 and ESP32 is a series of low-cost, low-power system-on-chip microcontrollers with integrated Wi-Fi and dual-mode Bluetooth.
 
 created and developed by Espressif Systems, a Shanghai-based Chinese company
 ![ESP32](https://www.espressif.com/sites/default/files/modules/esp32-wroom-32-01-s.png)
@@ -11,15 +11,15 @@ created and developed by Espressif Systems, a Shanghai-based Chinese company
 * Enough memory!!
 (520 KB but context)
 * Wifi + Bluetooth
-* Base feature set - Secureboot, Stadard Security fetures, Cryptograhic hardware accelerations, Power management!!!!!
+* Base feature set - Secureboot, Standard Security features, Cryptographic hardware accelerations, Power management!!!!!
 
 
 ## Programming/Interfacing
 
-We have a few options here now. As mentioned, The ESP communutity has a thriving ecosystem of developers!
+We have a few options here now. As mentioned, The ESP community has a thriving ecosystem of developers!
 * Arduino IDE
 * ESP Easy
-* Official Espressif Develepment Frameworks - They also have one dedicated for Mesh Systems
+* Official Espressif Development Frameworks - They also have one dedicated for Mesh Systems
 * Esprunio
 * Mongoose OS
 * Lua
@@ -31,20 +31,20 @@ Then we also have a bunch of tools that were created in this ecosystem.
 
 
 ## Small intro to firmware
-Breif description about by taking Arduino Stack as example
+Brief description about by taking Arduino Stack as an example
 
 Code that we write -> Building - > Firmware
 Bootloader + Firmware - Goes to chip
 
 A good rule of thumb to categorize something as firmware: is it part of the layer, which also provides API for interacting with GPIO ports
 
-In a the basic ino files we observe, the breakdown is something like:
+In the basic ino files we observe, the breakdown is something like:
 The parts
 * Arduino IDE - The building and uploading tool used 
-* Arduino C - The languge used for logic building
+* Arduino C - The language used for logic building
 * Arduino Framework - The OS/Firmware type
 
-## Time to choose our firmware/framwork, tools, and language of choice
+## Time to choose 
 Choice of ecosystems:
 * Standard Arduino Stack
 
@@ -53,7 +53,7 @@ We structure our code better. Instead of using Arduino's version of C. we take m
 Note here that the underlying framework is Arduino. 
 
 * MicroPython
-MicroPython is a vibrant community of enthusiasts that have build this implementation of CPython Specs, tailored for these class of Processors
+MicroPython is a vibrant community of enthusiasts that have to build this implementation of CPython Specs, tailored for these class of Processors
 Python on device
 [Micropython](https://karx.github.io/Micropython)
 
