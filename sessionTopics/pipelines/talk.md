@@ -1,3 +1,13 @@
+---
+sidebar:
+    - title: Test this
+    -   title: Maybe this
+        description: this is longer
+    
+
+---
+
+
 ## TBD Topic
 Opt1: Why is it all about Data?
 
