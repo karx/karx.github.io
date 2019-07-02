@@ -131,3 +131,9 @@ ToDo in the upcoming week
 
 
 
+
+## 7/2/2019
+* Ashish Sir - Team meet for start 
+   - Brief of what we do
+   - Resumes
+* Satya Sir - Team meet for start
