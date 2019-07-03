@@ -5,6 +5,8 @@ const config = require("./config.json");
 const fs = require('fs');
 const moment = require('moment');
 
+const FLUTTER_ARSENAL_GITHUB_PATH = "karx/FlutterArsenal";
+
 let headers = {
     'Authorization': 'token ' + config.github_token,
     'User-Agent': 'flutterArsenal-cli'
@@ -59,10 +61,8 @@ async function getNewRepo(user, repo) {
         return null;
     }
     return data
-
-
 }
-var allRepos_test = ["karx/homepage"];
+var allRepos_test = ["VictorRancesCode/flutter_ibm_watson"];
 var allRepos = ["goderbauer/contact_picker",
     "letsar/flutter_staggered_grid_view",
     "letsar/flutter_sticky_header",
@@ -153,7 +153,7 @@ var allRepos = ["goderbauer/contact_picker",
     "renefloor/flutter_cache_manager",
     "frideosapps/frideos_flutter",
     "jorgecoca/ozzie"];
-allRepos.forEach((eachRepo) => {
+allRepos_test.forEach((eachRepo) => {
     try {
         console.log(`for ${eachRepo}`);
         console.log(`for ${eachRepo.split('/')[0]}, ${eachRepo.split('/')[1]}`);
@@ -213,7 +213,14 @@ async function pubToFile(data) {
 
     md += await getReadmeFileFromGithub(`https://raw.githubusercontent.com/${data.repository.nameWithOwner}/master/README.md`);
     console.log('printing');
+    
     fs.writeFileSync(`./output/fa_${data.repository.name}.md`, md)
+    var base64md = Buffer.from(md).toString('base64');
+    var gitreturn = await commitToGithub(base64md, `docs/_projects/fa_git_${data.repository.name}.md`);
+    console.log('published to github');
+    console.log(gitreturn);
+
+
 }
 function addField(feildName, feildValue) {
     if (Array.isArray(feildValue)) {
@@ -243,6 +250,30 @@ async function getReadmeFileFromGithub(readMeURL) {
     return await request({
         method: 'get',
         url: readMeURL
+    });
+
+}
+
+async function commitToGithub(encodedMessage, filename, message = "") {
+    // console.log(readMeURL);
+    var headers = {
+        'Authorization': 'token ' + config.github_token,
+        "Accept": "application/vnd.github.v3+json",
+        'User-Agent': 'flutterArsenal-cli'
+
+    };
+    var params ={
+        "message": `new project request to add ${filename}`,
+        
+        "content": encodedMessage
+      };
+    console.log(params);
+    return await request({
+        method: 'put',
+        url: `https://api.github.com/repos/${FLUTTER_ARSENAL_GITHUB_PATH}/contents/${filename}`,
+        body: params,
+        headers: headers,
+        json: true
     });
 
 }
