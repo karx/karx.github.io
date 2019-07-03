@@ -137,3 +137,29 @@ ToDo in the upcoming week
    - Brief of what we do
    - Resumes
 * Satya Sir - Team meet for start
+
+
+
+## 7/3/2019
+* Satya Sir
+   * IoT Labs + Kits - IIM
+   * Resume for All
+   * Flutter Conf - 9/3/2019
+   * Afrost Website
+   * FlutterArsenal ki deal
+
+
+* Ashish Sir
+   * Website up - 7up
+   * Flutter Arsenal Updates
+   * Flutter Arsenal Pings - Mail
+   * LinkedIn boost profile
+   * AgriTech - Puch rehe the
+
+
+* Mukesh Sir
+   * Video
+   * Software Tender
+
+Outbound
+* Merchendise for PyCon - DevConfs 
