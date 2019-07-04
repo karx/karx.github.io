@@ -4,6 +4,7 @@ const GraphQLClient = require('graphql-request').GraphQLClient;
 const config = require("./config.json");
 const fs = require('fs');
 const moment = require('moment');
+const http = require('http');
 
 const FLUTTER_ARSENAL_GITHUB_PATH = "karx/FlutterArsenal";
 
@@ -153,17 +154,17 @@ var allRepos = ["goderbauer/contact_picker",
     "renefloor/flutter_cache_manager",
     "frideosapps/frideos_flutter",
     "jorgecoca/ozzie"];
-allRepos_test.forEach((eachRepo) => {
-    try {
-        console.log(`for ${eachRepo}`);
-        console.log(`for ${eachRepo.split('/')[0]}, ${eachRepo.split('/')[1]}`);
-        getNewRepo(eachRepo.split('/')[0], eachRepo.split('/')[1]).then((data) => pubToFile(data));
+// allRepos_test.forEach((eachRepo) => {
+//     try {
+//         console.log(`for ${eachRepo}`);
+//         console.log(`for ${eachRepo.split('/')[0]}, ${eachRepo.split('/')[1]}`);
+//         getNewRepo(eachRepo.split('/')[0], eachRepo.split('/')[1]).then((data) => pubToFile(data));
 
-    } catch (error) {
-        console.log(error);
-    }
+//     } catch (error) {
+//         console.log(error);
+//     }
 
-});
+// });
 
 
 async function pubToFile(data) {
@@ -277,3 +278,17 @@ async function commitToGithub(encodedMessage, filename, message = "") {
     });
 
 }
+
+
+const hostname = '127.0.0.1';
+const port = 3148;
+
+const server = http.createServer((req, res) => {
+  res.statusCode = 200;
+  res.setHeader('Content-Type', 'text/plain');
+  res.end('Hello World\n');
+});
+
+server.listen(port, hostname, () => {
+  console.log(`Server running at http://${hostname}:${port}/`);
+});
