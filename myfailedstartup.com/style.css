@@ -1,0 +1,86 @@
+.main {
+    background-image: url("./pencil.png");
+    width: 2093px;
+    height: 1176px;
+    /* width: 100%;
+    height: 100vh; */
+    position: relative;
+}
+
+body {
+    /* background-image: url("pencil.png"); */
+}
+
+.heading {
+    position: absolute;
+    left: 152px;
+    top:106px;
+    height: 308px;
+    width: 582px;
+    font-size:80px;
+    font-family: 'Poppins';
+    color: #514A49;
+}
+.heading-top {
+
+}
+.heading-bt {
+    font-size:150px;
+}
+.button {
+    position: absolute;
+    left: 313px;
+    top:435px;
+    height: 44px;
+    width: 222px;
+    font-size:21px;
+    /* margin: 10px; */
+    border-radius: 41.745px;
+    background-color: #E84430;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.excerpt {
+    position: absolute;
+    left: 120px;
+    top:532px;
+    height: 44px;
+    width: 613px;
+    font-size:27px;
+    font-family: 'Raleway';
+    text-align: center;
+    color: #7A7979;
+}
+.logo {
+    position: absolute;
+    left: 267px;
+    top:679px;
+    height: 201px;
+    width: 312px;
+    /* font-size: 27px; */
+
+}
+.link1 {
+    position: absolute;
+    left: 169px;
+    top:907px;
+    height: 30px;
+    width: 509px;
+    font-size: 35px;
+    font-family: 'Raleway';
+}
+.yt {
+    color: red;
+}
+.contact {
+    position: absolute;
+    left: 136px;
+    top:971px;
+    height: 35px;
+    width: 598px;
+    font-size:26px;
+    font-family: 'Raleway';
+}
