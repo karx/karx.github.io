@@ -9,6 +9,7 @@
 
 body {
     /* background-image: url("pencil.png"); */
+    text-align: center;
 }
 
 .heading {
@@ -83,4 +84,12 @@ body {
     width: 598px;
     font-size:26px;
     font-family: 'Raleway';
+    text-decoration: none;
+    
+}
+
+
+#mailer {
+    color: inherit;
+    text-decoration: none;
 }
