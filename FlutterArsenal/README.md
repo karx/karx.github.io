@@ -12,3 +12,10 @@
 
 ## WHat to expect
 * Live challa jaega. Shareable Link
+
+
+## Things to do
+* Issue pipeline - with contributors
+* Paypal link - emailers donate - linkedIn for Flutter
+* A nice email to send to introduce people to Flutter Arsenal
+* 
