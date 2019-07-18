@@ -60,4 +60,3 @@ In the next 4-5 mins I would have told you how to do so. Technical or not, I'm g
 * [Github karx](https://github.com/karx)
 * Leave a message Discord. Our channel: [Akriya Discord](https://discord.gg/Ud5TuCr)
 * Slack Channel Invite Link: [Invite](https://join.slack.com/t/akriya/shared_invite/enQtNDMwOTM2NjExMzQ0LTZmODYzZDUyNDYyMjhhNmNhMzk2MzVjY2NmZGM0YjNkYzViZTJjMDc2Nzg4MTA5NjAzOTQ1ZWZhMDc0OWI3OGU) 
-* 
