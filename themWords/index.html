@@ -1,35 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Speech Recording</title>
-</head>
-<body>
-  <script>
-    window.SpeechRecognition = window.webkitSpeechRecognition || window.SpeechRecognition;
-    let finalTranscript = '';
-    let recognition = new window.SpeechRecognition();
-
-    recognition.interimResults = true;
-    recognition.maxAlternatives = 10;
-    recognition.continuous = true;
-
-    recognition.onresult = (event) => {
-      let interimTranscript = '';
-      for (let i = event.resultIndex, len = event.results.length; i < len; i++) {
-        let transcript = event.results[i][0].transcript;
-        if (event.results[i].isFinal) {
-          finalTranscript += transcript;
-        } else {
-          interimTranscript += transcript;
+    <title>Speech recognition</title>
+    <style>
+        #result {
+            border: 2px solid black;
+            min-height: 200px;
+            border-radius: 3px;
+            font-size: 14px;
         }
-      }
 
-      document.querySelector('body').innerHTML = finalTranscript + '<i style="color:#ddd;">' + interimTranscript + '</>';
-    }
-    recognition.start();
-  </script>
+        .button-row {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+            justify-items: center;
+        }
+    </style>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/6.3.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.1/firebase-firestore.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyBWn1FRaM1U2J_aiEC5BJ8nI78bumB2B1k",
+            authDomain: "breakuniverse-91.firebaseapp.com",
+            databaseURL: "https://breakuniverse-91.firebaseio.com",
+            projectId: "breakuniverse-91",
+            storageBucket: "breakuniverse-91.appspot.com",
+            messagingSenderId: "489116567047",
+            appId: "1:489116567047:web:0cdf35e07da125cd"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+    <script src="./kaaro.js"></script>
+</head>
+
+<body>
+    <div id="result"></div>
+    <div class="button-row">
+        <button onclick="start()">Listen</button>
+        <button onclick="sendCurrent()">Send current to Kartik</button>
+
+    </div>
 </body>
+
 </html>
