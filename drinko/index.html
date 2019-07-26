@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Drinko</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/6.3.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.1/firebase-firestore.js"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+     <script>
+        // TODO: Replace the following with your app's Firebase project configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyD1yTlgHEQ6TxhZEmsOqJzCPBvy_g9lr5A",
+            authDomain: "pubpul.firebaseapp.com",
+            databaseURL: "https://pubpul.firebaseio.com",
+            projectId: "pubpul",
+            storageBucket: "pubpul.appspot.com",
+            messagingSenderId: "270586275172",
+            appId: "1:270586275172:web:54f38fc931f72889"
+        };
+
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+
+</head>
+<body>
+    <div class="container">
+            <div class="header"></div>
+            <canvas id="canvas"></canvas>   
+            
+        <div class="top-people">
+                <h1>Billboard Top 10</h1>
+                <ul id="leaderboard" class="chart">
+
+                </ul>
+        </div>
+    </div>
+        
+    <script src="drinko.js"></script>
+
+</body>
+</html>

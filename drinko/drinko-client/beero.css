@@ -1,0 +1,295 @@
+/* demo css (can be removed if seems not required)*/
+* {
+    margin: 0;
+    padding: 0;
+  }
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+  }
+  .mainWrapper {
+    display: table;
+    width: 100%;
+    height: 100%;
+  }
+  .mainWrapperInner {
+    /* display: table-cell; */
+    vertical-align: middle;
+  }
+  .secondWrapper {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      align-content: center;
+      justify-content: center;
+      justify-items: center;
+    vertical-align: middle;
+  }
+  #results {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+  }
+  
+  /**/
+  
+  .beerBG {
+    background: #ffd18d;
+  }
+  .beer-wrapper {
+    width: 300px;
+    margin: 0 auto;
+    background: #ffd18d;
+  }
+  .beer-wrapper svg {
+    width: 100%;
+  }
+  #beer-liquid,
+  #beer-foam {
+    -webkit-animation: beerliquidupdown 8s ease-in-out infinite;
+    animation: beerliquidupdown 8s ease-in-out infinite;
+  }
+  circle[id^="foam-bubble"] {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-animation: foambubble 2s ease-in-out infinite;
+    animation: foambubble 2s ease-in-out infinite;
+  }
+  circle[id^="foam-bubble"]:nth-child(2),
+  circle[id^="foam-bubble"]:nth-child(5),
+  circle[id^="foam-bubble"]:nth-child(8),
+  circle[id^="foam-bubble"]:nth-child(11),
+  circle[id^="foam-bubble"]:nth-child(14),
+  circle[id^="foam-bubble"]:nth-child(17) {
+    -webkit-animation-delay: 0.33s;
+    animation-delay: 0.33s;
+  }
+  circle[id^="foam-bubble"]:nth-child(3),
+  circle[id^="foam-bubble"]:nth-child(6),
+  circle[id^="foam-bubble"]:nth-child(9),
+  circle[id^="foam-bubble"]:nth-child(12),
+  circle[id^="foam-bubble"]:nth-child(15),
+  circle[id^="foam-bubble"]:nth-child(18) {
+    -webkit-animation-delay: 0.66s;
+    animation-delay: 0.66s;
+  }
+  circle[id^="foam-bubble"]:nth-child(4),
+  circle[id^="foam-bubble"]:nth-child(7),
+  circle[id^="foam-bubble"]:nth-child(10),
+  circle[id^="foam-bubble"]:nth-child(13),
+  circle[id^="foam-bubble"]:nth-child(16),
+  circle[id^="foam-bubble"]:nth-child(4) {
+    -webkit-animation-delay: 1;
+    animation-delay: 1;
+  }
+  circle[id^="liquid-bubble"] {
+    -webkit-animation: liquidbubble 1s ease-in infinite;
+    animation: liquidbubble 1s ease-in infinite;
+  }
+  circle[id^="liquid-bubble"]:nth-child(1),
+  circle[id^="liquid-bubble"]:nth-child(4),
+  circle[id^="liquid-bubble"]:nth-child(7),
+  circle[id^="liquid-bubble"]:nth-child(10),
+  circle[id^="liquid-bubble"]:nth-child(13) {
+    -webkit-animation-delay: 0.33s;
+    animation-delay: 0.33s;
+  }
+  circle[id^="liquid-bubble"]:nth-child(2),
+  circle[id^="liquid-bubble"]:nth-child(5),
+  circle[id^="liquid-bubble"]:nth-child(8),
+  circle[id^="liquid-bubble"]:nth-child(11),
+  circle[id^="liquid-bubble"]:nth-child(14) {
+    -webkit-animation-delay: 0.66s;
+    animation-delay: 0.66s;
+  }
+  circle[id^="liquid-bubble"]:nth-child(3),
+  circle[id^="liquid-bubble"]:nth-child(6),
+  circle[id^="liquid-bubble"]:nth-child(9),
+  circle[id^="liquid-bubble"]:nth-child(12) {
+    -webkit-animation-delay: 1;
+    animation-delay: 1;
+  }
+  @-webkit-keyframes beerliquidupdown {
+    0% {
+      -webkit-transform: translateY(65px);
+      transform: translateY(65px);
+    }
+    10% {
+      -webkit-transform: translateY(0px);
+      transform: translateY(0px);
+    }
+    30% {
+      -webkit-transform: translateY(0px);
+      transform: translateY(0px);
+    }
+    40% {
+      -webkit-transform: translateY(0px);
+      transform: translateY(0px);
+    }
+    50% {
+      -webkit-transform: translateY(22px);
+      transform: translateY(22px);
+    }
+    60% {
+      -webkit-transform: translateY(22px);
+      transform: translateY(22px);
+    }
+    70% {
+      -webkit-transform: translateY(44px);
+      transform: translateY(44px);
+    }
+    80% {
+      -webkit-transform: translateY(44px);
+      transform: translateY(44px);
+    }
+    90% {
+      -webkit-transform: translateY(65px);
+      transform: translateY(65px);
+    }
+    100% {
+      -webkit-transform: translateY(65px);
+      transform: translateY(65px);
+    }
+  }
+  @keyframes beerliquidupdown {
+    0% {
+      -webkit-transform: translateY(65px);
+      transform: translateY(65px);
+    }
+    10% {
+      -webkit-transform: translateY(0px);
+      transform: translateY(0px);
+    }
+    30% {
+      -webkit-transform: translateY(0px);
+      transform: translateY(0px);
+    }
+    40% {
+      -webkit-transform: translateY(0px);
+      transform: translateY(0px);
+    }
+    50% {
+      -webkit-transform: translateY(22px);
+      transform: translateY(22px);
+    }
+    60% {
+      -webkit-transform: translateY(22px);
+      transform: translateY(22px);
+    }
+    70% {
+      -webkit-transform: translateY(44px);
+      transform: translateY(44px);
+    }
+    80% {
+      -webkit-transform: translateY(44px);
+      transform: translateY(44px);
+    }
+    90% {
+      -webkit-transform: translateY(65px);
+      transform: translateY(65px);
+    }
+    100% {
+      -webkit-transform: translateY(65px);
+      transform: translateY(65px);
+    }
+  }
+  @-webkit-keyframes foambubble {
+    0% {
+      opacity: 0;
+      -webkit-transform: scale(0);
+      transform: scale(0);
+    }
+    50% {
+      opacity: 1;
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+    100% {
+      opacity: 0;
+      -webkit-transform: scale(0);
+      transform: scale(0);
+    }
+  }
+  @keyframes foambubble {
+    0% {
+      opacity: 0;
+      -webkit-transform: scale(0);
+      transform: scale(0);
+    }
+    50% {
+      opacity: 1;
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+    100% {
+      opacity: 0;
+      -webkit-transform: scale(0);
+      transform: scale(0);
+    }
+  }
+  @-webkit-keyframes liquidbubble {
+    0% {
+      opacity: 1;
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 0;
+      -webkit-transform: scale(0);
+      transform: scale(0);
+      -webkit-transform: translateY(-30px);
+      transform: translateY(-30px);
+    }
+  }
+  @keyframes liquidbubble {
+    0% {
+      opacity: 1;
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 0;
+      -webkit-transform: scale(0);
+      transform: scale(0);
+      -webkit-transform: translateY(-30px);
+      transform: translateY(-30px);
+    }
+  }
+
+
+  a.button {
+    position: relative;
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+    background-color: rgba(219,87,5,1);
+    font-family: 'Yanone Kaffeesatz';
+    font-weight: 700;
+    font-size: 2em;
+    height: 2em;
+    display: inline-block;
+    padding: 4px;
+    border-radius: 9px;
+    box-shadow: 0px 12px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+    margin: 100px auto;
+      width: 160px;
+      text-align: center;
+      transition: all .1s ease;
+    margin: 7px 7px;
+  }
+  
+  a:active {
+    box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+    position: relative;
+    top: 6px;
+  }
+  
+  
