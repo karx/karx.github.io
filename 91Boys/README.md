@@ -85,7 +85,7 @@ ToDo in the upcoming week
    - Make e2e hw for a e-bike telemetry
 
 * Fitso
-   - Meeting with Fitso Team for futture
+   - Meeting with Fitso Team for futturex
 
 * PublucPulse
    - Formal start of project
@@ -131,35 +131,3 @@ ToDo in the upcoming week
 
 
 
-
-## 7/2/2019
-* Ashish Sir - Team meet for start 
-   - Brief of what we do
-   - Resumes
-* Satya Sir - Team meet for start
-
-
-
-## 7/3/2019
-* Satya Sir
-   * IoT Labs + Kits - IIM
-   * Resume for All
-   * Flutter Conf - 9/3/2019
-   * Afrost Website
-   * FlutterArsenal ki deal
-
-
-* Ashish Sir
-   * Website up - 7up
-   * Flutter Arsenal Updates
-   * Flutter Arsenal Pings - Mail
-   * LinkedIn boost profile
-   * AgriTech - Puch rehe the
-
-
-* Mukesh Sir
-   * Video
-   * Software Tender
-
-Outbound
-* Merchendise for PyCon - DevConfs 
