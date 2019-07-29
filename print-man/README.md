@@ -6,7 +6,7 @@
 ## Ratinal + Objectives
 
 ## Breif description
-![caggleImage]('../images/print-man.png')
+![caggleImage](../images/print-man.png)
 ## Action Plan
 
 ## Approximate Budget
