@@ -47,14 +47,14 @@ function get_face_instances(face_id) {
         });
       });
       console.log(instances.length);
-      var html_to_push = "";
+      var html_to_push = `<h4>${instances.length}</h4>`;
       instances.forEach((contestant) => {
         var cst = contestant;
         console.log(cst);
         if (!cst.face_id) {
           ;
         } else {entries
-          html_to_push += `<div class="each_face each_instance"> <div class="time">${cst.timestamp}</div> <img id="profileImage" src="data:image/jpg;base64, ${cst.image_byte.toBase64()}"> </li>`;
+          html_to_push += `<div class="each_face each_instance"> <div class="time">${moment(cst.timestamp.toMillis()).fromNow()}</div> <img id="profileImage" src="data:image/jpg;base64, ${cst.image_byte.toBase64()}"> </div>`;
         }
       });
       $('#entries').html(html_to_push);
