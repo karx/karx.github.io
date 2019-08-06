@@ -1,0 +1,24 @@
+.face-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+#registered {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+#entries {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.each_face {
+    margin: 10px;
+    
+}
