@@ -35,7 +35,7 @@ function get_face_instances(face_id) {
   if (last_face_guy_unsub) {
     last_face_guy_unsub();
   }
-  last_face_guy_unsub = firestore.collection(`face-instances`).where("FaceId", "==", face_id)
+  last_face_guy_unsub = firestore.collection(`face-instances`).where("FaceId", "==", face_id).orderBy("Timestamp", "desc")
     .onSnapshot(function (querySnapshot) {
       console.log(querySnapshot);
       var instances = [];
@@ -54,13 +54,21 @@ function get_face_instances(face_id) {
         if (!cst.face_id) {
           ;
         } else {entries
-          html_to_push += `<div class="each_face each_instance"> <div class="time">${moment(cst.timestamp.toMillis()).fromNow()}</div> <img id="profileImage" src="data:image/jpg;base64, ${cst.image_byte.toBase64()}"> </div>`;
+          html_to_push += `<div class="each_face each_instance"> <div class="time">${cst.timestamp.toDate()}</div> <img id="profileImage" src="data:image/jpg;base64, ${cst.image_byte.toBase64()}"> </div>`;
         }
       });
       $('#entries').html(html_to_push);
     });
 
 }
+
+firestore.collection(`face-instances`).orderBy("Timestamp", "desc").limit(1)
+  .onSnapshot( (snap) => {
+    snap.forEach((last_guy) => {
+      $("#latest").html(`<div> <div class="time">${last_guy.data().Timestamp.toDate()}</div> <img id="profileImage" src="data:image/jpg;base64, ${last_guy.data().ImageByte.toBase64()}"> </div>`);
+    });
+  });
+
 
 $(".each_face").click((e) => {
   console.log(e);
