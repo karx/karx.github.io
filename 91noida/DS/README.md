@@ -10,6 +10,5 @@ There were live demos of object detection, OCR, image colourization.
 
 ## Usefull links
 * Image colorization online tool: [Link](https://demos.algorithmia.com/colorize-photos/)
-
-
+* Amount of data generated: [Link](https://www.internetlivestats.com/)
 
