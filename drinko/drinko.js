@@ -105,7 +105,7 @@ $(".panel").click(function() {
       qv += "½";
     }
     $('label[for="quantity"]').text(qv);
-    // TODO: update the price as well
+    
   });
   
 
