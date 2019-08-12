@@ -69,51 +69,53 @@ ToDo in the upcoming week
 # Week - Pacman
 
 ## Ongoing
-* homeSwitch
+* homeSwitch    - done
    - to Demo current work done to Sir
    - POC of Actions+Alexa+Bot > Dialagflow
-
-* Portfolio Building
+   o  homepage
+* Portfolio Building - WIP
    - Indivisual
    - Product House 
    - Startup 
    - Tech Portfolio
 
-* smartBike 
+* smartBike    Hold
    - Testing showcase for Shamiala
    - R-PI demo
    - Make e2e hw for a e-bike telemetry
 
-* Fitso
+* Fitso  Fin
    - Meeting with Fitso Team for futturex
 
-* PublucPulse
+* PublucPulse  Hold
    - Formal start of project
    - POC of Actions+Alexa+Bit > Dialogflows
 
-* flutterArsenel
-   - Make live and promote
+* flutterArsenel  Done
+   - Make live 
+   o promote
 
-* YTKarta - Merchendise
-   - demo product of Aadu req for Gaurav Gera
-   - Need Sound thingy
-   - Instagram API testings*
+* YTKarta - Merchendise  | Rebrand
+   - demo product of Aadu req for Gaurav Gera | Hold
+   - Need Sound thingy  
+   - Instagram API testings*  
 
-* Logistics with Rachit Nice Guy
+* Logistics with Rachit Nice Guy | Fin
    - few hours a day
 
-* Mukesh Sir - Pitch Video
+* Mukesh Sir - Pitch Video | Done
    - 3 min video 
+   o update
 
-* Summer19
+* Summer19  | Done
    - Formalization and upkeep of Communications and Interactions
    - 
 
-* Developer Advocacy
+* Developer Advocacy | Ongoing
    - Workshops Talks outbound SOPs
    - List of Topics
 
-* Outreach program
+* Outreach program   
    - Developer Advocacy
    - Merch bantte hai
    - Cold calling (List needed)
@@ -122,13 +124,12 @@ ToDo in the upcoming week
       - Dalmia
       - Senchen - Eric Pen
 
-* KartaDharam
+* KartaDharam  | Ongoing
    - Metric System defination
    - Wendor boys query
 
-* UI Dharam
+* UI Dharam | o
    - Metric System defination
-
 
 
 ## 12 Aug 2019
@@ -171,3 +172,4 @@ ToDo in the upcoming week
 * Static pages Boilerplate
    - base set
    - design guideline
+
