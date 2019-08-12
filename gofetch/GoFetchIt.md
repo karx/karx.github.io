@@ -27,7 +27,7 @@ Artiosys Ventures will work with GoFetchIt to:
 * Enable __"Request a Quote"__ feature
 * Enable manual __invoicing__ to the service 
 
-Artiosys Ventures proposes to design, develop and deploy v1.0 of the proposed system to cater for upto 1M users.
+X proposes to design, develop and deploy v1.0 of the proposed system to cater for upto 1000 users.
 This activity will require 40 hours (~1 week). The estimated cost for this activity would be 60 thousand INR.
 
 The Value Proposition of using Artiosys Ventures for this project are:

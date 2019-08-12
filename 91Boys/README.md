@@ -131,3 +131,43 @@ ToDo in the upcoming week
 
 
 
+## 12 Aug 2019
+
+* DigitalIcon
+   - Production Ready v1 | All P0 and P1
+   - 15th Dev stop
+
+* Homepage - Services Webpage
+   - Ready to share to Rahul Sir
+   - 
+   - Reactice UI Kit needed
+   - 
+
+* Portfolio / Slide as per Naveen Sir
+   - 4 verticles 2 slides each  + wrapper is our base 
+   - Ready send
+   - Ready to print and go and visit
+
+* Homepage - Product website
+   - Portfolio
+   - 
+
+* Facebox
+   - ProductHunt
+   - Product Homepage for Facebox | Sass page
+   - Block diagram .... technical assets 
+   - content, video, emailers..... sales assets
+
+* Flutter Toolkit
+   - UI Boilerplate
+   - IoT Boilerplate 
+   - Firebase intergration
+
+* FlutterArsenal
+   - 100 star
+   - Growth Hack
+   - Events
+
+* Static pages Boilerplate
+   - base set
+   - design guideline
