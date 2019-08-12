@@ -116,3 +116,7 @@ Need to define niche
 
 
 Devices are indivisual identities. Devices would have `owners`. You can own multiple devices.
+
+
+## Milestone
+TBD
