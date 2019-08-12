@@ -20,20 +20,10 @@ Many in the ed-tech field see new technologies as powerful tools to help schools
 
 # Kickstarter
 
-
 * e2e solution
 * public controlled
 * AWS certified and Github certified technologies
 * Home automation controls
-* 
-
-
-
-
-
-
-
-
 
 
 ### Kickstarter Goals
@@ -46,4 +36,83 @@ Many in the ed-tech field see new technologies as powerful tools to help schools
 
 ### Internal goal
 * 50K - complainces
-* 
+
+
+
+
+--------------------------
+
+
+## Sprint 1
+
+# Facebox 
+- Pocket size
+- Box hai (Rectangle)
+- Has camera And Mic
+- Servellence System (motion detection based)
+    - Burglar item
+    - SOS signal for patients
+- Smart Attendance
+- Workspace utilization
+    - Heatmaps and things
+    - Spacial usage statistics
+- Stream embed possible! 
+    - 1-click stream possible
+- Plug and play
+- AI enabled action triggers
+
+## Devices
+    * Livestream
+    * Face detect 
+        - on frame change?
+    * Registration via Facedetect
+    * Custom action on Facedetect if Match
+
+## User
+* Can view livefeed for all his
+* Start recording on Custom time
+    - Start Stop time based on time or Actions
+* Each recording stats available. 
+* Ability to add context
+
+## Cloud 
+* Pick context from facebook, google, etc
+
+```
+Need to define niche
+
+
+```
+
+- Easy to install
+- Survillence
+- Face detect
+- Truecaller
+    - Game-ification
+- Jarvis = IFTTT + All parallel
+
+
+## Questions
+* Speaker in base-kit
+    Pros
+        - Gamification Easy
+        - Great experince like Walkey Talky
+        - NEEDED in alarms bro
+    Cons
+        - Mehnga padega
+        - Would take alot of space
+
+    Looks like we have speakers in base set.
+
+## Humare pass kyu aaega | Why?
+    - Features dekhe?
+    - Tech is ready
+
+
+![face-box image](/images/face_box.jpg)
+![face-box_1 image](/images/face_box_1.jpg)
+![face-box_2 image](/images/face_box_2.jpg)
+![face-box_3 image](/images/face_box_3.jpg)
+
+
+Devices are indivisual identities. Devices would have `owners`. You can own multiple devices.
