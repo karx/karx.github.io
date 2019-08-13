@@ -120,3 +120,21 @@ Devices are indivisual identities. Devices would have `owners`. You can own mult
 
 ## Milestone
 TBD
+
+
+## TODO List
+* (1)Create complete product design - Minified/Simple 5 mins allowed
+* Create sample proposal/SOW
+* Create sample wireframes
+* Create sample sales page
+* Create smaple user stories
+* List out competitor/similar domain
+* List out possible collaborations
+* List out Problems we will face
+* List problem categories
+* Repeat (1)
+
+
+```
+
+```
