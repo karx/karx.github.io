@@ -1,7 +1,0 @@
-.allMarkers {
-    display: flex;
-    flex-flow: wrap;
-}
-.eachMarker {
-    margin: 5vw;
-}
