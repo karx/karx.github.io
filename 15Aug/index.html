@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Happy 52nd Independence Day</title>
+    <title>भारत देखो</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Lato|Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     
 </head>
 <body>
-
-    <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Official_India_Map_with_Districts_2011_Census.svg" alt=""> -->
-    <div id="results">
-
+    <div class="header">
+            <div class="first">73वां स्वतंत्रता <span>दिवस </span></div>
+            <div class="second">मुबारक हो</div>
     </div>
+    <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Official_India_Map_with_Districts_2011_Census.svg" alt=""> -->
+    <div id="results-top" class="results"></div>
     <div class="svg-india">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="50 200 950 1100">
                 <g title="Bihar">
@@ -766,9 +769,17 @@
                 </g>
                 </svg>
     </div>
-
-    <script src="52nd.js"></script>
+    <div id="results-bottom" class="results"></div>
+    <script src="73rd.js"></script>
 
     <!-- Credits: https://commons.wikimedia.org/wiki/File:India_encoded.svg-->
+    <div class="footer">
+        <div class="credits">
+        Credit: Official India Map with Districts 2011 Census [<a href="https://commons.wikimedia.org/wiki/File:India_encoded.svg"> Wiki Commons</a>]
+        </div>
+        <div>
+            <!-- Made by kaaro -->
+        </div>
+    </div>
 </body>
 </html>
