@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Face-it 91!</title>
+
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/moment.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.1/firebase-firestore.js"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    
+     <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+          apiKey: "AIzaSyCauRCtoWCqlU31qH3QJHjZ90Zaow8smbc",
+          authDomain: "awsrekoghome.firebaseapp.com",
+          databaseURL: "https://awsrekoghome.firebaseio.com",
+          projectId: "awsrekoghome",
+          storageBucket: "awsrekoghome.appspot.com",
+          messagingSenderId: "173513788355",
+          appId: "1:173513788355:web:14ff66a4d589d644"
+        };
+        
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="header"></div>
+        <div class="last-in">
+            <h2>Last-in</h2>
+            <div id="latest"></div>
+        </div>
+        <div class="face-list registered-container">
+            <h2>registered</h2>
+            <div id="registered"></div>
+
+        </div>
+        <div class="face-list entries-container">
+            <h2>entries</h2>
+            <div id="entries"></div>
+
+        </div>
+            
+    </div>
+        
+    <script src="rahul.js"></script>
+
+</body>
+</html>

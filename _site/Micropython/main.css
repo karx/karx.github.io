@@ -1,0 +1,169 @@
+body {
+    overflow: hidden;
+    margin: 0;
+    height: 100vh;
+    perspective: 27em;
+    background: #000;
+  }
+  
+  div {
+    position: absolute;
+    transform-style: preserve-3d;
+  }
+  
+  .a3d {
+    top: 50%;
+    left: 50%;
+    transform: rotateX(-17.5deg);
+  }
+  
+  .x2 {
+    --dtx2: 0s;
+    animation: base-grow 20s linear var(--dtx2) infinite;
+  }
+  .x2 + .x2 {
+    --dtx2: -10s;
+  }
+  
+  @keyframes base-grow {
+    0% {
+      transform: rotatey(0deg) scale3d(0, 0, 0);
+    }
+    65%, 75% {
+      transform: rotatey(6.5turn) scale3d(1, 1, 1);
+    }
+    70% {
+      transform: rotatey(6.5turn) scale3d(0.65, 0.65, 0.65);
+    }
+    85% {
+      transform: rotatey(7turn) scale3d(1, 1, 1);
+    }
+    100% {
+      transform: rotatey(10turn) scale3d(1, 1, 1);
+    }
+  }
+  .s3d {
+    --p: 0;
+    --s: calc(2*var(--p) - 1);
+    transform: scaley(var(--s));
+    animation: base-flip 20s ease-out var(--dtx2) infinite;
+    /* go through possible cupolae */
+  }
+  .s3d:last-child {
+    --p: 1;
+  }
+  .s3gon {
+    --rc: 11.54701vmin;
+  }
+  .s3gon:before {
+    --poly: polygon(50% 0%, 93.30127% 75%, 6.69873% 75%);
+  }
+  .s3gon:after {
+    --poly: polygon(50% 0%, 93.30127% 75%, 6.69873% 75%, 50% 0%, calc(50% + (50% - 7px)*0) calc(50% + (50% - 7px)*-1), calc(50% + (50% - 7px)*-0.86603) calc(50% + (50% - 7px)*0.5), calc(50% + (50% - 7px)*0.86603) calc(50% + (50% - 7px)*0.5), calc(50% + (50% - 7px)*0) calc(50% + (50% - 7px)*-1));
+  }
+  .s3gon.lat {
+    --ri: 5.7735vmin;
+    --ax: var(--ax3);
+  }
+  .s4cup {
+    --n: 4;
+    --bay: 90deg;
+    --bri: 24.14214vmin;
+    --h: 14.14214vmin;
+    --ax3: 35.26439deg;
+    --ax4: 45deg;
+    --dt3d: -26.66667s;
+  }
+  
+  .s4gon {
+    --rc: 14.14214vmin;
+  }
+  .s4gon:before {
+    --poly: polygon(85.35534% 14.64466%, 85.35534% 85.35534%, 14.64466% 85.35534%, 14.64466% 14.64466%);
+  }
+  .s4gon:after {
+    --poly: polygon(85.35534% 14.64466%, 85.35534% 85.35534%, 14.64466% 85.35534%, 14.64466% 14.64466%, 85.35534% 14.64466%, calc(50% + (50% - 7px)*0.70711) calc(50% + (50% - 7px)*-0.70711), calc(50% + (50% - 7px)*-0.70711) calc(50% + (50% - 7px)*-0.70711), calc(50% + (50% - 7px)*-0.70711) calc(50% + (50% - 7px)*0.70711), calc(50% + (50% - 7px)*0.70711) calc(50% + (50% - 7px)*0.70711), calc(50% + (50% - 7px)*0.70711) calc(50% + (50% - 7px)*-0.70711));
+  }
+  .s4gon.lat {
+    --ri: 10vmin;
+    --ax: var(--ax4);
+  }
+  .s5cup {
+    --n: 5;
+    --bay: 72deg;
+    --bri: 30.77684vmin;
+    --h: 10.51462vmin;
+    --ax3: 52.62263deg;
+    --ax4: 58.28253deg;
+    --dt3d: -33.33333s;
+  }
+  
+  .s5gon {
+    --rc: 17.01302vmin;
+  }
+  .s5gon:before {
+    --poly: polygon(50% 0%, 97.55283% 34.54915%, 79.38926% 90.45085%, 20.61074% 90.45085%, 2.44717% 34.54915%);
+  }
+  .s5gon:after {
+    --poly: polygon(50% 0%, 97.55283% 34.54915%, 79.38926% 90.45085%, 20.61074% 90.45085%, 2.44717% 34.54915%, 50% 0%, calc(50% + (50% - 7px)*0) calc(50% + (50% - 7px)*-1), calc(50% + (50% - 7px)*-0.95106) calc(50% + (50% - 7px)*-0.30902), calc(50% + (50% - 7px)*-0.58779) calc(50% + (50% - 7px)*0.80902), calc(50% + (50% - 7px)*0.58779) calc(50% + (50% - 7px)*0.80902), calc(50% + (50% - 7px)*0.95106) calc(50% + (50% - 7px)*-0.30902), calc(50% + (50% - 7px)*0) calc(50% + (50% - 7px)*-1));
+  }
+  
+  @keyframes base-flip {
+    0%, 65% {
+      transform: scaley(var(--s)) rotatey(0deg);
+    }
+    70%, 100% {
+      transform: scaley(var(--s)) rotatey(calc(.25*var(--s)*var(--bay)));
+    }
+  }
+  .s2d {
+    transform: var(--pos);
+    animation: base-flow 20s ease-in-out var(--dtx2) infinite;
+  }
+  .s2d:before, .s2d:after {
+    position: absolute;
+    margin: calc(-1*var(--rc));
+    padding: var(--rc);
+    background: inherit;
+    -webkit-clip-path: var(--poly);
+    clip-path: var(--poly);
+    content: "";
+  }
+  .s2d:before {
+    animation: base-face 20s ease-in var(--dtx2) infinite;
+  }
+  
+  @keyframes base-flow {
+    0%, 65% {
+      transform: var(--pos) translatez(0) scale(1);
+    }
+    70% {
+      transform: var(--pos) translatez(2.5vmin) scale(1);
+      animation-timing-function: ease-in;
+    }
+    75%, 85% {
+      transform: var(--pos) translatez(4px) scale(1);
+    }
+    100% {
+      transform: var(--pos) translatez(20vmin) scale(0);
+    }
+  }
+  @keyframes base-face {
+    0%, 35% {
+      opacity: 0.65;
+    }
+    75%, 100% {
+      opacity: 0.01;
+    }
+  }
+  .lat {
+    transform-origin: 50% calc(50% + var(--ri));
+    --pos: rotatey(calc(var(--idx)*1turn/var(--n))) translate3d(0, calc(-1*var(--ri)), var(--bri)) rotatex(var(--ax));
+    background: linear-Gradient(90deg, HSL(calc((var(--idx) - .25)/var(--n)*360deg), 85%, 65%), HSL(calc((var(--idx) + .25)/var(--n)*360deg), 85%, 65%));
+  }
+  
+  .base {
+    --pos: rotatex(90deg) translatez(var(--h)) scalex(-1);
+    background: conic-gradient(from 180deg, HSL(0deg, 85%, 65%), HSL(30deg, 85%, 65%), HSL(60deg, 85%, 65%), HSL(90deg, 85%, 65%), HSL(120deg, 85%, 65%), HSL(150deg, 85%, 65%), HSL(180deg, 85%, 65%), HSL(210deg, 85%, 65%), HSL(240deg, 85%, 65%), HSL(270deg, 85%, 65%), HSL(300deg, 85%, 65%), HSL(330deg, 85%, 65%), HSL(360deg, 85%, 65%));
+  }
+  

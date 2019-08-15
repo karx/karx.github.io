@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="/assets/css/style.css?v=98b01076f4eee0a60ca6e354decb56c9c8e08869" media="screen" type="text/css">
+    <link rel="stylesheet" href="/assets/css/print.css" media="print" type="text/css">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+<!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>GymVym - SOW | karx.github.io</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="GymVym - SOW" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Open channel for karx compute system interactions" />
+<meta property="og:description" content="Open channel for karx compute system interactions" />
+<link rel="canonical" href="http://localhost:4000/GymVym/" />
+<meta property="og:url" content="http://localhost:4000/GymVym/" />
+<meta property="og:site_name" content="karx.github.io" />
+<script type="application/ld+json">
+{"description":"Open channel for karx compute system interactions","@type":"WebPage","headline":"GymVym - SOW","url":"http://localhost:4000/GymVym/","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <a href="http://localhost:4000/">
+          <h1>karx.github.io</h1>
+        </a>
+        <h2>Open channel for karx compute system interactions</h2>
+        
+          <a href="https://github.com/karx/karx.github.io" class="button"><small>View project on</small> GitHub</a>
+        
+        
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h2 id="gymvym---sow">GymVym - SOW</h2>
+<p>Document prepared by Kartik</p>
+
+<h2 id="table-of-content">Table of Content</h2>
+
+<ul>
+  <li>Executive Summary</li>
+  <li>Project Definition</li>
+  <li>Web/Soft-ware</li>
+  <li>Maintenance</li>
+  <li>Exclusions</li>
+  <li>Deliverables</li>
+  <li>Customer Responsibilities</li>
+  <li>Investment and Cost</li>
+  <li>Acceptance Criteria</li>
+  <li>Assumptions</li>
+  <li>IPR</li>
+  <li>Approvals</li>
+</ul>
+
+<h2 id="executive-summary">Executive Summary</h2>
+<p>This documentation is to serve as a ‘Statement of Work’ or SOW for implementing the Digital infrastructure and products required for GymVym operations.</p>
+
+<p>Networks, Computing and Data Science has made possible Integrated systems that can really empower business.
+Such a system would include a means to capture, catalogue and analyze data, along with tools to enforce ‘business logic’.</p>
+
+<p>Akriya Technologies will work with GymVym to:</p>
+
+<ul>
+  <li>Designing the GymVym Services Architecture</li>
+  <li>Design and Development of GymVym Customer Endpoints</li>
+  <li>Develop and Engineer the GymVym Operational Toolkit</li>
+  <li>Deployments of GymVym infrastructure</li>
+  <li>Provide documentation of the new system</li>
+  <li>Knowledge Transfer of GymVym</li>
+</ul>
+
+<p>Akriya Technologies proposes to design, develop and deploy v1.0 of the proposed system to cater for 1000-2000 Facilities +and 10,000+ users.
+This activity will require 3 months (~12 weeks). The estimated cost for this activity would be 5 lakhs INR.</p>
+
+<p>The Value Proposition of using Akriya Technologies for this project are:</p>
+<ul>
+  <li>Proven engineering techniques for making Integrated systems.</li>
+  <li>Leveraging our experience in working with Web and Mobile Technologies.</li>
+  <li>Data Architecture and Solution experience</li>
+  <li>Using our subject matter experts to complete the project quickly. Rapid project completion minimizes disruptions and allows organizations to realize cost saving quickly.</li>
+</ul>
+
+<h2 id="project-definition">Project Definition</h2>
+<p>Based on the project overview, the project can be divided into the following modules for abstractions:</p>
+
+<ul>
+  <li>GymVym Services Module
+  This is to include the Facilities, Services, and or any Events happening at an affiliated GymVym Facility.
+    <ul>
+      <li>Viewing, Filtering and Exploring feature for end-users to explore available GymVym facilities</li>
+      <li>Event management features like - Bookings, reminders and RSVP.</li>
+    </ul>
+  </li>
+  <li>
+    <p>GymVym Products Module
+  This would include e-commerce like facilities to facilitate sales of GymVym branded products</p>
+  </li>
+  <li>GymVym e-Trainer Module
+  A bot system that helps users throughout the GymVym experience. It would take care of the following responsibilities
+    <ul>
+      <li>Onboarding of users</li>
+      <li>Daily reporting</li>
+      <li>Live training instructions</li>
+      <li>FAQs</li>
+      <li>Feedback and Escalations</li>
+    </ul>
+  </li>
+  <li>GymVym Subcription + Identity Management
+  The module is responsible for managing different users on our platform, ranging for different customer categories to operational staff.</li>
+</ul>
+
+<h2 id="software">Software</h2>
+
+<ul>
+  <li>
+    <p>Data SDK / APIs for GymVym
+The GymVym Engine would expose all the APIs and endpoints used for creating the GymVym System.
+This would include a query endpoint, to query facilities, events and products.
+Also, these APIs would make possible to have realtime bot responses.</p>
+  </li>
+  <li>Dashboard - Admin
+The admin dashboard would be exposed as a Web App, with identity management.
+Admin Interface to overlook and manage the system.
+    <ul>
+      <li>User View</li>
+      <li>Facilites Management</li>
+      <li>Products Management</li>
+      <li>Booking Management</li>
+      <li>Finance Management</li>
+    </ul>
+  </li>
+  <li>User App
+This would be exposed as a Mobile App on both Android and iOS.
+The mobile app would include the following
+    <ul>
+      <li>Onboarding (exposed as a bot)</li>
+      <li>Facilities exploration with geolocation</li>
+      <li>Events exploration and booking</li>
+      <li>e-commerce experience to buy Products</li>
+      <li>Reporting and companion for GymVym system (exposed as a bot)</li>
+      <li>Subscription management</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="maintenance">Maintenance</h2>
+<p>To be maintained for 6 months and then rediscuss based on new requirements and learnings.</p>
+
+<h2 id="exclusions">Exclusions</h2>
+<p>The followings are excluded from the project scope</p>
+<ul>
+  <li>The packages used and maintained by Akriya Technologies for interfacing with IoT Devices.</li>
+</ul>
+
+<h2 id="deliverables">Deliverables</h2>
+<p>The deliverables are listed below.</p>
+
+<ul>
+  <li>
+    <p>Software
+Access top level Git repositories for the Dashboard, mobile Apps, and admin interface package.</p>
+  </li>
+  <li>
+    <p>Documentation and graphical depictions of the new proposed GymVym system.</p>
+  </li>
+</ul>
+
+<h2 id="customer-responsibilities">Customer Responsibilities</h2>
+<ul>
+  <li>The nature of this engagement dictates that Akriya Technologies receive a frequent and enthusiastic response from the appropriate personnel.</li>
+  <li>A weekly review between the Akriya Technologies consultant and the GymVym project lead or his designate will ensure that the expectations of this engagement are met.</li>
+  <li>Client will assign a key contact who will be responsible for providing Akriya Technologies with information, access to personnel, and facility access.</li>
+  <li>Client will provide a work area space with desk, chair, Internet access for use by Akriya Technologies to conduct project business while working on-site.</li>
+</ul>
+
+<h2 id="investment-and-cost">Investment and Cost</h2>
+<ul>
+  <li>
+    <p>Man-hour required: 3 months: 5 lakh INR</p>
+  </li>
+  <li>
+    <p>Hardware cost (if required) to be paid by GymVym</p>
+  </li>
+  <li>Server/Web hosting charges:
+    <ul>
+      <li>60$ / month = 4000 INR</li>
+    </ul>
+  </li>
+  <li>Travel Cost
+    <ul>
+      <li>Local travel : Rs 10/km</li>
+      <li>Outstation: On actuals</li>
+    </ul>
+  </li>
+  <li>Payment Schedule</li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th>Milestone</th>
+      <th style="text-align: center">Time</th>
+      <th style="text-align: right">Amount</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Requirement Finalization</td>
+      <td style="text-align: center">Week 1</td>
+      <td style="text-align: right">25,000 INR</td>
+    </tr>
+    <tr>
+      <td>Digital Flow Approval</td>
+      <td style="text-align: center">Week 2</td>
+      <td style="text-align: right">50,000 INR</td>
+    </tr>
+    <tr>
+      <td>Mobile + Admin app schematic approval</td>
+      <td style="text-align: center">Week 3</td>
+      <td style="text-align: right">50,000 INR</td>
+    </tr>
+    <tr>
+      <td>Bot schematic approval (~Month 1 end)</td>
+      <td style="text-align: center">Week 4</td>
+      <td style="text-align: right">50,000 INR</td>
+    </tr>
+    <tr>
+      <td>Month 2 Review (Facility Service + Identity Mangement)</td>
+      <td style="text-align: center">Week 5-6-7-8</td>
+      <td style="text-align: right">1,50,000 INR</td>
+    </tr>
+    <tr>
+      <td>Month 3 Review (e-Trainer + Product Module)</td>
+      <td style="text-align: center">Week 9-10-11-12</td>
+      <td style="text-align: right">1,50,000 INR</td>
+    </tr>
+    <tr>
+      <td>Final Review + Knowledge Transfer</td>
+      <td style="text-align: center">Week 13</td>
+      <td style="text-align: right">25,000 INR</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Server cost to be paid directly or at the start of each month.
+Travel reimbursements as and when declared.</p>
+
+<h2 id="acceptance-criteria">Acceptance Criteria</h2>
+<p>At the conclusion of this evaluation, all deliverables for this phase will be presented to GymVym for review.</p>
+
+<p>GymVym or its representative will have five business days from the date of delivery of any document that is a deliverable to review it and request any changes.  If Akriya Technologies does not receive notification of any required changes within this period, the document will be deemed to have been accepted without modification and will be reissued as a final copy.</p>
+
+<p>If Akriya Technologies is notified by GymVym, within the above time frame, of any changes required, Akriya Technologies will within two business days of such notification implement those changes as have been agreed between the parties.  A final copy of the document will then be submitted to GymVym.</p>
+
+<h2 id="assumptions">Assumptions</h2>
+<ul>
+  <li>General
+    <ul>
+      <li>All documentation created for this project will be available in hard copy and electronic format.</li>
+      <li>Any modifications to the scope of work will be handled through a change control process and will be agreed to by both parties.</li>
+    </ul>
+  </li>
+  <li>Commercial
+    <ul>
+      <li>Additional costs may be incurred where any delay not under the control of Akriya Technologies that causes Akriya Technologies personnel to not fulfil their scheduled tasks.</li>
+      <li>An authorized delegate of GymVym will be available at the time of completion of the build phase so that all documentation can be accepted and signed.</li>
+      <li>Additional costs may be incurred where any work scheduled to be undertaken by Akriya Technologies is postponed by GymVym after 24 hours of its commencement.</li>
+      <li>All changes to the schedule or technical requirements must be provided to Akriya Technologies in written format. Email is included as written format. Receipt of all correspondence should be confirmed by phone wherever possible.</li>
+      <li>GymVym has accepted the costs/times estimate as detailed in this document</li>
+      <li>GymVym has accepted the Akriya Technologies standard terms and conditions linked.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="intellectual-property">Intellectual Property</h2>
+<p>Unless otherwise agreed in writing, GymVym acknowledges that all intellectual property rights attaching to the products or arising out of the provision of services are and will remain the property of Akriya Technologies (or its suppliers, where such rights are owned by that supplier).</p>
+
+<p>The software will be licensed to GymVym on the terms of the relevant license agreement provided with the product or as otherwise agreed between Akriya Technologies and GymVym in writing.</p>
+
+<h2 id="approved-by">Approved by</h2>
+<p>Name: <br />
+Date: <br />
+Position:</p>
+
+
+        </section>
+
+        <aside id="sidebar">
+          
+
+          
+            <p class="repo-owner"><a href="https://github.com/karx/karx.github.io">karx.github.io</a> is maintained by <a href="https://github.com/karx">karx</a>.</p>
+          
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+    
+  </body>
+</html>

@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="/assets/css/style.css?v=98b01076f4eee0a60ca6e354decb56c9c8e08869" media="screen" type="text/css">
+    <link rel="stylesheet" href="/assets/css/print.css" media="print" type="text/css">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+<!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>PublicPulse - SOW | karx.github.io</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="PublicPulse - SOW" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Open channel for karx compute system interactions" />
+<meta property="og:description" content="Open channel for karx compute system interactions" />
+<link rel="canonical" href="http://localhost:4000/publicPulse/" />
+<meta property="og:url" content="http://localhost:4000/publicPulse/" />
+<meta property="og:site_name" content="karx.github.io" />
+<script type="application/ld+json">
+{"description":"Open channel for karx compute system interactions","@type":"WebPage","headline":"PublicPulse - SOW","url":"http://localhost:4000/publicPulse/","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <a href="http://localhost:4000/">
+          <h1>karx.github.io</h1>
+        </a>
+        <h2>Open channel for karx compute system interactions</h2>
+        
+          <a href="https://github.com/karx/karx.github.io" class="button"><small>View project on</small> GitHub</a>
+        
+        
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h2 id="publicpulse---sow">PublicPulse - SOW</h2>
+<p>Document prepared by Kartik Arora</p>
+
+<h2 id="table-of-content">Table of Content</h2>
+
+<ul>
+  <li>Executive Summary</li>
+  <li>Project Defination</li>
+  <li>Devices</li>
+  <li>Web/Soft-ware</li>
+  <li>Maintance</li>
+  <li>Exclusions</li>
+  <li>Deliverables</li>
+  <li>Customer Responsibilities</li>
+  <li>Investment and Cost</li>
+  <li>Acceptance Criteria</li>
+  <li>Assumptions</li>
+  <li>IPR</li>
+  <li>Approvals</li>
+</ul>
+
+<h2 id="executive-summary">Executive Summary</h2>
+<p>This documentation is to serve as a ‘Statement of Work’ or SOW for designing, upgrading and maintaining the PublicPulse initiative by IODA. The PublicPulse Survey is already online and the key responsibility would be upgrading and imporving it to drive more engagement and improve quality of data cataloged.
+Networks, Computing and Data Science has made possible Integrated systems that can really help business.
+Such a system would include a means to capture, catalog and analyze data, along with tools to enforce ‘business logic’.</p>
+
+<p>Akriya Technologies will work with SmartBike to:</p>
+
+<ul>
+  <li>Designing the SmartBike Data Logging Architecture</li>
+  <li>Designing the SmartBike Operations Architecture</li>
+  <li>Identify and integrate SmartBike infrastructure</li>
+  <li>Develop and Engineer the systems</li>
+  <li>Deploy said systems for SmartBike</li>
+  <li>Provide documentation of the new system</li>
+  <li>Knowledge Transfer/Integrate</li>
+</ul>
+
+<p>Akriya Technologies proposes to design, develop and provide installation of v1.0 of the proposed system to cater for 100-200 Bikes.
+This activity will require 4-6ss weeks. The estimated cost for this activity would be 2 lakhs INR plus additional charges after deployment, valued around 3 Lakhsss</p>
+
+<p>The Value Proposition of using Akriya Technologies for this project are:</p>
+<ul>
+  <li>Proven engineering techniques for making Integrated systems.</li>
+  <li>Leveraging our experience in working with IoT toolkit (ESP).</li>
+  <li>Data Architecture and Solution experience</li>
+  <li>Using our subject matter experts to complete the project quickly. Rapid project completion minimizes disruptions and allows organizations to realize cost saving quickly.</li>
+</ul>
+
+<h2 id="delivery-scope">Delivery Scope</h2>
+
+<h2 id="deviceshw">Devices/HW</h2>
+
+<ul>
+  <li>On-Bike Module</li>
+</ul>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Data to Capture:    Battery percentage
+                    Load on Bike
+                    Bike Location
+
+</code></pre></div></div>
+
+<h2 id="websoftware">Web/Software</h2>
+<ul>
+  <li>
+    <p>Data SDK / APIs for SmartBike Telemetry
+We will be recording and cataloging the real time telemetry of the SmartBike.
+This would include a query endpoint, to query this set.
+Also, APIs that we would consume to make the User Journey possible (like number of bikes available around a geolocations)</p>
+  </li>
+  <li>
+    <p>Dashboard - Admin
+Admin Interface to overlook and manage the system.</p>
+    <ul>
+      <li>Views
+        <ul>
+          <li>User View</li>
+          <li>Bike view</li>
+          <li>Dashboard page</li>
+          <li>Transactions Page</li>
+        </ul>
+      </li>
+      <li>Notifications
+        <ul>
+          <li>Bike fencing</li>
+          <li>Requirements if any</li>
+        </ul>
+      </li>
+      <li>Admin privleges
+        <ul>
+          <li>Options to block users</li>
+          <li>Options to manage status of Bikes</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<p>Design/Requirements for this dashboard to be agreed upon prior to any further development.
+<img src="/images/SmartBikeAdmin.png" alt="Admin App Flow" /></p>
+
+<ul>
+  <li>User App
+<img src="/images/SmartBikeUser.png" alt="User App Flow" /></li>
+</ul>
+
+<h2 id="maintenance">Maintenance</h2>
+<p>To be maintained for 6 months and then rediscuss based on new requirements and learnings.</p>
+
+<h2 id="exclusions">Exclusions</h2>
+<p>The followings are excluded from the project scope</p>
+<ul>
+  <li>The packages used and maintained by Akriya Technologies for interfacing with IoT Devices.</li>
+</ul>
+
+<h2 id="deliverables">Deliverables</h2>
+<p>The deliverables are listed below.</p>
+<ul>
+  <li>
+    <p>Devices. 
+To be installed in 1 SmartBike facility, and 50% spare**.</p>
+  </li>
+  <li>
+    <p>Software
+Access top level Git repositories for the Dashboard, mobile Apps, and admin interface package.</p>
+  </li>
+  <li>
+    <p>Documentation and graphical depictions of the new proposed SmartBike system.</p>
+  </li>
+</ul>
+
+<h2 id="customer-responsibilities">Customer Responsibilities</h2>
+<ul>
+  <li>The nature of this engagement dictates that Akriya Technologies receive a frequent and enthusiastic response from the appropriate personnel.</li>
+  <li>A weekly review between the Akriya Technologies consultant and the SmartBike project lead or his designate will ensure that the expectations of this engagement are met.</li>
+  <li>Client will assign a key contact who will be responsible for providing Akriya Technologies with information, access to personnel, and facility access.</li>
+  <li>Client will provide a work area space with desk, chair, Internet access for use by Akriya Technologies to conduct project business while working on-site.</li>
+</ul>
+
+<h2 id="investment-and-cost">Investment and Cost</h2>
+<ul>
+  <li>
+    <p>Man-hour required: 1 months: 2 lakh INR</p>
+  </li>
+  <li>
+    <p>Hardware cost (if required) to be paid by SmartBike</p>
+  </li>
+  <li>
+    <p>Server/Web hosting charges:</p>
+    <ul>
+      <li>60$ / month = 4000 INR</li>
+    </ul>
+  </li>
+</ul>
+
+<p>*Bill separately for travel costs will be billed at actual cost and will not exceed 10,000 INR for the entire project.</p>
+
+<ul>
+  <li>Payment Schedule</li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th>Milestone</th>
+      <th style="text-align: center">Percentage</th>
+      <th style="text-align: right">Amount</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Requirement Finalization</td>
+      <td style="text-align: center">0%</td>
+      <td style="text-align: right">50,000 INR</td>
+    </tr>
+    <tr>
+      <td>Telemetry Systems Demo</td>
+      <td style="text-align: center">33%</td>
+      <td style="text-align: right">50,000 INR</td>
+    </tr>
+    <tr>
+      <td>Dashboard + App shandoaver</td>
+      <td style="text-align: center">66%</td>
+      <td style="text-align: right">50,000 INR</td>
+    </tr>
+    <tr>
+      <td>Final Delivery   s</td>
+      <td style="text-align: center">100%</td>
+      <td style="text-align: right">50,000 INR</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Devices cost to be paid on the day of installation.
+Server cost to be paid directly or at the start of each month.
+Travel reimbursements as and when declared.</p>
+
+<h2 id="acceptance-criteria">Acceptance Criteria</h2>
+<p>At the conclusion of this evaluation, all deliverables for this phase will be presented to SmartBike for review.</p>
+
+<p>SmartBike or its representative will have five business days from the date of delivery of any document that is a deliverable to review it and request any changes.  If Akriya Technologies does not receive notification of any required changes within this period, the document will be deemed to have been accepted without modification and will be reissued as a final copy.</p>
+
+<p>If Akriya Technologies is notified by SmartBike, within the above time frame, of any changes required, Akriya Technologies will within two business days of such notification implement those changes as have been agreed between the parties.  A final copy of the document will then be submitted to SmartBike.</p>
+
+<h2 id="assumptions">Assumptions</h2>
+<ul>
+  <li>General
+    <ul>
+      <li>All documentation created for this project will be available in hard copy and electronic format.</li>
+      <li>Any modifications to the scope of work will be handled through a change control process and will be agreed to by both parties.</li>
+    </ul>
+  </li>
+  <li>Commercial
+    <ul>
+      <li>Additional costs may be incurred where any delay not under the control of Akriya Technologies that causes Akriya Technologies personnel to not fulfill their scheduled tasks.</li>
+      <li>An authorized delegate of SmartBike will be available at the time of completion of the build phase so that all documentation can be accepted and signed.</li>
+      <li>Additional costs may be incurred where any work scheduled to be undertaken by Akriya Technologies is postponed by SmartBike after 24 hours of its commencement.</li>
+      <li>All changes to the schedule or technical requirements must be provided to Akriya Technologies in written format. Email is included as written format. Receipt of all correspondence should be confirmed by phone wherever possible.</li>
+      <li>SmartBike has accepted the costs/times estimate as detailed in this document</li>
+      <li>SmartBike has accepted the Akriya Technologies standard terms and conditions linked.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="intellectual-property">Intellectual Property</h2>
+<p>Unless otherwise agreed in writing, SmartBike acknowledges that all intellectual property rights attaching to the products or arising out of the provision of services are and will remain the property of Akriya Technologies (or its suppliers, where such rights are owned by that supplier).</p>
+
+<p>The software will be licensed to SmartBike on the terms of the relevant license agreement provided with the product or as otherwise agreed between Akriya Technologies and SmartBike in writing.</p>
+
+<h2 id="approved-by">Approved by</h2>
+<p>Name: <br />
+Date: <br />
+Position:</p>
+
+<p><a href="/SmartBike/requirements">SmartBike system doc</a></p>
+
+        </section>
+
+        <aside id="sidebar">
+          
+
+          
+            <p class="repo-owner"><a href="https://github.com/karx/karx.github.io">karx.github.io</a> is maintained by <a href="https://github.com/karx">karx</a>.</p>
+          
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+    
+  </body>
+</html>

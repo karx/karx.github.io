@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>YTKarta</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="https://aframe.io/releases/0.9.1/aframe.min.js"></script>    
+    <script src="https://unpkg.com/aframe-environment-component@1.1.0/dist/aframe-environment-component.min.js"></script>
+    <script src="https://unpkg.com/aframe-look-at-component@0.8.0/dist/aframe-look-at-component.min.js"></script>
+    <script src="https://cdn.rawgit.com/donmccurdy/aframe-extras/v6.0.0/dist/aframe-extras.min.js"></script>
+    <script src="https://unpkg.com/aframe-text-geometry-component@^0.5.0/dist/aframe-text-geometry-component.min.js"></script> 
+    <script src="https://unpkg.com/three.texttexture@18.8.6/THREE.TextTexture.js"></script> 
+    <script src="https://antoniohof.github.io/aframe-text-texture-component/dist/aframe-text-texture-component.min.js"></script> 
+    <script src="https://rawgit.com/protyze/aframe-curve-component/master/dist/aframe-curve-component.min.js"></script>
+    <script src="https://rawgit.com/protyze/aframe-alongpath-component/master/dist/aframe-alongpath-component.min.js"></script>
+    
+    <script src="main.js"></script>
+</head>
+<body>
+    <a-scene>
+        <a-assets>
+            <a-asset-item id="optimerBoldFont" src="https://rawgit.com/mrdoob/three.js/dev/examples/fonts/optimer_bold.typeface.json"></a-asset-item>
+            <img id="smbike-texture" src="https://enjoy-napa-valley.com/wp-content/uploads/napa-valley-bike-rentals.jpg">
+            <canvas id="my-canvas" crossorigin="anonymous"></canvas>
+      
+        </a-assets>
+        
+        <!-- <a-entity environment="seed: 123; skyType: gradient; skyColor: #696969; lighting: point;  fog:0; dressing: apparatus"></a-entity> -->
+        <!-- <a-box position="-251 20 144" rotation="0 45 0" color="#4CC3D9" scale="12.9 15" src="https://raw.githubusercontent.com/aframevr/sample-assets/master/assets/images/minecraft/grass.png"></a-box> -->
+        <!-- <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
+        <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
+        <a-plane position="0.2 0.2 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane> -->
+        <!-- <a-tube path="5 0 5, 5 0 -5, -5 0 -5" radius="0.5" material="color: red"></a-tube> -->
+
+        <!-- <a-entity kaaro-rotate position="0 0 0" text-geometry="value: What's up"></a-entity> -->
+        <!-- <a-entity position="-260 20 180" text-geometry="value: Welcome to"></a-entity>
+        <a-entity position="-260 10 180" text-geometry="value: Akriya Technologies"></a-entity> -->
+
+        <!-- <a-entity position="-260 20 180" text-geometry="value: Welcome to"></a-entity> -->
+        <!-- <a-entity kaaro-rotate position="-260 10 180" text-geometry="value: Akriya Technologies"></a-entity> -->
+        <!-- <a-entity text-texture="text: Welcome to; scale: 1.5" position="-255 22 180" rotation="0 90 0" look-at="#camera"> </a-entity> -->
+        <!-- <a-entity text-texture="text: Akriya Technologies; scale: 2.5" position="-255 20 180" look-at="#camera"> </a-entity> -->
+
+
+        <a-hexgrid scale="0.3 0.3 0.3" src="ak2.json" material="color: #E3E3E3; roughness: 1; metalness: 1; groundColor: #445; groundYScale:10;"></a-hexgrid>
+        <!-- <a-sky color="#6EBAA7"></a-sky> -->
+
+        <a-entity id="rig"  >
+                <a-curve id="track1">
+                        <a-curve-point position="-260 20 210"></a-curve-point>
+                        <a-curve-point position="-0 120 50"></a-curve-point>
+
+                        <!-- <a-curve-point position="-266 20 144"></a-curve-point>
+                        <a-curve-point position="-250 20 152"></a-curve-point>
+                        <a-curve-point position="-234 20 160"></a-curve-point>
+                        <a-curve-point position="-140 20 256"></a-curve-point> -->
+                       
+                </a-curve>
+            <a-camera id="camera" alongpath="curve: #track1; dur:10000" wasd-controls="acceleration: 200"></a-camera>
+        </a-entity>
+      </a-scene>
+</body>
+</html>

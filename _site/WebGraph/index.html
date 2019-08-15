@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="/assets/css/style.css?v=98b01076f4eee0a60ca6e354decb56c9c8e08869" media="screen" type="text/css">
+    <link rel="stylesheet" href="/assets/css/print.css" media="print" type="text/css">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+<!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>W3C Workshop on Web Standardization for Graph Data | karx.github.io</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="W3C Workshop on Web Standardization for Graph Data" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Open channel for karx compute system interactions" />
+<meta property="og:description" content="Open channel for karx compute system interactions" />
+<link rel="canonical" href="http://localhost:4000/WebGraph/" />
+<meta property="og:url" content="http://localhost:4000/WebGraph/" />
+<meta property="og:site_name" content="karx.github.io" />
+<script type="application/ld+json">
+{"description":"Open channel for karx compute system interactions","@type":"WebPage","headline":"W3C Workshop on Web Standardization for Graph Data","url":"http://localhost:4000/WebGraph/","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <a href="http://localhost:4000/">
+          <h1>karx.github.io</h1>
+        </a>
+        <h2>Open channel for karx compute system interactions</h2>
+        
+          <a href="https://github.com/karx/karx.github.io" class="button"><small>View project on</small> GitHub</a>
+        
+        
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1 id="w3c-workshop-on-web-standardization-for-graph-data">W3C Workshop on Web Standardization for Graph Data</h1>
+<p>Creating Bridges: RDF, Property Graph and SQL</p>
+
+<h2 id="this-document">This document</h2>
+<p>This document is to created to submit/forward my understanding, views and experience on the topic. I will break this down, into indivisual encounters/chapters.</p>
+
+<h2 id="introduction">Introduction</h2>
+<p>I am deeply pationate about the very core of the concept, of formalizing our knowledge/data in form of a graph, which I do not need to justify to anyone keen enough to read this document.</p>
+
+<p>During my college years, we talked about moving from a ‘wall of text’ to ‘traversable graph’, which was a neat enough for us to win a few hackathons.</p>
+
+<p>Then I was fortunate enough to work for Bing’s Satori Team, which as the team responsible in Microsoft for maintaining the Knowledge Graph Engine for all Open Data. During my time there I worked under the Data Curation Team.
+This was my first experince of looking under the hood of a huge Graph Data base.</p>
+
+<p>Later, I spent a breif time in one of the leading logistics startup in India. One of the previous devs  had modeled, their entire locations repository on Neo4j, a novel task, but implementations lacked. I took up this talk over a weekend, and as always, modeling such stuctured data into a formal graph was a hit.
+Since then, I have been refering to Schema.org, as the base ontology set, to store my data.
+It is not always possible to maintain a Graph DB for all the projects that I do. But the intutiveness that makes you think in SPO format (Subject Predicate Object) is always a boon.</p>
+
+<h2 id="edugraph---the-college-days">EduGraph - The college days</h2>
+<p>This was our first attempt at formalizing a data set in terms of a Graph DB.
+The use-case we had was for an Edu-Tech company, and we proposed them to store their Courses as a Dependecy Graphs. Also we generated a few quizes for live demo, given such structuring.</p>
+
+<p>Our core ask was to move away from a ‘Wall of Text’.
+Best 2 days of College. Well maybe.</p>
+
+<h2 id="satori---bings-knowledge-graph">Satori - Bing’s Knowledge Graph</h2>
+<p>Knowledge Graph for Open data.
+I worked for this team as an Intern, then as an Industrial Project and then finally after college got picked as a full time.
+This exeprince was when I really got to know about whats what.</p>
+
+<p>During my interniship, the project was to Clean data -&gt; to detect Inconsistencies in the Graph, then remove or rectify them.
+A 4TB graph, engine with almost no upper compute limit, and such a task. I had an amazing internship. 
+We ran loop detections on different properties, depth approximations for certain type of entity-property pairs and much more!</p>
+
+<p>Later, I was involved in development for Editor’s tooling, freshness pipeline, Impression calculations, etc.
+This was also the time when the Industry was moving from away (had to) from Freebase, which meant working on getting various new sources, new pipelines and all the fun stuff.</p>
+
+<h2 id="wikidata---the-open-book-for-a-knowledge-graph">Wikidata - The Open book for a Knowledge Graph</h2>
+<p>Wikidata, now that I am not working for the corporate world, Wikidata provides me with the ‘under the hood’ exposure.
+Writing SPARQL queries for answering queries like ‘does being married have a co-relation with how long you live?’ became a favorite pass-time for me.</p>
+
+<p>I would like to say, Wikidata, the development, the community efforts, the discussions and the data set itself, provides a great <strong>OPEN</strong> view to how such a system evolves, its needs, etc. There are many questions that the community on a daily basis takes care of and it is an engine, worth more eyeballs.</p>
+
+<p>I have been attempting to write a small <a href="https://karx.github.io/Wikidata">introduction/engager for Wikidata</a> if anyone is interested.</p>
+
+<h2 id="current-open-tool-kit">Current Open Tool Kit</h2>
+<p>So the following toolkit has really enabled me to fullfill my whim of modeling/structuring things in a Graph</p>
+<ul>
+  <li>Schema.org - The govering ontology</li>
+  <li>Neo4j - A great tool for those who are a little phobic towards this concept.
+  This really helps people wrap their head around the concept and the possiblities. Their Graphical Language - Cypher is very fun to teach</li>
+  <li>RDF syntax - Well the document would have been incomplete without mentioning either RDF or OWL. Getting the idea of structuring things as Triples.</li>
+  <li>Wikidata - A complete end to end engine + data + develeopment which is Open for us to be involved.</li>
+</ul>
+
+<h2 id="conclutions">Conclutions</h2>
+<p>Storing or Stucturing or Modelling things in terms of a Graph Data base is something that is Needed, not invented.
+The evolution that we are seeing in this domain is one of the most facinating ones. And the use-cases and applications of such well structured data with the current compute abilities are mind-blowing.</p>
+
+<p>Appologies for this, but I could not help myself from creating this.</p>
+
+<p><img src="https://i.imgflip.com/2u5b0a.jpg" alt="Graph Data Meme" /></p>
+
+<h2 id="thanks-and-for-further-communications">Thanks and for further Communications</h2>
+<p>Thanks for going through this material, hope I was able to help in some form or way.</p>
+
+<p>Best place to communicate would be in order</p>
+<ul>
+  <li>Contact me on Twitter @karx_brb</li>
+  <li>Raise an issue on this Github repo,</li>
+  <li>Leave a message Discord. Our channel: <a href="https://discord.gg/Ud5TuCr">Akriya Discord</a></li>
+  <li>Slack Channel Invite Link: <a href="https://join.slack.com/t/akriya/shared_invite/enQtNDMwOTM2NjExMzQ0LTZmODYzZDUyNDYyMjhhNmNhMzk2MzVjY2NmZGM0YjNkYzViZTJjMDc2Nzg4MTA5NjAzOTQ1ZWZhMDc0OWI3OGU">Invite</a></li>
+</ul>
+
+        </section>
+
+        <aside id="sidebar">
+          
+
+          
+            <p class="repo-owner"><a href="https://github.com/karx/karx.github.io">karx.github.io</a> is maintained by <a href="https://github.com/karx">karx</a>.</p>
+          
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+    
+  </body>
+</html>

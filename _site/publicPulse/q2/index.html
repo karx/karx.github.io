@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Touch Survey</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="https://www.gstatic.com/firebasejs/6.1.0/firebase.js"></script>
+    <script src="main.js"></script>
+</head>
+
+<body>
+
+    <h2>Public Pulse - 91</h2>
+
+    <h3> When do you check the Social updates first time in the day?</h3>
+
+    <div>
+        <h4> As soon as I get up : <span id="opt1">⌛</span></h4>
+        <h4> Not till afternoon : <span id="opt2">⌛</span></h4>
+        <h4> All-time, anytime : <span id="opt3">⌛</span></h4>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <div class="info">
+        <div>
+            This setup is running on a Wifi chip known as <b> ESP32 </b>
+        </div>
+        Want to know more about the <a href="https://karx.github.io/ESP">ESP32</a>?
+        Check out this small writeup I prepared for the same: <a href="https://karx.github.io/ESP">https://karx.github.io/ESP</a>
+    </div>
+    <br>
+    <br>
+    <div class="info">
+        Want us to conduct a interactive surveys for you?
+        You can get my contact information from here:  <a href="https://karx.github.io/kaaro">kaaro</a>
+    </div>
+    <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/6.1.0/firebase-app.js"></script>
+
+    <!-- Add Firebase products that you want to use -->
+    <script src="https://www.gstatic.com/firebasejs/6.1.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.1.0/firebase-firestore.js"></script>
+    <script>
+        // TODO: Replace the following with your app's Firebase project configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyD1yTlgHEQ6TxhZEmsOqJzCPBvy_g9lr5A",
+            authDomain: "pubpul.firebaseapp.com",
+            databaseURL: "https://pubpul.firebaseio.com",
+            projectId: "pubpul",
+            storageBucket: "pubpul.appspot.com",
+            messagingSenderId: "270586275172",
+            appId: "1:270586275172:web:54f38fc931f72889"
+        };
+
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+
+        var firestore = firebase.firestore();
+        firestore.collection("q2").onSnapshot( (snapshot) => {
+            var counter = [0,0,0]
+            console.log(snapshot);
+            snapshot.forEach(doc => {
+                var responseIndex = doc.data().responseIndex;
+                counter[responseIndex]++;
+            });
+            console.log(counter);
+            document.getElementById("opt1").innerHTML = counter[0];
+            document.getElementById("opt2").innerHTML = counter[1];
+            document.getElementById("opt3").innerHTML = counter[2];
+
+        });
+    </script>
+
+
+</body>
+
+</html>

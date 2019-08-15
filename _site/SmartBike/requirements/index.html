@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="/assets/css/style.css?v=98b01076f4eee0a60ca6e354decb56c9c8e08869" media="screen" type="text/css">
+    <link rel="stylesheet" href="/assets/css/print.css" media="print" type="text/css">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+<!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Smart Bike Deliverables | karx.github.io</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Smart Bike Deliverables" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Open channel for karx compute system interactions" />
+<meta property="og:description" content="Open channel for karx compute system interactions" />
+<link rel="canonical" href="http://localhost:4000/SmartBike/requirements/" />
+<meta property="og:url" content="http://localhost:4000/SmartBike/requirements/" />
+<meta property="og:site_name" content="karx.github.io" />
+<script type="application/ld+json">
+{"description":"Open channel for karx compute system interactions","@type":"WebPage","headline":"Smart Bike Deliverables","url":"http://localhost:4000/SmartBike/requirements/","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <a href="http://localhost:4000/">
+          <h1>karx.github.io</h1>
+        </a>
+        <h2>Open channel for karx compute system interactions</h2>
+        
+          <a href="https://github.com/karx/karx.github.io" class="button"><small>View project on</small> GitHub</a>
+        
+        
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          
+<h1 id="smart-bike-deliverables">Smart Bike Deliverables</h1>
+
+<h2 id="actors-and-entities-in-the-system">Actors and Entities in the System</h2>
+<ul>
+  <li>Users
+  These are the consumers of the SmartBike system. These are the people who book and use the SmartBikes for transportation. Also refered to as App Users, Consumers.</li>
+  <li>Bikes
+  These are the actual e-cycles used. They are categorized as
+    <ul>
+      <li>Available</li>
+      <li>In-ride</li>
+      <li>Unavailable</li>
+    </ul>
+  </li>
+  <li>Admins
+  These are the superusers of the system, and have operational responsibilites.</li>
+  <li>Trip
+  This is the Entity which represents indivisual trip of a user on a bike.
+  This has information like start_time, distance travelled, etc.s</li>
+</ul>
+
+<h2 id="first-start">First Start</h2>
+<ul>
+  <li>Walk-thorugh/Tutorial
+  This would help user get fimiliar into the SmartBike ecosystem.</li>
+  <li>All required Permision (location, internet, etc)</li>
+</ul>
+
+<h2 id="on-boarding">On Boarding</h2>
+<ul>
+  <li>Login via OTP</li>
+  <li>KYC Details
+    <ul>
+      <li>Aadhar (can use indiastack api)</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="bookingstarting-a-ride">Booking/Starting a ride</h2>
+<ul>
+  <li>Nearest available station (with Navigaiton)
+  These statations are entered/maintained in the system by Admins using the SmartBike Admin Panel</li>
+  <li>On reaching station
+    <ul>
+      <li>Display available bikes (via indicators on bikes)*
+  This is subject to the infrastucture on the bike. We would fall back to displaying the unique Bike number.</li>
+      <li>check balance in wallet</li>
+      <li>scan the QR code of available bike</li>
+      <li>Bike get assosicated with user profile and gets unlocked</li>
+      <li>Ride starts and transition to Riding Mode</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="riding-mode">Riding Mode</h2>
+<ul>
+  <li>Display trip status
+    <ul>
+      <li>Estimated remaining time</li>
+      <li>remaining battery percentage</li>
+      <li>Est. remaing distance</li>
+      <li>Current Speed</li>
+      <li>Est. remaining balance in wallet</li>
+    </ul>
+  </li>
+  <li>Park (Pause) toggle</li>
+</ul>
+
+<h2 id="pause-ride">Pause ride</h2>
+<ul>
+  <li>Timer to indicate remaining standby time</li>
+  <li>Lock the bike untill it’s activated again</li>
+  <li>Add elements in billing as per standby time</li>
+  <li>Switch back to ride state by again scaning QR code</li>
+</ul>
+
+<h2 id="stop-ride">Stop ride</h2>
+<ul>
+  <li>Once the bike is docked and is in GeoFence enable stop button (requires lock and dock specs)</li>
+  <li>Generate the bill</li>
+  <li>Ask for feedback</li>
+</ul>
+
+<h2 id="additional-information">Additional information</h2>
+<ul>
+  <li>Links to walkthrough, tutorials, about us, etc.</li>
+  <li>Contact Support option 
+  This would send direct notification to the superusers</li>
+</ul>
+
+        </section>
+
+        <aside id="sidebar">
+          
+
+          
+            <p class="repo-owner"><a href="https://github.com/karx/karx.github.io">karx.github.io</a> is maintained by <a href="https://github.com/karx">karx</a>.</p>
+          
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+    
+  </body>
+</html>

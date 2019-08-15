@@ -1,0 +1,78 @@
+<!doctype HTML>
+<html>
+<script src="https://aframe.io/releases/0.9.1/aframe.min.js"></script>
+<script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.7.1/aframe/build/aframe-ar.js"></script>
+<script src="https://unpkg.com/aframe-environment-component@1.1.0/dist/aframe-environment-component.min.js"></script>
+<script src="https://rawgit.com/protyze/aframe-curve-component/master/dist/aframe-curve-component.min.js"></script>
+<script src="https://rawgit.com/protyze/aframe-alongpath-component/master/dist/aframe-alongpath-component.min.js"></script>
+<script src="main.js"></script>
+<link rel="stylesheet" href="style.css">
+
+<body style='margin : 0px; overflow: hidden;'>
+
+
+	
+	<a-scene embedded arjs='sourceType: webcam; detectionMode: mono_and_matrix; matrixCodeType: 3x3;'>
+			<a-assets>
+					<a-asset-item id="perry_the_platypus" src="https://raw.githubusercontent.com/karx/karx.github.io/master/Socks/feed/perry_the_platypus/scene.gltf"></a-asset-item>
+					<a-asset-item id="mosvr_facciata" src="https://raw.githubusercontent.com/karx/karx.github.io/master/Socks/feed/mosvr_facciata/scene.gltf"></a-asset-item>
+					<a-asset-item id="black_bird" src="https://raw.githubusercontent.com/karx/karx.github.io/master/Socks/feed/sr71_blackbird_voxel/scene.gltf"></a-asset-item>
+					<a-asset-item id="black_hole" src="https://raw.githubusercontent.com/karx/karx.github.io/master/Socks/feed/blackhole/scene.gltf"></a-asset-item>
+					<a-asset-item id="treasure_chest" src="https://raw.githubusercontent.com/karx/karx.github.io/master/Socks/feed/treasure_chest_-_cartoony_low_poly/scene.gltf"></a-asset-item>
+					
+			</a-assets>	
+		<!-- handle unknown marker -->
+		<!-- <a-marker type='unknown'>
+			<a-box depth="1" height="1" width="1" position='0 0.5 0' material='opacity: 0.5; side:double; color:blue;'></a-box>
+		</a-marker> -->
+
+		
+
+		<!-- handle matrix marker -->
+		<a-marker type='barcode' value='5' id="bar-5" >
+
+			<!-- <a-entity environment="preset: drqeam"></a-entity> -->
+			<a-entity position="0 0 0" scale="0.02 0.02 0.02" gltf-model="#perry_the_platypus"></a-entity>
+                
+		</a-marker>
+
+		<!-- handle matrix marker -->
+		<a-marker type='barcode' value='7' id="bar-7" >
+				<a-entity position="0 0 0" scale="0.05 0.05 0.05" gltf-model="#black_bird"></a-entity>
+		</a-marker>
+
+		<a-marker type='barcode' value='0' id="bar-0" >
+				
+					<a-entity rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"  scale="0.04 0.04 0.04" gltf-model="#black_bird">
+							<a-entity position="5 0 0"></a-entity>
+					</a-entity>
+		</a-marker>
+		<a-marker type='barcode' value='1' id="bar-1" >
+					<a-entity position="0 ;0.5 -0.5"  rotation="-90 0 0" scale="3 3 3" gltf-model="#mosvr_facciata"></a-entity>
+		</a-marker>
+
+		<a-marker type='barcode' value='2' id="bar-2" >
+				<a-entity position="0 0 0" scale="0.01 0.01 0.01" gltf-model="#black_hole"></a-entity>
+		</a-marker>
+		
+		<a-marker type='barcode' value='3' id="bar-3" >
+				<a-entity position="0 0 0" scale="3 3 3" gltf-model="#treasure_chest"></a-entity>
+		</a-marker>
+		
+<!-- 
+		<a-marker type='barcode' value='0' id="bar-0" >
+			<a-box position='0 0.5 0' material='opacity: 0.5; side: double;color:blue;'>
+				<a-torus-knot radius='0.26' radius-tubular='0.05'>
+					<a-animation attribute="rotation" to="160 10 0" dur="100" easing='linear' repeat="indefinite"></a-animation>
+				</a-torus-knot>
+			</a-box>
+		</a-marker> -->
+
+		
+
+		<!-- add a simple camera -->
+		<a-entity camera></a-entity>
+	</a-scene>
+</body>
+
+</html>

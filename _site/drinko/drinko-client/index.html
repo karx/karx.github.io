@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Drinko client</title>
+    <script src="https://www.gstatic.com/firebasejs/6.3.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.1/firebase-firestore.js"></script>
+    <link rel="stylesheet" href="beero.css">
+    
+    <script>
+        
+        const firebaseConfig = {
+            apiKey: "AIzaSyD1yTlgHEQ6TxhZEmsOqJzCPBvy_g9lr5A",
+            authDomain: "pubpul.firebaseapp.com",
+            databaseURL: "https://pubpul.firebaseio.com",
+            projectId: "pubpul",
+            storageBucket: "pubpul.appspot.com",
+            messagingSenderId: "270586275172",
+            appId: "1:270586275172:web:54f38fc931f72889"
+        };
+
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+
+</head>
+
+<body>
+
+    <div class="mainWrapper beerBG">
+        <div class="mainWrapperInner">
+
+            <!-- -->
+            <div class="beer-wrapper"> <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 150"
+                    enable-background="new 0 0 150 150" xml:space="preserve">
+                    <rect x="-1" y="-1" fill="#FFD18D" width="153" height="153" />
+                    <g id="beer-foam">
+                        <path fill="#FFE4C0" stroke="#000000" stroke-miterlimit="10" d="M95.235,47.281c0-3.059-2.48-5.539-5.539-5.539
+                      c-0.194,0-0.385,0.01-0.574,0.03c-0.01-4.396-3.575-7.956-7.973-7.956c-1.613,0-3.112,0.483-4.367,1.307
+                      c-0.985-1.531-2.701-2.614-4.657-2.614c-2.166,0-4.036,0.991-4.947,2.991c-0.007,0-0.013,0-0.019,0
+                      c-0.59,0-1.162,0.141-1.712,0.271c-1.009-1.065-2.434-1.701-4.018-1.701c-0.241,0-0.477,0.037-0.711,0.067
+                      c-1.168-0.795-2.577-1.252-4.096-1.252c-3.276,0-6.047,2.166-6.966,5.14c-2.543,0.501-4.462,2.744-4.462,5.434
+                      c0,3.059,2.48,5.54,5.539,5.54c0.97,0,1.881-0.25,2.674-0.689L95.235,47.281z" />
+                        <circle id="foam-bubble_16_" fill="#FFFFFF" stroke="#000000" stroke-width="0.5"
+                            stroke-miterlimit="10" cx="54.04" cy="40.04" r="1.704" />
+                        <circle id="foam-bubble_15_" fill="#FFFFFF" stroke="#000000" stroke-width="0.5"
+                            stroke-miterlimit="10" cx="69.871" cy="43.558" r="1.704" />
+                        <circle id="foam-bubble_14_" fill="#FFFFFF" stroke="#000000" stroke-width="0.5"
+                            stroke-miterlimit="10" cx="83.944" cy="37.401" r="1.704" />
+                        <circle id="foam-bubble_13_" fill="#FFFFFF" stroke="#000000" stroke-width="0.5"
+                            stroke-miterlimit="10" cx="57.393" cy="37.236" r="0.989" />
+                        <circle id="foam-bubble_12_" fill="#FFFFFF" stroke="#000000" stroke-width="0.5"
+                            stroke-miterlimit="10" cx="66.188" cy="38.995" r="0.989" />
+                        <circle id="foam-bubble_11_" fill="#FFFFFF" stroke="#000000" stroke-width="0.5"
+                            stroke-miterlimit="10" cx="80.261" cy="38.995" r="0.989" />
+                        <circle id="foam-bubble_10_" fill="#FFFFFF" stroke="#000000" stroke-width="0.5"
+                            stroke-miterlimit="10" cx="86.417" cy="44.273" r="0.989" />
+                        <circle id="foam-bubble_9_" fill="#FFFFFF" stroke="#000000" stroke-width="0.5"
+                            stroke-miterlimit="10" cx="58.566" cy="41.048" r="0.696" />
+                        <circle id="foam-bubble_8_" fill="#FFFFFF" stroke="#000000" stroke-width="0.5"
+                            stroke-miterlimit="10" cx="53.289" cy="44.566" r="0.696" />
+                        <circle id="foam-bubble_7_" fill="#FFFFFF" stroke="#000000" stroke-width="0.5"
+                            stroke-miterlimit="10" cx="49.771" cy="42.807" r="0.696" />
+                        <circle id="foam-bubble_6_" fill="#FFFFFF" stroke="#000000" stroke-width="0.5"
+                            stroke-miterlimit="10" cx="65.602" cy="43.686" r="0.696" />
+                        <circle id="foam-bubble_5_" fill="#FFFFFF" stroke="#000000" stroke-width="0.5"
+                            stroke-miterlimit="10" cx="83.192" cy="41.048" r="0.696" />
+                        <circle id="foam-bubble_4_" fill="#FFFFFF" stroke="#000000" stroke-width="0.5"
+                            stroke-miterlimit="10" cx="90.228" cy="43.686" r="0.696" />
+                        <circle id="foam-bubble_3_" fill="#FFFFFF" stroke="#000000" stroke-width="0.5"
+                            stroke-miterlimit="10" cx="85.831" cy="40.168" r="0.696" />
+                        <circle id="foam-bubble_2_" fill="#FFFFFF" stroke="#000000" stroke-width="0.5"
+                            stroke-miterlimit="10" cx="79.674" cy="43.686" r="0.696" />
+                        <circle id="foam-bubble_1_" fill="#FFFFFF" stroke="#000000" stroke-width="0.5"
+                            stroke-miterlimit="10" cx="70" cy="37.53" r="0.696" />
+                        <circle id="foam-bubble" fill="#FFFFFF" stroke="#000000" stroke-width="0.5"
+                            stroke-miterlimit="10" cx="69.12" cy="40.168" r="0.696" />
+                    </g>
+                    <path id="beer-liquid" fill="#E88F00" d="M96,114c0,0-9,5-26.5,5C54,119,43,114,43,114V47h53V114z" />
+                    <path fill="#FFD18D" d="M99,152H41v-41c0,0,6.5,9,29,9c22,0,29-9,29-9V152z" />
+                    <g>
+                        <circle id="liquid-bubble_13_" fill="#FFFFFF" stroke="#000000" stroke-width="0.4"
+                            stroke-miterlimit="10" cx="64.492" cy="115.336" r="1.497" />
+                        <circle id="liquid-bubble_12_" fill="#FFFFFF" stroke="#000000" stroke-width="0.4"
+                            stroke-miterlimit="10" cx="89.492" cy="110.336" r="1.497" />
+                        <circle id="liquid-bubble_11_" fill="#FFFFFF" stroke="#000000" stroke-width="0.4"
+                            stroke-miterlimit="10" cx="49.492" cy="110.336" r="1.497" />
+                        <circle id="liquid-bubble_10_" fill="#FFFFFF" stroke="#000000" stroke-width="0.4"
+                            stroke-miterlimit="10" cx="68.675" cy="116.153" r="0.681" />
+                        <circle id="liquid-bubble_9_" fill="#FFFFFF" stroke="#000000" stroke-width="0.4"
+                            stroke-miterlimit="10" cx="75.675" cy="116.153" r="0.681" />
+                        <circle id="liquid-bubble_8_" fill="#FFFFFF" stroke="#000000" stroke-width="0.4"
+                            stroke-miterlimit="10" cx="91.675" cy="112.153" r="0.681" />
+                        <circle id="liquid-bubble_7_" fill="#FFFFFF" stroke="#000000" stroke-width="0.4"
+                            stroke-miterlimit="10" cx="46.675" cy="111.153" r="0.681" />
+                        <circle id="liquid-bubble_6_" fill="#FFFFFF" stroke="#000000" stroke-width="0.4"
+                            stroke-miterlimit="10" cx="78.675" cy="116.153" r="0.681" />
+                        <circle id="liquid-bubble_5_" fill="#FFFFFF" stroke="#000000" stroke-width="0.4"
+                            stroke-miterlimit="10" cx="67.874" cy="113.352" r="0.482" />
+                        <circle id="liquid-bubble_4_" fill="#FFFFFF" stroke="#000000" stroke-width="0.4"
+                            stroke-miterlimit="10" cx="76.874" cy="114.352" r="0.482" />
+                        <circle id="liquid-bubble_3_" fill="#FFFFFF" stroke="#000000" stroke-width="0.4"
+                            stroke-miterlimit="10" cx="92.874" cy="108.352" r="0.482" />
+                        <circle id="liquid-bubble_2_" fill="#FFFFFF" stroke="#000000" stroke-width="0.4"
+                            stroke-miterlimit="10" cx="80.874" cy="116.352" r="0.482" />
+                        <circle id="liquid-bubble_1_" fill="#FFFFFF" stroke="#000000" stroke-width="0.4"
+                            stroke-miterlimit="10" cx="52.874" cy="113.352" r="0.482" />
+                        <circle id="liquid-bubble" fill="#FFFFFF" stroke="#000000" stroke-width="0.4"
+                            stroke-miterlimit="10" cx="57.874" cy="115.352" r="0.482" />
+                    </g>
+                    <g id="jug">
+                        <path fill="#020202" d="M70.5,72c-0.828,0-1.5,0.57-1.5,1.272v33.074c0,0.703,0.672,1.272,1.5,1.272s1.5-0.57,1.5-1.272V73.272
+                      C72,72.57,71.328,72,70.5,72z" />
+                        <path fill="#020202" d="M55.5,72c-0.828,0-1.5,0.57-1.5,1.272v33.074c0,0.703,0.672,1.272,1.5,1.272s1.5-0.57,1.5-1.272V73.272
+                      C57,72.57,56.328,72,55.5,72z" />
+                        <path fill="#020202" d="M85.5,72c-0.828,0-1.5,0.57-1.5,1.272v33.074c0,0.703,0.672,1.272,1.5,1.272s1.5-0.57,1.5-1.272V73.272
+                      C87,72.57,86.328,72,85.5,72z" />
+                        <path fill="#020202" d="M99,57V45H41v66c0,1.126,0.813,11,29,11s29-9.874,29-11v-9.312c8.362-0.586,13-8.402,13-15.989V57H99z
+                       M95,49v7H45v-7H95z M70,118c-19.882,0-24.79-5.124-25-7V59h50v52C95,111.07,93.531,118,70,118z M108,85.699
+                      c0,5.585-3.561,11.346-9,11.983V61h9V85.699z" />
+                    </g>
+                </svg> </div>
+            <!-- -->
+
+        </div>
+        <div class="secondWrapper">
+                <input name="name" id="name-of-user" type="text" placeholder="Display Name">
+                <button id="save-name" class="btn"> Save Name </button>
+                <a href="javascript:void(0);" id="stop-btn" class="hidden button">Stop</a>
+                <a href="javascript:void(0);" id="start-btn" class="button">Start</a>
+                <button id="discard-btn" class="btn">Discard</button>        
+                <button id="change-name">Change Name</button>
+        </div>
+        <div id="results">        
+
+        </div>
+
+
+
+    </div>
+
+
+    <script src="drinko-client.js"></script>
+
+</body>
+
+</html>
