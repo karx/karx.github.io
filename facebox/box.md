@@ -107,12 +107,12 @@ Need to define niche
 ## Humare pass kyu aaega | Why?
     - Features dekhe?
     - Tech is ready
-
+<!-- 
 
 ![face-box image](/images/face_box.jpg)
 ![face-box_1 image](/images/face_box_1.jpg)
 ![face-box_2 image](/images/face_box_2.jpg)
-![face-box_3 image](/images/face_box_3.jpg)
+![face-box_3 image](/images/face_box_3.jpg) -->
 
 
 Devices are indivisual identities. Devices would have `owners`. You can own multiple devices.
