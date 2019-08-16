@@ -109,14 +109,26 @@ Need to define niche
     - Tech is ready
 
 
-![face-box image](/images/face_box.jpg)
-![face-box_1 image](/images/face_box_1.jpg)
-![face-box_2 image](/images/face_box_2.jpg)
-![face-box_3 image](/images/face_box_3.jpg)
-
-
 Devices are indivisual identities. Devices would have `owners`. You can own multiple devices.
 
 
 ## Milestone
 TBD
+
+
+## TODO List
+* (1)Create complete product design - Minified/Simple 5 mins allowed
+* Create sample proposal/SOW
+* Create sample wireframes
+* Create sample sales page
+* Create smaple user stories
+* List out competitor/similar domain
+* List out possible collaborations
+* List out Problems we will face
+* List problem categories
+* Repeat (1)
+
+
+```
+
+```

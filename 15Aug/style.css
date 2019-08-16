@@ -1,0 +1,73 @@
+body {
+    position: relative;
+}
+
+path:hover {
+    fill: #FF9933;
+}
+
+g:hover {
+    fill: #000080;
+}
+
+.results {
+    z-index: -1900;
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Lato', sans-serif; */
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+#results-top {
+    top: 20vw;
+    right: 20vw;
+}
+
+#results-bottom {
+    position: absolute;
+    bottom: 20vw;
+    right: 20vw;
+}
+
+.location {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.9vw;
+    font-weight: 300;
+    color: #FF9933
+}
+.container {
+    font-family: 'Lato', sans-serif;
+    font-size: 2.3vw;
+    font-family: 100;
+    color: #000080
+}
+.footer {
+    font-size: 2vw;
+}
+
+.header {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.9vw;
+    position: absolute;
+    right: 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.header .first {
+    color: #FF9933;
+    font-size: 4vw;
+}
+.header .first span {
+    color: #000080
+}
+.header .second {
+    color: #138808;
+    font-size: 5vw;
+}
