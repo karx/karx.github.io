@@ -2,6 +2,7 @@
 
 ## Event Description
 We shall co-host a hands-on workshop focused on developing an e2e IoT solution using ESP32, Arduino Framework and Google cloud services.
+
 Students will learn the basics of software systems, SoC, and build a solution for a typical use case. They will be able to build, and test the solution in class and build it back home as well.
 
 ## Schedule
