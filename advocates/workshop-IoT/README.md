@@ -5,6 +5,7 @@ We shall co-host a hands-on workshop focused on developing an e2e IoT solution u
 Students will learn the basics of software systems, SoC, and build a solution for a typical use case. They will be able to build, and test the solution in class and build it back home as well.
 
 ## Schedule
+
 | Day  | Session | Topic  | Sample |
 |---|---|---|---|
 | Day 0 | Part A | Registration and onboarding  | - |
