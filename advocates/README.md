@@ -6,6 +6,7 @@ Well, that means being active participants in the online communities, contributi
 
 We are a team of 4, here are few of the workshop links/webinar/writeups we have created:- 
 # IoT/Hardware/Arduino
+
  MicroPython | [Slides](https://www.slideshare.net/karx01/micro-python-pycon-india-2018-proposal-kartik-arora)
 
  Advanced Arduino | [Link](https://goo.gl/24u5He)
@@ -15,6 +16,7 @@ We are a team of 4, here are few of the workshop links/webinar/writeups we have 
  Adventures with ESP32 in 91Springboard | [Blog entry](https://akriya.co.in/coke-voting-machine/)
 
 # Web Technologies
+ 
  JavaScript Advanced | [Webcomponents](https://osem.hillhacks.in/conferences/hillhacks-2019/program/proposals/288)
 
  Bots | [Patreon post](https://www.patreon.com/posts/discord-bot-feed-28033124)
@@ -27,12 +29,14 @@ We are a team of 4, here are few of the workshop links/webinar/writeups we have 
 
 
 # Big Data / Cloud computes
+
  https://akriya.co.in/wikidata/ - Workshop in hillhacks and Drupal Camp 2019 | [Blog entry](https://akriya.co.in/wikidata/)
 
 
 # Mobile App development
+
  Flutter | [Medium post](https://medium.com/flutterarsenal/build-a-nested-tabbar-in-flutter-7e0cae5cfc7)
- 
+
  We also host [flutterarsenal.com](https://flutterarsenal.com) - Open Flutter Repository
 
 
