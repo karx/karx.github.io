@@ -1,4 +1,4 @@
-Hey Nrip,
+Hey Aparna,
 
 We actively work in the mentioned domains and also act as "developer advocates" in these ecosystems. 
 
