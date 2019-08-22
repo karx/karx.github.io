@@ -111,14 +111,14 @@ Use this skeleton application to quickly setup and start working on a new IoT ap
 
 ## Industry Requirements
  * Stable/ Reliable
- * OAT 
+ * OTA 
  * Plug and play devices
  * Easy to deploy code to device
  * (Module) Easy to maintain by multiple deveopers at once 
  * Servicability
     * Problem isolation V important (not a PhD will go to repair the module.) 
     * parts should be removable should not have to remove entire motherboard.
- * 
+ 
 
 ## Soft-requrements
 * EASY

@@ -15,7 +15,6 @@
 
 
 ## Things to do
-* Issue pipeline - with contributors
-* Paypal link - emailers donate - linkedIn for Flutter
+* Issue pipeline - with contributors | Done
+* Paypal link - emailers donate - linkedIn for Flutter 
 * A nice email to send to introduce people to Flutter Arsenal
-* 

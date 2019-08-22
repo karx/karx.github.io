@@ -71,6 +71,8 @@ JS on device
 
 ## OTA
 * We can wrap the entire "sketch" inside an OTA version management system so to say.
+* Each device is subbed to unique channel to listen for OTA installation instructions. `ideally maintained using the UID of the device`.
+* Compiled Byte code hosted on shared services like `S3`.
 
 
 ## Good reads on ESP32
