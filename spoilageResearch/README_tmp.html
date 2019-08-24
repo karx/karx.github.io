@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>README.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: "Segoe WPC", "Segoe UI", "SFUIText-Light", "HelveticaNeue-Light", sans-serif, "Droid Sans Fallback";
+	font-size: 14px;
+	padding: 0 12px;
+	line-height: 22px;
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	color: #4080D0;
+	text-decoration: none;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+h1 code,
+h2 code,
+h3 code,
+h4 code,
+h5 code,
+h6 code {
+	font-size: inherit;
+	line-height: auto;
+}
+
+a:hover {
+	color: #4080D0;
+	text-decoration: underline;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left: 5px solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 14px;
+	line-height: 19px;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+.mac code {
+	font-size: 12px;
+	line-height: 18px;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+/** Theming */
+
+.vscode-light,
+.vscode-light pre code {
+	color: rgb(30, 30, 30);
+}
+
+.vscode-dark,
+.vscode-dark pre code {
+	color: #DDD;
+}
+
+.vscode-high-contrast,
+.vscode-high-contrast pre code {
+	color: white;
+}
+
+.vscode-light code {
+	color: #A31515;
+}
+
+.vscode-dark code {
+	color: #D7BA7D;
+}
+
+.vscode-light pre:not(.hljs),
+.vscode-light code > div {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre:not(.hljs),
+.vscode-dark code > div {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre:not(.hljs),
+.vscode-high-contrast code > div {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+.vscode-light blockquote,
+.vscode-dark blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.vscode-high-contrast blockquote {
+	background: transparent;
+	border-color: #fff;
+}
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family:  "Meiryo", "Segoe WPC", "Segoe UI", "SFUIText-Light", "HelveticaNeue-Light", sans-serif, "Droid Sans Fallback";
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+</head>
+<body>
+<h2 id="spoilage-detection---sow">Spoilage detection - SOW</h2>
+<p>Document prepared by</p>
+<h2 id="table-of-content">Table of Content</h2>
+<ul>
+<li>Executive Summary</li>
+<li>Project Definition</li>
+<li>Devices</li>
+<li>Web/Soft-ware</li>
+<li>Maintenance</li>
+<li>Exclusions</li>
+<li>Deliverables</li>
+<li>Customer Responsibilities</li>
+<li>Investment and Cost</li>
+<li>Acceptance Criteria</li>
+<li>Assumptions</li>
+<li>IPR</li>
+<li>Approvals</li>
+</ul>
+<h2 id="executive-summary">Executive Summary</h2>
+<p>This documentation is to serve as a 'Statement of Work' or SOW for design and development of a Spoilage detection product for --xx-- to enable and enhance <code>the business</code>. The advancement in the field of IoT
+Networks, Computing and Data Science has made possible Integrated systems that can help this use-case.
+Such a system would include a means to capture, catalogue and analyze data, along with tools to further optimize and maintain this operation.</p>
+<p>The current scenario, we have identified a solution X, which response predictably and with high confidence towards volatile compounds released while spoilage.</p>
+<p>Akriya Technologies will work with --xx-- to:</p>
+<ul>
+<li>Designing the Quantification Module</li>
+<li>Designing the Spoilage detection EndPoint Module</li>
+<li>Make the EndPoint Module market-ready</li>
+<li>Provide documentation of the new system</li>
+<li>Knowledge Transfer/Integrate for operations/maintenance</li>
+</ul>
+<p>The Value Proposition of using Akriya Technologies for this project are:</p>
+<ul>
+<li>Proven engineering techniques for making Integrated systems.</li>
+<li>Leveraging our experience in working with IoT toolkit (ESP).</li>
+<li>Data Architecture and Solution experience</li>
+<li>Using our subject matter experts to complete the project quickly. Rapid project completion minimizes disruptions and allows organizations to realize cost-saving quickly.</li>
+</ul>
+<h2 id="scope">Scope</h2>
+<p>Given a solution X, which response predictably and with high confidence towards volatile compounds released while spoilage, the aim to deliver a market-ready product to help detect spoilage in different industrial as well as domestic settings.</p>
+<p>To achieve this task, we have broken this down to the following 4 modules.</p>
+<ul>
+<li>
+<p>Quantification Module
+We can achieve this by collecting and analysing data by testing our Solution X in a controlled environment.
+This would help generate enough labelled data to help us the model and design a portable sensor.
+To collect this data, the following setup for the Quantification Module is proposed:
+<img src="file:///d:/src/karx.github.io/images/onion_spoilage_1.png" alt="Imaage-1"></p>
+</li>
+<li>
+<p>Prototyping of EndPoint Module
+The EndPoint modules are portable versions of the Spoilage detection mechanism, which would help detect spoilage using Solution X properties. The design and development of the module would be to provide:</p>
+<ul>
+<li>Ease-of-use for consumers/operators</li>
+<li>Maximize throughput of Solution X consumption</li>
+<li>Deployable in varied conditions</li>
+<li>Pocket-friendly</li>
+</ul>
+<p>The following provides a rough diagram based on the current understanding of Solution X.
+<img src="file:///d:/src/karx.github.io/images/onion_spoilage_2.png" alt="Imaage-2"></p>
+</li>
+<li>
+<p>Market ready
+To drive usage and adoption of the EndPoint modules of spoilage detection.</p>
+</li>
+<li>
+<p>Operations and Maintenance
+Standard maintenance and operations process to help manage the fleet of devices in the market.</p>
+</li>
+</ul>
+<h2 id="deviceshw">Devices/HW</h2>
+<ul>
+<li>Quantification Module A</li>
+</ul>
+<pre class="hljs"><code><div>Data to Capture:    amount of raw
+                    humidity
+                    temprature
+                    pressure
+
+</div></code></pre>
+<ul>
+<li>Quantification Module B</li>
+</ul>
+<pre class="hljs"><code><div>Data to Capture:    Volatile material base telemetry
+                    
+</div></code></pre>
+<ul>
+<li>Quantification Module C</li>
+</ul>
+<pre class="hljs"><code><div>Data to Capture:    pressure
+                    temprature
+                    concentration
+
+</div></code></pre>
+<ul>
+<li>Quantification Module D</li>
+</ul>
+<pre class="hljs"><code><div>Data to Capture:    optics based telemetry
+
+</div></code></pre>
+<ul>
+<li>Quantification Module E</li>
+</ul>
+<pre class="hljs"><code><div>Data to Capture:    conductivity based telemetry
+
+</div></code></pre>
+<h2 id="websoftware">Web/Software</h2>
+<ul>
+<li>
+<p>Quantification Telemetry Engine
+We will be recording and cataloguing the real-time telemetry from the Quantification Modules.
+This would include endpoints, to allow view, query and analyse this set.</p>
+</li>
+<li>
+<p>EndPoint Companion App
+Provide access control to the Endpoint device.</p>
+</li>
+</ul>
+<h2 id="maintenance">Maintenance</h2>
+<p>To be maintained for 6 months and then rediscuss based on new requirements and learnings.</p>
+<h2 id="exclusions">Exclusions</h2>
+<p>The followings are excluded from the project scope</p>
+<ul>
+<li>The packages used and maintained by Akriya Technologies for interfacing with IoT Devices.</li>
+</ul>
+<h2 id="deliverables">Deliverables</h2>
+<p>The deliverables are listed below.</p>
+<ul>
+<li>
+<p>Devices.
+TBD</p>
+</li>
+<li>
+<p>Software
+Access top-level Git repositories for the Dashboard, mobile Apps, and admin interface package.</p>
+</li>
+<li>
+<p>Documentation and graphical depictions of the system.</p>
+</li>
+</ul>
+<h2 id="customer-responsibilities">Customer Responsibilities</h2>
+<ul>
+<li>The nature of this engagement dictates that Akriya Technologies receive a frequent and enthusiastic response from the appropriate personnel.</li>
+<li>A weekly review between the Akriya Technologies consultant and the --xx-- project lead or his designate will ensure that the expectations of this engagement are met.</li>
+<li>Client will assign a key contact who will be responsible for providing Akriya Technologies with information, access to personnel, and facility access.</li>
+<li>Client will provide a work area space with desk, chair, Internet access for use by Akriya Technologies to conduct project business while working on-site.</li>
+</ul>
+<h2 id="investment-and-cost">Investment and Cost</h2>
+<ul>
+<li>
+<p>Man-hour required: <code>TBD</code></p>
+</li>
+<li>
+<p>Hardware cost (if required) to be paid by --xx--</p>
+</li>
+<li>
+<p>Server/Web hosting charges (approx):</p>
+<ul>
+<li>60$ / month = 4000 INR</li>
+</ul>
+</li>
+<li>
+<p>Bill separately for travel costs will be billed at actual cost and will not exceed 10,000 INR for the entire project.</p>
+</li>
+<li>
+<p>Payment Schedule
+<code>TBD</code>
+Devices cost to be paid on the day of installation.
+Server cost to be paid directly or at the start of each month.
+Travel reimbursements as and when declared.</p>
+</li>
+</ul>
+<h2 id="acceptance-criteria">Acceptance Criteria</h2>
+<p>At the conclusion of this evaluation, all deliverables for this phase will be presented to --xx-- for review.</p>
+<p>--xx-- or its representative will have five business days from the date of delivery of any document that is a deliverable to review it and request any changes.  If Akriya Technologies does not receive notification of any required changes within this period, the document will be deemed to have been accepted without modification and will be reissued as a final copy.</p>
+<p>If Akriya Technologies is notified by --xx--, within the above time frame, of any changes required, Akriya Technologies will within two business days of such notification implement those changes as have been agreed between the parties.  A final copy of the document will then be submitted to --xx--.</p>
+<h2 id="assumptions">Assumptions</h2>
+<ul>
+<li>
+<p>General</p>
+<ul>
+<li>All documentation created for this project will be available in hard copy and electronic format.</li>
+<li>Any modifications to the scope of work will be handled through a change control process and will be agreed to by both parties.</li>
+</ul>
+</li>
+<li>
+<p>Commercial</p>
+<ul>
+<li>Additional costs may be incurred where any delay not under the control of Akriya Technologies that causes Akriya Technologies personnel to not fulfil their scheduled tasks.</li>
+<li>An authorized delegate of --xx-- will be available at the time of completion of the build phase so that all documentation can be accepted and signed.</li>
+<li>Additional costs may be incurred where any work scheduled to be undertaken by Akriya Technologies is postponed by --xx-- after 24 hours of its commencement.</li>
+<li>All changes to the schedule or technical requirements must be provided to Akriya Technologies in written format. Email is included as written format. Receipt of all correspondence should be confirmed by phone wherever possible.</li>
+<li>--xx-- has accepted the costs/times estimate as detailed in this document</li>
+<li>--xx-- has accepted the Akriya Technologies standard terms and conditions linked.</li>
+</ul>
+</li>
+</ul>
+<h2 id="intellectual-property">Intellectual Property</h2>
+<p>Unless otherwise agreed in writing, --xx-- acknowledges that all intellectual property rights attaching to the products or arising out of the provision of services are and will remain the property of Akriya Technologies (or its suppliers, where such rights are owned by that supplier).</p>
+<p>The software will be licensed to --xx-- on the terms of the relevant license agreement provided with the product or as otherwise agreed between Akriya Technologies and --xx-- in writing.</p>
+<h2 id="approved-by">Approved by</h2>
+<p>Name:<br>
+Date:<br>
+Position:</p>
+
+</body>
+</html>
