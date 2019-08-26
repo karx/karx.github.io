@@ -1,5 +1,5 @@
 ## Spoilage detection - SOW
-Document prepared by 
+Document prepared by Kartik Arora
 
 ## Table of Content
 
