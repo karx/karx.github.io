@@ -17,10 +17,6 @@ var each_booth_faces = {
 
     },
   },
-  "booth_id_2": {
-    name: 'Most popular booth',
-    entries: {},
-  },
   "default" : {}
 
 };
@@ -107,32 +103,6 @@ firestore.collection(`face-instances`)
     refreshBoothUI();
   });
 
-  // firestore.collection(`event-booths`).orderBy("name", "desc")
-  // .onSnapshot( (querySnapshot) => {
-  //   console.log(querySnapshot);
-  //   var booths = [];
-  //   querySnapshot.forEach(function (doc) {
-  //     booths.push({
-  //       name: doc.data().name,
-  //       message: doc.data().message,
-  //       when_to_send: doc.data().when_to_send
-  //     });
-  //   });
-  //   console.log(booths.length);
-  //   var html_to_push = "";
-
-  //   booths.forEach((each_booth) => {
-  //     var cst = each_booth;
-  //     console.log(cst);
-  //     if (!cst.name) {
-  //       ;
-  //     } else {
-  //       html_to_push += `<div class="each_booth"> <div class="name">${cst.name}</div>  </div>`;
-  //     }
-  //   });
-  //   $('#booth-entries').html(html_to_push);
-  // });
-
 
 $(".each_face").click((e) => {
   console.log(e);
@@ -147,6 +117,7 @@ function addNewBooth() {
 }
 
 function refreshBoothUI() {
+
   var html_to_push = "";
 
   var allBoothsKeys = Object.keys(each_booth_faces);
@@ -166,5 +137,4 @@ function refreshBoothUI() {
     html_to_push += `</div> </div>`
   });
   $('#booth-entries').html(html_to_push);
-
 }
