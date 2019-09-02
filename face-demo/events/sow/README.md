@@ -47,10 +47,10 @@ FaceEvents aims to build/design develop
 enter Summary based on recording from Dheeraj and Anup
 ```
 The proposed system would have the following modules:
-#### The Frontpage: 
+### The Frontpage: 
 This web presence, SEO friendly to tell people about FaceEvents
 
-#### User Onboarding Modules
+### User Onboarding Modules
 These are set of services created for user onboarding from various platforms. These aim to collect the following data, 
 - User Phone number     (Primary)
 - User Name/Alias       (Stage 1)
@@ -85,19 +85,22 @@ The following are the Onboarding services categories by Stage:
 * Robot/On-point Camera bots (Stage 2)
     
 
-#### On-ground Modules
+### On-ground Modules
 These are hardware installations/plugins that enforce the FaceEvent flow.
 *   Base Lock/Unlock module | __Verification Module__
+
 This would be the base module, with camera and a compute stick with network capabilites. 
 
 * __Identification Module__ 
+
 These are modules linked for capturing usage statistics from the camera for different location, linked to a buisness identity
 They would interact directly with the FaceEvent services.
 
 * __Feedback Modules__
+
 These are screens and visual displays linked to an expensive SOC to help enforce, facilitate and ease the FaceEvents flow.
 
-#### On-cloud Services
+### On-cloud Services
 These are set of services deployed as a backend for the Onboarding and Ongound modules.
 * Authentication
 * User data management
@@ -106,7 +109,7 @@ These are set of services deployed as a backend for the Onboarding and Ongound m
 * Common FaceEvents APIs - (detect, fetch)
 
 
-#### Admin-dashboard
+### Admin-dashboard
 To be consumed by superusers. Help create reports, logs, etc.
 
 
@@ -119,14 +122,14 @@ Data to Capture:    Name
                     Mobile number 
 
 To link:    FaceEvents web link
-            FaceEvents mobile app
-            
+            FaceEvents mobile app     
 ```
 
 
 
 ## Web/Software
 * Whatsapp bot
+
 ```
 Data to Capture:    Name
                     email-address
@@ -179,6 +182,7 @@ Access top level Git repositories for the Dashboard, mobile Apps, and admin inte
 | Telemetry Systems Demo           | 33%           | 1 INR|
 | Dashboard + App shandoaver            | 66%           | 1 INR|
 | Final Deliverys                         | 100%          | 1 INR|
+
 
 ```
 From old project
