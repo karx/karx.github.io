@@ -4,10 +4,10 @@ Document prepared by
 ## Table of Content
 
 * Executive Summary
-* Project Defination
+* Project Definition
 * Devices
 * Web/Soft-ware
-* Maintance
+* Maintenance
 * Exclusions
 * Deliverables
 * Customer Responsibilities
@@ -19,8 +19,8 @@ Document prepared by
 
 
 ## Executive Summary
-This documentation is to serve as a 'Statement of Work' or SOW for the FaceEvents concept to enable innovation in Events Industry. The advancement in the field of IoT, Networks, Computing and Data Science has made possible Integrated systems that can really help business.
-Such a system would include a means to capture, catalog and analyze data, along with tools to enforce 'business logic'.
+This documentation is to serve as a 'Statement of Work' or SOW for the FaceEvents concept to enable innovation in the Events Industry. The advancement in the field of IoT, Networks, Computing and Data Science has made possible Integrated systems that can help business.
+Such a system would include a means to capture, catalogue and analyze data, along with tools to enforce 'business logic'.
 
 Akriya Technologies will work on FaceEvents to:
 
@@ -32,14 +32,14 @@ Akriya Technologies will work on FaceEvents to:
 * Provide documentation of the new system
 * Knowledge Transfer/Integrate 
 
-Akriya Technologies proposes to design, develop and provide installation of v1.0 of the proposed system to cater for upto 1000 Distinct Users with upto 1000 distinct buisness entities.
+Akriya Technologies proposes to design, develop and provide installation of v1.0 of the proposed system to cater for up to 1000 Distinct Users with up to 1000 distinct business entities.
 This activity will require x weeks. The estimated cost for this activity would be x (specs x).
 
 The Value Proposition of using Akriya Technologies for this project are:
 * Proven engineering techniques for making Integrated systems.
 * Leveraging our experience in working with IoT toolkit (ESP).
 * Data Architecture and Solution experience
-* Using our subject matter experts to complete the project quickly. Rapid project completion minimizes disruptions and allows organizations to realize cost saving quickly.
+* Using our subject matter experts to complete the project quickly. Rapid project completion minimizes disruptions and allows organizations to realize cost-saving quickly.
 
 ## Project Definition
 FaceEvents aims to build/design develop
@@ -51,7 +51,7 @@ The proposed system would have the following modules:
 This web presence, SEO friendly to tell people about FaceEvents
 
 ### User Onboarding Modules
-These are set of services created for user onboarding from various platforms. These aim to collect the following data, 
+These are a set of services created for user onboarding from various platforms. These aim to collect the following data, 
 
 |   Data Type             |  Stage      |
 |-------------------------|-------------|
@@ -65,11 +65,11 @@ These are set of services created for user onboarding from various platforms. Th
 |   His profile (*)       | (Stage 4)   |
 
 ```
-Stage 0 : first interaction with the User
-Stage 1 : User visits one of our site/modules
-Stage 2 : User visits one of our onboarding modules
-Stage 3 : User visits to verify himself
-Stage 4 : User visits to build identity (Optional)
+Stage 0: first interaction with the User
+Stage 1: User visits one of our site/modules
+Stage 2: User visits one of our onboarding modules
+Stage 3: User visits to verify himself
+Stage 4: User visits to build identity (Optional)
 ```
 
 The following are the Onboarding services categories by Stage:
@@ -92,11 +92,11 @@ The following are the Onboarding services categories by Stage:
 These are hardware installations/plugins that enforce the FaceEvent flow.
 *   Base Lock/Unlock module or __Verification Module__
 
-This would be the base module, with camera and a compute stick with network capabilites. 
+This would be the base module, with a camera and a compute stick with network capabilities. 
 
 * __Identification Module__ 
 
-These are modules linked for capturing usage statistics from the camera for different location, linked to a buisness identity
+These are modules linked for capturing usage statistics from the camera for a different location, linked to a business identity
 They would interact directly with the FaceEvent services.
 
 * __Feedback Modules__
@@ -124,7 +124,7 @@ To be consumed by superusers. Help create reports, logs, etc.
 Data to Capture:    Name
                     Mobile number 
 
-To link:    FaceEvents web link
+To link:    FaceEvents weblink
             FaceEvents mobile app     
 ```
 
@@ -138,7 +138,7 @@ Data to Capture:    Name
                     email-address
                     image (to-be-tested)*
 
-To link:    FaceEvents web link
+To link:    FaceEvents weblink
             FaceEvents mobile app
             
 ```
@@ -156,7 +156,7 @@ The deliverables are listed below.
 To be installed in 1 FaceEvents facility, and 50% spare**.
 
 * Software
-Access top level Git repositories for the Dashboard, mobile Apps, and admin interface package.
+Access top-level Git repositories for the Dashboard, mobile Apps, and admin interface package.
 
 * Documentation and graphical depictions of the new proposed FaceEvents system.
 
@@ -208,7 +208,7 @@ If Akriya Technologies is notified by FaceEvents, within the above time frame, o
     * Any modifications to the scope of work will be handled through a change control process and will be agreed to by both parties.
 
 * Commercial
-    * Additional costs may be incurred where any delay not under the control of Akriya Technologies that causes Akriya Technologies personnel to not fulfill their scheduled tasks.
+    * Additional costs may be incurred where any delay not under the control of Akriya Technologies that causes Akriya Technologies personnel to not fulfil their scheduled tasks.
     * An authorized delegate of FaceEvents will be available at the time of completion of the build phase so that all documentation can be accepted and signed.
     * Additional costs may be incurred where any work scheduled to be undertaken by Akriya Technologies is postponed by FaceEvents after 24 hours of its commencement.
     * All changes to the schedule or technical requirements must be provided to Akriya Technologies in written format. Email is included as written format. Receipt of all correspondence should be confirmed by phone wherever possible.
