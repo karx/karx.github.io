@@ -52,14 +52,17 @@ This web presence, SEO friendly to tell people about FaceEvents
 
 ### User Onboarding Modules
 These are set of services created for user onboarding from various platforms. These aim to collect the following data, 
-User Phone number     | (Primary)
-User Name/Alias       | (Stage 1)
-User email-address    | (Stage 0)
-User face-id          | (Stage 2)
-User address          | (Stage 3)
-mobile number Verify  | (Stage 3)
-email address Verify  | (Stage 3)
-His profile (*)       | (Stage 4)
+
+|   Data Type             |  Stage      |
+|-------------------------|-------------|
+|   User Phone number     | (Primary)   |
+|   User Name/Alias       | (Stage 1)   |
+|   User email-address    | (Stage 0)   |
+|   User face-id          | (Stage 2)   |
+|   User address          | (Stage 3)   |
+|   mobile number Verify  | (Stage 3)   |
+|   email address Verify  | (Stage 3)   |
+|   His profile (*)       | (Stage 4)   |
 
 ```
 Stage 0 : first interaction with the User
