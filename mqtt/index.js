@@ -1,9 +1,13 @@
 var mqtt = require('mqtt')
-var client = mqtt.connect('https://akriya.co.in');
+var client = mqtt.connect('http://api.akriya.co.in');
 
 
 
 client.on('connect', function () {
+    
+    client.publish('homeSwitch/ready/kaaroo','iamon');
+    client.publish('homeSwitch/ready/2761046813','Ready!');
+    console.log("published");
     client.subscribe('HS/#', function (err) {
         if (!err) {
             client.publish('HS/presence', 'Connected')
