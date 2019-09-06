@@ -25,9 +25,10 @@ A social network of active Lotico Semantic Web community members, provided as RD
 
 
 ## To See
-* https://www.geodatos.net/en/antipodes/india
-* https://en.wikipedia.org/wiki/OGC_GeoSPARQL
+* [https://www.geodatos.net/en/antipodes/india](https://www.geodatos.net/en/antipodes/india)
+* [https://en.wikipedia.org/wiki/OGC_GeoSPARQL](https://en.wikipedia.org/wiki/OGC_GeoSPARQL)
 
-## Test          180.000
+
+## Test         
 * For -28.652,  -102.769
 we set 28.652,    77.231
