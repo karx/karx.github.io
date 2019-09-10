@@ -32,6 +32,14 @@ IoT enabled Custom Merchandise for Engagement Acceleration
 * Can have OLED/Paper/etc Display if needed. Display needs to be justified
 * Need to formulate how interactions will work
 
+## List of renders
+* Amit Badana (Youtuber Subs)
+* FlutterArsenal (github commits)
+* Paratha Counter (number of sales)
+* 91springboard (number of members)
+* Ethoslab Youtube (number of subscribers)
+* Jeemz (Twitch viewers | Followers | Subscribtions | Last Donation)
+* Digital Icon (number of devices out)
 
 ## Communications
 Best place to communicate would be in order
