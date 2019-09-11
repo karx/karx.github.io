@@ -57,7 +57,7 @@ Would be available on 23rd-24th March
 [Link to github repo used](http://github.com/karx/webcomponents)
 
 ## Abstract for posters
-Today, the Web is 30 years old. It's quater life crises are officialy over!
+Today, the Web is 30 years old. Its quarter-life crises are officially over!
 
 The journey thus far had not been easy, and without the tireless efforts of the Corporates, NGOs, Governments and the people, such a technological marvel could not have existed.
 
