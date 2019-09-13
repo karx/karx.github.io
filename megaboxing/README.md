@@ -13,11 +13,11 @@ These hashtags would be following:
 
 [Wendor Mini](https://www.wendor.in/healthcare/) - a sleek Vending machine.
 
-<img src="../images/wendor-mini-1.jpeg" width=200>
+![Image](../images/wendor-mini-1.jpeg)
 
 [Instagram Graph API](https://developers.facebook.com/docs/instagram-api/) - The Instagram Graph API allows apps to access data in Instagram Business Accounts and Instagram Creator Accounts. By using the API, you can build apps that help Businesses and Creators manage their photos, videos, stories, albums, comments, and hashtags at scale, as well as measure social interactions with other Instagram users.
 
-<img src="../images/https_developers.facebook.com_docs_instagram-api_v2.11.png" width=200>
+![Image](../images/https_developers.facebook.com_docs_instagram-api_v2.11.png)
 
 ## User flow diagram
 ![flow diagram](../images/Vending_Boxing_Diagram.png)
