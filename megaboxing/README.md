@@ -1,0 +1,44 @@
+## Megaboxing Vending Engagement
+
+## Summary
+A growth hack for Brand activation and empowering social media presence.
+This Megaboxing Vending machine aims to use `Instagram Hashtags` as the trigger for Brand activation.
+
+These hashtags would be following:
+ * #BoxKarega
+ * #RingInTheBox
+ * #BoxWinner
+ * #MegaBoxing2019
+
+
+[Wendor Mini](https://www.wendor.in/healthcare/) - a sleek Vending machine.
+
+<img src="../images/wendor-mini-1.jpeg" width=200>
+
+[Instagram Graph API](https://developers.facebook.com/docs/instagram-api/) - The Instagram Graph API allows apps to access data in Instagram Business Accounts and Instagram Creator Accounts. By using the API, you can build apps that help Businesses and Creators manage their photos, videos, stories, albums, comments, and hashtags at scale, as well as measure social interactions with other Instagram users.
+
+<img src="../images/https_developers.facebook.com_docs_instagram-api_v2.11.png" width=200>
+
+## User flow diagram
+
+
+## Completed Tasks
+* Override Wendor Mini default controller, for custom actions
+* Setup intagram Listener for Hastag of public profile
+* Handle queue if multiple people Post at the same time
+* Sequence of merchendise dispense configuration
+* Persist usage statistics
+
+## Ongoing Tasks
+* Web UI for onboard screen on Wendor Mini
+* Usage Reports
+* Package boxing standards
+
+## TODO
+* Fix bottom-most Tray
+* Branding for Machine
+
+
+## Items to Buy
+* Servo x 2
+* Lock
