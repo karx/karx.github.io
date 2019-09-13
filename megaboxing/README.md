@@ -20,7 +20,7 @@ These hashtags would be following:
 <img src="../images/https_developers.facebook.com_docs_instagram-api_v2.11.png" width=200>
 
 ## User flow diagram
-
+![flow diagram](../images/Vending_Boxing_Diagram.png)
 
 ## Completed Tasks
 * Override Wendor Mini default controller, for custom actions
@@ -37,7 +37,6 @@ These hashtags would be following:
 ## TODO
 * Fix bottom-most Tray
 * Branding for Machine
-
 
 ## Items to Buy
 * Servo x 2
