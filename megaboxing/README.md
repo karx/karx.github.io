@@ -32,7 +32,7 @@ These hashtags would be following:
 ## Ongoing Tasks
 * Web UI for onboard screen on Wendor Mini
 * Usage Reports
-* Package boxing standards
+* Package boxing standards 
 
 ## TODO
 * Fix bottom-most Tray
