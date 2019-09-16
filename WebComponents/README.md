@@ -93,5 +93,5 @@ In this session, we will build one using - Pokemon!!!
 * [history of web](https://home.cern/science/computing/birth-web/short-history-web)
 
 
-[Link to slides @MozillaPunjab LPU on 24th March ](https://slides.com/kartikarora-1/web-componentss)
+[Link to slides @MozillaPunjab LPU on 24th March ](https://slides.com/kaaro/web-componentss)
 [Link to GitHub repo used](http://github.com/karx/webcomponents)
