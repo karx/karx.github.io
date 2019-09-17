@@ -105,3 +105,4 @@ knowledge and understanding of the world's largest colarborative tool!
 * product catalogue
 * services catalogue
 * Contact us
+* https://12factor.net/
