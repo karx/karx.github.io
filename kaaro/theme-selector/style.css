@@ -1,0 +1,101 @@
+.light {
+    --theme-background: #f9f9fa;
+    --theme-color: #0a0a0a;
+    --theme-top-bar-background: #fdf9f3;
+    --theme-top-bar-search-background: #e8e7e7;
+    --theme-container-background: #fff;
+    --theme-container-border: 1px solid #d6d6d6;
+  }
+  
+  .night {
+    --theme-background: #161f2b;
+    --theme-color: #fff;
+    --theme-top-bar-background: #141d26;
+    --theme-top-bar-search-background: #424a54;
+    --theme-container-background: #27374c;
+    --theme-container-border: 1px solid #141d26;
+  }
+  
+  .aubergine {
+    --theme-background: #411934;
+    --theme-color: #F6F6F5;
+    --theme-top-bar-background: #2C001E;
+    --theme-top-bar-search-background: #C8A6C5;
+    --theme-container-background: #7E5273;
+    --theme-container-border: 1px solid #2C001E;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .container {
+    display: inline-block;
+    cursor: pointer;
+    border: var(--theme-container-border);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    margin: 15px;
+    width: 192px;
+    height: 108px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .container:hover,
+  .container:focus {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20px;
+    width: 192px;
+    background: var(--theme-top-bar-background);
+    border-bottom: var(--theme-container-border);
+  }
+  
+  .search {
+    width: 32%;
+    height: 12px;
+    background: var(--theme-top-bar-search-background);
+    border-radius: 2px;
+  }
+  
+  .body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 88px;
+    width: 192px;
+    background: var(--theme-background);
+  }
+  
+  .col {
+    width: 20%;
+    height: 85%;
+    background: var(--theme-container-background);
+    border-radius: 2px;
+    border: var(--theme-container-border);
+  }
+  
+  .col.center {
+    text-align: center;
+    color: var(--theme-color);
+    width: 35%;
+    background: var(--theme-background);
+    border: none;
+    margin: 0 10px;
+  }
+  
+  .posts {
+    height: calc(100% - 18px);
+    background: var(--theme-container-background);
+    border: var(--theme-container-border);
+    border-radius: 2px;
+  }
+  
+  /* https://jsfiddle.net/link2twenty/3pmtew1f/ */
+  /* https://github.com/thepracticaldev/dev.to/issues/2158 */
