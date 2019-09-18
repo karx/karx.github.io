@@ -22,28 +22,9 @@ Please provode a hastag for megaboxing event, if change needed.
 ## User flow diagram
 ![flow diagram](../images/Vending_Boxing_Diagram.png)
 
-## Completed Tasks
-* Override Wendor Mini default controller, for custom actions
-* Setup intagram Listener for Hastag of public profile
-* Handle queue if multiple people Post at the same time
-* Sequence of merchendise dispense configuration
-* Persist usage statistics
-
-## Ongoing Tasks
-* Web UI for onboard screen on Wendor Mini
-* Usage Reports
-* Package boxing standards 
-
-## TODO
-* Fix bottom-most Tray
-* Branding for Machine
-
-## Items to Buy
-* Servo x 2
-* Lock
-
 ## Actions at venue
 * Poster/Sticker for the Body - Size with Megaboxing team
+* Content for Flyers/descriptors/Messages of this. How to etc.
 * Wifi - SSID and password
 * Power - Standard 220V supply
 * Merchendise to despense (count to be determined) - Machine capacity 50/filling
@@ -51,3 +32,19 @@ Please provode a hastag for megaboxing event, if change needed.
 ## POC at venue
 * Ashtam Singh - +91-6395973808
 * Sarthak Verma - +91-8979080101
+
+## Completed Tasks
+* Override Wendor Mini default controller, for custom actions
+* Setup intagram Listener for Hastag of public profile
+* Instagram DM service - Fullfilment / Vending Code
+* Persist usage statistics
+
+## Ongoing Tasks
+* Web UI for onboard screen on Wendor Mini
+* Usage Reports
+* Package boxing standards 
+
+## Items to Buy
+* Servo x 2 - Lowermost tray non-functional 
+* Lock - Done
+* IR module 
