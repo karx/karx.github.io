@@ -5,7 +5,7 @@ players:
 
 link: http://info.cern.ch/hypertext/WWW/TheProject.html
 
-date:  1991, 1992
+date:  1992
 ---
 Their jobs are also remarkably similar to that of a domain name server. And domain names are very important for the URL and, by extension, the web.
 
