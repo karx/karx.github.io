@@ -5,7 +5,7 @@ players:
 
 # link: http://info.cern.ch/hypertext/WWW/TheProject.html
 
-date:  1991, 1992
+date:  1991
 images:
     - WebComponents\history\assets\mosaic.png
     - WebComponents\history\assets\mosaic_2.png
