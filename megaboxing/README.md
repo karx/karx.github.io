@@ -5,11 +5,11 @@ A growth hack for Brand activation and empowering social media presence.
 This Megaboxing Vending machine aims to use `Instagram Hashtags` as the trigger for Brand activation.
 
 These hashtags would be following:
- * #BoxKarega
- * #RingInTheBox
  * #BoxWinner
- * #MegaBoxing2019
 
+```
+Please provode a hastag for megaboxing event, if change needed.
+```
 
 [Wendor Mini](https://www.wendor.in/healthcare/) - a sleek Vending machine.
 
@@ -41,3 +41,13 @@ These hashtags would be following:
 ## Items to Buy
 * Servo x 2
 * Lock
+
+## Actions at venue
+* Poster/Sticker for the Body - Size with Megaboxing team
+* Wifi - SSID and password
+* Power - Standard 220V supply
+* Merchendise to despense (count to be determined) - Machine capacity 50/filling
+
+## POC at venue
+* Ashtam Singh - +91-6395973808
+* Sarthak Verma - +91-8979080101
