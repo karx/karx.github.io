@@ -1,4 +1,3 @@
-
 ---
 title: "The Web’s First (And Second) Browser"
 players:

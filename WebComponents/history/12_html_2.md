@@ -12,3 +12,5 @@ images:
 
 date:   October 13, 1994
 ---
+
+This was the standard until January 1997.
