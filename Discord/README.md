@@ -1,4 +1,23 @@
 ## Discord
+Mordern communication app
+
+## Introductions
+I started to use discord, when PUBG was in the Early access for what felt like a decade. Found myself a group of players who were `connected` atleast for 20-30% time during the day. A replacement for teamspeak, it initally felt like, later turned out to be the best communication platform, we currently have.
+
+For teams, communities and groups of all sizes, discord presents itself as an the best and most versitile platform. 
+It has features and plugins that help with:
+* Boost productivity (starting a little generic)
+* Community Engagement toolkit
+* Community Moderation toolkit
+* Empower developers with commerce
+* Automation flows using Bots
+* Host digital meetups
+* In-app premiums and merchendise (Like VIP lounges, special badges, etc)
+* Embbedable sharable presence on the web
+* Much much more...
+
+
+A fun loving and vibrant community of developers from the OS domain have chosen Discord as their HQ for discussion. There is no shortage of plugins and customizations that are possible on this platform.
 
 
 ## Discussion, Support and Issues
