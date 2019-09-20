@@ -1,5 +1,4 @@
 
-As recommended by Ishaan 
 
 ## List of Session
 Here is a curated list of topics 
