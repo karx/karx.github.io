@@ -9,7 +9,7 @@
 | [Vidiyo frontpage](https://github.com/karx/vidiyo-frontpage) | [![Netlify Status](https://api.netlify.com/api/v1/badges/8005492b-8de4-4599-810c-97f06e8f775e/deploy-status)](https://app.netlify.com/sites/vidiyo/deploys) |
 | [IG tool](https://github.com/karx/viragram-instagram) | [![Netlify Status](https://api.netlify.com/api/v1/badges/5e39c371-de4d-4f24-bd8c-631252b79695/deploy-status)](https://app.netlify.com/sites/instagram-viragram/deploys) | 
 | [Akriya Homepage](https://github.com/karx/homepage) | [![Netlify Status](https://api.netlify.com/api/v1/badges/9b3ce78c-cbd1-478e-87c4-279c52838044/deploy-status)](https://app.netlify.com/sites/akriya/deploys) | 
-
+| [Megaboxing app](https://github.com/karx/MegaBoxing) | [![Netlify Status](https://api.netlify.com/api/v1/badges/42a64bd6-c16b-42c9-8d4a-ccc10e075800/deploy-status)](https://app.netlify.com/sites/megaboxing/deploys)
 
 ## Dev
 
