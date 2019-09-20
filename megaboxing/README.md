@@ -32,6 +32,7 @@ Please provode a hastag for megaboxing event, if change needed.
 ## POC at venue
 * Ashtam Singh - +91-6395973808
 * Sarthak Verma - +91-8979080101
+* Rachit Shah - +91-8824847533
 
 ## Completed Tasks
 * Override Wendor Mini default controller, for custom actions
