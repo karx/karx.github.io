@@ -10,7 +10,7 @@ var ID = function () {
     // after the decimal.
     return '_' + Math.random().toString(36).substr(2, 9);
   };
-var client = new Paho.Client('api.akriya.co.in', 8083, `clientId-boxing_${ID}`);
+var client = new Paho.Client('bot.akriya.co.in', 8083, `clientId-boxing_${ID}`);
 
 // set callback handlers
 client.onConnectionLost = onConnectionLost;
@@ -24,10 +24,10 @@ client.connect({onSuccess:onConnect});
 function onConnect() {
   // Once a connection has been made, make a subscription and send a message.
   console.log("onConnect");
-  client.subscribe("World");
-  message = new Paho.Message("Hello");
-  message.destinationName = "World";
-  client.send(message);
+  client.subscribe("VMC/1035/ORDER_ITEM_RESPONSE");
+  // message = new Paho.Message("Hello");
+  // message.destinationName = "World";
+  // client.send(message);
   
 }
 
@@ -41,9 +41,8 @@ function onConnectionLost(responseObject) {
 // called when a message arrives
 function onMessageArrived(message) {
   console.log("onMessageArrived:"+message.payloadString);
-  if()
-  //clinetId
-  firebase.document.
+  
+  // firebase.document.
 }
 
 function sendCustomMessage() {
