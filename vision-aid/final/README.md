@@ -12,7 +12,7 @@ works +2
 For e.g. If the string entered is Python, it should print "PythonPythonPythonPythonPython"
 Do not use loops or multiple print statements.
 (2 marks)
-answer: printstatement.py  
+answer: printstatement.py 
 ```
 works +2
 ```
@@ -58,7 +58,7 @@ immutable example (45, 21)
 
 
 8. Write a program that stores first names and their phone numbers in two lists:-
-["Tom",  "Jerry",  "Doraemon", "Hattori", "Oggy", "Jack", "Jessie", "James"]
+["Tom", "Jerry", "Doraemon", "Hattori", "Oggy", "Jack", "Jessie", "James"]
 ["91912", "91232", "91213", "91233", "91999", "91929", "91872", "91234"]
 and returns the requested name's number. 
 (5 marks)
@@ -68,48 +68,35 @@ Tested and works
 +5
 ```
 
-9. Write a function that takes a list and a number as argument and returns the number of times it appears in the list. Use this function to find the most frequent number in [1, 1, 2, 1, 3, 1, 6, 2, 1, 2, 1]. 
-(15 marks)
-
+9. Write a function that takes a list and a number as argument and returns the number of times it appears in the list. Use this function to find the most frequent number in [1, 1, 2, 1, 3, 1, 6, 2, 1, 2, 1]. (15 marks)
 answer: find_frequent.py
-
 ```
 The function and logic is good.
 Error on Line number 9 at n[0]. Not defined
-
 +10
 ```
 
-
-
-10. Write a program to read the file "names.txt" that contains names of people and outputs unique last names. 
-(10 marks)
+10. Write a program to read the file "names.txt" that contains names of people and outputs unique last names. (10 marks)
 answer: lastname.py
-
 ```
 +7
 Tested. 
-
 Fails if second name is not provided.
 ```
 
 11. Write a function zap() that takes three lists as arguments and returns a list of tuples. 
 Each tuple contains the corresponding element from the list. 
-Assume that all lists are of equal length. 
-(10 marks)
+Assume that all lists are of equal length. (10 marks)
 answer: zap.py
-
 ```
 TESTED OK +10
 ```
 
-12. Given a file containing comma separated track of expenses in this format - DATE, EXPENSE, REASON , write a program to find the expenses by month. The output should show the month followed by the amount spent.  
-(50 marks)
+12. Given a file containing comma separated track of expenses in this format - DATE, EXPENSE, REASON , write a program to find the expenses by month. The output should show the month followed by the amount spent. (50 marks)
 answer: expenses.py
 ```
 +45
-Works. Would like to encourage a better way of handling dates in this senario.
-
+Works. Would like to encourage a better way of handling dates in this scenario.
 Also, the output gives results redundantly
 ```
 
