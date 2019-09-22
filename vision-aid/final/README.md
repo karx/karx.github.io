@@ -63,19 +63,6 @@ immutable example (45, 21)
 and returns the requested name's number. 
 (5 marks)
 answer: lookup.py
-
-Output should be like shown below.
-> python lookup.py
-Enter the name to lookup:jerry
-jerry's number is 91232
-
-> python lookup.py
-Enter the name to lookup:tom
-tom's number is 91912
-
-> python lookup.py
-Enter the name to lookup:bheem
-Not Found
 ```
 Tested and works
 +5
@@ -84,14 +71,11 @@ Tested and works
 9. Write a function that takes a list and a number as argument and returns the number of times it appears in the list. Use this function to find the most frequent number in [1, 1, 2, 1, 3, 1, 6, 2, 1, 2, 1]. 
 (15 marks)
 answer: find_frequent.py
-> python find-frequent.py 
-1 is most frequent, appearing 6 times
-
 ```
 The function and logic is good.
 Error on Line number 9 at n[0]. Not defined
 
-+2
++10
 ```
 
 
@@ -110,7 +94,6 @@ Shah
 Singh
 Bilal
 Irishnan
-
 ```
 +7
 Tested. 
@@ -123,11 +106,6 @@ Each tuple contains the corresponding element from the list.
 Assume that all lists are of equal length. 
 (10 marks)
 answer: zap.py
-
-
-> zap([1, 2, 3], ['a', 'b', 'c'], ['A', 'B', 'C'])
-[(1, 'a', 'A'), (2, 'b', 'B'), (3, 'c', 'C'])]
-
 ```
 TESTED OK +10
 ```
@@ -135,39 +113,8 @@ TESTED OK +10
 12. Given a file containing comma separated track of expenses in this format - DATE, EXPENSE, REASON , write a program to find the expenses by month. The output should show the month followed by the amount spent.  
 (50 marks)
 answer: expenses.py
-
-Here is some sample content from the file:- 
-2018-01-21,20,Milk
-2018-01-21,6,Tea
-2018-01-22,50,Bus
-2018-02-21,400,Movie
-2018-02-28,400,Shoes
-2018-03-30,130,Phone Bill
-2018-04-05,10,Coffee
-2018-04-07,110,Grocery
-2018-04-20,80,Notebook
-2019-01-21,21,Milk
-2019-01-21,6,Tea
-2019-01-22,50,Bus
-2019-02-21,500,Movie
-2019-02-28,500,Shoes
-2019-03-30,139,Phone Bill
-2019-04-05,10,Coffee
-2019-04-07,110,Grocery
-2019-04-20,80,Notebook
-
-> python expenses.py
-2018-01:76
-2018-02:800
-2018-03:130
-2018-04:200
-2019-01:76
-2019-02:1000
-2019-03:139
-2019-04:200
-
 ```
-+40
++45
 Works. Would like to encourage a better way of handling dates in this senario.
 
 Also, the output gives results redundantly
