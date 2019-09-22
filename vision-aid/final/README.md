@@ -86,6 +86,7 @@ Tested and works
 answer: find_frequent.py
 > python find-frequent.py 
 1 is most frequent, appearing 6 times
+
 ```
 The function and logic is good.
 Error on Line number 9 at n[0]. Not defined
@@ -109,6 +110,7 @@ Shah
 Singh
 Bilal
 Irishnan
+
 ```
 +7
 Tested. 
@@ -125,6 +127,7 @@ answer: zap.py
 
 > zap([1, 2, 3], ['a', 'b', 'c'], ['A', 'B', 'C'])
 [(1, 'a', 'A'), (2, 'b', 'B'), (3, 'c', 'C'])]
+
 ```
 TESTED OK +10
 ```
@@ -162,6 +165,7 @@ Here is some sample content from the file:-
 2019-02:1000
 2019-03:139
 2019-04:200
+
 ```
 +40
 Works. Would like to encourage a better way of handling dates in this senario.
