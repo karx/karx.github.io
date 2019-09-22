@@ -28,7 +28,6 @@ answer: in
 4. What method can be called to add an element to a list?
 (1 mark)
 answer: listName.append()
-
 ```
 +1
 ```
@@ -77,8 +76,6 @@ tom's number is 91912
 > python lookup.py
 Enter the name to lookup:bheem
 Not Found
-
-
 ```
 Tested and works
 +5
@@ -89,8 +86,6 @@ Tested and works
 answer: find_frequent.py
 > python find-frequent.py 
 1 is most frequent, appearing 6 times
-
-
 ```
 The function and logic is good.
 Error on Line number 9 at n[0]. Not defined
@@ -114,7 +109,6 @@ Shah
 Singh
 Bilal
 Irishnan
-
 ```
 +7
 Tested. 
@@ -168,7 +162,6 @@ Here is some sample content from the file:-
 2019-02:1000
 2019-03:139
 2019-04:200
-
 ```
 +40
 Works. Would like to encourage a better way of handling dates in this senario.
