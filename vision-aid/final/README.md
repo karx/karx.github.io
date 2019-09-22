@@ -70,7 +70,9 @@ Tested and works
 
 9. Write a function that takes a list and a number as argument and returns the number of times it appears in the list. Use this function to find the most frequent number in [1, 1, 2, 1, 3, 1, 6, 2, 1, 2, 1]. 
 (15 marks)
+
 answer: find_frequent.py
+
 ```
 The function and logic is good.
 Error on Line number 9 at n[0]. Not defined
@@ -84,16 +86,6 @@ Error on Line number 9 at n[0]. Not defined
 (10 marks)
 answer: lastname.py
 
-> python lastnames.py
-Jain
-Kumar
-Deb
-Mohite
-M
-Shah
-Singh
-Bilal
-Irishnan
 ```
 +7
 Tested. 
@@ -106,6 +98,7 @@ Each tuple contains the corresponding element from the list.
 Assume that all lists are of equal length. 
 (10 marks)
 answer: zap.py
+
 ```
 TESTED OK +10
 ```
