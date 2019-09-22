@@ -78,6 +78,7 @@ answer: lookup.py
  Enter the name to lookup:bheem
  Not Found
 
+
 ```
 Tested and works
 +5
@@ -88,6 +89,7 @@ Tested and works
 answer: find_frequent.py
  > python find-frequent.py 
  1 is most frequent, appearing 6 times
+ 
 ```
 The function and logic is good.
 Error on Line number 9 at n[0]. Not defined
