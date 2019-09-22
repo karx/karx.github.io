@@ -97,6 +97,5 @@ answer: expenses.py
 ```
 +45
 Works. Would like to encourage a better way of handling dates in this scenario.
-Also, the output gives results redundantly
 ```
 
