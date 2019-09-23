@@ -91,7 +91,8 @@ In this session, we will build one using - Pokemon!!!
 * [Github Issue](https://github.com/w3c/webcomponents/issues)
 * [Google model viewer](https://developers.google.com/web/updates/2019/02/model-viewer)
 * [history of web](https://home.cern/science/computing/birth-web/short-history-web)
-
+* https://httparchive.org/reports/state-of-the-web
+* [Awseome Web components](https://github.com/obetomuniz/awesome-webcomponents)
 
 [Link to slides @MozillaPunjab LPU on 24th March ](https://slides.com/kaaro/web-componentss)
 [Link to GitHub repo used](http://github.com/karx/webcomponents)
