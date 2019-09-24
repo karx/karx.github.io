@@ -19,7 +19,7 @@
 | [KaaroEmailer](https://github.com/karx/kaaroEmailer) |  Node.js Service | [Git-repo](https://github.com/karx/kaaroEmailer) | [Kartik Arora](http://kaaro.akriya.co.in/kaaro/) | 
 | [Digital Icon](https://di.akriya.co.in/) |  Node.js Service | [Admin](https://di.akriya.co.in/wp-admin) | [Sarthak Verma](mailto:hisarthakverma@gmail.com) | 
 | [Smart Switch](https://abacusservices.in/) |  Wordpress | [Admin](https://abacusservices.in/wp-admin) | [Sarthak Verma](mailto:hisarthakverma@gmail.com) | 
-| [Viragram Homepage](https://viragram.me/) |  Wordpress | [Admin]((https://viragram.me/wp-admin/) | [Sarthak Verma](mailto:hisarthakverma@gmail.com) | 
+| [Viragram Homepage](https://viragram.me/) |  Wordpress | [Admin](https://viragram.me/wp-admin/) | [Sarthak Verma](mailto:hisarthakverma@gmail.com) | 
 | [GoFetchIt](https://akriya.co.in) |  Wordpress | [Admin](https://akriya.co.in) | [Sarthak Verma](mailto:hisarthakverma@gmail.com) | 
 | [Manoj Sir - Marketplace](https://akriya.co.in) |  Magento | [Admin](https://akriya.co.in) | [Sarthak Verma](mailto:hisarthakverma@gmail.com) | 
 
