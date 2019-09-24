@@ -26,6 +26,7 @@
 
 
 ## Beta
+
 | Project | Type | Build Status | DRI |
 | -------- | ----- | ------------- | ------ |
 | [VR Instagram](https://kaaro.akriya.co.in/kaaroViewer)| [Static Site (Github Pages)](https://github.com/karx/kaaroViewer) | [Git-repo](https://github.com/karx/kaaroViewer) | [Kartik Arora](http://kaaro.akriya.co.in/kaaro/) | 
