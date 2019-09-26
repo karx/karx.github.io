@@ -18,3 +18,6 @@
 * Issue pipeline - with contributors | Done
 * Paypal link - emailers donate - linkedIn for Flutter 
 * A nice email to send to introduce people to Flutter Arsenal
+
+## Awareness program
+* Auto sends issue on repo with message: [http://api.flutterarsenal.com/awareness-list-html](http://api.flutterarsenal.com/awareness-list-html)
