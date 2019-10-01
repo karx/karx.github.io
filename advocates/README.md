@@ -16,7 +16,8 @@ We are a team of 4, here are few of the workshop links/webinar/writeups we have 
 * Bots - [Patreon post](https://www.patreon.com/posts/discord-bot-feed-28033124)
 * WebGL - [Blog entry](https://akriya.co.in/html-webgl/)
 * HTML Canvas - [Blog entry](https://akriya.co.in/html-canvas/)
-* WebComponents - [Tweet](https://twitter.com/MozPunjab/status/1107232662790569985)
+* WebComponents @ MozillaPunjab - [Tweet](https://twitter.com/MozPunjab/status/1107232662790569985)
+* WebComponents @ SFD'19 - [Tweet](https://twitter.com/sfdpu/status/1176437856505495552) [Slides](https://slides.com/kaaro/web-componentss/)
 
 # Big Data / Cloud computes
 * https://akriya.co.in/wikidata/ - Workshop in hillhacks and Drupal Camp 2019 - [Blog entry](https://akriya.co.in/wikidata/)
