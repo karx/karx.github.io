@@ -3,7 +3,8 @@ title: Wendor Instagram Events set
 ---
 
 # Wendor Mini options:
-### Pay via Instagram Post
+![Wendor Mini](../images/wendor-mini-1.jpeg)
+## Pay via Instagram Post
 Posting on Instagram using the specified `hastag` we provide digital points, that can be redeemed on the wending machine using the user's Instagram Handle.
 This provides an instant gratification to the users for posting at the venue.
 
@@ -16,7 +17,7 @@ We recommend using 1 point per wend to keep the expirence simple.
 
 Demo UI: [megaboxing event](https://megaboxing.netlify.com/)
 
-### Instagram Raffle
+## Instagram Raffle
 Who does not like good raffle.
 Instagram Raffle provides a unique way to drive engagement of an event or a location.
 
@@ -27,9 +28,10 @@ Using the pool of posts for on a specific `hastag` or `mentions`, we can provide
 
 The Lucky winners would be announced on the Wending Maching UI, as well as DMs to the Announcers/Operation Staff.
 
-### Wending Wheel of Fortune
+## Wending Wheel of Fortune
 Try your luck on Wending Machine.
 
 Very similar to `Pay via Instagram`, instead every post gives you a chance to run at the wheel of fortune.
 We have 5 trays of options, along `1 free token`, `a follow back on instagram` and `No win`.
+
 
