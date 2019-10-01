@@ -2,8 +2,7 @@
 title: Wendor Instagram Events set
 ---
 
-# Wendor Mini options:
-![Wendor Mini Event](../images/wendorEventMini.jpg)
+# Engagement options:
 ## Pay via Instagram Post
 Posting on Instagram using the specified `hastag` we provide digital points, that can be redeemed on the wending machine using the user's Instagram Handle.
 This provides an instant gratification to the users for posting at the venue.
@@ -35,3 +34,11 @@ Very similar to `Pay via Instagram`, instead every post gives you a chance to ru
 We have 5 trays of options, along `1 free token`, `a follow back on instagram` and `No win`.
 
 
+
+# Machine options
+
+## Wendor Mini
+![Wendor Mini Event](../images/wendorEventMini.jpg)
+
+## Wendor Mach III
+![Wendor Mach III](../images/wendorMachiii.jpg)
