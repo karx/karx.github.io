@@ -40,6 +40,8 @@ IoT enabled Custom Merchandise for Engagement Acceleration
 * Ethoslab Youtube (number of subscribers)
 * Jeemz (Twitch viewers | Followers | Subscribtions | Last Donation)
 * Digital Icon (number of devices out)
+* E-commerce Company (number of sales)
+* HacktoberFest (Number PRs | LOC | Merged PRs | Number of distinct Developers | Last Commit Message)
 
 ## Communications
 Best place to communicate would be in order
