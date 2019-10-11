@@ -38,10 +38,10 @@ IoT enabled Custom Merchandise for Engagement Acceleration
 * Paratha Counter (number of sales)
 * 91springboard (number of members)
 * Ethoslab Youtube (number of subscribers)
-* Jeemz (Twitch viewers | Followers | Subscribtions | Last Donation)
+* Jeemz (Twitch viewers / Followers / Subscribtions / Last Donation)
 * Digital Icon (number of devices out)
 * E-commerce Company (number of sales)
-* HacktoberFest (Number PRs | LOC | Merged PRs | Number of distinct Developers | Last Commit Message)
+* HacktoberFest (Number PRs / LOC / Merged PRs / Number of distinct Developers / Last Commit Message)
 
 ## Communications
 Best place to communicate would be in order
