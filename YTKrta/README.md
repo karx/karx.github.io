@@ -1,7 +1,3 @@
----
-toc: true
----
-
 # YTKrta
 IoT enabled Custom Merchandise for Engagement Acceleration
 
