@@ -68,3 +68,8 @@ Self-explanatory "route" fields - don't need programmer.
 #### Direct linking
 - A unique link - for the current page, map, etc
 - to share Where to start, Share own status, For working on multiple devices. 
+
+
+## Source
+This is based (a lot of copying - well i tried to edit as less as possibe) from [Vanilla Questings](https://www.vanilla-questing.me/)'s [manifesto](https://www.vanilla-questing.me/manifesto).
+
