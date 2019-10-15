@@ -46,24 +46,25 @@ They must be done in a range.
 
 ## Features
 Self-explanatory "route" fields - don't need programmer.
-* Saving your progress
+
+#### Saving your progress
 - A snapshot of character progress
 - This we parse use and update
 
-* Smaller devices
+#### Smaller devices
 - Works with at half the screen
 
-* Custom Rules
+#### Custom Rules
 - Very flexible
 - You want to create a custom *course* i.e Routes - Share privately with friends.
 
-* Preloading
+#### Preloading
 - caching and stuff because assets will be heavy
 
-* Reduce Course Pickup/Onboarding Time
+#### Reduce Course Pickup/Onboarding Time
 - Addons and Plugins
 - To help easily indicate the course, start tracking, a guide.
 
-* Direct linking
+#### Direct linking
 - A unique link - for the current page, map, etc
 - to share Where to start, Share own status, For working on multiple devices. 
