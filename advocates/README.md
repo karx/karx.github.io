@@ -1,6 +1,5 @@
-Hey Aparna,
 
-We actively work in the mentioned domains and also act as "developer advocates" in these ecosystems. 
+We actively work in the web technologies domains and also act as "developer advocates" in these ecosystems. 
 
 Well, that means being active participants in the online communities, contributing to the documentation, upkeep of codebase and Hosting Community Events.
 
