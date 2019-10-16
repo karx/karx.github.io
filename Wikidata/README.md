@@ -85,3 +85,11 @@ Best place to communicate would be in order
 * Slack Channel Invite Link: [Invite](https://join.slack.com/t/akriya/shared_invite/enQtNDMwOTM2NjExMzQ0LTZmODYzZDUyNDYyMjhhNmNhMzk2MzVjY2NmZGM0YjNkYzViZTJjMDc2Nzg4MTA5NjAzOTQ1ZWZhMDc0OWI3OGU) 
 * [Wikipedia Talk page](https://en.wikipedia.org/wiki/User_talk:Kaaro01)
 * [Q64391865](https://www.wikidata.org/wiki/Q64391865)
+
+
+## Usefullness for audience
+* There is a huge pool of clean, categorized, context-rich data on the web, any ML engineer's dream. Better sets of data to play with equates to better experiences being built.
+
+* Learning through practice. I would encourage getting involved in the working of these KG. Including development, maintenance tasks, data curation, discussions and usage.
+
+* Empower day to day - Use these open data repositories to supercharge your reports, customer experience and operations.
