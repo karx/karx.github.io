@@ -27,6 +27,3 @@ We are a team of 4, here are few of the workshop links/webinar/writeups we have 
 
 
 Most of these are also listed here: [https://akriya.co.in/blogs](https://akriya.co.in/blogs)
-
-There are a lot more stories/content we are working on, in most of the domain mentioned. 
-Though that takes time and investment. Let us know, what you have in mind.
