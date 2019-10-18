@@ -14,7 +14,7 @@
 | GadgetsCare   |   200 |   3   | - |
 
 
-## Post Raw data:
-
+## Usage:
+[Posts ScatterPlot](./posts.png)
 
 Link to [Raw Json](https://github.com/karx/wendorEvents-bridge/blob/kaaro/reports/allPost_RAW.json)
