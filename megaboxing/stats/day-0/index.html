@@ -1,23 +1,43 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script type=module src="https://unpkg.com/@google-web-components/google-chart@3.0.0/google-chart.js?module"></script>
-    <style>
-        #insta-data {
-            width: 100%;
-            height: 100%;
-        }
-    </style>
-    <title>WordTree</title>
-</head>
-<body>
-    <google-chart id="insta-data" data='[["Dates"],
-    [new Date(1571404332),new Date(1571403272),new Date(1571405056),new Date(1571403912),new Date(1571405535),new Date(1571405052),new Date(1571403421),new Date(1571403691),new Date(1571404993),new Date(1571404317),new Date(1571385225),new Date(1571403383),new Date(1571403834),new Date(1571405637),new Date(1571403014),new Date(1571405362),new Date(1571404141),new Date(1571404533),new Date(1571405513),new Date(1571404108),new Date(1571405848),new Date(1571403598),new Date(1571404304),new Date(1571405016),new Date(1571404009),new Date(1571404391),new Date(1571402343),new Date(1571403899),new Date(1571403457),new Date(1571404577),new Date(1571404965),new Date(1571404077),new Date(1571403531),new Date(1571402724),new Date(1571405688),new Date(1571404221),new Date(1571403655),new Date(1571402947),new Date(1571404014),new Date(1571405689),new Date(1571404482),new Date(1571402875),new Date(1571405697),new Date(1571405058)]
-        ]'
+<html>
+  <head>
+    <!--Load the AJAX API-->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
 
-  ></google-chart>
-</body>
+      // Load the Visualization API and the corechart package.
+      google.charts.load('current', {'packages':['corechart']});
+
+      // Set a callback to run when the Google Visualization API is loaded.
+      google.charts.setOnLoadCallback(drawChart);
+
+      // Callback that creates and populates a data table,
+      // instantiates the pie chart, passes in the data and
+      // draws it.
+      function drawChart() {
+
+        // Create the data table.
+        var data = new google.visualization.DataTable();
+        data.addColumn('date', 'time');
+        data.addColumn('number', 'Post #');
+        
+        data.addRows([
+        [new Date(1571404332000), 1 ], [new Date(1571403272000), 2 ], [new Date(1571405056000), 3 ], [new Date(1571403912000), 4 ], [new Date(1571405535000), 5 ], [new Date(1571405052000), 6 ], [new Date(1571403421000), 7 ], [new Date(1571403691000), 8 ], [new Date(1571404993000), 9 ], [new Date(1571404317000), 10 ],  [new Date(1571403383000), 12 ], [new Date(1571403834000), 13 ], [new Date(1571405637000), 14 ], [new Date(1571403014000), 15 ], [new Date(1571405362000), 16 ], [new Date(1571404141000), 17 ], [new Date(1571404533000), 18 ], [new Date(1571405513000), 19 ], [new Date(1571404108000), 20 ], [new Date(1571405848000), 21 ], [new Date(1571403598000), 22 ], [new Date(1571404304000), 23 ], [new Date(1571405016000), 24 ], [new Date(1571404009000), 25 ], [new Date(1571404391000), 26 ], [new Date(1571402343000), 27 ], [new Date(1571403899000), 28 ], [new Date(1571403457000), 29 ], [new Date(1571404577000), 30 ], [new Date(1571404965000), 31 ], [new Date(1571404077000), 32 ], [new Date(1571403531000), 33 ], [new Date(1571402724000), 34 ], [new Date(1571405688000), 35 ], [new Date(1571404221000), 36 ], [new Date(1571403655000), 37 ], [new Date(1571402947000), 38 ], [new Date(1571404014000), 39 ], [new Date(1571405689000), 40 ], [new Date(1571404482000), 41 ], [new Date(1571402875000), 42 ], [new Date(1571405697000), 43 ], [new Date(1571405058000), 44 ]
+        ]);
+
+        // Set chart options
+        var options = {'title':'Our Posts'
+                       };
+
+        // Instantiate and draw our chart, passing in some options.
+        var chart = new google.visualization.ScatterChart(document.getElementById('chart_div'));
+        chart.draw(data, options);
+        Date.parse()
+      }
+    </script>
+  </head>
+
+  <body>
+    <!--Div that will hold the pie chart-->
+    <div id="chart_div"></div>
+  </body>
 </html>

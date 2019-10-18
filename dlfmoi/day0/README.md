@@ -12,3 +12,9 @@
 | Nazeer    | 500   |   14  |   -   |
 |   AlEureka    |   300 | 6 | -|
 | GadgetsCare   |   200 |   3   | - |
+
+
+## Post Raw data:
+
+
+Link to [Raw Json](https://github.com/karx/wendorEvents-bridge/blob/kaaro/reports/allPost_RAW.json)
