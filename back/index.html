@@ -1,0 +1,126 @@
+<html>
+<head>
+<title> DLF Mall of India </title>
+</head>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,400,700');
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.wrapper {
+  position: absolute;
+  background-image: url(https://raw.githubusercontent.com/erenesto/local-weather-app/master/img/partly-cloudy-day.jpg);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-color: #444;
+  background-blend-mode: overlay;
+}
+
+.coming-soon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+}
+
+.coming-soon h1 {
+  display: inline-block;
+  font-size: 52px;
+  border: 5px solid #000;
+  padding: 8px 40px;
+  color: #ffd905;
+  animation: text-animation 3s ease-in-out forwards;
+}
+
+.coming-soon .ctdown {
+  font-weight: 700;
+  font-size: 42px;
+  display: flex;
+  justify-content: center;
+  min-height: 160px;
+  opacity: 0;
+  transition: opacity 3s ease-in-out;
+}
+
+.time-box {
+  display: flex;
+  flex-direction: column;
+  color: #ffd905;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0,0,0, 0.7);
+  width: 160px;
+  height: 160px;
+}
+
+.time-box:not(:last-child) {
+  margin-right: 20px;
+}
+
+.time-box span {
+  font-size: 18px;
+  font-weight: 200;
+}
+
+@keyframes text-animation {
+  from {
+    transform: scale(0) rotateY(0deg);
+  }
+  to {
+    transform: scale(1) rotateY(720deg);
+  }
+}
+</style>
+<body>
+<section class="wrapper">
+    <div class="coming-soon">
+      <h1>We Will Be Here Soon</h1>
+      <div id="countdown" class="ctdown"></div>
+    </div>
+  </section>
+  
+  <script>
+  const timeToBeReach = new Date("Oct 20, 2019 18:15:00").getTime();
+
+const updateCountDown = setInterval(() => {
+
+  const now = new Date().getTime();
+
+  const timeDistance = timeToBeReach - now;
+
+  const days = Math.floor(timeDistance / (1000 * 60 * 60 * 24));
+  const hours = Math.floor((timeDistance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  const minutes = Math.floor((timeDistance % (1000 * 60 * 60)) / (1000 * 60));
+  const seconds = Math.floor((timeDistance % (1000 * 60)) / 1000);
+
+  const countDown = document.getElementById('countdown');
+
+  countDown.innerHTML = `
+    <div class="time-box">${days} <span>days</span></div>
+    <div class="time-box">${hours} <span>hours</span></div>
+    <div class="time-box">${minutes} <span>minutes</span></div>
+    <div class="time-box">${seconds} <span>seconds</span></div>
+  `;
+
+  countDown.style.opacity = 1;
+
+  //if time is up
+  if (timeDistance < 0) {
+    clearInterval(updateCountDown);
+    countDown.innerHTML = "It's time !";
+  }
+
+}, 1000);
+</script>
+  
+  </body>
+  
