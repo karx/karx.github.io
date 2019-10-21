@@ -60,3 +60,5 @@
 
 ## Posts
 ![Posts ScatterPlot](./day-3/posts.png)
+
+[Link to raw JSON](https://raw.githubusercontent.com/karx/wendorEvents-bridge/kaaro/report-timescatter/allPost_RAW.json?token=AB3WVWWA2K4SNTVQ63B6XSK5VYRK4)
