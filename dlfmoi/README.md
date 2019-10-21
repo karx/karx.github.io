@@ -59,4 +59,4 @@
 
 
 ## Posts
-![Posts ScatterPlot](./day-2/posts.png)
+![Posts ScatterPlot](./day-3/posts.png)
