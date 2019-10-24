@@ -14,6 +14,20 @@
 
 
 ## Posts
+A plot of all the posts that were fetched at MOI's Wendor-mini Engagement event.
 ![Posts ScatterPlot](./day-5/posts.png)
+
+
+## Profiles
+
+
+
+## Impressions and Reach
+
+
+## Further Analysis
+
+
+
 
 
