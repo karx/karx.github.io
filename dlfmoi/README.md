@@ -56,9 +56,37 @@
 | GadgetsCare   |   200 |   0   | 0 |
 
 
+## Coupons
+
+| Brand | Value | Left | Initial |
+| ---- | ---- | ---- | --- |
+| MenaBazzar | 200 | 0 | 0 |
+| WK-Life (expired) | 200 | 0 | 5 |
+| Chi (does not work)   | 250  | 1| 1 |
+|   Millies   |   500 |   0  |   0   |
+|   Millies | 1000  |   0  | 0 |
+| Nazeer    | 500   |   21  |   40 (New)   |
+|   AlEureka    |   300 | 0 | 0|
+| GadgetsCare   |   200 |   0   | 0 |
+
+
+## Coupons
+
+| Brand | Value | Left | Initial |
+| ---- | ---- | ---- | --- |
+| MenaBazzar | 200 | 0 | 0 |
+| WK-Life (expired) | 200 | 0 | 0 |
+| Chi (does not work)   | 250  | 1| 1 |
+|   Millies   |   500 |   0  |   0   |
+|   Millies | 1000  |   0  | 0 |
+| Nazeer    | 500   |   0  |   21   |
+|   AlEureka    |   300 | 0 | 0|
+| GadgetsCare   |   200 |   0   | 0 |
+
+
 
 
 ## Posts
-![Posts ScatterPlot](./day-3/posts.png)
+![Posts ScatterPlot](./day-5/posts.png)
 
 
