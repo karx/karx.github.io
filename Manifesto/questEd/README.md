@@ -16,7 +16,7 @@ All learning, diverse subjects - all paths involve ~500 unique quests which are 
 * Few multiple efficient loops
 
 Planning on a 9-5 or walking hour, having thought through plan & therefore be able to **schedule**, can reduce effort (be ~half)
-
+You are not just learning, but also earning.
 
 ## Volatility at Low Levels
 When starting, young *age*, very prone to jump the gun and royally screw yourself where you have no option but to grid. 
