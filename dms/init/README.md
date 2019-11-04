@@ -1,5 +1,5 @@
 ## DMS - ShelvesTech
-mom from 4th Novmber
+mom from 4th Novmber as per discussion with myself(Kartik), Mukesh sir and Naman from ShevesTech
   
   
 ## Standart Product Definition
