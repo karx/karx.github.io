@@ -82,3 +82,12 @@ function sendOTA_Message() {
   client.send(message);
   document.getElementById("counter").value = "";
 }
+
+
+document.getElementsByTagName('video')[0].
+
+Array.from(document.getElementsByClassName('kaaro-vidiyo')).forEach( (node) => {
+  let videoEL = node.getElementsByTagName('video')[0];
+  videoEL.setAttribute('autoplay');
+  videoEL.setAttribute('loop', true);
+});
