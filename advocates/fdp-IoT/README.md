@@ -1,4 +1,4 @@
-# FDP - IoT for Emerging Technical Applications
+>FDP - IoT for Emerging Technical Applications
 
 ## Introduction
 This document is to serve as a proposition and brief for conducting a two weeks FDP on IoT for Emerging Techincal Applications in Smart City. Our current and past experience on-ground implementing and developing IoT based solutions has brought us with some learnings.
@@ -16,6 +16,7 @@ The do however provide a good in-depth knowledge and awarness about the current 
 
 #### Device Management and Communications 
 `Week 1 (20 hours)`
+
 We shall discuss the need, followed by few examples of IoT platforms for Device Mangement and Communications. The following technoloiges/tools would be discussed.
 * MQTT
 * AWS IoT Core
@@ -32,7 +33,8 @@ We shall discuss the need, followed by few examples of IoT platforms for Device 
 * Raspberry Pi and other Mini-computers.
 
 #### Web Ecosystems
-`Week 2 (20 hours)`
+`Week 2 (20 hours)`]
+
 We shall deep dive into technologies and tools earlier discuessed, their integrations and more examples/demos.
 
 * IFTTT 
