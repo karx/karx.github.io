@@ -30,7 +30,7 @@ Events game builder
 
 #### Step 2
 All factions (teams of 3 or 4) meet and complete a group task. 
-Get AN image of 4 people wearing slippers.
+`Get AN image of - 4 people wearing slippers.`
 - With a hashtag: #AaoChillKare
   
 
@@ -59,4 +59,8 @@ The machine in Step 1 would now give out prizes to winner if they approch the ma
 
 
 ### Iterantion 2 Plan and actions
----
+--Face Events Demo--
+- Register Web API
+- Confirm Web API
+- 
+

@@ -40,5 +40,5 @@ We have 5 trays of options, along `1 free token`, `a follow back on instagram` a
 ### Wendor Mini
 ![Wendor Mini Event](../images/wendorEventMini.jpg)
 
-### Wendor Mach III
+### Wendor Mach XLh
 ![Wendor Mach III](../images/wendorMachiii.jpg)

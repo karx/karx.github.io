@@ -1,22 +1,22 @@
 
 We actively work in the web technologies domains and also act as "developer advocates" in these ecosystems. 
 
-Well, that means being active participants in the online communities, contributing to the documentation, upkeep of codebase and Hosting Community Events.
+Well, that means being active participants in the online communities, contributing to the documentation, upkeep of codebase and hosting Community Events.
 
 We are a team of 4, here are few of the workshop links/webinar/writeups we have created:- 
+
 # IoT/Hardware/Arduino
-* [Micropython](https://www.slideshare.net/karx01/micro-python-pycon-india-2018-proposal-kartik-arora)
+
 * Advanced Arduino - [Link](https://goo.gl/24u5He)
-* Makey Makey Setup - [Link](https://osem.hillhacks.in/conferences/hillhacks-2019/program/proposals/291)
 * Adventures with ESP32 in 91Springboard - [Blog entry](https://akriya.co.in/coke-voting-machine/)
+* [Micropython (OLD)](https://www.slideshare.net/karx01/micro-python-pycon-india-2018-proposal-kartik-arora)
 
 # Web Technologies
-* JavaScript Advanced - [Webcomponents](https://osem.hillhacks.in/conferences/hillhacks-2019/program/proposals/288)
+* WebComponents @ SFD'19 - [Slides](https://slides.com/kaaro/web-componentss/) - [Tweet](https://twitter.com/sfdpu/status/1176437856505495552)
 * Bots - [Patreon post](https://www.patreon.com/posts/discord-bot-feed-28033124)
 * WebGL - [Blog entry](https://akriya.co.in/html-webgl/)
 * HTML Canvas - [Blog entry](https://akriya.co.in/html-canvas/)
 * WebComponents @ MozillaPunjab - [Tweet](https://twitter.com/MozPunjab/status/1107232662790569985)
-* WebComponents @ SFD'19 - [Tweet](https://twitter.com/sfdpu/status/1176437856505495552) [Slides](https://slides.com/kaaro/web-componentss/)
 
 # Big Data / Cloud computes
 * https://akriya.co.in/wikidata/ - Workshop in hillhacks and Drupal Camp 2019 - [Blog entry](https://akriya.co.in/wikidata/)
