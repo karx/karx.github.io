@@ -7,7 +7,7 @@ Prime reason for this mail.
 
 Last month..
 
-## Aim
+### Aim
 To improve empower activate - Connected devices and experiences.
 
 ### Product of the Month
