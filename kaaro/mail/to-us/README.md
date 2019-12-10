@@ -21,3 +21,22 @@ Social Media + On ground feedback
 * Abacus Smart - our Smart Home solution App live on Play Store: [Play store Link](https://play.google.com/store/apps/details?id=com.artiosys.smart_switch)
 * ESP32 talk with ILUG-delhi and Delhi HHC: [Link](https://github.com/hardware-hackers-club-delhi/Talks/issues/3)
 * BLE logger for our connected devices: [Link](https://github.com/ashtam55/BleWebLogger)
+
+## Our Projects 
+
+#### Digital Icon
+- making product landing page: [Link](https://di.akriya.co.in) , [Issue Link](https://github.com/karx/karx.github.io/projects/1#card-30261402)
+- 4 new pieces ready
+
+#### Vidiyo
+- new homepage coming with product landing page: [Vidiyo - Dev](https://vidiyo.netlify.com/)
+
+#### WendorEvents
+- new landing page: [wE](https://we.akriya.co.in)
+- Sales Kit : [Link](https://github.com/karx/karx.github.io/issues/18)
+
+#### Smart Switch
+- App up
+- LTS release for ESP32
+- BLE logger created
+
