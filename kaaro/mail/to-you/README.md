@@ -10,16 +10,17 @@ Today, on our 2 year anneversary we start this monthly newseller `Mail-to-you`, 
 - Help collaborate for `Mail-to-all` - Our monthly outbound newseller.
 
 
-Aim
+### Aim
 To improve empower activate - Connected devices and experiences.
 
-Product of the Month
-Wendor Experiences Social Media + On ground feedback
+### Product of the Month
+[Wendor Experiences](https://we.akriya.co.in)
+Social Media + On ground feedback
 
-Top activites
-Wendor Events at DLF mall of India : dlf-moi
-Updated homepage of our partners: Viragram Media
-First lts-version of Smart Home solution: Link
-Abacus Smart - our Smart Home solution App live on Play Store: Play store Link
-ESP32 talk with ILUG-delhi and Delhi HHC: Link
-BLE logger for our connected devices: Link
+### Top activites
+* Wendor Events at DLF mall of India : [dlf-moi](https://akriya.co.in/wendor-events/)
+* Updated homepage of our partners: [Viragram Media](https://viragram.me/)
+* First lts-version of Smart Home solution: [Link](https://github.com/ashtam55/smart_switch/releases)
+* Abacus Smart - our Smart Home solution App live on Play Store: [Play store Link](https://play.google.com/store/apps/details?id=com.artiosys.smart_switch)
+* ESP32 talk with ILUG-delhi and Delhi HHC: [Link](https://github.com/hardware-hackers-club-delhi/Talks/issues/3)
+* BLE logger for our connected devices: [Link](https://github.com/ashtam55/BleWebLogger)
