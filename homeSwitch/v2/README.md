@@ -24,11 +24,12 @@
 This documentation is to serve as a 'Statement of Work' or SOW for maintaining and developing new features for homeSwitch System for Abacus Services, to enable them goto Market Product. The advancement in the field of IoT, Networks, Computing and Data Science has made possible Integrated systems that can really help business.
 Such a system would include a means to capture, catalog and analyze data, along with tools to enforce 'business logic'.
 
-Akriya Technologies will work with Abacus Services for homeSwitch V2:
+Based on the learnings from V1 of homeSwitch, Akriya Technologies will work with Abacus Services for homeSwitch V2:
 
 * Stability of current homeSwitch System
-* Alexa + Google Voice Application
-* Documentation of homeSwitch System
+* Voice Command Unit
+* SMS Control Unit
+* Update the documentation of homeSwitch System
 
 
 The Value Proposition of using Akriya Technologies for this project are:
@@ -37,45 +38,27 @@ The Value Proposition of using Akriya Technologies for this project are:
 * Using our subject matter experts to complete the project quickly. Rapid project completion minimizes disruptions and allows organizations to realize cost saving quickly.
 
 ## Delivery Scope
-The scope of this project is to design, implement and deliver an end-user consumable product/system for homeSwitches. This would include
- - A interface for the end-user: A mobile App
- - In-wall devices: Arduino based devices
- - Process definations for Installation, mantaince and debugging
+The scope of this project is to maintain and update the homeSwitch System. This would include
+ - end-user application: A mobile App
+ - In-wall devices Firmware: ESP32 based devices
+ - Voice Control Units
+ - SMS Control Units
 
-The homeSwitch system is proposed to have no dependencies to the internet, and should be a full-funtional system while offline.
-The feasibility of few techniques to have such a system, would be conducted while the designing and development of the system.
+V2 homeSwitch system will maintain to have no dependencies to the internet, and should be a full-funtional system while offline.
+The feasibility of few techniques to have such a system, would be conducted while the designing and development of the system. 
 
-## Devices
+### Voice Control Unit
 
-* Offline - Indivisual Hotspot Devices
+* Built-in
 
-```
-    Max connected devices to App: 1
-```
-To connect to any device, we hop into the indivisual operating channel of the device.
+> To experiment with esp32-lyratd-msc-v2-2-board
+![Image of Board](https://akriya.co.in/assets/images/ESP-audio.png)
 
-> ToBe Tested: We would want to have online logging mechanism if feasible
-
-* Online - Always connected Devices
+* 3rd Party
 
 ```
-    Max connected devices to App: All n
+ Google Home, Alexa Skill, Home Kit*
 ```
-To connect to any device, we would maintain a central state, which then interfaces with the devices. There is no direct link b/w App and devices
-
-> Logging mechanism would provide, indivisual event wise telemetry
-
-* homeSwitch Specs
-
-``` 
-Sensors :   8 x 5V digital Input
-
-Actuators:  8 x 5V digital Output
-
-Addons:     Real-time clock system
-
-``` 
-This hardware is supplied by Abacus Services, and we provide firmware to make it work as a homeSwitch System component
 
 ## Web/Software
 * Admin SDK / APIs for Devices
