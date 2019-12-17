@@ -9,3 +9,11 @@
 
 
 
+### Features
+  * Dimmer
+  * Calender Schedule
+  * Voice
+  * Photo instead of <Name> of Home
+  * Tutorial Video > Youtube Video
+  * Customer Support Agency [Intercom/Zendesk]
+
