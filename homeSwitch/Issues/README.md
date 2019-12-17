@@ -5,7 +5,7 @@
 * Mesh device is not functional - Online | TBT
 * We are not able to delete Home in the app *
 * Offline ONLY Test room
-* Schedule Timer Test
+* Schedule Timer Offset fix
 
 
 
