@@ -20,7 +20,7 @@ Social Media + On ground feedback
 ### Top activites
 * Wendor Events at DLF mall of India : [dlf-moi](https://akriya.co.in/wendor-events/)
 * Updated homepage of our partners: [Viragram Media](https://viragram.me/)
-* First lts-version of Smart Home solution: [Link](https://github.com/ashtam55/smart_switch/releases)
+* First LTS-version of Smart Home solution: [Link](https://github.com/ashtam55/smart_switch/releases)
 * Abacus Smart - our Smart Home solution App live on Play Store: [Play store Link](https://play.google.com/store/apps/details?id=com.artiosys.smart_switch)
 * ESP32 talk with ILUG-delhi and Delhi HHC: [Link](https://github.com/hardware-hackers-club-delhi/Talks/issues/3)
 * BLE logger for our connected devices: [Link](https://github.com/ashtam55/BleWebLogger)
@@ -31,3 +31,6 @@ Social Media + On ground feedback
 * ESP32 Object Detection for Malboro using IR : [Link](https://github.com/ashtam55/Digital_Icon/tree/malboro/blstr/recvr)
 * ESP32 Weight Load cell for small weights : [Link]()
 * BLE Mesh modules for all our connected devices.
+
+### Webcomponents 
+* TBAdded
