@@ -53,6 +53,7 @@ function Touch(e) {
 function Click(e) {
     pos = getMousePos(can, e);
     rgb = ctx.getImageData(pos.x, pos.y, 1, 1).data;
+    console.log(rgb);
     drawColorbar(rgb);
     submitVal('c', compToHex(rgb[0]) + compToHex(rgb[1]) + compToHex(rgb[2]));
 }
