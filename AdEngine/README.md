@@ -155,7 +155,7 @@ Access top level Git repositories for the SDK, on-premise firmware, and admin in
 | -------------                             |:-------------:| -----:    |
 | Requirement Finalization                  | 25%            | 1,00,000 INR|
 | Module 1.1 + Module 1.5          | 50%           | 1,00,000 INR|
-| Module 1.3 + Module 1.2            | 75%           | 1.00,000 INR|
+| Module 1.3 + Module 1.2            | 75%           | 1,00,000 INR|
 | Modele 1.4                   | 100%          | 1,00,000 INR|
 
 
