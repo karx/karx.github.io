@@ -5,7 +5,7 @@ function handle_M_B_S(e) {
     e.preventDefault();
     var name = e.target.className;
     var val = e.target.id;
-
+    // console.log(e.target);
     if (e.target.tagName === 'SPAN') {
         // console.log("IN");
         elems = document.getElementsByClassName('btn');
@@ -16,6 +16,16 @@ function handle_M_B_S(e) {
         e.target.parentElement.classList.add('white');
         name = 'm';
         val = e.target.parentElement.id;
+    } else if (e.target.className.indexOf('btn') > -1) {
+        // console.log("IN DIV DIV");
+        elems = document.getElementsByClassName('btn');
+        [].forEach.call(elems, function(el) {
+            el.classList.remove('white');
+        });
+        e.target.classList.add('white');
+        e.target.classList.add('white');
+        name = 'm';
+        val = e.target.id;
     }
     submitVal(name, val);
 }
@@ -105,13 +115,15 @@ function drawColorbar(rgb = [0, 0, 0]) {
 
 function setModesOnUI(modes) {
     let gen = '';
-    modes.modes.forEach(mode => {
-        gen += `<div class="btn striped-shadow" id="${mode.id}"> <span>${mode.name}</span></div>`
+    console.log(modes);
+modes = modes.split(',')
+    modes.forEach(mode => {
+        let vals = mode.split('|');
+        gen += `<div class="btn striped-shadow" id="${vals[0]}"> <span>${vals[1]}</span></div>`
     });
     document.getElementById('mode').innerHTML = gen;
 
 }
-
 function setup() {
 
     var xhttp = new XMLHttpRequest();
