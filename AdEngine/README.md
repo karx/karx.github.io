@@ -141,23 +141,23 @@ Access top-level Git repositories for the SDK, on-premise firmware, and admin in
 * Client will provide a work area space with desk, chair, Internet access for use by Akriya Technologies to conduct project business while working on-site.
 
 ## Investment and Cost
-* Man-hour required: 2 months: 4 lakh INR
+* Time required: 2 months: 4 lakh INR (estimated 300 man-hours)
 
 * Hardware cost (if required) to be paid by AdEngine
     
 * Server/Web hosting charges:
     * 60$ / month = 4000 INR
 
-*Bill separately for travel costs will be billed at actual cost and will not exceed 10,000 INR for the entire project.
+*Bill separately for travel costs will be billed at actual cost and will not exceed 10,000 INR for the entire project for movement within NCR
 
  * Payment Schedule
 
-| Milestone                                 | Percentage    | Amount    |
-| -------------                             |:-------------:| -----:    |
-| Requirement Finalization                  | 25%            | 1,00,000 INR|
-| Module 1.1 + Module 1.5          | 50%           | 1,00,000 INR|
-| Module 1.3 + Module 1.2            | 75%           | 1,00,000 INR|
-| Modele 1.4                   | 100%          | 1,00,000 INR|
+| Milestone                                 | Percentage    | Amount    | Time period from Start
+| -------------                             |:-------------:| -----:    | ----- | 
+| Requirement Finalization                  | 25%            | 1,00,000 INR| 0 day | 
+| Module 1.1 + Module 1.5          | 25%           | 1,00,000 INR| 15 days |  
+| Module 1.3 + Module 1.2            | 25%           | 1,00,000 INR| 30 days | 
+| Modele 1.4                   | 25%          | 1,00,000 INR| 60 days |
 
 
 Devices cost to be paid on the day of installation.
@@ -183,6 +183,7 @@ If Akriya Technologies is notified by AdEngine, within the above time frame, of 
     * All changes to the schedule or technical requirements must be provided to Akriya Technologies in written format. Email is included as written format. Receipt of all correspondence should be confirmed by phone wherever possible.
     * AdEngine has accepted the costs/times estimate as detailed in this document
     * AdEngine has accepted the Akriya Technologies standard terms and conditions linked.
+    * Any deviationns, technical or commercial , shall be mutually discussed and agreed before implementation.
 
 ## Intellectual Property
 Unless otherwise agreed in writing, AdEngine acknowledges that all intellectual property rights attaching to the products or arising out of the provision of services are and will remain the property of Akriya Technologies (or its suppliers, where such rights are owned by that supplier).
