@@ -25,12 +25,13 @@ Social Media + On ground feedback
 * ESP32 talk with ILUG-delhi and Delhi HHC: [Link](https://github.com/hardware-hackers-club-delhi/Talks/issues/3)
 * BLE logger for our connected devices: [Link](https://github.com/ashtam55/BleWebLogger)
 
-### Modules Built
+### H/W Builds
 * ESP32 Coke Voting Machine for a Public Pulse: [Link](https://akriya.co.in/coke-voting-machine/)
 * ESP32 NeoPixel Notification Lighting for Wending Machine Lighting : [Link](https://github.com/ashtam55/OtaTestingDevice)
 * ESP32 Object Detection for Malboro using IR : [Link](https://github.com/ashtam55/Digital_Icon/tree/malboro/blstr/recvr)
 * ESP32 Weight Load cell for small weights : [Link]()
-* BLE Mesh modules for all our connected devices.
+* BLE Mesh modules for all our connected devices - [लाइटे-ही-लाइटे](https://github.com/ashtam55/mqtt-neopixel/tree/lightHub) .
 
-### Webcomponents 
-* TBAdded
+### Web Builds
+* Vidiyo Webcomponent for carousels with images and videos: [Github Link](https://github.com/karx/webcomponents/tree/master/vidiyo)
+* More to be added
