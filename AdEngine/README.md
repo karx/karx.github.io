@@ -40,7 +40,9 @@ Akriya Technologies will work with AdEngine to:
 * Knowledge Transfer/Integrate 
 
 Akriya Technologies proposes to design, develop and provide installation of v1.0 of the proposed system to cater for 5 personas.
-This activity will require 8-10 weeks. The estimated cost for this activity would be 4 lakhs INR plus additional charges including travel, server rental and hardware costs.
+This activity will require <strike>8-10 weeks </strike> 5 weeks. The estimated cost for this activity would be <strike> 4 lakhs INR </strike> 2 lakhs INR plus additional charges including travel, server rental and hardware costs.
+
+
 
 The Value Proposition of using Akriya Technologies for this project are:
 * Proven engineering techniques for making Integrated systems.
@@ -57,22 +59,22 @@ This module is the Hardware device with Ad delivery firmware running which has t
 The module takes input from the DTH set-top box, AdEngine Cloud services and Local memory cache to render output to the TV.
 
 The following two approaches have been discussed as of now for taking `INPUT` from a DTH set-top box:
-* Leveraging USB-interface on DTH Setup boxes
-* Bridging HDMI-out from DTH Setup box
+* <strike>Leveraging USB-interface on DTH Setup boxes</strike>
+* **Bridging HDMI-out from DTH Setup box**  
 
 
 Choice of Hardware is to be determined based on compute and network consumption. Current development to start from Raspberry Pi Zero interfaced with [HDMI to CSI-2 Bridge](https://www.mouser.in/Embedded-Solutions/Interface-Modules/_/N-5g1o?P=1y9f2kt)
 
-### 1.2 Device and Identity Management
+### 1.2 Device and Identity Management ( On hold )
 This module is responsible for providing a super-set of communication and access provisioning systems that provide easy management of user devices and their accounts, and others those who need that information.
 This would include:
 * Implementations and deployment of Communication channel for devices (MQTT)
 * User account management ( Firebase )
 
-### 1.3 Content Distribution System
+### 1.3 Content Distribution System ( On hold )
 This module is responsible for collecting and storing Ad data, and distributing to all `on-premise` devices, based on user, geographic position, and AdEngine specific preferences.
 
-* This would include a web-based app for uploading and managing content.
+* This would include a web-based app for uploading and managing content. (Admin App)
 * Current approach uses S3 bucket to house large media files.
 * Media transcoding (Out-of-scope) 
 
@@ -88,7 +90,7 @@ This module is a collection of marker-based interrupt mechanisms that would faci
 There are a few proposed mechanisms for the current POC
 * inaudible ultrasonic signals - sound markers
 * on-screen overlay banners
-* fixed timetables
+* **fixed timetables** > P0
 
 ## Delivery Scope
 ### Devices/HW
@@ -140,24 +142,23 @@ Access top-level Git repositories for the SDK, on-premise firmware, and admin in
 * Client will assign a key contact who will be responsible for providing Akriya Technologies with information, access to personnel, and facility access.
 * Client will provide a work area space with desk, chair, Internet access for use by Akriya Technologies to conduct project business while working on-site.
 
-## Investment and Cost
-* Time required: 2 months: 4 lakh INR (estimated 300 man-hours)
+## Investment and Cost (revised)
+* Time required: 2 months: 2 lakh INR (estimated 140 man-hours)
 
 * Hardware cost (if required) to be paid by AdEngine
     
 * Server/Web hosting charges:
     * 60$ / month = 4000 INR
 
-*Bill separately for travel costs will be billed at actual cost and will not exceed 10,000 INR for the entire project for movement within NCR
+* Bill separately for travel costs will be billed at actual cost and will not exceed 10,000 INR for the entire project for movement within NCR. (upto 10 meetings)
 
  * Payment Schedule
 
 | Milestone                                 | Percentage    | Amount    | Time period from Start
 | -------------                             |:-------------:| -----:    | ----- | 
-| Requirement Finalization                  | 25%            | 1,00,000 INR| 0 day | 
-| Module 1.1 + Module 1.5          | 25%           | 1,00,000 INR| 15 days |  
-| Module 1.3 + Module 1.2            | 25%           | 1,00,000 INR| 30 days | 
-| Modele 1.4                   | 25%          | 1,00,000 INR| 60 days |
+| Requirement Finalization + SOW acceptance                 | 25%            | 1,00,000 INR| 0 day | 
+| Module 1.1          | 25%           | 50,000 INR| 15 days |  
+| Modele 1.4                   | 50%          | 50,000 INR| 28 days |
 
 
 Devices cost to be paid on the day of installation.
