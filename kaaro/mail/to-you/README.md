@@ -1,4 +1,4 @@
-## 15th December 2019 - Mail to You
+## 2019 - Mail to You
 
 Hello Partners,
 
