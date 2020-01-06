@@ -156,9 +156,9 @@ Access top-level Git repositories for the SDK, on-premise firmware, and admin in
 
 | Milestone                                 | Percentage    | Amount    | Time period from Start
 | -------------                             |:-------------:| -----:    | ----- | 
-| Requirement Finalization + SOW acceptance                 | 25%            | 1,00,000 INR| 0 day | 
+| Requirement Finalization + SOW acceptance                 | 25%            | 75,000 INR| 0 day | 
 | Module 1.1          | 25%           | 50,000 INR| 15 days |  
-| Modele 1.4                   | 50%          | 50,000 INR| 28 days |
+| Modele 1.4 + 1.5                 | 50%          | 75,000 INR| 28 days |
 
 
 Devices cost to be paid on the day of installation.
