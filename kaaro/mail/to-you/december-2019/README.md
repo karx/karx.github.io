@@ -1,13 +1,13 @@
-## 2019 - Mail to You
+## 15th December 2019 - Mail to You
 
 Hello Partners,
 
 This mail is to all our patreons and friends. It has officialy been 2 years since I have started working from springboard and we first pitched a product.
 
-Today, on our 2 year anneversary we start this monthly newseller `Mail-to-you`, where we share:
-- A merchendise of the Month: Custom Toys created In-house!
-- Ongoing activites: Interesting stories, eye-opening experiences, or comforting lullabies.
-- Help collaborate for `Mail-to-all` - Our monthly outbound newseller.
+I proud to send this mail to you titled `Mail-to-you`, where we share:
+- A `merchendise of the Month`: Custom Toys created In-house!
+- Our `Ongoing activites`: Interesting stories, eye-opening experiences, or comforting lullabies.
+- `Ask for help` to collaborate for `Mail-to-all` - Our monthly outbound newseller.
 
 
 ### Aim
@@ -26,12 +26,11 @@ Social Media + On ground feedback
 * BLE logger for our connected devices: [Link](https://github.com/ashtam55/BleWebLogger)
 
 ### H/W Builds
-* ESP32 Coke Voting Machine for a Public Pulse: [Link](https://akriya.co.in/coke-voting-machine/)
 * ESP32 NeoPixel Notification Lighting for Wending Machine Lighting : [Link](https://github.com/ashtam55/OtaTestingDevice)
 * ESP32 Object Detection for Malboro using IR : [Link](https://github.com/ashtam55/Digital_Icon/tree/malboro/blstr/recvr)
-* ESP32 Weight Load cell for small weights : [Link]()
 * BLE Mesh modules for all our connected devices - [लाइटे-ही-लाइटे](https://github.com/ashtam55/mqtt-neopixel/tree/lightHub) .
 
 ### Web Builds
 * Vidiyo Webcomponent for carousels with images and videos: [Github Link](https://github.com/karx/webcomponents/tree/master/vidiyo)
-* More to be added
+* VR Background for Websites: [Vidiyo Homepage](https://vidiyo.me)
+
