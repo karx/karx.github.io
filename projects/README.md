@@ -24,7 +24,7 @@
 | [Manoj Sir - Marketplace](https://akriya.co.in) |  Magento | [Admin](https://akriya.co.in) | [Sarthak Verma](mailto:hisarthakverma@gmail.com) | 
 | [DLF Mall app](https://github.com/karx/MegaBoxing/tree/prod/dlf) | Static Site (Netlify) | [![Netlify Status](https://api.netlify.com/api/v1/badges/6b595093-be15-43ff-8b8d-09965fec06a8/deploy-status)](https://app.netlify.com/sites/dlf-diwali/deploys) | [Kartik Arora](mailto:kartik@akriya.co.in) | 
 
-
+x
 ## Beta
 
 | Project | Type | Build Status | DRI |
