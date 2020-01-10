@@ -19,7 +19,7 @@ This approch is being discussed in the following forums:
 * [Ask Electronics Thread](https://www.reddit.com/r/AskElectronics/comments/als3x5/hdmi_to_csi2_converter_for_raspberry_pi_based_on/) 
 * [Raspi Forums](https://www.raspberrypi.org/forums/viewtopic.php?f=45&t=238826)
 
-![HDMI to CSI-2 Convertor Image](https://akriya.co.in/assets/HDMI-CSI2-Pi.png)
+![HDMI to CSI-2 Convertor Image](https://akriya.co.in/assets/images/HDMI-CSI2-Pi.png)
 
 The converter is ordered from China and we expect the delivery by 24th January.
 Until we have the converter, the Raspberry Pi Camera Module V2 can be used as it works on the same signatures. (we are using the `raspivid` which was originally build for standard Raspberry Pi modules)
