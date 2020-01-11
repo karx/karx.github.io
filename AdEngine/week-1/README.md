@@ -6,7 +6,7 @@
 * DTH-Box Simulator Script
 * Test Scenario Listings
 
-## Best in the market Product
+## To Fetch
 * NeTV2 by Alphamax: https://www.crowdsupply.com/alphamax/netv2
 This seems like something we should GO for
 ![NeTV2 Image](https://www.crowdsupply.com/img/222e/netv2-board-angle-bgd_jpg_project-body.jpg)
