@@ -52,15 +52,17 @@ These modules are abstracted based on functional and operating hardware.
 ### 1.1 Camera Interface with SP9250
 This module is responsible for interfacing with the Camera Module.
 It should allow:
-* <strike>Software focusing of lense</strike>
-* **Letest Drivers and Read**  
+* Using I2S Interface
+* No FIFO configration
 
 [DataSheet fo SP9250](http://www.superpix.com.cn/en/xiazai/SP9250.pdf)
 
 ![Image of SP9250](http://www.superpix.com.cn/upload/2016012751295425.jpg)
 
 ### 1.2 streaming output
-This module is responsible for providing a steady 3fps output from the Camera Module to Serial.
+This module is responsible for providing a steady 3fps output from the Camera Module to 
+* Option 1: Serial
+* Option 2: Simple Web Server
 
 ### 1.3 Transcoding to RAW-8
 This module is responsible for Transcoding the MIPI 1 lane data stream from camera to RAW-8 encoding before sending on wire.
