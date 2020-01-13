@@ -10,6 +10,7 @@ This entry is still unfinished and work in progress. Well like most of my other 
 ### The Links on the Internet
 * 'Learning to see in 4D' on [Youtube](https://www.youtube.com/watch?v=PdFU1Sb4NOs)
 * [Omar Shehata's 4D Viewer](https://stolaf.dev/humke-4d-geometry/)
+* https://math.wikia.org/wiki/User_blog:Drakenkaul/4D_Visualization_-_Higher_Dimensional_Space
 
 ### Thoughts and Description
 A few thoughts I had while working.
@@ -33,7 +34,7 @@ The viewing frustum is nothing but a cube, which looks and feel elongated becaus
 
 So for a 4D entity, it must/might be `3D` + `meta`.
 This `3D` would be:
-- A projection of the 4D scene on the front Cube.
+- A projection of the 4D construct  on the front Cube.
 - While traversing this 4D space, we would see the 3D scene animate, elongate and get lost into infinity, not change.
 
 The following is true when NOT working on a celestial scale or a microscopic scale,
