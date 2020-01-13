@@ -25,7 +25,7 @@ The advancement in the field of IoT  Networks, Computing and Data Science has ma
 Such a system would include a means to capture, catalogue and analyze data, along with tools to enforce 'business logic'.
 
 This SOW summarizes an ESP Camera module for the POC, with a firmware to enable the following:
-* Camera Interface with SP9250
+* Camera Interface with OV7670
 * 3fps streaming output
 * Transcoding of image to RAW-8
 
@@ -35,7 +35,7 @@ Akriya Technologies will work with ESP-Eye to:
 * Provide documentation of the module
 * Knowledge Transfer/Integrate 
 
-Akriya Technologies proposes to design and develop this module, with ESP32 using SP9250 output on Serial at 3fps.
+Akriya Technologies proposes to design and develop this module, with ESP32 using ov7670 output on Serial at 3fps.
 This activity will require 2 weeks. The estimated cost for this activity would be 50 thousand INR plus additional charges including travel, server rental and hardware costs.
 
 
@@ -49,15 +49,15 @@ The Value Proposition of using Akriya Technologies for this project are:
 The ESP Eye project is broken down into the following 3 modules, which would be developed in the course of this work.
 These modules are abstracted based on functional and operating hardware.
 
-### 1.1 Camera Interface with SP9250
+### 1.1 Camera Interface with ov7670
 This module is responsible for interfacing with the Camera Module.
 It should allow:
 * Using I2S Interface
 * No FIFO configration
 
-[DataSheet fo SP9250](http://www.superpix.com.cn/en/xiazai/SP9250.pdf)
+[DataSheet fo ov7670](https://www.voti.nl/docs/OV7670.pdf)
 
-![Image of SP9250](http://www.superpix.com.cn/upload/2016012751295425.jpg)
+![Image of ov7670](https://circuitdigest.com/sites/default/files/inlineimages/u1/Camera-Module-OV7670.jpg)
 
 ### 1.2 streaming output
 This module is responsible for providing a steady 3fps output from the Camera Module to 
@@ -73,7 +73,7 @@ This module is responsible for Transcoding the MIPI 1 lane data stream from came
 * On-Premise Module
 
 ```
-Data to Capture:    Camera Input (SP9250)
+Data to Capture:    Camera Input (ov7670)
 
 
 Output: Serial Streaming Output (Raw-8 at 3fps)
