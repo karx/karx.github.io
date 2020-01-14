@@ -10,12 +10,11 @@ Today, on our 2 year anneversary we start this monthly newseller `Mail-to-you`, 
 - Help collaborate for `Mail-to-all` - Our monthly outbound newseller.
 
 
-### Aim
+### Our Aim
 To improve empower activate - Connected devices and experiences.
 
 ### Product of the Month
-[Wendor Experiences](https://we.akriya.co.in)
-Social Media + On ground feedback
+[Wendor Experiences](https://we.akriya.co.in) : Social Media + On ground feedback
 
 ### Top activites
 * Wendor Events at DLF mall of India : [dlf-moi](https://akriya.co.in/wendor-events/)
@@ -34,4 +33,6 @@ Social Media + On ground feedback
 
 ### Web Builds
 * Vidiyo Webcomponent for carousels with images and videos: [Github Link](https://github.com/karx/webcomponents/tree/master/vidiyo)
-* More to be added
+* Checkout your Instagram in VR: https://instavr.akriya.co.in/?handle=kaaroClick
+* Build and explore Knowledge Graph using Voice: https://thoughtjumper.netlify.com/
+* Instagram Analytics tools: https://ig.akriya.co.in
