@@ -2,12 +2,12 @@
 
 Hello Partners,
 
-This mail is to all our patreons and friends. It has officialy been 2 years since I have started working from springboard and we first pitched a product.
+This mail is to all our patrons and friends. It has officially been 3 years since we first pitched a product.
 
-Today, on our 2 year anneversary we start this monthly newseller `Mail-to-you`, where we share:
-- A merchendise of the Month: Custom Toys created In-house!
-- Ongoing activites: Interesting stories, eye-opening experiences, or comforting lullabies.
-- Help collaborate for `Mail-to-all` - Our monthly outbound newseller.
+Today, on our 3rd anniversary we start this monthly new-seller `Mail-to-you`, where we share:
+- Merchandise of the Month: Custom Toys created In-house!
+- Ongoing activities: Interesting stories, eye-opening experiences, or comforting lullabies.
+- Help collaborate for `Mail-to-all` - Our monthly outbound new-seller.
 
 
 ### Our Aim
@@ -25,13 +25,18 @@ To improve empower activate - Connected devices and experiences.
 * BLE logger for our connected devices: [Source](https://github.com/ashtam55/BleWebLogger)
 
 ### H/W Builds
-* ESP32 Touch Sensors + Coke Cans = Voting Machines: [Public Pulse: Blog Entry](https://akriya.co.in/coke-voting-machine/)
+* ESP32 Touch Sensors + Coke Cans = Voting Machines: [Public Pulse Blog Entry](https://akriya.co.in/coke-voting-machine/)
 * ESP32 NeoPixel Notification Lighting for Wending Machine Lighting : [Source](https://github.com/ashtam55/OtaTestingDevice)
 * ESP32 Object Detection for Malboro using IR : [Source](https://github.com/ashtam55/Digital_Icon/tree/malboro/blstr/recvr)
 * BLE Mesh modules for all our connected devices - [लाइटे-ही-लाइटे](https://github.com/ashtam55/mqtt-neopixel/tree/lightHub) .
 
 ### Web Builds
 * Vidiyo Webcomponent for carousels with images and videos: [Github Link](https://github.com/karx/webcomponents/tree/master/vidiyo)
-* Checkout your Instagram in VR: [InstaVR: Link](https://instavr.akriya.co.in/?handle=kaaroClick)
-* Build and explore Knowledge Graph using Voice: [Thought Jumper: Link](https://thoughtjumper.netlify.com/)
+* Checkout your Instagram in VR: [InstaVR Link](https://instavr.akriya.co.in/?handle=kaaroClick)
+* Build and explore Knowledge Graph using Voice: [Thought Jumper Link](https://thoughtjumper.netlify.com/)
 * Instagram Analytics tools: [Instagram Tool](https://ig.akriya.co.in)
+
+Hope you found this mail insightful and helpful. Please feel free to revert to this mail, well for anything ;)
+
+Regards
+Kartik Arora
