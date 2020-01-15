@@ -62,14 +62,11 @@ knowledge and understanding of the world's largest colarborative tool!
     - Smart Bike
     - YTKarta
     - Engagement Apps
-    - IoT platform - 
-    - 
-    -
-
+    - IoT platform 
+    
 * Projects bagged/looking for contributions
     - Smart Community
     - Chat/Ticketing tool
-    - 
 
 * How do we do this? - Community and Tools and Processes
     - PyDelhi,  IoT-NCR, 91Springboard
@@ -109,7 +106,7 @@ knowledge and understanding of the world's largest colarborative tool!
 
 
 ### Description
-We are a technology startup commited to building, maintaining the `Toolkit` for the `Web 3.0`. Our offering include a SDK for the web and IoT devices. Using this toolkit aim to empower buinesses.
+We are a technology startup commited to building, maintaining the `Toolkit` for the `Web 3.0`. Our offering include a SDK for the web and IoT devices. Using this toolkit, we aim to empower buinesses.
 Few examples/demos of things build using our SDK: SmartBike, Abacus Solutions, VayuShodkha, Smart Community, Wendor Events and Digital Icon.
 
 
