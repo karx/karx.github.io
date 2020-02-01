@@ -20,8 +20,8 @@ Good to Have:
 * Good understanding of SEO principles and ensuring that application will adhere to them.
 
 
+If this is interesting for you then please share your resume alongside the opening you are interested in on [email](mailto:kartik@akriya.co.in). Also, Please feel free to reach out in case of any queries. 
 
-If this is interesting for you then please share your resume alongside the opening you are interested in. Also, Please feel free to reach out in case of any queries. 
- 
 Thanks. 
 Kartik Arora
+kartik@akriya.co.in
