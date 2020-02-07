@@ -69,7 +69,7 @@ We would only be able to do alpha testing. Comprehensive testing out of scope
 
 
 ## Maintenance
-To be maintained for 2 months and then rediscuss based on new requirements and learnings.
+To be maintained for 1 months and then rediscuss based on new requirements and learnings.
 
 ## Exclusions
 The followings are excluded from the project scope
@@ -92,7 +92,7 @@ Access top-level Git repositories for the SDK, on-premise firmware, and admin in
 * Client will provide a work area space with desk, chair, Internet access for use by Akriya Technologies to conduct project business while working on-site.
 
 ## Investment and Cost (revised)
-* Time required: 2 months: 2 lakh INR (estimated 140 man-hours)
+* Time required: 2 weeks: 50 thousand INR (estimated 60 man-hours)
 
 * Hardware cost (if required) to be paid by banaao-IFTTT
  
