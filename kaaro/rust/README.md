@@ -40,3 +40,16 @@ In this document, using it as the target use case we shall build using Rust and/
 * Check Status of Vidiyo
 * Fullfil Vidiyo (with a video from talent)
 
+
+### Getting started
+
+```
+npm init
+```
+
+Created index.js
+
+install express, mongoose, body-parser, cors
+
+
+
