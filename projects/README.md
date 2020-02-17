@@ -7,7 +7,7 @@
 | -------- | ----- | ------------- | ------ |
 | [FlutterArsenal](https://flutterarsenal.com/)| [Static Site (Netlify)](https://github.com/flutterarsenal/FlutterArsenal) | [![Netlify Status](https://api.netlify.com/api/v1/badges/f76ec8e6-bff9-4717-8446-226d701def0c/deploy-status)](https://app.netlify.com/sites/flutterarsenal/deploys)  | [Kartik Arora](http://kaaro.akriya.co.in/kaaro/) | 
 | [Vidiyo frontpage](https://vidiyo.me) | [Static Site (Netlify)]((https://github.com/karx/vidiyo-frontpage)) | [![Netlify Status](https://api.netlify.com/api/v1/badges/8005492b-8de4-4599-810c-97f06e8f775e/deploy-status)](https://app.netlify.com/sites/vidiyo/deploys) | [Kartik Arora](http://kaaro.akriya.co.in/kaaro/) | 
-| [IG tool](ig.viragram.me) | [Static Site (Netlify)]((https://github.com/karx/viragram-instagram)) | [![Netlify Status](https://api.netlify.com/api/v1/badges/5e39c371-de4d-4f24-bd8c-631252b79695/deploy-status)](https://app.netlify.com/sites/instagram-viragram/deploys) | [Rahul](http://kaaro.akriya.co.in/kaaro/) | 
+| [IG tool](ig.viragram.me) | [Static Site (Netlify)]((https://github.com/karx/viragram-instagram)) | [![Netlify Status](https://api.netlify.com/api/v1/badges/5e39c371-de4d-4f24-bd8c-631252b79695/deploy-status)](https://app.netlify.com/sites/instagram-viragram/deploys) | [Kartik Arora](http://kaaro.akriya.co.in/kaaro/) | 
 | [Akriya Homepage](https://akriya.co.in) | [Static Site (Netlify)](https://github.com/karx/homepage) | [![Netlify Status](https://api.netlify.com/api/v1/badges/9b3ce78c-cbd1-478e-87c4-279c52838044/deploy-status)](https://app.netlify.com/sites/akriya/deploys) | [Kartik Arora](http://kaaro.akriya.co.in/kaaro/) | 
 | [Megaboxing app](https://github.com/karx/MegaBoxing) | Static Site (Netlify) | [![Netlify Status](https://api.netlify.com/api/v1/badges/42a64bd6-c16b-42c9-8d4a-ccc10e075800/deploy-status)](https://app.netlify.com/sites/megaboxing/deploys) | [Ashtam Singh](mailto:ashtam@artiosys.com) | 
 | [Saleor Sample Marketplace](http://saleor.akriya.co.in:8000/en/) | Docker | -- | [Kartik Arora](http://kaaro.akriya.co.in/kaaro/) | 
@@ -24,7 +24,7 @@
 | [Manoj Sir - Marketplace](https://akriya.co.in) |  Magento | [Admin](https://akriya.co.in) | [Sarthak Verma](mailto:hisarthakverma@gmail.com) | 
 | [DLF Mall app](https://github.com/karx/MegaBoxing/tree/prod/dlf) | Static Site (Netlify) | [![Netlify Status](https://api.netlify.com/api/v1/badges/6b595093-be15-43ff-8b8d-09965fec06a8/deploy-status)](https://app.netlify.com/sites/dlf-diwali/deploys) | [Kartik Arora](mailto:kartik@akriya.co.in) | 
 
-
+x
 ## Beta
 
 | Project | Type | Build Status | DRI |

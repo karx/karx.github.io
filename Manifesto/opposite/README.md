@@ -29,6 +29,8 @@ A social network of active Lotico Semantic Web community members, provided as RD
 * [https://en.wikipedia.org/wiki/OGC_GeoSPARQL](https://en.wikipedia.org/wiki/OGC_GeoSPARQL)
 
 
-## Test         
+## Test      `   
 * For -28.652,  -102.769
 we set 28.652,    77.231
+
+//

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Revolve Around </title>
+    <script src="https://aframe.io/releases/0.8.0/aframe.js"></script>
+    <script src="./component/revolve_around.js"></script>
+</head>
+<body>
+    
+    <a-scene background='black'>
+        <a-entity position="0 -5  -10">
+
+            <a-box></a-box>
+            <a-cylinder revolve-around="radius: 2; speed:1; "></a-cylinder>
+            <a-cylinder revolve-around="radius: 5; speed:5; "></a-cylinder>
+            <a-cylinder revolve-around="radius: 6; speed:0.2; "></a-cylinder>
+            <a-cylinder revolve-around="radius: 7; speed:3; "></a-cylinder>
+            <a-plane revolve-around="radius: 10; speed:3; "></a-plane>
+
+        </a-entity>
+
+        <a-entity position="0 5  -10">
+
+            <a-box></a-box>
+            <a-cylinder revolve-around></a-cylinder>
+            <a-cylinder revolve-around></a-cylinder>
+            <a-cylinder revolve-around></a-cylinder>
+            <a-cylinder revolve-around></a-cylinder>
+            <a-plane revolve-around></a-plane>
+
+        </a-entity>
+
+        <a-entity position="10 5  -7" rotation="90 90 -20">
+
+            <a-box></a-box>
+            <a-cylinder revolve-around="random_offset:false"></a-cylinder>
+            <a-cylinder revolve-around="random_offset:false"></a-cylinder>
+            <a-cylinder revolve-around="random_offset:false"></a-cylinder>
+            <a-cylinder revolve-around="random_offset:false"></a-cylinder>
+            <a-plane revolve-around="random_offset:false"></a-plane>
+
+        </a-entity>
+        
+        <a-camera></a-camera>
+      </a-scene>
+</body>
+</html>
