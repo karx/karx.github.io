@@ -89,7 +89,7 @@ Draw.io/Excel Budget
 1 each GE machine (n)
 ```
 
-### GE Tools
+### [GE](https://we.akriya.co.in) Tools
 * Gaming Booth: 20k per booth. Min 2 recommended.
 * 1v1 Center: 5k. Min 2 recommended
 * CREAM units: 5k per frame. Min 5 recommended
