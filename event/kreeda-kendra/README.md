@@ -26,6 +26,14 @@ INSERT DRAW.IO HERE - the bigger picture
 
 The event would also host [GE-enabled](https://we.akriya.co.in) stations, as 1v1 Competetive booths, Retro gaming booths and/or social hotspots.
 
+The products to be utilized for the event as of now are:
+* 5 x CREAM devices
+* 3 x FaceEvent Cams
+* 5 x LhL Modules
+* 1 x Wendor XL
+* 5 x HomeSwitch Devices
+
+
 ## FaceEvents
  The entire events would be logged and managed solely through identity management tool created for [FaceEvents]().
  This would encompass `Registration`, `Welcome and onboarding`, `Sale/Buy Food`, `Gaming Tokens`, `Sale/Buy Merchandise`.
