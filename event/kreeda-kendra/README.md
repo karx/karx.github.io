@@ -19,10 +19,9 @@ We aim to showcase and present new and interesting use-cases of tools and produc
  - 2 x 1v1 Booths for (CS:GO/FIFA/Rocket League) 
  - 1 x Retro Game A 
  - 1 x Retro Game B
-
-```
-INSERT DRAW.IO HERE - the bigger picture
-```
+ 
+ 
+![Big Picture of KreedaKendra](https://akriya.co.in/assets/images/BiggerPicture.png)
 
 The event would also host [GE-enabled](https://we.akriya.co.in) stations, as 1v1 Competetive booths, Retro gaming booths and/or social hotspots.
 
