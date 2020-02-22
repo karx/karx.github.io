@@ -65,30 +65,33 @@ Optional:
 ```
 DRAW.io schedule
 ```
-20th Feb - Partner Freeze
-20th Feb - Spend Budget Freeze
-24th Feb - Usecase Freeze
-25th Feb - Prelims for Event Fin
-29th Feb - let's meet.
+
+* 20th Feb - Partner Freeze
+* 20th Feb - Spend Budget Freeze
+* 24th Feb - Usecase Freeze
+* 25th Feb - Prelims for Event Fin
+* 29th Feb - let's meet.
 
 ## Budget
 
 ### Base
-```
-Draw.io/Excel Budget
-```
 
-* Venue: 
-* Staff: 2k per volunteer per day. 5 needed for 2 days.
-* Marketing Material: 
-* Event Decor:
-* Food: 350 per person. 50 expected
-* Systems + AV setup: 
-* Event Merchendise: 
+| Head | Value (INR) | 
+| ---- |   ----|
+| Venue | TBD | 
+| Staff | 2k per volunteer per day. 5 needed for 2 days. | 
+| Marketing Material | 20k  | 
+| Event Decor | 15k | 
+| Food | 350 per person. 50 expected | 
+| Systems + AV setup | TBD | 
+| Event Merchendise | 5k | 
 
 ### FaceEvents
-* On-premise devices: 15k per device. Min 5 recommended.
-* Periferal Screens: 10k per screen. Min 3 recommended.
+
+| Head | Value (INR) |
+| ---- |   ----|
+| On-premise devices | 15k per device. Min 5 recommended. |
+| Periferal Screens | 10k per screen. Min 3 recommended. |
 
 ```
 1 device for balance/status check
@@ -97,10 +100,12 @@ Draw.io/Excel Budget
 ```
 
 ### [GE](https://we.akriya.co.in) Tools
-* Gaming Booth: 20k per booth. Min 2 recommended.
-* 1v1 Center: 5k. Min 2 recommended
-* CREAM units: 5k per frame. Min 5 recommended
-* LhL units: 3k per unit. Min 10 recommended
+| Head | Value (INR) |
+| ---- |   ----|
+| Gaming Booth | 20k per booth. Min 2 recommended. |
+| 1v1 Center | 5k. Min 2 recommended |
+| CREAM units | 5k per frame. Min 5 recommended |
+| LhL units | 3k per unit. Min 10 recommended |
 
 ### Misc
 * Travel cost of players/volunteers. Limit: 2k per player. Max 10 to be sponsored.
