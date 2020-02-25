@@ -24,11 +24,21 @@ function initChart() {
   chart.draw(data, options);
 }
 
-async function updateChartWithStrings(phrase_array) {
+async function getFocusWord(phrase) {
+    var words = phrase.split(' ');
+    return words[Math.floor(words.length/2)]; // middle word
+}
+
+async function updateChartWithStrings(phrase_array, focusWord = 'not_set') {
   console.log(`changing data of the graph`);
   let chart = globalChartHandle;
   let data_array = [["Phrases"]];
   g_phrases_array = [...g_phrases_array, ...phrase_array];
+  if (focusWord === 'not_set') {
+    focusWord = await getFocusWord(phrase_array[0]);
+    
+  } 
+  options.wordtree.word = focusWord;
 
   g_phrases_array.forEach(str => {
     data_array.push([str]);
@@ -47,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
 
 async function test() {
-    updateChartWithStrings(['Getting started is 50% of the job done']);
+    updateChartWithStrings(['Getting started is 50% of the job done'], 'started');
 
 }
 
