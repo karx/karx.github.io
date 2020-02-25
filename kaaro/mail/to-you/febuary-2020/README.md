@@ -1,37 +1,47 @@
-## 15th December 2019 - Mail to You
+## February 2019 - Mail to You
 
-Hello Partners,
+Hi !
+February was quite long for all of us.
+The days were short, insufficient almost and the nights endless, till the sun came up to revitalize for the next.
 
-This mail is to all our patreons and friends. It has officialy been 2 years since I have started working from springboard and we first pitched a product.
-
-I proud to send this mail to you titled `Mail-to-you`, where we share:
-- A `merchendise of the Month`: Custom Toys created In-house!
-- Our `Ongoing activites`: Interesting stories, eye-opening experiences, or comforting lullabies.
-- `Ask for help` to collaborate for `Mail-to-all` - Our monthly outbound newseller.
-
-
-### Aim
-To improve empower activate - Connected devices and experiences.
-
-### Product of the Month
-[Wendor Experiences](https://we.akriya.co.in)
-Social Media + On ground feedback
-
-### Top activites
-* Wendor Events at DLF mall of India : [dlf-moi](https://akriya.co.in/wendor-events/)
-* Updated homepage of our partners: [Viragram Media](https://viragram.me/)
-* First LTS-version of Smart Home solution: [Link](https://github.com/ashtam55/smart_switch/releases)
-* Abacus Smart - our Smart Home solution App live on Play Store: [Play store Link](https://play.google.com/store/apps/details?id=com.artiosys.smart_switch)
-* ESP32 talk with ILUG-delhi and Delhi HHC: [Link](https://github.com/hardware-hackers-club-delhi/Talks/issues/3)
-* BLE logger for our connected devices: [Link](https://github.com/ashtam55/BleWebLogger)
-
-### H/W Builds
-* ESP32 NeoPixel Notification Lighting for Wending Machine Lighting : [Link](https://github.com/ashtam55/OtaTestingDevice)
-* ESP32 Object Detection for Malboro using IR : [Link](https://github.com/ashtam55/Digital_Icon/tree/malboro/blstr/recvr)
-* BLE Mesh modules for all our connected devices - [लाइटे-ही-लाइटे](https://github.com/ashtam55/mqtt-neopixel/tree/lightHub) .
-
-### Web Builds
-* Vidiyo Webcomponent for carousels with images and videos: [Github Link](https://github.com/karx/webcomponents/tree/master/vidiyo)
-* VR Background for Websites: [Vidiyo Homepage](https://vidiyo.me)
+### Overview
+The general sentiment of the month was - 
+`merchandise`, `gaming`, `events` and `meetups`
 
 
+### Top activities
+Jumping straight  into it, this month we observed:
+* A [Bug Bash Spiring](https://github.com/karx/karx.github.io/issues/88), for [HomeSwitch](http://abacusservices.in/) - our Smart Home Solution
+* AdEngine Demo Day: [GitHub Tracking Link](https://github.com/karx/karx.github.io/issues/81)
+* New Onboarding Flow for [Vidiyo.me](https://vidiyo.me/talent-register/) - Celebrity Shoutout on demand.
+* ESP-Eye Camera Module: The camera for fingerprint recognition. 
+* We celebrating [Documentation Week](https://github.com/karx/karx.github.io/issues/91). 
+* FaceEvents makes an appearance: [SneekPeak]()
+* [C.R.E.A.M](https://cream.akriya.co.in) now onboarding partners! Meet our first onboarded partner, [Nitin aka beardedMofo]().
+* A makeshift gaming parlor, our prep for [GE](https://we.akriya.co.in) Machines Demo: [Kreeda Kendra](https://akriya.co.in/kreeda-kendra/) on 29th February
+
+
+### Events
+We visited:
+* ESL CS:GO LAN Winter finals in Delhi.
+* PIJam -  An awesome Raspberry Pi meetup setting!
+* PyDelhi Anniversary Meetup
+
+
+### H/W builds
+We gifted:
+* 1 x [C.R.E.A.M](https://cream.akriya.co.in) frame to [@officialKrat](https://www.instagram.com/officialkrat/)
+* 1 x LhL to Rohan Sachdeva
+
+For our office we built/made:
+* 3 x LhL modules to be integrated, used and sold in [Kreeda Kendra](https://akriya.co.in/kreeda-kendra/)
+* 1v1 Loosers-to-Pay - Contract Holding Machines - As part of GE demo for [Kreeda Kendra](https://akriya.co.in/kreeda-kendra/)
+* Custom Letterheads - Because why not?
+
+### Let's Meet
+Demos, with a bang, are quintessential.
+[Kreeda Kendra](https://akriya.co.in/kreeda-kendra/) - our demo day/gaming evening is on the last day of this month. 2020, divisible by 4, hence 29th February 2020.
+
+More information is available at: [kreedakendra.akriya.co.in](https://kreedakendra.akriya.co.in)
+
+##### Please feel free to ping me, be it for this mail, the work we do, the work you do, or just a chat.
