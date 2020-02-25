@@ -126,3 +126,12 @@ Use this skeleton application to quickly setup and start working on a new IoT ap
 * No electronics required at all
 * SPI and I2C can be abstracted ?
 * GPIO and serial out should feel same
+
+
+## More about OSI Layer
+
+The below diagram, shows the seven layers of the OSI model.
+
+![OSI Layer Image](https://images.ukdissertations.com/32/0232323.001.jpg)
+
+Source: https://www.ukdiss.com/examples/physical-layer-data-link-layer.php
