@@ -134,12 +134,17 @@ function onMessageArrived(message) {
         perform_vibration(0);
     } else if (message.topic === `wordtree/${number}/connected`){
         // show_options();
+        show_connected_feedback();
     } else if (message.topic === `wordtree/${number}/phrase`) {
         let phrase = message.payloadString;
+        phrase = phrase.toLowerCase();
         
         updateChartWithStrings([phrase]);
     }
-    
+
     console.log(message);
     console.log("onMessageArrived:" + message.payloadString);
+}
+function show_connected_feedback() {
+    document.getElementById('connection_code').style.backgroundColor ='#00FF00';
 }
