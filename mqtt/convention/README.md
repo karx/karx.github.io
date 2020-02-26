@@ -31,10 +31,15 @@ These are topics on which product specific information flow, the data/informatio
 
 The message update topic: `ROOT_STUB`/`PRODUCT_STUB`/<`DEVICE_ID`>/`ACTION_STUB`
 
-`ROOT_STUB`: Something that helps us easily identify the product line. example: digitalicon, homeswitch
-`PRODUCT_STUB`: To identify the batch of the product line. Example: name of owner, name of usecase, mesh_id
-`DEVICE_ID`: The unique id to each h/w device, can use: MAC address, or IMEI number. MAC prefered as on date.
-`ACTION_STUB`: name of event/action to trigger or log.
+* `ROOT_STUB`: Something that helps us easily identify the product line. example: digitalicon, homeswitch
+* `PRODUCT_STUB`: To identify the batch of the product line. Example: name of owner, name of usecase, mesh_id
+* `DEVICE_ID`: The unique id to each h/w device, can use: MAC address, or IMEI number. MAC prefered as on date.
+* `ACTION_STUB`: name of event/action to trigger or log.
+
+
+``` 
+NOTE: There is no hard limit of having exactly 4 sub parts of topics. General use-case discussed here
+```
 
 
 ## Recommendations/Best Practices
