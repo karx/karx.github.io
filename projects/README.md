@@ -26,6 +26,8 @@
 | [Thought Jumper](https://thoughtjumper.akriya.co.in) | [Static Site (Netlify)]((https://github.com/karx/kaaroViewer)) | [![Netlify Status](https://api.netlify.com/api/v1/badges/948f6652-39c5-4e1b-b466-478c6c4df764/deploy-status)](https://app.netlify.com/sites/thoughtjumper/deploys) | [Kartik Arora](http://kaaro.akriya.co.in/kaaro/) | 
 | [C.R.E.A.M Landing page](https://cream.akriya.co.in) | [Static Site (Netlify)]((https://github.com/karx/homepage)) | [![Netlify Status](https://api.netlify.com/api/v1/badges/dd18b0ac-e2be-4d6e-b6de-b17e87a878e3/deploy-status)](https://app.netlify.com/sites/cream/deploys) | [Kartik Arora](http://kaaro.akriya.co.in/kaaro/) | 
 | [Gratification Machines](https://we.akriya.co.in) | [Static Site (Netlify)]((https://github.com/karx/homepage)) | [![Netlify Status](https://api.netlify.com/api/v1/badges/60fd77c0-d126-4f5f-aca8-831bb744721e/deploy-status)](https://app.netlify.com/sites/wendorevents/deploys) | [Kartik Arora](http://kaaro.akriya.co.in/kaaro/) | 
+| [Bhoj - in Bir](https://bhoj.akriya.co.in) | [Static Site (Netlify)]((https://github.com/karx/homepage/tree/kaaro/bhoj)) | [![Netlify Status](https://api.netlify.com/api/v1/badges/431ce6a5-8f87-43ac-ac92-368b692cc9ca/deploy-status)](https://app.netlify.com/sites/bhoj/deploys) | [Kartik Arora](http://kaaro.akriya.co.in/kaaro/) | 
+
 
 
 
