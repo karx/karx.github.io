@@ -18,9 +18,3 @@ Socks provides us
 
 # About
 web:kaaroSocks:v1.0.0 (by /u/eggor)
-
-----
-
-
-
-
