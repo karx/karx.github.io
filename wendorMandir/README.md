@@ -4,12 +4,37 @@
 * Elon Musk
 
 
-## Scinetists
-* Nikola tesla
- 
+## Developers
+* George Hots
+* Jeff Dean
+* Sanjay Ghumawat
 
-## Businessmen
+
+## Scientists 
+* Nikola tesla
+* Darwin
+* Einstien
+* Freud 
+* 
+
+ 
+## Designers
+* Don Norman
+* John Ivy
+
+## Investors
 * Warren Buffett
+* peter thiel
+
+## Coo
+
+## Philosphers 
+* Paul Graham
+* Gandhi
+* Marx 
+* Adam Smith
+*  
+
 
 ## Fiction
 * Iron Man
