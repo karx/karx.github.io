@@ -44,7 +44,6 @@
 * Marx 
 * Adam Smith
 * Richard Stallman
-* 
 
 ## Fiction
 * Iron Man
