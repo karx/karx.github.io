@@ -45,7 +45,7 @@ let covid_data = {
         "id": "IN-DL",
         "indian_national_confirmed_case": 7,
         "foreign_national_confirmed_case": 0,
-        "cured_discharged": 1,
+        "cured_discharged": 2,
         "deaths": 1
     },
     "Haryana": {
@@ -57,30 +57,30 @@ let covid_data = {
     },
     "Kerala": {
         "id": "IN-KL",
-        "indian_national_confirmed_case": 19,
+        "indian_national_confirmed_case": 22,
         "foreign_national_confirmed_case": 0,
         "cured_discharged": 3,
         "deaths": 0
     },
     "Rajasthan": {
         "id": "IN-RJ",
-        "indian_national_confirmed_case": 1,
+        "indian_national_confirmed_case": 2,
         "foreign_national_confirmed_case": 2,
-        "cured_discharged": 1,
+        "cured_discharged": 0,
         "deaths": 0
     },
     "Telangana": {
         "id": "IN-TG",
-        "indian_national_confirmed_case": 1,
+        "indian_national_confirmed_case": 3,
         "foreign_national_confirmed_case": 0,
-        "cured_discharged": 0,
+        "cured_discharged": 1,
         "deaths": 0
     },
     "Uttar Pradesh": {
         "id": "IN-UP",
-        "indian_national_confirmed_case": 10,
+        "indian_national_confirmed_case": 11,
         "foreign_national_confirmed_case": 1,
-        "cured_discharged": 5,
+        "cured_discharged": 4,
         "deaths": 0
     },
     "Union Territory of Ladakh": {
@@ -99,7 +99,7 @@ let covid_data = {
     },
     "Union Territory of Jammu and Kashmir": {
         "id": "IN-JK",
-        "indian_national_confirmed_case": 1,
+        "indian_national_confirmed_case": 2,
         "foreign_national_confirmed_case": 0,
         "cured_discharged": 0,
         "deaths": 0
@@ -144,11 +144,12 @@ let covid_data = {
 let max_color_val = 20;
 function colorThePaths() {
     let allStates = Object.keys(covid_data).filter(s => s !== "default");
+    max_color_max = Math.max( allStates.map((e) => covid_data[e]["indian_national_confirmed_case"]) );
     allStates.forEach(state => {
         console.log(state);
         let el = document.getElementById(covid_data[state]["id"]);
         let color_ratio = covid_data[state]["indian_national_confirmed_case"]/max_color_val;
-        let color_for_tr = `rgb(${20 + (color_ratio * 235)}, 125,125)`;
+        let color_for_tr = `rgb(${20 + (Math.sin(color_ratio * Math.PI/2 ) * 235)}, 125,125)`;
         el.style.fill = color_for_tr;
     });
 }
