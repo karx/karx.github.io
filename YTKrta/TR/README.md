@@ -15,3 +15,8 @@ if there were any quick sketches or mockups created during research or to help e
 ```
 Template from: https://producthabits.com/everyone-forgets-technical-research/
 ```
+
+
+```
+Another good one: https://www.darpa.mil/work-with-us/heilmeier-catechism
+```
