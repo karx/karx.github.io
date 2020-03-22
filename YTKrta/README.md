@@ -51,3 +51,5 @@ Best place to communicate would be in order
 * Slack Channel Invite Link: [Invite](https://join.slack.com/t/akriya/shared_invite/enQtNDMwOTM2NjExMzQ0LTZmODYzZDUyNDYyMjhhNmNhMzk2MzVjY2NmZGM0YjNkYzViZTJjMDc2Nzg4MTA5NjAzOTQ1ZWZhMDc0OWI3OGU) 
 
 
+## Pitch Video
+* Created for HAX May 2019: https://www.youtube.com/watch?v=2UyRqKvGjk4
