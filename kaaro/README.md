@@ -13,7 +13,7 @@ I am an aspiring developer advocate, DIY enthusiast, a little extrovert and also
 ## Favorite topics
 * Have queried the entire open knowledge graph of the web? [Wikidata](/Wikidata)
 * Want to tango with HTML Canvas? [kCanvas](/kCanvas)
-* Want to build the most re-usable component for the web? [Webcomponents](/WebComponents)
+* Want to build the re-usable composable component for the web? [Webcomponents](/WebComponents)
 
 
 ## Social profiles:
