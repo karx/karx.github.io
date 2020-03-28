@@ -10,11 +10,17 @@ We work as a product house, who also provide specialized services if and when ne
 
 I am an aspiring developer advocate, DIY enthusiast, a little extrovert and also a flexible opinionated guy.
 
+## Favorite topics
+* Have queried the entire open knowledge graph of the web? [Wikidata](/Wikidata)
+* Want to tango with HTML Canvas? [kCanvas](/kCanvas)
+* Want to build the most re-usable component for the web? [Webcomponents](/WebComponents)
+
 
 ## Social profiles:
 * [Twitter @karx_brb](https://twitter.com/karx_brb)
 * [Linkedin](https://www.linkedin.com/in/karx01/)
 * [Github karx](https://github.com/karx)
+* [Twitch](https://twitch.tv/karx01)
 
 
 ## Contact info
