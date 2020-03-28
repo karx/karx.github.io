@@ -28,8 +28,7 @@
 | [Gratification Machines](https://we.akriya.co.in) | [Static Site (Netlify)](https://github.com/karx/homepage) | [![Netlify Status](https://api.netlify.com/api/v1/badges/60fd77c0-d126-4f5f-aca8-831bb744721e/deploy-status)](https://app.netlify.com/sites/wendorevents/deploys) | [Kartik Arora](http://kaaro.akriya.co.in/kaaro/) | 
 | [Bhoj - in Bir](https://bhoj.akriya.co.in) | [Static Site (Netlify)](https://github.com/karx/homepage/tree/kaaro/bhoj) | [![Netlify Status](https://api.netlify.com/api/v1/badges/431ce6a5-8f87-43ac-ac92-368b692cc9ca/deploy-status)](https://app.netlify.com/sites/bhoj/deploys) | [Kartik Arora](http://kaaro.akriya.co.in/kaaro/) | 
 | [ThoughtViewer 2x2](https://tv.akriya.co.in) | [Static Site (Netlify)](https://github.com/karx/kaaroViewer/tree/kaaro/tv) | [![Netlify Status](https://api.netlify.com/api/v1/badges/576eede9-79e9-49d3-a170-c96a69d07109/deploy-status)](https://app.netlify.com/sites/thoughtviewer/deploys) | [Kartik Arora](http://kaaro.akriya.co.in/kaaro/) | 
-
-
+| [SStudio Ankit Live](https://ss.akriya.co.in) | [Static Site (Netlify)](https://github.com/karx/homepage/tree/kaaro/sstudio) | [![Netlify Status](https://api.netlify.com/api/v1/badges/daee7c77-5f8a-4f25-a123-43e9ab8e99c6/deploy-status)](https://app.netlify.com/sites/smokestudio/deploys) | [Kartik Arora](http://kaaro.akriya.co.in/kaaro/) | 
 
 
 ## Beta
