@@ -119,3 +119,4 @@ This contains our list of best tools, our custom builds, and people who contribu
 
 
 #### 
+https://github.com/cheat-sheets/project-management-cheat-sheet#knowledge-areas

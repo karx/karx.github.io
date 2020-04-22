@@ -5,22 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Building Game 🎛</title>
-    <script>
-        var db;
-        var request = indexedDB.open("kaaroGame");
-        request.onerror = function (event) {
-            console.log("Why didn't you allow my web app to use IndexedDB?!");
-        };
-        request.onsuccess = function (event) {
-            db = event.target.result;
-            console.log(db);
-        };
-    </script>
-
+    <script src="localforage.js"></script>
+    <!-- <script src="profile.js"></script> -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="main-container">
+        <div class="top-bar">
+            
+        </div>
         <div class="connection-div">
             <h1>Connection Div</h1>
         </div>
@@ -31,32 +25,35 @@
             <div class="draw">
                 <h3>Draw div</h3>
                 <canvas id="can" width="400" height="400"></canvas>
-                <div style="position:absolute;top:12%;left:43%;">Choose Color</div>
-                <div style="position:absolute;top:15%;left:45%;width:10px;height:10px;background:green;" id="green"
-                    onclick="color(this)"></div>
-                <div style="position:absolute;top:15%;left:46%;width:10px;height:10px;background:blue;" id="blue"
-                    onclick="color(this)"></div>
-                <div style="position:absolute;top:15%;left:47%;width:10px;height:10px;background:red;" id="red"
-                    onclick="color(this)"></div>
-                <div style="position:absolute;top:17%;left:45%;width:10px;height:10px;background:yellow;" id="yellow"
-                    onclick="color(this)"></div>
-                <div style="position:absolute;top:17%;left:46%;width:10px;height:10px;background:orange;" id="orange"
-                    onclick="color(this)"></div>
-                <div style="position:absolute;top:17%;left:47%;width:10px;height:10px;background:black;" id="black"
-                    onclick="color(this)"></div>
-                <div style="position:absolute;top:20%;left:43%;">Eraser</div>
-                <div style="position:absolute;top:22%;left:45%;width:15px;height:15px;background:white;border:2px solid;"
-                    id="white" onclick="color(this)"></div>
-                <img id="canvasimg" style="position:absolute;top:10%;left:52%;" style="display:none;">
-                <input type="button" value="save" id="btn" size="30" onclick="save()"
-                    style="position:absolute;top:55%;left:10%;">
-                <input type="button" value="clear" id="clr" size="23" onclick="erase()"
-                    style="position:absolute;top:55%;left:15%;">
+
             </div>
         </div>
     </div>
-    <script src="drawcanvas.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-app.js"></script>
 
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-analytics.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyB3-y0J8_nnrNQ7n69USTWEeppSXrIx_Bk",
+            authDomain: "building-game-thegame.firebaseapp.com",
+            databaseURL: "https://building-game-thegame.firebaseio.com",
+            projectId: "building-game-thegame",
+            storageBucket: "building-game-thegame.appspot.com",
+            messagingSenderId: "332540664635",
+            appId: "1:332540664635:web:c5152e429ac7c8f07ef51e",
+            measurementId: "G-C2LDM94XE7"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+    <script src="drawcanvas.js"></script>
+    <script src="game.js"></script>
 </body>
 
 </html>
