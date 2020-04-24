@@ -12,5 +12,3 @@ Tools for Twitch Broadcasters, Moderators, Viewers
 
 #### Working
 * Live view counter: See viewer distribution. Subcription tier, followers, viewers, moderators, etc. Should help address them better.
-
-read
