@@ -27,3 +27,5 @@ Will only display current status of the game, etc.
 Refer image/scan
 ```
 
+## Current Demo
+[Demo Link](./game.html)
