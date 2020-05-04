@@ -9,6 +9,7 @@ The focus of the page is to indicate my current focus.
 * Working on making some [Twitch Tools](/twitch/tools). More design and definations requrired.
 * Attempting to port the [Minecraft Building game to vanilla JS](/kaaro/building/). 
 * A sci-fi story board, the [844k Saga](/844k/). 
+* Project wise documentation all Projects attempted or undertaken @ [Akriya Technologies](https://akriya.co.in). 
 
 ## Currently playing
 * Minecraft Survival: New world created on 4th April, can track the worldmap here: [Current World - map](https://kaaro.gitlab.io/minecraft-worlds/current-world/). I will try and add more markers and labels.

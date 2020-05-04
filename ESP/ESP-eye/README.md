@@ -36,7 +36,7 @@ Akriya Technologies will work with ESP-Eye to:
 * Knowledge Transfer/Integrate 
 
 Akriya Technologies proposes to design and develop this module, with ESP32 using ov7670 output on Serial at 3fps.
-This activity will require 2 weeks. The estimated cost for this activity would be 50 thousand INR plus additional charges including travel, server rental and hardware costs.
+This activity will require 2 weeks. The estimated cost for this activity would be xxx INR plus additional charges including travel, server rental and hardware costs.
 
 
 The Value Proposition of using Akriya Technologies for this project are:
@@ -111,26 +111,7 @@ Access top-level Git repositories for the SDK and device firmware.
 * Client will provide a work area space with desk, chair, Internet access for use by Akriya Technologies to conduct project business while working on-site.
 
 ## Investment and Cost (revised)
-* Time required: 2 weeks: 50 thousand INR (estimated 80 man-hours)
-
-<!-- * Hardware cost (if required) to be paid by ESP-Eye -->
-    
-<!-- * Server/Web hosting charges:
-    * 60$ / month = 4000 INR -->
-
-<!-- * Bill separately for travel costs will be billed at actual cost and will not exceed 10,000 INR for the entire project for movement within NCR. (upto 10 meetings) -->
-
- * Payment Schedule
-
-| Milestone                                 | Percentage    | Amount    | Time period from Start
-| -------------                             |:-------------:| -----:    | ----- | 
-| Requirement Finalization + SOW acceptance                 | 40%            | 20,000 INR| 0 day | 
-| Module 1.1 + 1.2 + 1.3         | 60%           | 30,000 INR| 15 days |  
-
-
-Devices cost to be paid on the day of installation.
-Server cost to be paid directly or at the start of each month.
-Travel reimbursements as and when declared.
+---
 
 ## Acceptance Criteria
 At the conclusion of this evaluation, all deliverables for this phase will be presented to ESP-Eye for review.

@@ -20,14 +20,14 @@ We have a few options here now. As mentioned, The ESP community has a thriving e
 * Arduino IDE
 * ESP Easy
 * Official Espressif Development Frameworks - They also have one dedicated for Mesh Systems
-* Esprunio
+* [Esprunio](/ESP/../Esprunio/README.md)
 * Mongoose OS
 * Lua
 * RToS
 * MicroPython
 
 Then we also have a bunch of tools that were created in this ecosystem.
-* PlatformIO
+* [PlatformIO](../platform.io/README.md)
 
 
 ## Small intro to firmware
