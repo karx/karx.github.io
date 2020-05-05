@@ -93,6 +93,7 @@ In this session, we will build one using - Pokemon!!!
 * [history of web](https://home.cern/science/computing/birth-web/short-history-web)
 * https://httparchive.org/reports/state-of-the-web
 * [Awseome Web components](https://github.com/obetomuniz/awesome-webcomponents)
+* How browsers work - [Part 1](https://developers.google.com/web/updates/2018/09/inside-browser-part1) [Part 2](https://developers.google.com/web/updates/2018/09/inside-browser-part2) [Part 3](https://developers.google.com/web/updates/2018/09/inside-browser-part3) [Part 4](https://developers.google.com/web/updates/2018/09/inside-browser-part4)
 
 [Link to slides @MozillaPunjab LPU on 24th March ](https://slides.com/kaaro/web-componentss)
 [Link to GitHub repo used](http://github.com/karx/webcomponents)
