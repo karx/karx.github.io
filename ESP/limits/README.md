@@ -28,7 +28,7 @@ So optimization efforts should be targeted accordingly, no point having a faster
 * RAM: 
 
 
-#### Current Consumption
+#### Power Consumption
 
 * Average current consumption 80mA when processor is ON
 
