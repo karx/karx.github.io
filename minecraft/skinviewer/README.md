@@ -25,7 +25,10 @@ Sample Skin to use: [docm77 skin](http://textures.minecraft.net/texture/11474ce8
 For live view of user stats, the best way would be to read stright from player NBT data file, which in Singleplayer world is same as `level.dat` in the root folder of the save.   
 Or the `playerdata/<player-UUID>.dat` file in case for SMP servers.
 
-* For reading this data in-game, command
+However the frequency at which this file is re-written is a bit *iffy*. Need to deep dive a bit more to know better.
+
+
+* For completely realtime, in-game, command
   
 ```
 /data get entry @s
