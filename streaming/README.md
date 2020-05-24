@@ -1,7 +1,7 @@
 # Streaming
 
 ## Streaming from System
-* Preferred software for Straming: OBS
+* Preferred software for Straming: [OBS](https://obsproject.com/)
 
 
 ## Streming from Canvas
