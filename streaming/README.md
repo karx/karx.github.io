@@ -26,3 +26,13 @@ Network Device Interface (NDI) is a royalty-free software standard developed by 
 ### OBS on Cloud/Shared PC
 * https://www.youtube.com/watch?v=TtOqqj7RhZY
 
+## Mobile Screen to PC
+* https://github.com/Genymobile/scrcpy : Free
+
+
+## Useful Links/Products
+* https://github.com/sallar/mac-local-rtmp-server
+* https://softvelum.com/larix/
+* https://help.elgato.com/hc/en-us/articles/360031363132-OBS-Link-Setup
+* https://garaninapps.com/rtmpminiserver
+  
