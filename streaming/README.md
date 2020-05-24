@@ -29,6 +29,13 @@ Network Device Interface (NDI) is a royalty-free software standard developed by 
 ## Mobile Screen to PC
 * https://github.com/Genymobile/scrcpy : Free
 
+### RTMP bridge to OBS
+Using VLC source as intermediate, https://www.reddit.com/r/obs/comments/692oeb/obs_studio_media_source_and_nginxrtmp/   
+Also, 
+```
+using the VLC source, and then I have a second video file of random static in the playlist. It seems to work -- when there's a stream, it's showing the RTMP feed. When there's no more RTMP data, it switches to the next item in the playlist which is that static .avi.
+```
+
 
 ## Useful Links/Products
 * https://github.com/sallar/mac-local-rtmp-server
