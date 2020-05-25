@@ -40,4 +40,12 @@ Replace wget link with latest from: https://www.nomachine.com/download/
 * Setting up server for ssh
   
 * https://www.nginx.com/blog/video-streaming-for-remote-learning-with-nginx/
-* 
+
+
+## Current Issues 
+* Skype NDI now available for Linux
+
+## Looking forwards
+* If we are to use SRT protocol instead of RTMP for internal i.e before sending to Twitch or YouTube, we might see improvements in Latency, and better resilience to network issues.   
+More about SRT here: https://obsproject.com/wiki/Streaming-With-SRT-Protocol#general-overview
+
