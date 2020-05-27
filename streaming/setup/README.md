@@ -1,5 +1,9 @@
+
+We have setup an EC2 instance - GPU type: g4dn.xlarge for our streaming Server, running Ubuntu. 
+
 * https://ubuntu.com/tutorials/tutorial-ubuntu-desktop-aws#4-aws-configuration
 * https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/install-nvidia-driver.html#nvidia-driver-types
+* https://www.mvps.net/docs/install-nvidia-drivers-ubuntu-18-04-lts-bionic-beaver-linux/
 * https://docs.peer5.com/guides/setting-up-hls-live-streaming-server-using-nginx/
   
 
@@ -42,6 +46,25 @@ Replace wget link with latest from: https://www.nomachine.com/download/
 * https://www.nginx.com/blog/video-streaming-for-remote-learning-with-nginx/
 
 
+
+## The Android Emulator
+* Runninng AnBox to try this approch out.   
+
+https://docs.anbox.io/userguide/install.html
+
+
+```
+Did not work out
+```
+
+* Next up GenyMotion   
+https://docs.genymotion.com/desktop/3.0/01_Get_started/012_Installation.html#linux   
+https://www.genymotion.com/download/   
+
+
+Also installed VirtualBox alongside it.
+
+
 ## Current Issues 
 * Skype NDI now available for Linux
 
@@ -49,3 +72,7 @@ Replace wget link with latest from: https://www.nomachine.com/download/
 * If we are to use SRT protocol instead of RTMP for internal i.e before sending to Twitch or YouTube, we might see improvements in Latency, and better resilience to network issues.   
 More about SRT here: https://obsproject.com/wiki/Streaming-With-SRT-Protocol#general-overview
 
+
+* Per application Audio : Linux   
+https://obsproject.com/forum/resources/include-exclude-audio-sources-using-pulseaudio-linux.95/
+  
