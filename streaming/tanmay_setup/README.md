@@ -25,7 +25,7 @@ You need adb, accessible from your PATH. If you don't have it yet:
 `brew cask install android-platform-tools`
 
 * To run from terminal
-`scrcpy` or `scrcpy --window-title 'My device'`
+`scrcpy` or `scrcpy --window-title 'Phone Screen' --window-borderless --window-width 2340 --window-height 1080`
 
 ## Additionals
 * Background music option: [Poke n Chill - YouTube](https://www.youtube.com/watch?v=2DVpys50LVE)
