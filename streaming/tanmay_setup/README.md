@@ -29,5 +29,6 @@ You need adb, accessible from your PATH. If you don't have it yet:
 
 ## Additionals
 * Background music option: [Poke n Chill - YouTube](https://www.youtube.com/watch?v=2DVpys50LVE)
-* Map Vote: [View Votes on Map](https://mapvote.akriya.co.in/), [Viewer Vote Link](https://mapvote.akriya.co.in/vote)
+* Map Vote: [Display Votes on Map](https://mapvote.akriya.co.in/), [Cast vote Link](https://mapvote.akriya.co.in/vote)   
+`NOTE: Vote counter resets on Refresh on Display`
 
