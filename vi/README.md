@@ -22,4 +22,9 @@ sudo apt install vim
 ```
 
 
+## Nice Reads/Links
+* [https://github.com/ctrlpvim/ctrlp.vim](https://github.com/ctrlpvim/ctrlp.vim)
+* [Gist - Vim without NERD tree or CtrlP](https://gist.github.com/csswizardry/9a33342dace4786a9fee35c73fa5deeb)
+* [fzf - a fuzzy finder ](https://github.com/junegunn/fzf)
+
 
