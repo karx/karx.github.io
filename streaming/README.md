@@ -25,6 +25,7 @@ Network Device Interface (NDI) is a royalty-free software standard developed by 
 
 ### OBS on Cloud/Shared PC
 * https://www.youtube.com/watch?v=TtOqqj7RhZY
+* [OBS Filter Guide](https://obsproject.com/wiki/Filters-Guide)
 
 ## Mobile Screen to PC
 * https://github.com/Genymobile/scrcpy : Free
