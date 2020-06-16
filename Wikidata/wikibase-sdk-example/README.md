@@ -1,7 +1,5 @@
 ## Example Using wikibase-sdk
-Using cdnjs
-
-[GitHub Repo](https://github.com/maxlath/wikibase-sdk)
+Using cdnjs for [wikibase-sdk](https://github.com/maxlath/wikibase-sdk)
 
 ## Install/Import
 
