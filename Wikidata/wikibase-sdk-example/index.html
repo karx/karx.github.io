@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example wikibase-sdk</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wikibase-sdk/7.6.1/wikibase-sdk.min.js"></script>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            width: 100%;
+        }
+        .wiki-entity {
+            height: 200px;
+            width: 200px;
+            margin: 20px;
+        }
+        img {
+            width: 100%;
+            max-height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h2>Cats in Wikidata</h2>
+    <div class="container" id="container">
+        
+    </div>
+
+    <script>
+        
+        const wbk = WBK({
+            instance: 'https://www.wikidata.org',
+            sparqlEndpoint: 'https://query.wikidata.org/sparql'
+        });
+        const sparql = `
+                        SELECT ?item ?itemLabel ?pic
+                        WHERE 
+                        {
+                            ?item wdt:P31 wd:Q146.
+                            ?item wdt:P18 ?pic
+                            SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+                        }
+                        `;
+        const url = wbk.sparqlQuery(sparql);
+        fetch(url).then( async (data) => {
+            
+            let allResults = await data.json();
+            allResults.results.bindings.forEach((eachCat) => {
+                addCatEntityToDOM(eachCat)
+            })
+
+        });
+
+        function addCatEntityToDOM(catEntity) {
+            let newDiv = document.createElement('div');
+            newDiv.classList = 'wiki-entity wiki-cat';
+            newDiv.innerHTML = `
+            <img src="${catEntity.pic.value}" alt="Image of ${catEntity.itemLabel.value}">
+            <p>${catEntity.itemLabel.value}</p>
+            `;
+            document.getElementById('container').append(newDiv);
+        }
+
+    </script>
+</body>
+</html>
