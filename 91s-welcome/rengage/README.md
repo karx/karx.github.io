@@ -1,4 +1,4 @@
-# Re-connect Cowork Re-Engage
+# Re-Connect Cowork Re-Engage
 In the midst of this pandemic driven remote work culture, it is almost disappointing to see how far back 91Springboard's approach has been. I cannot say this for pan India hubs, but I feel that our Noida Sec-1 is better than this.
 
 The community we strive to thrive in the ecosystem is still live and well, however the neglect from the administrative task (understandable), has left a void which we need to address ASAP.
@@ -56,9 +56,11 @@ This is more for keeping the roots on the place and feel more in control. 3-4 ca
 
 For the Sector 1 hub, I propose:
 
+```
 A camera at the hub entrance.
 A camera in community area.
 Camera outside Guard house
+```
 
 Setting this up requires placing a laptop at the desired location. I would suggest **streaming** this channel on open platforms like Twitch and/or YouTube. **24x7 Live Feed**.
 
@@ -89,6 +91,8 @@ Drives: 🕶🐼🍹💰
 Drives: 🕶🐼💰
 
 
+
+These can be arranged as indivisual webinars/sessions or a 5-6 hour live meet. Virtual meets setting would allow us to network with other members interested in these topics.
 
 ## Notes/Conclusions
 Tbh, I am salty, with how things have been operating at the hub, which is no secret btw. I have been sharing concerns and trying to work **with** the 91Springboard team on many issues over the last few years, most of which have led to significant time and effort loss for me.
