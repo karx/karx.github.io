@@ -3,7 +3,7 @@ In the midst of this pandemic driven remote work culture, it is almost disappoin
 
 The community we strive to thrive in the ecosystem is still live and well, however the neglect from the administrative task (understandable), has left a void which we need to address ASAP.
 
-I brainstormed with the following few quick Re-Engagement activities/hacks that can be deployed.
+The following are a few quick Re-Engagement activities/hacks that can be immediately deployed.
 
 ## Re-Engagement Plan
 The header addresses the why, lets deep dive into what and how can we re-engage this community have a positive impact all round.
