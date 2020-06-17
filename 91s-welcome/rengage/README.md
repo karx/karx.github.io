@@ -29,7 +29,7 @@ Getting clients, sharing clients, resource pooling, hiring, leads, all the good 
 ### How to enforce ?
 This documents come from the understanding of lack/deficit of cash-flow caused by the pandemic driven shift.
 
-The how, of we can re-ignite this flame, with a tiny spark, is a challenge. The current approach proposed here is a few systemically planned `events` and `open channels` for all. We might have to bootstrap them for the initial few, however, our community would jump onto taking charge of these initiatives.
+The how, of we can re-ignite this flame, with a tiny spark, is a challenge. The current approach proposed here is a few systemically planned **open channels** and **events** for all. We might have to bootstrap them for the initial few, however, our community would jump onto taking charge of these initiatives.
 
 #### Open Channels
 These are a few open line of communication/feed, that we open for our community members. I will describe the following two:
