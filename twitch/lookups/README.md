@@ -104,3 +104,9 @@
 | 461067 | Tekken 7           | https://static-cdn.jtvnw.net/ttv-boxart/Tekken%207-{width}x{height}.jpg             |
 | 506383 | NBA 2K19           | https://static-cdn.jtvnw.net/ttv-boxart/NBA%202K19-{width}x{height}.jpg             |
 | 15229  | Ragnarok Online    | https://static-cdn.jtvnw.net/ttv-boxart/Ragnarok%20Online-{width}x{height}.jpg      |
+
+
+```
+GET https://api.twitch.tv/helix/games/top
+    ?first=100
+```
