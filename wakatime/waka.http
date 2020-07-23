@@ -1,0 +1,2 @@
+GET https://wakatime.com/api/v1/users/karx/stats/last_7_days 
+Authorization: Basic Base64-APIKey
