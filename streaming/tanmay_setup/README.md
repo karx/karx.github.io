@@ -1,8 +1,8 @@
-## Setup used Finally
-The setup used finally was
+## Gaming Star Streaming Setup
+Setup used for Live series - Gaming Stars by Rusk Media
 
 ## OBS
-For broadcasting to Youtube
+For broadcasting to Youtube, Twitch, Facebook Events and LOCO.
 
 * [OBS Studio](https://obsproject.com/)
 * We would also need OBS NDI plugin: [Release Page](https://github.com/Palakis/obs-ndi/releases)
