@@ -58,6 +58,13 @@ You need adb, accessible from your PATH. If you don't have it yet:
 
 ## Streaming Phone
 
-```
 
+```
+  Model Name:	OPPO Reno 2
+  Processor Name:	Snapdragon 730G
+  Display:	6.5" (16.51 cm)
+  Camera:	48+8+13+2 MP
+  Storage:	256 GB
+  Operating system:	Android v9.0 (Pie)
+  Internal Memory:	256 GB
 ```
