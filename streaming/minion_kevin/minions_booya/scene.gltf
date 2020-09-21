@@ -4745,13 +4745,13 @@
       "uri": "textures/body_normal.png"
     },
     {
-      "uri": "textures/Material_baseColor.jpeg"
+      "uri": "textures/material_baseColor.jpeg"
     },
     {
-      "uri": "textures/Material_metallicRoughness.png"
+      "uri": "textures/material_metallicRoughness.png"
     },
     {
-      "uri": "textures/Material_normal.png"
+      "uri": "textures/material_normal.png"
     },
     {
       "uri": "textures/material_baseColor.jpeg"
