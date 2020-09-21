@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="view.css">
+    <title>Vinayak | Minion Kevin</title>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+</head>
+<body>
+    
+        <div class="player-details">
+            <a-scene embedded  vr-mode-ui="enabled: false">
+                <a-assets>
+                    <a-box></a-box>
+                    <a-asset-item id="kevin" src="./minion_kevin.glb" ></a-asset-item>
+                  </a-assets>
+                <a-gltf-model src="#kevin" position="0 1.6 -2" scale="0.01 0.01 0.01" rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"    ></a-gltf-model>
+              </a-scene>
+              <div class="scorecard">
+                  <div class="property">
+                      
+                  </div>
+              </div>
+        </div>
+    </div>  
+    
+    
+</body>
+</html>
