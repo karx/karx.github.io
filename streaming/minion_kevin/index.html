@@ -13,15 +13,29 @@
             <a-scene embedded  vr-mode-ui="enabled: false">
                 <a-assets>
                     <a-box></a-box>
-                    <a-asset-item id="kevin" src="./minion_kevin.glb" ></a-asset-item>
+                    <a-asset-item id="kevin" src="./minions_booya/scene.gltf" ></a-asset-item>
                   </a-assets>
-                <a-gltf-model src="#kevin" position="0 1.6 -2" scale="0.01 0.01 0.01" rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"    ></a-gltf-model>
+                  <a-entity  position="0 1.6 -2" animation="property: rotation; to: 0 360 0; loop: true; dur: 10000" scale="0.2 0.2 0.2" >
+                    <a-gltf-model src="#kevin" position="-32.5 0 -1" scale="0.1 0.1 0.1"></a-gltf-model>
+                  </a-entity>
+                
+                <!-- <a-box position="0 2 -7" color="#567"></a-box> -->
+                
+                <a-entity
+                    rotation="0 0 0"
+                    id="rig"
+                    position="0 1.6 0"
+                >
+                    <a-entity
+                    id="camera"
+                    camera="active: true"
+                    look-controls
+                    wasd-controls="acceleration:200"
+                    >
+                </a-entity>
+              </a-entity>
               </a-scene>
-              <div class="scorecard">
-                  <div class="property">
-                      
-                  </div>
-              </div>
+              
         </div>
     </div>  
     
