@@ -8,7 +8,7 @@ client.on('connect', function () {
     // client.publish('HS/303385001/status','11110000');
     // client.publish('homeSwitch/ready/2761046813','sReady!');
     console.log("published");
-    start();
+    
     client.subscribe('HS/#', function (err) {
         if (!err) {
             client.publish('HS/presence', 'Connected')
@@ -24,6 +24,7 @@ client.on('connect', function () {
         }
     });
     client.subscribe('Kento/#');
+    client.subscribe('Hoen/#');
     client.subscribe('digitalicon/#');
     
 });

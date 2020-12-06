@@ -11,4 +11,4 @@ Tools for Twitch Broadcasters, Moderators, Viewers
 [Github Repo](https://github.com/karx/twitter-kClips)
 
 #### Working
-* Live view counter: See viewer distribution. Subcription tier, followers, viewers, moderators, etc. Should help address them better.
+* Live view counter: See viewer distribution. Sub tier, followers, viewers, moderators, etc. Should help address them better.
