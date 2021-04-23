@@ -5,17 +5,15 @@ This page is inspired by Derek Siver's [Now page](https://sivers.org/nowff).
 The focus of the page is to indicate my current focus.
 
 ## Currently building
-* Minecraft [Datapacks and resource packs](/minecraft/datapack/). Mostly a [Realtime Skin viewer](/minecraft/skinviewer).
-* Attempting to port the [Minecraft Building game to vanilla JS](/kaaro/building/), along side a few more multi nodes games. 
+* Streaming Toolkit: [kaaroScoreboard](https://kaaroscoreboard.akriya.co.in/), mostly overlay widgets.
+* Thought Jumper, a realtime tool to increase cognitive abilities.
 * A sci-fi story board, the [844k Saga](/844k/). 
-* Project wise documentation all Projects attempted or undertaken @ [Akriya Technologies](https://akriya.co.in).
 * [Ethopedia](https://ethopedia.akriya.co.in/), I am a fan.
-* Live streaming tools and things. [Notes bin](/streaming/).
 
 ## Currently playing
-* Minecraft Survival: New world created on 4th April, can track the worldmap here: [Current World - map](https://kaaro.gitlab.io/minecraft-worlds/current-world/). Tried updating, file got too huge.
-
+* Minecraft Survival: New world created on 4th April 2020, can track the worldmap here: [Current World - map](https://kaaro.gitlab.io/minecraft-worlds/current-world/). Tried updating, file got too huge.
+* AoE II: Current RM 1v1 ELO: 1230
 
 ```
-Last Updated: 4th May 2020
+Last Updated: 23rd April 2021
 ```
