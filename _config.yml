@@ -1,1 +1,5 @@
 theme: minima
+repository: karx/karx.github.io
+
+exclude:
+  - mqtt/node_modules
