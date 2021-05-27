@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+}
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100vh;
+}
+
+path {
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+.Test {
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
