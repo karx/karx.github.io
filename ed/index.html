@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>YTKarta</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+
+    <script src="https://cdn.rawgit.com/donmccurdy/aframe-extras/v6.0.0/dist/aframe-extras.min.js"></script>
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <a-scene>
+        <!-- <a-entity environment="preset: dream"></a-entity> -->
+
+        <!-- <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere> -->
+        <a-sphere position="1 1 72" radius="35" color="rgb(1, 1, 72)"></a-sphere>
+        <a-sphere position="253 196 0" radius="35" color="rgb(253, 196, 0)"></a-sphere>
+        <a-sphere position="255 255 255" radius="35" color="rgb(255, 255, 255)"></a-sphere>
+        <a-sphere position="101 157 189 " radius="15" color="rgb(101, 157, 189 )"></a-sphere>
+        <a-sphere position="255 207 87" radius="15" color="rgb(255, 207, 87)"></a-sphere>
+        <a-sphere position="254 51 14" radius="15" color="rgb(254, 51, 14)"></a-sphere>
+        <a-sphere position="54 87 179" radius="15" color="rgb(54, 87, 179)"></a-sphere>
+        <a-sphere position="63 238 230" radius="15" color="rgb(63, 238, 230)"></a-sphere>
+        <a-sphere position="255 207 87" radius="15" color="rgb(255, 207, 87)"></a-sphere>
+
+        <!-- <a-sphere position="255 0 0" radius="10.25" color="rgb(255, 0, 0)"></a-sphere>
+        <a-sphere position="0 255 0" radius="10.25" color="rgb(0, 255, 0)"></a-sphere>
+        <a-sphere position="0 0 255" radius="10.25" color="rgb(0, 0, 255)"></a-sphere> -->
+        <a-entity line="start: 0 0 0; end: 2550 0 0; color: rgb(255, 0, 0)"
+            line__2="start: 0 0 0; end: 0 2550 0; color: rgb(0, 255, 0)"
+            line__3="start: 0 0 0; end: 0 0 2550; color: rgb(0, 0, 255)"></a-entity>
+        <a-entity id="rig" position="-57.154 31.911 307.585" rotation="9.442 -56.150 0">
+            <a-camera id="camera" wasd-controls="acceleration: 200; fly:true"></a-camera>
+        </a-entity>
+
+
+    </a-scene>
+</body>
+
+</html>
+ak2
