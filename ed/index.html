@@ -25,12 +25,8 @@
         <a-sphere position="255 207 87" radius="15" color="rgb(255, 207, 87)"></a-sphere>
         <a-sphere position="254 51 14" radius="15" color="rgb(254, 51, 14)"></a-sphere>
         <a-sphere position="54 87 179" radius="15" color="rgb(54, 87, 179)"></a-sphere>
-        <a-sphere position="63 238 230" radius="15" color="rgb(63, 238, 230)"></a-sphere>
         <a-sphere position="255 207 87" radius="15" color="rgb(255, 207, 87)"></a-sphere>
 
-        <!-- <a-sphere position="255 0 0" radius="10.25" color="rgb(255, 0, 0)"></a-sphere>
-        <a-sphere position="0 255 0" radius="10.25" color="rgb(0, 255, 0)"></a-sphere>
-        <a-sphere position="0 0 255" radius="10.25" color="rgb(0, 0, 255)"></a-sphere> -->
         <a-entity line="start: 0 0 0; end: 2550 0 0; color: rgb(255, 0, 0)"
             line__2="start: 0 0 0; end: 0 2550 0; color: rgb(0, 255, 0)"
             line__3="start: 0 0 0; end: 0 0 2550; color: rgb(0, 0, 255)"></a-entity>
@@ -43,6 +39,38 @@
 
     <script>
         let shown = false;
+        function hexToRgb(hex) {
+            var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+            return result ? {
+                r: parseInt(result[1], 16),
+                g: parseInt(result[2], 16),
+                b: parseInt(result[3], 16)
+            } : null;
+        }
+
+        function appnedAccented() {
+            let accentedHex = ['ED1E79',
+                '3fEEE6',
+                '14A098',
+                'FCE181',
+                '802BB1',
+                'F50057',
+                'EEFF41',
+                '2196F3',
+                'FCE181',];
+            accentedHex.forEach(color => {
+                let scene = document.getElementById('xd');
+                let newEl = document.createElement('a-cylinder');
+                let Rcolor = hexToRgb(color);
+                newEl.setAttribute('position', `${Rcolor.r} ${Rcolor.g} ${Rcolor.b}`);
+                newEl.setAttribute('color', `rgb(${Rcolor.r}, ${Rcolor.g}, ${Rcolor.b})`);
+                newEl.setAttribute('radius', `5`);
+                newEl.setAttribute('height', `5`);
+                newEl.setAttribute('opacity', `1`);
+                scene.appendChild(newEl);
+            })
+        }
+        appnedAccented();
         function appendThePallet() {
             for (let r = 0; r < 255; r += 25) {
                 for (let g = 0; g < 255; g += 25) {
@@ -60,7 +88,7 @@
         }
         document.addEventListener('keydown', (key) => {
             console.log(key);
-            if (key.code = 'KeyK' && key.ctrlKey && !shown) {
+            if (key.key === 'k' && key.ctrlKey && !shown) {
                 appendThePallet();
                 shown = !shown;
             }
