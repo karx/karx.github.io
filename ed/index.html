@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <a-scene>
+    <a-scene id="xd">
         <!-- <a-entity environment="preset: dream"></a-entity> -->
 
         <!-- <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere> -->
@@ -34,13 +34,39 @@
         <a-entity line="start: 0 0 0; end: 2550 0 0; color: rgb(255, 0, 0)"
             line__2="start: 0 0 0; end: 0 2550 0; color: rgb(0, 255, 0)"
             line__3="start: 0 0 0; end: 0 0 2550; color: rgb(0, 0, 255)"></a-entity>
-        <a-entity id="rig" position="-57.154 31.911 307.585" rotation="9.442 -56.150 0">
+        <a-entity id="rig" position="-57.154 31.911 307.585" rotation="0 0 0">
             <a-camera id="camera" wasd-controls="acceleration: 200; fly:true"></a-camera>
         </a-entity>
 
 
     </a-scene>
+
+    <script>
+        let shown = false;
+        function appendThePallet() {
+            for (let r = 0; r < 255; r += 25) {
+                for (let g = 0; g < 255; g += 25) {
+                    for (let b = 0; b < 255; b += 25) {
+                        let scene = document.getElementById('xd');
+                        let newEl = document.createElement('a-sphere');
+                        newEl.setAttribute('position', `${r} ${g} ${b}`);
+                        newEl.setAttribute('color', `rgb(${r}, ${g}, ${b})`);
+                        newEl.setAttribute('radius', `1`);
+                        newEl.setAttribute('opacity', `1`);
+                        scene.appendChild(newEl);
+                    }
+                }
+            }
+        }
+        document.addEventListener('keydown', (key) => {
+            console.log(key);
+            if (key.code = 'KeyK' && key.ctrlKey && !shown) {
+                appendThePallet();
+                shown = !shown;
+            }
+
+        })
+    </script>
 </body>
 
 </html>
-ak2
