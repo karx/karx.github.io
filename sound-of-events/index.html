@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+
+    <title>AudioBuffer example</title>
+
+    <link rel="stylesheet" href="">
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <h1>AudioBuffer example</h1>
+    <button>Make noise</button>
+    <pre></pre>
+</body>
+<script>
+    const button = document.querySelector('button');
+    const pre = document.querySelector('pre');
+    const myScript = document.querySelector('script');
+
+    pre.innerHTML = myScript.innerHTML;
+
+    let AudioContext = window.AudioContext || window.webkitAudioContext;
+    let audioCtx;
+
+    function init() {
+        audioCtx = new AudioContext();
+    }
+
+    button.onclick = function () {
+        if (!audioCtx) {
+            init();
+        }
+
+        const kickOscillator = audioCtx.createOscillator();
+        kickOscillator.frequency.setValueAtTime(400.6, 0);
+        kickOscillator.connect(audioCtx.destination);
+        kickOscillator.start(audioCtx.currentTime + 1);
+        kickOscillator.stop(audioCtx.currentTime + 1 + 0.5);
+
+        kickOscillator.onended = () => {
+            console.log('White noise finished');
+        }
+    }
+</script>
+
+</html>
