@@ -52,6 +52,7 @@ So the following toolkit has really enabled me to fullfill my whim of modeling/s
     This really helps people wrap their head around the concept and the possiblities. Their Graphical Language - Cypher is very fun to teach
 * RDF syntax - Well the document would have been incomplete without mentioning either RDF or OWL. Getting the idea of structuring things as Triples.
 * Wikidata - A complete end to end engine + data + develeopment which is Open for us to be involved.
+* Ant g6 Visualization - A great web based Javascript library for visualizing the graph.
 
 
 ## Conclutions
