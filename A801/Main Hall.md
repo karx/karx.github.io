@@ -1,0 +1,1 @@
+![[Main Hall 2024-05-12 13.46.35.excalidraw]]

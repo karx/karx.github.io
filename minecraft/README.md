@@ -8,3 +8,4 @@ BYOSS - build your own Simulator Simulator
 
 * My notes on [datapacks](./datapack)
 * The [skinviewer project](./skinviewer)
+* How does [[redstone documentation]] work?

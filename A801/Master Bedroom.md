@@ -1,0 +1,1 @@
+![[Master Bedroom 2024-05-12 13.41.17.excalidraw]]

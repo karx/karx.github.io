@@ -5,8 +5,11 @@ Hi All, I am Kartik and am very glad to introduce myself to your esteemed commun
 
 ![Kartik Image](https://avatars3.githubusercontent.com/u/7826138?s=400&u=9fb2c463d89472c513d0d0f47c77218f348a0a0b&v=4)
 
-Just after graduation in 2015, I worked for Bing Search Engine team for a couple of years and since then have been working on my own venture here in Noida. 
-We work as a product house, who also provide specialized services if and when needed, in the domain of Web Technologies and IoT.
+I graduated in 2015, and started working with the Bing Search Engine team - building and curating the Knowledge Graph Engine.
+
+Post that, I setup my own venture in Noida - a product house in the domain of Web Technologies and IoT :: [अkriya](http://akriya.co.in/). 
+
+Since 2022 - Happily married and moved to Bangalore. Enriching developer ecosystem @ Indus Appstore.
 
 I am an aspiring developer advocate, DIY enthusiast, a little extrovert and also a flexible opinionated guy.
 
