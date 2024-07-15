@@ -17,7 +17,7 @@ We are a team of 4, here are few of the workshop links/webinar/writeups we have 
 * [Micropython (OLD)](https://www.slideshare.net/karx01/micro-python-pycon-india-2018-proposal-kartik-arora)
 
 
-# Big Data / Cloud computes
+# Semantic Knowledge Graphs
 * https://akriya.co.in/wikidata/ - Workshop in hillhacks and Drupal Camp 2019 - [Blog entry](https://slides.com/kaaro/wikidata#/) - [One-pager](https://akriya.co.in/wikidata/)
 
 # Mobile App development
