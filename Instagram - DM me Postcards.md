@@ -1,4 +1,7 @@
-![[Instagram - DM me Postcards 2024-05-30 21.59.36.excalidraw]]
+![[
+
+
+]]
 
 # MSG
 * Carry a Pen/Pencil
@@ -18,3 +21,5 @@
 * [ ] Naveen Mittal - kinara, ground floor, rajpushpa summit, financial district, Hyderabad, Telangana, india, 500032
 * [ ] Saurabh AV - 30L Valkenburgerstraat, 1011 LZ Amsterdam
 * [ ] Neel Kamal Pandey - Bir Nest, Village Chaugan, Kangra, Himachal Pradesh 176077
+* [ ] Vinayak Arora - 29 Junction Road, W5 4XP, London
+

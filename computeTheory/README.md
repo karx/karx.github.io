@@ -19,17 +19,17 @@ These evolved systems of self-referential compute are we call 'living' as compar
 
 ## Self-referencial Compute Systems
 What we call living beings. Well the ones we have acknowledged.
-One repercution of thinking of living beings as Self-referencial compute systems is, the online communities that we see, are also examples of living beings, the rain we see are compute outputs of a much larger being.
+One repercution of thinking of living beings as Self-referential compute systems is, the online communities that we see, are also examples of living beings, the rain we see are compute outputs of a much larger being.
 
 
 
 ## Computes that you like:
-This abstraction of 'compute systems' really is amazing and helpful here. Helps define/identify tasks that align and help you acheive state of flow.
+This abstraction of 'compute systems' really is amazing and helpful here. Helps define/identify tasks that align and help you achieve state of flow.
 
 
 
 ## You - a compute system.
-Embracing the idea, like all such ideas makes it 'actually powerfull'.
+Embracing the idea, like all such ideas makes it 'actually powerful'.
 
 
 

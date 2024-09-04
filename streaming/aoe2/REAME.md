@@ -6,7 +6,7 @@ I started with the most fundamental and used scoreboard, and moved on to AoE2-pr
 
 
 
-### kaaroscorebaord 
+### kaaroscoreboard 
 You can create multiple rooms for each `type` of stream. Each room has multiple customizable layouts that you can use (as OBS browser source) while streming. Each room has a control page, that has all the options for updating the overlay conveniently. 
 
 (Pro tip: Add the control page of your page as a custom DOCK in OBS for quick access)
