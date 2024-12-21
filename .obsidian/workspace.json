@@ -369,7 +369,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled 3.md",
+                "file": "streaming/aoe2/REAME.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7cf22c67bbc4d7e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "thoughticon/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e9821dd135854962",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled 5.md",
                 "mode": "source",
                 "source": false
               }
@@ -434,7 +458,7 @@
             }
           }
         ],
-        "currentTab": 31
+        "currentTab": 33
       }
     ],
     "direction": "vertical"
@@ -501,7 +525,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled 3.md",
+                "file": "Untitled 5.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -518,7 +542,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled 3.md",
+                "file": "Untitled 5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -541,7 +565,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled 3.md"
+                "file": "Untitled 5.md"
               }
             }
           }
@@ -578,44 +602,44 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b7ed695f79afa709",
+  "active": "e9821dd135854962",
   "lastOpenFiles": [
-    "streaming/let-strystreamingagain.md",
-    "Untitled 3.md",
+    "Pasted image 20241023005557.png",
+    "thoughticon/README.md",
+    "Untitled 5.md",
+    "Summer19/README.md",
+    "sound-of-events/README.md",
+    "WebGraph/README.md",
+    "cultural knowledge dispersion.md",
+    "ELO system.md",
+    "House of Cards.md",
+    "ego-Field.md",
+    "CODE_OF_CONDUCT.md",
+    "clipQuiz.md",
+    "BharatGas LPG cyliner.md",
+    "Akshay Rana.md",
+    "Pasted Image 20240720010104_955.svg",
+    "Pasted Image 20240720010104_682.svg",
+    "Pasted Image 20240720010103_954.svg",
+    "Pasted Image 20240720010103_908.svg",
+    "Pasted Image 20240720010103_856.svg",
+    "Pasted Image 20240720010103_847.svg",
+    "Pasted Image 20240720010103_804.svg",
+    "Pasted Image 20240716011230_263.png",
+    "showtime/README.md",
+    "Untitled 4.md",
     "streaming/aoe2/REAME.md",
-    "streaming/Streaming-works.png",
+    "Pasted image 20240925124754.png",
+    "Pasted image 20240910012107.png",
+    "Untitled 3.md",
+    "streaming/let-strystreamingagain.md",
     "Excalidraw/Atomic Habits 2024-07-20 01.00.56.excalidraw.md",
     "Zsolt/Book-on-a-page/Atomic Habits.md",
     "Excalidraw/Atomic Habits 2024-07-20 01.26.09.excalidraw.md",
-    "Pasted Image 20240720010103_847.svg",
-    "Pasted Image 20240720010104_170.svg",
     "Excalidraw/Drawing 2024-07-22 22.14.36.excalidraw.md",
     "Instagram - DM me Postcards.md",
     "Postcards.md",
     "Excalidraw/House of Cards 2024-07-22 21.59.43.excalidraw.md",
-    "House of Cards.md",
-    "Pasted image 20240525132832.png",
-    "BharatGas LPG cyliner.md",
-    "Moments per second - Rate of understanding.md",
-    "cultural knowledge dispersion.md",
-    "what is life.md",
-    "ego-Field.md",
-    "computeTheory/README.md",
-    "2024-07-22.md",
-    "Age of Empires II DE.md",
-    "ELO system.md",
-    "A801/Home Storage.md",
-    "Pasted Image 20240722220245_128.png",
-    "Pasted Image 20240722220245_085.png",
-    "Pasted Image 20240722220245_053.png",
-    "Pasted Image 20240722220245_019.png",
-    "cars24/updates/README.md",
-    "Artiosys/README.md",
-    "Excalidraw/Drawing 2024-07-22 21.52.23.excalidraw.md",
-    "Excalidraw/Drawing 2024-07-22 21.52.27.excalidraw.md",
-    "Untitled.md",
-    "Pasted Image 20240720011812_143.svg",
-    "Pasted Image 20240720010104_993.svg",
     "Zsolt/Book-on-a-page",
     "Zsolt",
     "A801",
