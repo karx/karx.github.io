@@ -16,7 +16,9 @@
                 "file": "mc server.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "mc server"
             }
           },
           {
@@ -26,7 +28,9 @@
               "type": "excalidraw",
               "state": {
                 "file": "Excalidraw/Main Hall 2024-05-12 13.46.35.excalidraw.md"
-              }
+              },
+              "icon": "excalidraw-icon",
+              "title": "Main Hall 2024-05-12 13.46.35.excalidraw"
             }
           },
           {
@@ -36,7 +40,9 @@
               "type": "excalidraw",
               "state": {
                 "file": "Excalidraw/Home Storage 2024-05-12 13.12.10.excalidraw.md"
-              }
+              },
+              "icon": "excalidraw-icon",
+              "title": "Home Storage 2024-05-12 13.12.10.excalidraw"
             }
           },
           {
@@ -48,7 +54,9 @@
                 "file": "computeTheory/README.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "README"
             }
           },
           {
@@ -60,7 +68,9 @@
                 "file": "Postcards.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Postcards"
             }
           },
           {
@@ -72,7 +82,9 @@
                 "file": "Postcards.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Postcards"
             }
           },
           {
@@ -84,7 +96,9 @@
                 "file": "Instagram - DM me Postcards.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Instagram - DM me Postcards"
             }
           },
           {
@@ -96,7 +110,9 @@
                 "file": "Steam - Sunday.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Steam - Sunday"
             }
           },
           {
@@ -108,7 +124,9 @@
                 "file": "Age of Empires II DE.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Age of Empires II DE"
             }
           },
           {
@@ -120,7 +138,9 @@
                 "file": "Age of Empires II DE.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Age of Empires II DE"
             }
           },
           {
@@ -132,7 +152,9 @@
                 "file": "DRI/README.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "README"
             }
           },
           {
@@ -142,7 +164,9 @@
               "type": "release-notes",
               "state": {
                 "currentVersion": "1.6.5"
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.6.5"
             }
           },
           {
@@ -154,7 +178,9 @@
                 "file": "minecraft/README.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "README"
             }
           },
           {
@@ -166,7 +192,9 @@
                 "file": "README.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "README"
             }
           },
           {
@@ -178,7 +206,9 @@
                 "file": "kaaro/README.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "README"
             }
           },
           {
@@ -190,7 +220,9 @@
                 "file": "A801/Main Hall.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Main Hall"
             }
           },
           {
@@ -202,7 +234,9 @@
                 "file": "Manifesto/opposite/README.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "README"
             }
           },
           {
@@ -214,7 +248,9 @@
                 "file": "Untitled.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
             }
           },
           {
@@ -224,7 +260,9 @@
               "type": "excalidraw",
               "state": {
                 "file": "Excalidraw/Drawing 2024-07-22 21.52.23.excalidraw.md"
-              }
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2024-07-22 21.52.23.excalidraw"
             }
           },
           {
@@ -234,7 +272,9 @@
               "type": "excalidraw",
               "state": {
                 "file": "Excalidraw/Atomic Habits 2024-07-20 01.00.56.excalidraw.md"
-              }
+              },
+              "icon": "excalidraw-icon",
+              "title": "Atomic Habits 2024-07-20 01.00.56.excalidraw"
             }
           },
           {
@@ -244,7 +284,9 @@
               "type": "image",
               "state": {
                 "file": "Pasted Image 20240720011812_143.svg"
-              }
+              },
+              "icon": "lucide-image",
+              "title": "Pasted Image 20240720011812_143"
             }
           },
           {
@@ -254,7 +296,9 @@
               "type": "image",
               "state": {
                 "file": "Pasted Image 20240720010104_993.svg"
-              }
+              },
+              "icon": "lucide-image",
+              "title": "Pasted Image 20240720010104_993"
             }
           },
           {
@@ -264,7 +308,9 @@
               "type": "image",
               "state": {
                 "file": "Pasted Image 20240720010104_682.svg"
-              }
+              },
+              "icon": "lucide-image",
+              "title": "Pasted Image 20240720010104_682"
             }
           },
           {
@@ -276,7 +322,9 @@
                 "file": "Age of Empires II DE.md",
                 "mode": "preview",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Age of Empires II DE"
             }
           },
           {
@@ -288,7 +336,9 @@
                 "file": "Age of Empires II DE.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Age of Empires II DE"
             }
           },
           {
@@ -300,7 +350,9 @@
                 "file": "Instagram - DM me Postcards.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Instagram - DM me Postcards"
             }
           },
           {
@@ -312,7 +364,9 @@
                 "file": "cultural knowledge dispersion.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "cultural knowledge dispersion"
             }
           },
           {
@@ -324,7 +378,9 @@
                 "file": "BharatGas LPG cyliner.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "BharatGas LPG cyliner"
             }
           },
           {
@@ -336,7 +392,9 @@
                 "file": "House of Cards.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "House of Cards"
             }
           },
           {
@@ -348,7 +406,9 @@
                 "file": "Postcards.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Postcards"
             }
           },
           {
@@ -360,7 +420,9 @@
                 "file": "streaming/let-strystreamingagain.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "let-strystreamingagain"
             }
           },
           {
@@ -372,7 +434,9 @@
                 "file": "streaming/aoe2/REAME.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "REAME"
             }
           },
           {
@@ -384,7 +448,9 @@
                 "file": "thoughticon/README.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "README"
             }
           },
           {
@@ -396,7 +462,35 @@
                 "file": "Untitled 5.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled 5"
+            }
+          },
+          {
+            "id": "6d0181888439c682",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.4"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.4"
+            }
+          },
+          {
+            "id": "b86a0ab5b19723d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled 6.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled 6"
             }
           },
           {
@@ -408,7 +502,9 @@
                 "file": "Untitled 3.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled 3"
             }
           },
           {
@@ -418,7 +514,9 @@
               "type": "excalidraw",
               "state": {
                 "file": "Excalidraw/Atomic Habits 2024-07-20 01.26.09.excalidraw.md"
-              }
+              },
+              "icon": "excalidraw-icon",
+              "title": "Atomic Habits 2024-07-20 01.26.09.excalidraw"
             }
           },
           {
@@ -430,7 +528,9 @@
                 "file": "cultural knowledge dispersion.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "cultural knowledge dispersion"
             }
           },
           {
@@ -442,7 +542,9 @@
                 "file": "ego-Field.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "ego-Field"
             }
           },
           {
@@ -454,11 +556,13 @@
                 "file": "computeTheory/README.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
         ],
-        "currentTab": 33
+        "currentTab": 35
       }
     ],
     "direction": "vertical"
@@ -478,7 +582,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -493,7 +599,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -501,7 +609,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -525,7 +635,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled 5.md",
+                "file": "Untitled 6.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -533,7 +643,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Untitled 6"
             }
           },
           {
@@ -542,10 +654,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled 5.md",
+                "file": "Untitled 6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Untitled 6"
             }
           },
           {
@@ -556,7 +670,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -565,8 +681,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled 5.md"
-              }
+                "file": "Untitled 6.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Untitled 6"
             }
           }
         ]
@@ -581,7 +699,9 @@
             "type": "leaf",
             "state": {
               "type": "calendar",
-              "state": {}
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
         ]
@@ -602,8 +722,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e9821dd135854962",
+  "active": "b86a0ab5b19723d1",
   "lastOpenFiles": [
+    "Untitled 6.md",
     "Pasted image 20241023005557.png",
     "thoughticon/README.md",
     "Untitled 5.md",
@@ -630,7 +751,6 @@
     "Untitled 4.md",
     "streaming/aoe2/REAME.md",
     "Pasted image 20240925124754.png",
-    "Pasted image 20240910012107.png",
     "Untitled 3.md",
     "streaming/let-strystreamingagain.md",
     "Excalidraw/Atomic Habits 2024-07-20 01.00.56.excalidraw.md",
