@@ -29,8 +29,8 @@
               "state": {
                 "file": "Excalidraw/Main Hall 2024-05-12 13.46.35.excalidraw.md"
               },
-              "icon": "excalidraw-icon",
-              "title": "Main Hall 2024-05-12 13.46.35.excalidraw"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -41,8 +41,8 @@
               "state": {
                 "file": "Excalidraw/Home Storage 2024-05-12 13.12.10.excalidraw.md"
               },
-              "icon": "excalidraw-icon",
-              "title": "Home Storage 2024-05-12 13.12.10.excalidraw"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -212,20 +212,6 @@
             }
           },
           {
-            "id": "a4ceee651137fb1d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A801/Main Hall.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Main Hall"
-            }
-          },
-          {
             "id": "ad8425aa2934fdfa",
             "type": "leaf",
             "state": {
@@ -261,8 +247,8 @@
               "state": {
                 "file": "Excalidraw/Drawing 2024-07-22 21.52.23.excalidraw.md"
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2024-07-22 21.52.23.excalidraw"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -273,8 +259,8 @@
               "state": {
                 "file": "Excalidraw/Atomic Habits 2024-07-20 01.00.56.excalidraw.md"
               },
-              "icon": "excalidraw-icon",
-              "title": "Atomic Habits 2024-07-20 01.00.56.excalidraw"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -403,12 +389,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Postcards.md",
+                "file": "WebComponents/history/1_proposal.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Postcards"
+              "title": "1_proposal"
             }
           },
           {
@@ -494,6 +480,118 @@
             }
           },
           {
+            "id": "fba79690aa2e216c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "House of Cards.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "House of Cards"
+            }
+          },
+          {
+            "id": "ad9879032b165356",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "House of Cards.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "House of Cards"
+            }
+          },
+          {
+            "id": "8929aa77f5567d9a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BharatGas LPG cyliner.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "BharatGas LPG cyliner"
+            }
+          },
+          {
+            "id": "9c42e903e1961f6d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ego-Field.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ego-Field"
+            }
+          },
+          {
+            "id": "bb5d7272442a22a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Github Actions.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Github Actions"
+            }
+          },
+          {
+            "id": "436d4aec228d8640",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "sessionTopics/README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "95cc31f24795faba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PromptHub.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PromptHub"
+            }
+          },
+          {
+            "id": "33622a3294f099e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Jules Prompt for Design Review.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Jules Prompt for Design Review"
+            }
+          },
+          {
             "id": "0ecb4a2c3bf23782",
             "type": "leaf",
             "state": {
@@ -515,8 +613,8 @@
               "state": {
                 "file": "Excalidraw/Atomic Habits 2024-07-20 01.26.09.excalidraw.md"
               },
-              "icon": "excalidraw-icon",
-              "title": "Atomic Habits 2024-07-20 01.26.09.excalidraw"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -562,7 +660,7 @@
             }
           }
         ],
-        "currentTab": 35
+        "currentTab": 42
       }
     ],
     "direction": "vertical"
@@ -581,7 +679,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -593,7 +692,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "ngrok",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -635,7 +734,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled 6.md",
+                "file": "Jules Prompt for Design Review.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -645,7 +744,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Untitled 6"
+              "title": "Backlinks for Jules Prompt for Design Review"
             }
           },
           {
@@ -712,6 +811,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -719,47 +819,50 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "pomodoro-widget:Toggle pomodoro widget.": false
     }
   },
-  "active": "b86a0ab5b19723d1",
+  "active": "33622a3294f099e7",
   "lastOpenFiles": [
-    "Untitled 6.md",
-    "Pasted image 20241023005557.png",
-    "thoughticon/README.md",
-    "Untitled 5.md",
-    "Summer19/README.md",
-    "sound-of-events/README.md",
-    "WebGraph/README.md",
-    "cultural knowledge dispersion.md",
-    "ELO system.md",
-    "House of Cards.md",
+    "Jules Prompt for Design Review.md",
+    "PromptHub.md",
+    "export from Vscode.md",
+    "Riffusion.md",
+    "Untitled.base",
+    "sessionTopics/README.md",
+    "now/README.md",
+    "streaming/tanmay_setup/discord/README.md",
+    "twitch/lookups/README.md",
+    "_site/kaaro/building/README.md",
+    "_site/minecraft/datapack/README.md",
+    "_site/minecraft/sharable/README.md",
+    "_site/minecraft/skinviewer/README.md",
+    "_site/now/README.md",
+    "Github action for observability.md",
+    "Github Actions.md",
+    "computeTheory/README.md",
     "ego-Field.md",
-    "CODE_OF_CONDUCT.md",
-    "clipQuiz.md",
-    "BharatGas LPG cyliner.md",
-    "Akshay Rana.md",
-    "Pasted Image 20240720010104_955.svg",
-    "Pasted Image 20240720010104_682.svg",
-    "Pasted Image 20240720010103_954.svg",
-    "Pasted Image 20240720010103_908.svg",
-    "Pasted Image 20240720010103_856.svg",
-    "Pasted Image 20240720010103_847.svg",
-    "Pasted Image 20240720010103_804.svg",
-    "Pasted Image 20240716011230_263.png",
-    "showtime/README.md",
-    "Untitled 4.md",
-    "streaming/aoe2/REAME.md",
-    "Pasted image 20240925124754.png",
-    "Untitled 3.md",
-    "streaming/let-strystreamingagain.md",
-    "Excalidraw/Atomic Habits 2024-07-20 01.00.56.excalidraw.md",
-    "Zsolt/Book-on-a-page/Atomic Habits.md",
-    "Excalidraw/Atomic Habits 2024-07-20 01.26.09.excalidraw.md",
-    "Excalidraw/Drawing 2024-07-22 22.14.36.excalidraw.md",
-    "Instagram - DM me Postcards.md",
-    "Postcards.md",
+    "A801/Home Storage.md",
+    "Excalidraw/Study Room 2024-05-12 13.13.33.excalidraw.md",
+    "Excalidraw/redstone documentation 2024-07-16 01.12.27.excalidraw.md",
+    "Excalidraw/neuron 2024-07-20 01.02.03.excalidraw.md",
+    "Excalidraw/Master Bedroom 2024-05-12 13.41.17.excalidraw.md",
+    "Excalidraw/Instagram - DM me Postcards 2024-05-30 21.59.36.excalidraw.md",
+    "Excalidraw/Main Hall 2024-05-12 13.46.35.excalidraw.md",
     "Excalidraw/House of Cards 2024-07-22 21.59.43.excalidraw.md",
+    "Excalidraw/Home Storage 2024-05-12 13.12.10.excalidraw.md",
+    "Pasted Image 20240720010104_731.png",
+    "Pasted Image 20240720010104_372.svg",
+    "Pasted Image 20240720010103_662.svg",
+    "Pasted image 20250108233558.png",
+    "Pasted image 20240525132832.png",
+    "Pasted Image 20240720010104_170.svg",
+    "Pasted Image 20240722220245_019.png",
+    "Pasted Image 20240722220245_053.png",
+    "Pasted Image 20240722220245_128.png",
+    "Pasted image 20240910012107.png",
+    "Untitled.canvas",
     "Zsolt/Book-on-a-page",
     "Zsolt",
     "A801",

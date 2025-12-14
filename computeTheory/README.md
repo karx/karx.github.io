@@ -13,7 +13,9 @@ So, if we think about this for a minute, what it would mean is,
 There are billions and billions of computes running, and the tick rate of this is the speed at which our universe operates, and the final outcome of any event, is the cumulative of all the computes.
 
 I would like to add a concept of self-referential computes here early on. These are the computes, that have the potential of affecting the outcome of their own future computes.
-These evolved systems of self-referential compute are we call 'living' as compared to 'non-living' compute systems.
+These evolved systems of self-referential compute are we call '
+
+' as compared to 'non-living' compute systems.
 
 
 
