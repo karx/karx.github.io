@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kaaroGazette - Winter Session Deep Dive</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f3f3f3;
+            color: #121212;
+        }
+        h1, h2, h3, h4, .serif-font {
+            font-family: 'Playfair Display', serif;
+        }
+        .bloomberg-blue {
+            color: #0056b3;
+        }
+        .bloomberg-bg-blue {
+            background-color: #0056b3;
+        }
+        .news-border {
+            border-bottom: 1px solid #d1d5db;
+        }
+        .thick-border {
+            border-top: 4px solid #000;
+        }
+        .hover-underline:hover {
+            text-decoration: underline;
+            text-decoration-color: #0056b3;
+            text-decoration-thickness: 2px;
+        }
+        /* Quiz Styles */
+        .option-btn {
+            transition: all 0.2s;
+        }
+        .option-btn:hover {
+            background-color: #e5e7eb;
+        }
+        .option-btn.correct {
+            background-color: #dcfce7;
+            border-color: #166534;
+            color: #166534;
+        }
+        .option-btn.wrong {
+            background-color: #fee2e2;
+            border-color: #991b1b;
+            color: #991b1b;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Main Container -->
+    <div class="max-w-7xl mx-auto bg-white min-h-screen shadow-2xl my-0 md:my-8">
+        
+        <!-- Header Section -->
+        <header class="p-6 pb-2">
+            <div class="flex justify-between items-end border-b border-gray-300 pb-2 mb-4 text-xs font-bold uppercase tracking-widest text-gray-500">
+                <div>New Delhi Edition</div>
+                <div id="current-date">DECEMBER 17, 2025</div>
+                <div>Vol. CCXLI No. 45</div>
+            </div>
+            
+            <div class="text-center">
+                <h1 class="text-6xl md:text-8xl font-black tracking-tighter mb-2">kaaroGazette</h1>
+                <div class="flex justify-center items-center gap-4 text-sm font-bold border-y border-black py-2 mt-4">
+                    <span>POLITICS</span>
+                    <span class="text-gray-300">|</span>
+                    <span>ECONOMY</span>
+                    <span class="text-gray-300">|</span>
+                    <span>LEGISLATION</span>
+                    <span class="text-gray-300">|</span>
+                    <span>MARKETS</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content Grid -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-0 lg:gap-8 px-6 pb-12">
+            
+            <!-- LEFT COLUMN: Main Stories (Span 8) -->
+            <div class="lg:col-span-8 pt-6">
+                
+                <!-- Lead Story -->
+                <article class="mb-8 pb-8 border-b border-black">
+                    <span class="text-blue-700 font-bold uppercase text-xs tracking-wider mb-2 block">The Big Story</span>
+                    <h2 class="text-4xl md:text-5xl font-bold leading-tight mb-4 hover:text-blue-800 cursor-pointer transition-colors">
+                        The Architecture of 'Viksit Bharat': Winter Session Transforms The Indian State
+                    </h2>
+                    
+                    <div class="flex flex-col md:flex-row gap-6 mb-4 text-gray-600 text-sm">
+                        <p class="font-medium text-black">By The Political Bureau</p>
+                        <p>Updated 2 hours ago</p>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        <div class="md:col-span-2">
+                            <p class="text-lg leading-relaxed text-gray-800 mb-4 first-letter:text-5xl first-letter:font-bold first-letter:float-left first-letter:mr-3 first-letter:mt-[-10px]">
+                                The Winter Session of Parliament has transcended routine legislative business to become a foundational moment in India's administrative history. Moving decisively away from the UPA-era "rights-based" framework, the government has unveiled a "mission-mode" architecture for a digitized, capital-intensive economy.
+                            </p>
+                            <p class="text-gray-800 leading-relaxed mb-4">
+                                From repealing MGNREGA to ending the state monopoly on atomic energy, the session represents a concerted effort to dismantle long-standing statutory frameworks. The "Viksit Bharat" 2047 vision is now being codified into law.
+                            </p>
+                        </div>
+                        
+                        <!-- What's Happening Box -->
+                        <div class="bg-gray-100 p-4 border-t-4 border-blue-600 h-fit">
+                            <h3 class="font-bold text-sm uppercase mb-3">What Is Happening</h3>
+                            <ul class="space-y-3 text-sm">
+                                <li class="pb-2 border-b border-gray-300">
+                                    <strong class="block text-blue-800">VB-G RAM G Bill</strong>
+                                    Replaces MGNREGA. Increases work days to 125 but mandates a 60:40 (Centre:State) funding split.
+                                </li>
+                                <li class="pb-2 border-b border-gray-300">
+                                    <strong class="block text-blue-800">SHANTI Bill</strong>
+                                    Allows private sector in nuclear energy. Caps liability at 300M SDRs.
+                                </li>
+                                <li>
+                                    <strong class="block text-blue-800">Education Overhaul</strong>
+                                    Single regulator 'Adhishthan' to replace UGC & AICTE.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Sub Stories Row -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+                    <!-- Story 1 -->
+                    <article class="border-r-0 md:border-r border-gray-200 pr-0 md:pr-4">
+                        <h3 class="text-2xl font-bold mb-2 serif-font">The "Ram" vs "Gandhi" Nomenclature War</h3>
+                        <p class="text-sm text-gray-700 leading-relaxed mb-3">
+                            The shift from MGNREGA to <strong>VB-G RAM G</strong> (Viksit Bharat Guarantee for Rozgar and Ajeevika Mission) has triggered a cultural firestorm.
+                        </p>
+                        <p class="text-sm text-gray-700 leading-relaxed">
+                            Opposition claims it erases Mahatma Gandhi's legacy. The Government argues "RAM" is merely a functional acronym and accuses critics of being "allergic to Indian ethos."
+                        </p>
+                    </article>
+                    
+                    <!-- Story 2 -->
+                    <article>
+                        <h3 class="text-2xl font-bold mb-2 serif-font">Nuclear Liability: Privatizing Profit, Socializing Risk?</h3>
+                        <p class="text-sm text-gray-700 leading-relaxed mb-3">
+                            The SHANTI Bill aims for 100 GW nuclear capacity by 2047 by allowing 100% FDI and private operators.
+                        </p>
+                        <p class="text-sm text-gray-700 leading-relaxed">
+                            Critics warn that capping liability at roughly ₹3,300 Crore for private operators leaves the state to cover catastrophic failures, effectively subsidizing corporate risk.
+                        </p>
+                    </article>
+                </div>
+
+                <!-- IGNORED SECTION -->
+                <div class="border-t-4 border-black pt-4 mt-8">
+                    <h4 class="font-bold text-xl uppercase tracking-widest mb-4 flex items-center">
+                        <span class="bg-black text-white px-2 py-1 mr-2">Deep Dive</span>
+                        What Was Ignored
+                    </h4>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                        <div class="border border-gray-200 p-4 hover:shadow-md transition-shadow">
+                            <h5 class="font-bold text-red-700 mb-2">The Air We Breathe</h5>
+                            <p class="text-xs text-gray-600">
+                                Despite severe AQI levels in North India forcing school closures, the pollution crisis saw no substantive legislative response, reduced only to a partisan "blame game" between states.
+                            </p>
+                        </div>
+                        <div class="border border-gray-200 p-4 hover:shadow-md transition-shadow">
+                            <h5 class="font-bold text-red-700 mb-2">Aviation Meltdown</h5>
+                            <p class="text-xs text-gray-600">
+                                The "humanitarian crisis" at airports due to IndiGo's operational collapse and pilot fatigue issues was mentioned but led to no regulatory intervention or structured debate.
+                            </p>
+                        </div>
+                        <div class="border border-gray-200 p-4 hover:shadow-md transition-shadow">
+                            <h5 class="font-bold text-red-700 mb-2">The "Blind" Repeal</h5>
+                            <p class="text-xs text-gray-600">
+                                71 laws were repealed in minutes via voice vote. Opposition argues relatively recent laws were scrapped without adequate explanation of their "obsolescence."
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- RIGHT COLUMN: Sidebar (Span 4) -->
+            <div class="lg:col-span-4 pt-6 space-y-8 border-l-0 lg:border-l border-gray-200 pl-0 lg:pl-8">
+                
+                <!-- Political Heat Widget -->
+                <div>
+                    <h4 class="font-sans font-black text-sm border-b-2 border-black pb-2 mb-4 uppercase">Political Heat Index</h4>
+                    
+                    <div class="space-y-4">
+                        <div class="pb-3 border-b border-gray-100">
+                            <div class="flex justify-between items-center mb-1">
+                                <span class="font-bold text-sm">SIR Controversy</span>
+                                <span class="text-xs font-bold text-white bg-red-600 px-2 py-0.5 rounded-full">CRITICAL</span>
+                            </div>
+                            <p class="text-xs text-gray-500">"Detect, Delete, Deport" vs "Vote Chori". The Electoral Roll revision paralyzed Parliament.</p>
+                        </div>
+
+                        <div class="pb-3 border-b border-gray-100">
+                            <div class="flex justify-between items-center mb-1">
+                                <span class="font-bold text-sm">Vande Mataram</span>
+                                <span class="text-xs font-bold text-white bg-orange-500 px-2 py-0.5 rounded-full">HIGH</span>
+                            </div>
+                            <p class="text-xs text-gray-500">150th Anniversary debate. BJP claims historical "truncation"; Opposition calls it a distraction.</p>
+                        </div>
+
+                        <div class="pb-3">
+                            <div class="flex justify-between items-center mb-1">
+                                <span class="font-bold text-sm">Fiscal Federalism</span>
+                                <span class="text-xs font-bold text-white bg-yellow-500 px-2 py-0.5 rounded-full">ELEVATED</span>
+                            </div>
+                            <p class="text-xs text-gray-500">States oppose the new 60:40 funding split in the rural employment bill, citing bankruptcy fears.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Did You Know Widget -->
+                <div class="bg-blue-50 p-6 border-t-4 border-blue-800">
+                    <h4 class="serif-font font-bold text-xl mb-4 text-blue-900 italic">Did You Know?</h4>
+                    <ul class="space-y-4">
+                        <li class="flex gap-3 text-sm">
+                            <span class="text-2xl text-blue-400 font-bold leading-none">&bull;</span>
+                            <span>The <strong>Indian Tramways Act, 1886</strong> was finally repealed this session among 71 other obsolete laws.</span>
+                        </li>
+                        <li class="flex gap-3 text-sm">
+                            <span class="text-2xl text-blue-400 font-bold leading-none">&bull;</span>
+                            <span>Despite "Atmanirbhar Bharat", the trade deficit with China widened to <strong>$63.97 Billion</strong> (Apr-Oct).</span>
+                        </li>
+                        <li class="flex gap-3 text-sm">
+                            <span class="text-2xl text-blue-400 font-bold leading-none">&bull;</span>
+                            <span>The new Insurance Bill raises FDI to <strong>100%</strong> and allows "Composite Licenses" for life and non-life products.</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Quiz Widget -->
+                <div class="border-2 border-black p-5 bg-white shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+                    <div class="flex justify-between items-center mb-4">
+                        <h4 class="font-black text-lg uppercase">The Daily Quiz</h4>
+                        <span id="score-display" class="text-xs font-bold bg-black text-white px-2 py-1 hidden">Score: 0/3</span>
+                    </div>
+                    
+                    <div id="quiz-container">
+                        <!-- Quiz Content Loaded via JS -->
+                        <div class="text-center py-8">
+                            <div class="animate-spin h-6 w-6 border-2 border-black border-t-transparent rounded-full mx-auto"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Advertisement Placeholder (Visual Balance) -->
+                <div class="bg-gray-100 h-32 flex items-center justify-center border border-gray-300">
+                    <span class="text-xs text-gray-400 font-mono">ADVERTISEMENT</span>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="bg-black text-white p-8 md:p-12">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 border-b border-gray-800 pb-8 mb-8">
+                <div class="col-span-1 md:col-span-2">
+                    <h2 class="font-serif text-3xl font-bold mb-4">kaaroGazette</h2>
+                    <p class="text-gray-400 text-sm max-w-sm">Delivering the sharpest analysis on India's legislative and political transformation. The Winter of Transformation.</p>
+                </div>
+                <div>
+                    <h5 class="font-bold text-sm mb-4 text-gray-300">SECTIONS</h5>
+                    <ul class="text-sm text-gray-500 space-y-2">
+                        <li>Legislative Construction</li>
+                        <li>Political Confrontation</li>
+                        <li>Economic Liberalization</li>
+                        <li>Institutional Overhaul</li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="font-bold text-sm mb-4 text-gray-300">CONNECT</h5>
+                    <ul class="text-sm text-gray-500 space-y-2">
+                        <li>Subscribe</li>
+                        <li>Newsletters</li>
+                        <li>Podcasts</li>
+                        <li>About Us</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center text-xs text-gray-600 font-mono">
+                &copy; 2025 kaaroGazette Media. Source: Parliamentary Winter Session Deep Dive (File: 0d6322c8).
+            </div>
+        </footer>
+
+    </div>
+
+    <script>
+        // Quiz Data
+        const quizData = [
+            {
+                question: "In the new VB-G RAM G Bill, what is the funding split between Centre and General States?",
+                options: ["100% Centre", "90:10", "60:40", "50:50"],
+                correct: 2 // Index of correct answer
+            },
+            {
+                question: "The SHANTI Bill caps the operator's liability for nuclear incidents at:",
+                options: ["₹500 Crore", "300 Million SDRs", "Unlimited", "100 Million USD"],
+                correct: 1
+            },
+            {
+                question: "Which new body will replace the UGC, AICTE, and NCTE?",
+                options: ["Higher Education Council", "Viksit Bharat Shiksha Adhishthan", "National Education Board", "Bharatiya Shiksha Ayog"],
+                correct: 1
+            },
+            {
+                question: "Under the new bill, how many days of employment are guaranteed per household?",
+                options: ["100 Days", "150 Days", "125 Days", "200 Days"],
+                correct: 2
+            }
+        ];
+
+        let currentQuestion = 0;
+        let score = 0;
+        const quizContainer = document.getElementById('quiz-container');
+        const scoreDisplay = document.getElementById('score-display');
+
+        function loadQuestion() {
+            const data = quizData[currentQuestion];
+            
+            let html = `
+                <div class="mb-4">
+                    <p class="text-xs text-gray-500 font-bold mb-1">QUESTION ${currentQuestion + 1} OF ${quizData.length}</p>
+                    <p class="font-medium text-sm leading-snug">${data.question}</p>
+                </div>
+                <div class="space-y-2">
+            `;
+
+            data.options.forEach((option, index) => {
+                html += `<button onclick="checkAnswer(${index})" class="option-btn w-full text-left text-xs font-bold py-2 px-3 border border-gray-300 rounded hover:bg-gray-100 transition-colors">${option}</button>`;
+            });
+
+            html += `</div>`;
+            quizContainer.innerHTML = html;
+        }
+
+        function checkAnswer(selectedIndex) {
+            const data = quizData[currentQuestion];
+            const buttons = quizContainer.querySelectorAll('button');
+            
+            // Disable all buttons
+            buttons.forEach(btn => btn.disabled = true);
+
+            if (selectedIndex === data.correct) {
+                buttons[selectedIndex].classList.add('correct');
+                score++;
+            } else {
+                buttons[selectedIndex].classList.add('wrong');
+                buttons[data.correct].classList.add('correct'); // Show correct answer
+            }
+
+            // Update score
+            scoreDisplay.textContent = `Score: ${score}/${quizData.length}`;
+            scoreDisplay.classList.remove('hidden');
+
+            setTimeout(() => {
+                currentQuestion++;
+                if (currentQuestion < quizData.length) {
+                    loadQuestion();
+                } else {
+                    showResult();
+                }
+            }, 1500);
+        }
+
+        function showResult() {
+            let message = score === quizData.length ? "Expert Analysis!" : score > 1 ? "Well Informed." : "Read the report again.";
+            
+            quizContainer.innerHTML = `
+                <div class="text-center py-4">
+                    <h5 class="text-3xl font-serif font-bold mb-2">${score}/${quizData.length}</h5>
+                    <p class="text-sm font-bold text-gray-800 mb-4">${message}</p>
+                    <button onclick="resetQuiz()" class="text-xs bg-black text-white px-4 py-2 uppercase font-bold tracking-widest hover:bg-gray-800">Restart Quiz</button>
+                </div>
+            `;
+        }
+
+        function resetQuiz() {
+            currentQuestion = 0;
+            score = 0;
+            scoreDisplay.classList.add('hidden');
+            loadQuestion();
+        }
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', () => {
+            // Set Date
+            const dateOptions = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+            document.getElementById('current-date').textContent = new Date().toLocaleDateString('en-US', dateOptions).toUpperCase();
+            
+            loadQuestion();
+        });
+    </script>
+</body>
+</html>
