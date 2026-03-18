@@ -583,12 +583,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Jules Prompt for Design Review.md",
+                "file": "_site/844k/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Jules Prompt for Design Review"
+              "title": "README"
+            }
+          },
+          {
+            "id": "579547bd07421bc6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Episode 1 - 844k.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Episode 1 - 844k"
             }
           },
           {
@@ -637,12 +651,40 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ego-Field.md",
+                "file": "Episode 1 - 844k.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ego-Field"
+              "title": "Episode 1 - 844k"
+            }
+          },
+          {
+            "id": "5d921ed4c297b8e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gemini - Global Standup Comedy Index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Gemini - Global Standup Comedy Index"
+            }
+          },
+          {
+            "id": "6f6662f9217b13fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Art of Intent.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Art of Intent"
             }
           },
           {
@@ -660,7 +702,7 @@
             }
           }
         ],
-        "currentTab": 42
+        "currentTab": 49
       }
     ],
     "direction": "vertical"
@@ -734,7 +776,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Jules Prompt for Design Review.md",
+                "file": "Art of Intent.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -744,7 +786,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Jules Prompt for Design Review"
+              "title": "Backlinks for Art of Intent"
             }
           },
           {
@@ -823,9 +865,24 @@
       "pomodoro-widget:Toggle pomodoro widget.": false
     }
   },
-  "active": "33622a3294f099e7",
+  "active": "6f6662f9217b13fc",
   "lastOpenFiles": [
+    "Gemini Indian Kavi Index.md",
+    "Art of Intent.md",
+    "Gemini - Global Standup Comedy Index.md",
+    "Episode 1 - 844k.md",
+    "ego-Field.md",
+    "cultural knowledge dispersion.md",
+    "computeTheory/README.md",
+    "mc server.md",
+    "_site/844k/README.md",
+    "844k.md",
     "Jules Prompt for Design Review.md",
+    "kaaroGazette/Winter/index.html",
+    "kaaroGazette/Winter",
+    "kaaroGazette/1/index.html",
+    "kaaroGazette/1",
+    "kaaroGazette",
     "PromptHub.md",
     "export from Vscode.md",
     "Riffusion.md",
@@ -841,17 +898,7 @@
     "_site/now/README.md",
     "Github action for observability.md",
     "Github Actions.md",
-    "computeTheory/README.md",
-    "ego-Field.md",
     "A801/Home Storage.md",
-    "Excalidraw/Study Room 2024-05-12 13.13.33.excalidraw.md",
-    "Excalidraw/redstone documentation 2024-07-16 01.12.27.excalidraw.md",
-    "Excalidraw/neuron 2024-07-20 01.02.03.excalidraw.md",
-    "Excalidraw/Master Bedroom 2024-05-12 13.41.17.excalidraw.md",
-    "Excalidraw/Instagram - DM me Postcards 2024-05-30 21.59.36.excalidraw.md",
-    "Excalidraw/Main Hall 2024-05-12 13.46.35.excalidraw.md",
-    "Excalidraw/House of Cards 2024-07-22 21.59.43.excalidraw.md",
-    "Excalidraw/Home Storage 2024-05-12 13.12.10.excalidraw.md",
     "Pasted Image 20240720010104_731.png",
     "Pasted Image 20240720010104_372.svg",
     "Pasted Image 20240720010103_662.svg",
