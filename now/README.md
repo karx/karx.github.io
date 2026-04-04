@@ -10,7 +10,9 @@
 
 - **Data Platforms @ PhonePe** — Graph DB Interfaces, Data Pipeline Tooling, AI Tooling under Fraud & Risk Assessment
 - **LLM Tooling modules** — Learning + teaching how to leverage LLM tooling for personal and professional productivity
-- **Poker chip stack tracker** — Record the ebbs and flows of your sessions
+- **Poker chip stack tracker** — Record the ebbs and flows of your sessions (got some live testing in recently)
+- **kaaroExcalidraw** — Generate Excalidraw drawings and libraries with Claude
+- **Digital garden tooling** — Agent-driven vault maintenance: clustering scripts + health index calculator
 
 ## Thinking about
 
@@ -21,6 +23,7 @@
 - [Art of Intent](https://art-of-intent.netlify.app/) — Check your prompting skills
 - [Kaaro Marbles](https://kaaromarbles.netlify.app/) — Physics + play
 - Revamping [Langton3D](https://langton3d.netlify.app/)
+- [kaaroExcalidraw](https://karx.github.io/kaaroExcalidraw/) — Generate Excalidraw drawings and libraries with Claude
 
 ## Currently playing
 
@@ -30,5 +33,5 @@
 ---
 
 ```
-Last Updated: March 2026
+Last Updated: April 2026
 ```

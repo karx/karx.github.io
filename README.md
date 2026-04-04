@@ -17,10 +17,11 @@ When compute is everywhere and nearly free, what happens to the conventions we b
 ## Current Experiments
 
 - **LLM Tooling for Productivity** — Building learning modules on leveraging LLM tooling for personal and professional use
-- **Poker Chip Stack Tracker** — Record the ebbs and flows of your sessions. Chip counts, not just scores.
 - **Langton3D** — Revamping a 3D cellular automaton explorer · [live ↗](https://langton3d.netlify.app/)
 - **Art of Intent** — Check your prompting skills · [live ↗](https://art-of-intent.netlify.app/)
-- **Kaaro Marbles** — Physics + play · [live ↗](https://kaaromarbles.netlify.app/)
+- **kaaroExcalidraw** — Generate Excalidraw drawings and libraries with Claude · [live ↗](https://karx.github.io/kaaroExcalidraw/)
+- **Digital Garden Tooling** — Agent-driven vault maintenance: deterministic clustering scripts and a health index calculator for the notes graph
+- **Poker Chip Stack Tracker** — Record the ebbs and flows of your sessions. Chip counts, not just scores.
 
 ---
 
@@ -34,11 +35,7 @@ A versioning system for design files. Unlike code, designs don't have direct lin
 
 ## Latest 3D Prints
 
-*Documentation coming soon — prints are happening, photos are not.*
-
-| Print | Status |
-|---|---|
-| 🖨 Coming soon | In progress |
+[Browse the gallery →](/prints)
 
 ---
 
@@ -58,10 +55,5 @@ A versioning system for design files. Unlike code, designs don't have direct lin
 - [/now](/now) — what I'm focused on right now
 - [/kaaro](/kaaro) — longer bio and background
 - Old experiments on [akriya.co.in/labs](http://akriya.co.in/labs/)
-
-## Discussion, Support and Issues
-For general support and discussion of this project, please join the Discord server: [Discord Invite Link](https://discord.gg/B2cERQ5)
-
-[![Discord Server](https://discordapp.com/api/guilds/552881714196774953/widget.png?style=banner2)](https://discord.gg/B2cERQ5)
 
 
