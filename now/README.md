@@ -31,6 +31,7 @@ description: "A snapshot of my current projects, interests, and focus areas as o
 - [[Art of Intent]] — Check your prompting skills
 - [Kaaro Marbles](https://kaaromarbles.netlify.app/) — Physics + play
 - Revamping [Langton3D](https://langton3d.netlify.app/)
+- [[Hacking Starry Night - An AI Co-pilot|Hacking Starry Night]] — Solving a 2,000 piece puzzle with CV
 - [kaaroExcalidraw](https://karx.github.io/kaaroExcalidraw/) — Generate Excalidraw drawings and libraries with Claude
 
 ## Currently playing

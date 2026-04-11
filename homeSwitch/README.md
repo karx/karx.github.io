@@ -43,7 +43,7 @@ Akriya Technologies will work with Abacus Services to:
 
 The Value Proposition of using Akriya Technologies for this project are:
 * Proven engineering techniques for making Integrated systems.
-* Leveraging our experience in working with IoT toolkit (ESP) to bootstrap your effort. 
+* Leveraging our experience in working with the [[ESP: Microcontroller Ecosystem|ESP toolkit]] to bootstrap your effort. 
 * Using our subject matter experts to complete the project quickly. Rapid project completion minimizes disruptions and allows organizations to realize cost saving quickly.
 
 ## Delivery Scope

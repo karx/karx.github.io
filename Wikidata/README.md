@@ -1,3 +1,12 @@
+---
+published: true
+title: "Wikidata: The Open Knowledge Graph"
+tags:
+  - knowledge-graph
+  - reference
+description: "An introduction to Wikidata, RDF triples, and the power of querying the world's largest open knowledge graph using SPARQL."
+---
+
 # Wikidata - Largest Crowd sources Knowledge Graph - Open Data
 Wikidata is one of the many sister project of Wikimedia Foundation
 ![Wikimedia Foundation projects](../images/Screenshot_2019-02-14 Wikimedia.png)
@@ -6,7 +15,7 @@ Wikidata is one of the many sister project of Wikimedia Foundation
 Or a Knowledge Base to be more generic, but we tend to use Graph structure, hence many times used interchangebly as Knowledge Graph.
 (Again, google calls it Knowledge Graph as Knowledge Graph)
 When we refer to these, the following concepts are what we have in mind
-* Some sort of formalization in terms of how we are representing our data (Ontology!)
+* Some sort of formalization in terms of how we are representing our data (Ontology!) - see my [[WebGraph: My Journey with Structured Data|personal journey with structured data]].
 * Data - in terms of Entities, events, relationships or any other formalization defined 
 * Some Functions - in term of functions for maintaince, cleaning, freshness.
 * Some Engine - in terms of a platform that helps us have these functions, make them run on the data we have

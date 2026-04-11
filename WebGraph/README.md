@@ -1,3 +1,12 @@
+---
+published: true
+title: "WebGraph: My Journey with Structured Data"
+tags:
+  - knowledge-graph
+  - reflection
+description: "Reflections on working with Bing's Satori, Neo4j, and the importance of moving from 'walls of text' to traversable knowledge graphs."
+---
+
 # W3C Workshop on Web Standardization for Graph Data
 Creating Bridges: RDF, Property Graph and SQL
 
@@ -42,7 +51,7 @@ Writing SPARQL queries for answering queries like 'does being married have a co-
 
 I would like to say, Wikidata, the development, the community efforts, the discussions and the data set itself, provides a great __OPEN__ view to how such a system evolves, its needs, etc. There are many questions that the community on a daily basis takes care of and it is an engine, worth more eyeballs.
 
-I have been attempting to write a small [introduction/engager for Wikidata](https://karx.github.io/Wikidata) if anyone is interested.
+I have been attempting to write a small [[Wikidata: The Open Knowledge Graph|introduction/engager for Wikidata]] if anyone is interested.
 
 
 ## Current Open Tool Kit

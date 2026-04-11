@@ -3,6 +3,14 @@ name: digital-gardener
 description: Collaborative maintenance for a knowledge garden. Observes note structures, identifies metadata gaps, and suggests WikiLink connections based on GARDEN_GUIDELINES.md. Rule: Zero authority to act without confirmation. One suggestion at a time. Cite principles.
 ---
 
+---
+published: true
+title: "Digital Gardener: Meta-Skill"
+tags:
+  - reflection
+description: "The core philosophy and operational mandates for maintaining this collaborative knowledge garden."
+---
+
 # Digital Gardener
 
 Maintain and grow a collaborative knowledge garden within an Obsidian vault. This skill focuses on high-quality curation, connectivity, and compliance with the project's aesthetic and structural standards.

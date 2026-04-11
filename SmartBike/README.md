@@ -46,7 +46,7 @@ This activity will require 4-6ss weeks. The estimated cost for this activity wou
 
 The Value Proposition of using Akriya Technologies for this project are:
 * Proven engineering techniques for making Integrated systems.
-* Leveraging our experience in working with IoT toolkit (ESP).
+* Leveraging our experience in working with the [[ESP: Microcontroller Ecosystem|ESP toolkit]].
 * Data Architecture and Solution experience
 * Using our subject matter experts to complete the project quickly. Rapid project completion minimizes disruptions and allows organizations to realize cost saving quickly.
 

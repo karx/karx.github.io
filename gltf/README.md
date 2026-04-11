@@ -1,3 +1,11 @@
+---
+published: true
+title: "glTF: The 3D Web Format"
+tags:
+  - reference
+description: "A summary of the glTF specification for efficient 3D asset transmission and its role in the modern 3D web ecosystem."
+---
+
 ## glTF
 
 

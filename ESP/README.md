@@ -29,6 +29,7 @@ We have a few options here now. As mentioned, The ESP community has a thriving e
 * ESP Easy
 * Official Espressif Development Frameworks - They also have one dedicated for Mesh Systems
 * [Esprunio](/ESP/../Esprunio/README.md)
+* [[KartaDharam: IoT Framework|KartaDharam]]
 * Mongoose OS
 * Lua
 * RToS
@@ -65,7 +66,7 @@ MicroPython is a vibrant community of enthusiasts that have to build this implem
 Python on device
 [Micropython](https://karx.github.io/Micropython)
 
-* Esprunio
+* [[Espruino: JS on ESP32|Esprunio]]
 JS on device
 [Esprunio](https://karx.github.io/Esprunio)
 
