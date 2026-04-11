@@ -1,3 +1,11 @@
+---
+published: true
+title: "Rate of Understanding"
+tags:
+  - reflection
+description: "Exploring 'moments per second' (⛰️/sec) as a measure of the granularity of conscious operations and the quest for life."
+---
+
 To understand.
 
 T o build using this understanding.

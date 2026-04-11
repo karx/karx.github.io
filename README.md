@@ -1,3 +1,11 @@
+---
+published: true
+title: "Kartik 'kaaro' Arora"
+tags:
+  - reflection
+description: "The core entry point for the knowledge garden — summarizing my work, interests, and current experiments."
+---
+
 # Kartik "kaaro" Arora
 
 Builder. Tinkerer. Currently at **PhonePe** — building Data Platforms under Fraud & Risk Assessment. Working on Graph DB Interfaces, Data Pipeline Tooling, and AI Tooling.

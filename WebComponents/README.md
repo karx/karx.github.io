@@ -1,4 +1,12 @@
 
+---
+published: true
+title: "Web Components"
+tags:
+  - interface
+description: "A deep dive into Web Components, micro-frontends, and the foundational technologies (Custom Elements, Shadow DOM, Templates) that power the modern web."
+---
+
 # Web Components - For Micro-frontends and Re-usable components
 Let's build em all!
 

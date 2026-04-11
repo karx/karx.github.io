@@ -1,3 +1,11 @@
+---
+published: true
+title: "ELO Rating System"
+tags:
+  - reference
+description: "A summary of the Elo rating system, its history in chess, and its application in competitive gaming."
+---
+
 https://www.sciencedirect.com/science/article/abs/pii/S036013151630080X
 
 

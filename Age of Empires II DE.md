@@ -1,3 +1,11 @@
+---
+published: true
+title: "Age of Empires II DE"
+tags:
+  - reference
+description: "My progress and notes on Age of Empires II Definitive Edition, including current 1v1 Elo."
+---
+
 Current Elo (RM - 1v1): 1400 
 [[ELO system]]
 

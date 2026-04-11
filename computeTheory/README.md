@@ -1,3 +1,11 @@
+---
+published: true
+title: "Compute Theory"
+tags:
+  - reflection
+description: "Proposing 'compute' as the fundamental observable unit of the universe, and exploring 'moments per second' as a measure of awareness."
+---
+
 # Compute Theory
 
 ## Dump
