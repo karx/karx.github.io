@@ -1,3 +1,11 @@
+---
+published: true
+title: "The Global Standup Comedy Index"
+tags:
+  - reflection
+description: "An architectural framework and execution strategy for cataloging the global standup comedy circuit using YouTube as a primary data source."
+---
+
 # The Global Stand-Up Comedy Index: Architectural Framework and Execution Strategy for YouTube-Based Cataloging
 
 ## 1. Executive Context and Strategic Imperative

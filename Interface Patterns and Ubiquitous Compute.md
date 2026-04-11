@@ -18,3 +18,6 @@ Interfaces are directly dependent on the underlying compute capabilities. While 
 3. **Compute Capability as a Driver**: Every major shift in compute (from mainframe to PC, PC to mobile, and now toward AI-native/ubiquitous compute) necessitates a fundamental rewrite of interaction patterns to surface the new capabilities.
 
 Connecting back to [[Compute Theory]], if compute is the fundamental unit of the universe, then the interface is our primary tool for observing and manipulating that unit.
+
+## Experiments
+- [[IoTNcr - Automation Experiments]]

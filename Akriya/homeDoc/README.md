@@ -68,7 +68,7 @@ knowledge and understanding of the world's largest colarborative tool!
 * Enter your name plz
 
 * On-going projects
-    - Smart Bike
+    - [[Smart Bike: IoT SOW|Smart Bike]]
     - [[YTKrta]]
     - Engagement Apps
     - IoT platform 
@@ -119,7 +119,10 @@ We are a technology startup commited to building, maintaining the `Toolkit` for 
 Few examples/demos of things build using our SDK: SmartBike, Abacus Solutions, VayuShodkha, Smart Community, Wendor Events and Digital Icon.
 
 
-### Web 3.0
+### History & Reflection
+
+- [[MyFailedStartup]] — Celebrating and learning from the projects that didn't make it.
+
 
 
 ### Toolkit

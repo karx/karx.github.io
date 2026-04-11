@@ -1,3 +1,12 @@
+---
+published: true
+title: "SOW: GymVym Digital Infrastructure"
+tags:
+  - sow
+  - reference
+description: "Statement of Work for implementing digital infrastructure and products for GymVym operations by [[Akriya]]."
+---
+
 ## GymVym - SOW
 Document prepared by Kartik
 

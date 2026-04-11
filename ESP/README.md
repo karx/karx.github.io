@@ -1,3 +1,11 @@
+---
+published: true
+title: "ESP: Microcontroller Ecosystem"
+tags:
+  - reference
+description: "A comprehensive overview of ESP8266 and ESP32 microcontrollers, programming environments (Arduino, MicroPython, Espruino), and OTA management."
+---
+
 # ESP
 ESP8266 and ESP32 is a series of low-cost, low-power system-on-chip microcontrollers with integrated Wi-Fi and dual-mode Bluetooth.
 

@@ -1,3 +1,11 @@
+---
+published: true
+title: "Espruino: JS on ESP32"
+tags:
+  - reference
+description: "An introductory session on using the Espruino JavaScript SDK and firmware to run Node.js-style code on ESP32 microcontrollers."
+---
+
 # Esprunio
 Espruino – JavaScript SDK and firmware closely emulating Node.js
 

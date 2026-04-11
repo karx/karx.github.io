@@ -1,3 +1,11 @@
+---
+published: true
+title: "Smart Bike: IoT SOW"
+tags:
+  - reference
+description: "The Statement of Work (SOW) for the Smart Bike digital infrastructure, detailing the IoT architecture, telemetry systems, and admin/user interfaces."
+---
+
 ## Smart Bike - SOW
 Document prepared by 
 
@@ -23,7 +31,7 @@ This documentation is to serve as a 'Statement of Work' or SOW for implementing 
 Networks, Computing and Data Science has made possible Integrated systems that can really help business.
 Such a system would include a means to capture, catalog and analyze data, along with tools to enforce 'business logic'.
 
-Akriya Technologies will work with SmartBike to:
+[[Akriya|Akriya Technologies]] will work with SmartBike to:
 
 * Designing the SmartBike Data Logging Architecture
 * Designing the SmartBike Operations Architecture

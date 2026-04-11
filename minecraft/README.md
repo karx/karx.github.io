@@ -7,7 +7,7 @@ description: "Notes on vanilla survival, datapacks, and the technical challenge 
 ---
 
 ## Minecraft 
-BYOSS - build your own Simulator Simulator
+BYOSS - build your own [[The Simulation: A Conceptual Framework|Simulator Simulator]]
 
 * Mostly vanilla survival these days, checkout my Current World.
 * Checkout my first ever survival minecraft world. I found it's backup in my Google Cloud, asd-world

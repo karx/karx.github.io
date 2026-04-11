@@ -1,3 +1,11 @@
+---
+published: true
+title: "KartaDharam: IoT Framework"
+tags:
+  - reference
+description: "A comprehensive framework and toolchain for deploying, running, and debugging logic on embedded systems (ESP32), serving as the technical specification for the 'Karta Device'."
+---
+
 ## Karta-Dharam
 This document is to serve as Spec doc in the future for
 ' Our framework/toolchain we use to deploy/run/debug logic on embedded systems '
@@ -107,7 +115,11 @@ Use this skeleton application to quickly setup and start working on a new IoT ap
 * should not lose state/data in case of minor power fluctuation / loss 
 * Real time clock 
 * multiple type of batteries/ chanrging ports (like esp has vin pin and also takes in using microUSB)
-* solar panel
+#### solar panel
+
+## Related Toolkits
+- [[Espruino: JS on ESP32|Espruino]]
+
 
 ## Industry Requirements
  * Stable/ Reliable

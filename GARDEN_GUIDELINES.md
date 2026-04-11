@@ -1,14 +1,16 @@
 # Garden Maintainer Guidelines
 
-This document defines the conventions for maintaining the `karx.github.io` vault so it can be published as an interactive knowledge graph on the homepage.
+This document defines the conventions for maintaining the `karx.github.io` vault so it publishes correctly as an interactive 3D knowledge graph on the homepage at `/garden/`.
 
-The vault is mounted as a **git submodule** inside `homepage/_notes/`. A build script walks this directory, parses frontmatter and WikiLinks, and emits `garden-graph.json` — the data file that powers the 3D Garden page. Everything in this document affects what ends up in that graph.
+The build script (`homepage/scripts/build-garden.mjs`) walks this vault, parses frontmatter and `[[WikiLink]]` edges, and emits `garden-graph.json`. Everything in this document determines what ends up in that graph.
+
+**Current graph state (as of 2026-04-12):** 20 published notes · 4 edges · target: 40+ notes, 80+ edges.
 
 ---
 
 ## 1. What Gets Published
 
-**Only notes with `published: true` in their frontmatter are included in the public graph.** Notes without this field are ignored entirely. This means the vault stays private-first: you write freely, and selectively surface what's ready.
+Only notes with `published: true` in their frontmatter appear in the graph. All other notes are invisible to the build script — the vault stays private-first.
 
 ```yaml
 ---
@@ -16,7 +18,7 @@ published: true
 ---
 ```
 
-That's the minimum required field. The rest of the frontmatter below enriches the graph node — but `published: true` is the gate.
+That's the minimum. All other fields below enrich the node but are optional.
 
 ---
 
@@ -24,177 +26,227 @@ That's the minimum required field. The rest of the frontmatter below enriches th
 
 ```yaml
 ---
-published: true                   # required — omit to keep private
-title: "Kaaro Stream"             # optional — falls back to filename/folder name
-date: 2025-11-02                  # optional — ISO 8601, used for "last updated" display
-tags:                             # optional — drives cluster grouping in the graph
+published: true                   # required — gate for public graph
+title: "Kaaro Stream"             # optional — fallback order: H1 → folder name → filename
+date: 2025-11-02                  # optional — ISO 8601, shown in detail panel
+tags:                             # optional — drives cluster grouping and colour
   - streaming
   - mqtt
-  - real-time
-description: "Notes on the real-time content pipeline bridging speech to knowledge graph." 
-                                  # optional — shown in detail panel on hover/click
-image: images/kaaro-stream.png    # optional — node thumbnail, relative to vault root
+description: "Notes on the real-time content pipeline bridging speech to knowledge graph."
+                                  # optional — fallback: first non-heading paragraph
+image: images/kaaro-stream.png    # optional — thumbnail, relative to vault root
 ---
 ```
 
-### Field rules
-
-| Field | Type | Behaviour when missing |
-|-------|------|------------------------|
-| `published` | boolean | Note is excluded from graph |
-| `title` | string | Derived from: H1 heading → folder name → filename (in that order) |
-| `date` | ISO date | Node shows no date; not sorted |
-| `tags` | list of strings | Node placed in "untagged" cluster |
-| `description` | string | First non-heading paragraph used as fallback |
-| `image` | relative path | No thumbnail shown on node |
+| Field | Type | Missing behaviour |
+|-------|------|-------------------|
+| `published` | boolean | Note excluded entirely |
+| `title` | string | H1 heading → folder name → filename |
+| `date` | ISO date | No date shown |
+| `tags` | string list | Placed in "untagged" periphery |
+| `description` | string | First non-heading paragraph (up to 280 chars) |
+| `image` | relative path | No thumbnail on node |
 
 ---
 
-## 3. File and Folder Structure
+## 3. File and Folder Conventions
 
-The vault supports two layouts. Both work.
+Two layouts work:
 
 **Single-file note:**
 ```
-MyTopic.md
+MyTopic.md          → slug: "mytopic"
 ```
 
-**Folder note** (when a topic has supporting files like images or sub-notes):
+**Folder note** (topic with supporting assets):
 ```
 MyTopic/
-  README.md      ← this is the note
+  README.md         → slug: "mytopic"  (canonical)
   diagram.png
-  sub-thought.md ← treated as a separate note if it has published: true
+  sub-thought.md    → slug: "mytopic--sub-thought"  (separate node if published)
 ```
 
-The build script uses `README.md` as the canonical file for a folder. Other `.md` files inside a folder are treated as independent notes only if they carry their own `published: true`.
+**Special case:** `README.md` at vault root → slug `"about"`.
+
+**Nested notes** get double-dash slugs: `Foo/Bar.md` → `foo--bar`. These are valid graph nodes but rarely show up well in the graph — prefer flat structure or folder notes for content worth publishing.
+
+**Avoid publishing:**
+- `Untitled.md`, temp scratch notes
+- Folders containing `node_modules/` (build script skips them but sub-notes inside are still walked)
+- Notes that are only image dumps (`Pasted Image 20240...`)
+- Private context: people's contact details, finances, addresses
 
 ---
 
-## 4. WikiLinks — How Graph Edges Are Built
+## 4. WikiLinks — How Edges Are Built
 
-Links between notes in the graph come from **Obsidian-style WikiLinks** in your note body:
+Graph edges come from WikiLinks in note bodies:
 
 ```markdown
-This connects to [[kaaro]] and the [[WebGraph]] project.
+This builds on [[WebGraph]] and connects to [[kaaroStream]].
 ```
 
-The build script scans all published notes for `[[...]]` patterns. Each WikiLink becomes a directed edge from the source note to the target note — **if the target is also published**. Links to unpublished or non-existent notes are silently dropped (no broken edges in the graph).
+The build script extracts all `[[...]]` patterns from every published note and attempts to resolve them against the published slug set. Resolved links become directed edges. Unresolved links (target not published or doesn't exist) are silently dropped — no broken edges in the graph.
 
-### Rules for WikiLinks
-- Use the folder/file name, not the full path: `[[kaaro]]` not `[[kaaro/README]]`
-- Case-insensitive matching: `[[Kaaro]]` and `[[kaaro]]` resolve to the same node
-- Aliases are ignored for graph purposes: `[[kaaro|the stream project]]` → edge to `kaaro`, display name ignored
-- External URLs in `[text](url)` format are **not** graph edges
+### Matching rules
+
+| Pattern | Resolves to |
+|---------|------------|
+| `[[kaaro]]` | slug `kaaro` |
+| `[[Kaaro]]` | slug `kaaro` (case-insensitive) |
+| `[[kaaro stream]]` | slug `kaaro-stream` (spaces → dashes) |
+| `[[kaaro\|the stream project]]` | edge to `kaaro`, alias ignored |
+| `[[kaaro#section]]` | edge to `kaaro`, anchor ignored |
+| `[text](url)` | not an edge (standard Markdown link) |
+
+Use the folder or file name, not a full path: `[[kaaro]]` not `[[kaaro/README]]`.
+
+### What makes a good graph
+
+The graph is only interesting when nodes have connections. Target:
+- Every published note links to at least **2 other published notes**
+- Every published note is linked to by at least **1 other published note**
+- Average degree ≥ 3 (each node has 3+ connections)
+
+A note with zero links will sit at the periphery of the graph and never get explored.
 
 ---
 
-## 5. Tags and Cluster Grouping
+## 5. Tags and Clusters
 
-Tags drive the visual clusters in the 3D graph. Notes with the same tag are pulled into the same cluster region by the force-directed layout.
+Tags group nodes into visual clusters in the 3D layout. The graph places same-tag nodes near each other spatially. Use one primary tag that names the cluster, then additional tags for cross-cutting context.
 
-**Recommended tag taxonomy** (use these consistently — the graph layout responds to tag volume):
+**Established tag taxonomy:**
 
-| Tag | Intended cluster |
-|-----|-----------------|
-| `streaming` | Real-time / data pipeline work |
-| `interface` | UI/UX and interaction experiments |
+| Tag | Cluster theme |
+|-----|--------------|
+| `streaming` | Real-time pipelines, MQTT, event-driven systems |
+| `interface` | UI/UX, interaction patterns, web components |
 | `iot` | Hardware, microcontrollers, physical computing |
-| `knowledge-graph` | Wikidata, ontology, graph DB work |
-| `maker` | 3D printing, fabrication, tools |
+| `knowledge-graph` | Wikidata, ontology, graph databases, structured data |
+| `maker` | 3D printing, fabrication, tools, physical builds |
 | `startup` | Ventures, products, business experiments |
-| `reflection` | Personal essays and longer-form thinking |
+| `reflection` | Personal essays, longer-form thinking |
 | `reference` | Notes that are primarily links and resources |
 
-You can use multiple tags per note. The graph assigns the node to the **first tag** as its primary cluster color, and lists all tags in the detail panel.
+The primary tag (first in the list) determines the node's cluster colour. All tags appear as pills in the detail panel.
+
+Add new tags sparingly — each new tag creates a new cluster region. Fewer, denser clusters make a better graph than many sparse ones.
 
 ---
 
 ## 6. Images
 
-Place images in the vault-root `images/` folder:
+Node thumbnails come from the `image:` frontmatter field, pointing to a path relative to the vault root:
 
-```
-images/
-  kaaro-stream-diagram.png
-  webgraph-sketch.jpg
-```
-
-Reference them in frontmatter as:
 ```yaml
 image: images/kaaro-stream-diagram.png
 ```
 
-The build script copies referenced images to `homepage/assets/garden/images/` during the build. Images embedded inline in note bodies (`![alt](images/foo.png)`) are **not** automatically copied — only frontmatter `image:` values are processed.
+The build script copies this file to `homepage/assets/garden/images/` and rewrites the path to `/assets/garden/images/kaaro-stream-diagram.png`.
+
+Keep image files in the vault-root `images/` folder. Inline Markdown images (`![alt](images/foo.png)`) in the note body are not copied — only `image:` frontmatter values are processed.
 
 ---
 
-## 7. Note Quality for Graph Display
+## 7. What the Detail Panel Shows
 
-The 3D garden renders each node as a point in space. When a user clicks a node, the **detail panel** shows:
-1. Title
-2. Description (from frontmatter, or first paragraph)
-3. Tags as pills
-4. WikiLink neighbors as "connected notes"
-5. "Open note" link — to the full Jekyll-rendered note page
+When a visitor clicks a node in the 3D graph, they see:
 
-For nodes to feel meaningful in the graph, aim for:
-- A clear `title` (or a strong H1 as the first line)
-- A `description` of 1–3 sentences
-- At least 1–2 WikiLinks to other published notes
-- At least 1 tag
+1. **Slug** — the note's ID in the graph
+2. **Title** — from `title:` frontmatter or H1
+3. **Image** — if `image:` is set
+4. **Description** — from `description:` or first paragraph
+5. **Tags** — as coloured pills
+6. **Last updated** — from `date:` frontmatter
+7. **Linked notes** — neighbours via WikiLinks (click to navigate)
+8. **"Read full note ↗"** — links to the Jekyll-rendered note page at `/notes/<slug>/`
 
-Notes with no WikiLinks and no tags will appear as isolated nodes at the graph periphery.
+For a node to feel meaningful:
+- Clear `title` or H1 as first line
+- `description` of 1–3 sentences
+- At least 1 `image:` if the note has a diagram or screenshot worth showing
+- 2+ WikiLinks to other published notes
 
 ---
 
-## 8. Keeping the Vault Healthy
+## 8. Health Report
 
-The homepage repo includes a build-time health report. After running `npm run build:garden`, you'll see:
+After running `npm run build:garden` from the homepage repo, the terminal prints:
 
 ```
-Garden build complete
-  Published notes:  42
-  Edges:            87
-  Isolated nodes:   6   ← these have no WikiLinks
-  Missing targets:  3   ← WikiLinks pointing to unpublished/missing notes
-  Untagged nodes:   4
+[garden] Build complete
+  Published notes : 42
+  Edges           : 87
+  Isolated nodes  : 3  ← slug-a, slug-b, slug-c
+  Missing targets : 2  ← target-x, target-y
+  Untagged nodes  : 1  ← slug-z
+  Output          : assets/garden/garden-graph.json
 ```
 
-**Aim to keep isolated nodes and untagged nodes near zero** — these are the notes that get "lost" at the edge of the graph and rarely get explored.
+**Targets to aim for:**
+
+| Metric | Minimum | Good |
+|--------|---------|------|
+| Published notes | 20 | 40+ |
+| Edges | 30 | 80+ |
+| Isolated nodes | < 5 | 0 |
+| Missing targets | < 5 | 0 |
+| Untagged nodes | 0 | 0 |
+
+**Missing targets** are WikiLinks that point to notes not yet published (or with a typo in the link). Fix by either publishing the target note or correcting the link.
 
 ---
 
-## 9. What NOT to Publish
+## 9. Slug Reference
 
-The following should stay unpublished (no `published: true`):
+The build script derives slugs deterministically from file paths. Reference this table if you need to know what ID a note will get in the graph:
 
-- Project scaffolding files (`Untitled.md`, temp notes)
-- Notes with `node_modules/` or tooling content inside the folder
-- Image dump notes (just a pile of `Pasted Image...` files)
-- Notes that are purely private context (people's names, addresses, private finances)
-- Drafts where the thinking is incomplete and would mislead
+| Vault path | Graph slug |
+|-----------|-----------|
+| `README.md` (vault root) | `about` |
+| `WebGraph/README.md` | `webgraph` |
+| `kaaroStream/README.md` | `kaarostream` |
+| `Manifesto/index.md` → treated as `README.md`? No — only README.md is canonical | `manifesto--index` |
+| `Wikidata.md` | `wikidata` |
+| `kaaro/README.md` | `kaaro` |
+| `WebGraph/rdf-notes.md` | `webgraph--rdf-notes` |
 
-When in doubt, leave `published:` out. You can always add it later.
+Rules:
+1. Lowercase everything
+2. Spaces → `-`
+3. Non-alphanumeric characters stripped
+4. Folder separator → `--`
+5. `README.md` at end of path dropped (folder name used instead)
+6. Empty result → `about` (for vault root README only)
+
+When writing WikiLinks, use the slug: `[[webgraph]]` links to `WebGraph/README.md`.
 
 ---
 
 ## 10. Git Workflow
 
-The vault is an independent repository (`karx/karx.github.io`). The homepage references it as a submodule at `_notes/`.
+The vault is an independent repository. The homepage pins it as a submodule at `_notes/`. Your Obsidian/writing workflow is unchanged.
 
-**Your vault workflow doesn't change.** Write, commit, push as you normally do in Obsidian or your editor.
+To surface new notes on the homepage:
 
-To surface changes on the homepage:
 ```bash
-# Inside homepage repo
-cd _notes && git pull         # pull latest vault changes
-cd .. && git add _notes
-git commit -m "chore: update garden submodule"
+# 1. In the vault repo — commit and push your changes as normal
+git add . && git commit -m "publish: add notes on knowledge graphs"
+git push
+
+# 2. In the homepage repo — update the submodule pin and rebuild
+cd _notes && git pull && cd ..
+npm run build:all
+git add _notes assets/garden
+git commit -m "chore: update garden — N notes, M edges"
 ```
 
-The homepage CI/CD will automatically run `npm run build:garden` on each deploy, so the graph stays in sync with whatever submodule commit is pinned.
+The homepage CI/CD runs `npm run build:all` on every deploy, so the graph reflects whatever submodule commit is pinned.
+
+**During local development** (when `_notes/` submodule is not available due to disk space): the build script automatically falls back to the sibling repo at `../karx.github.io`. No config needed.
 
 ---
 
-*This document is maintained alongside the homepage integration. If the build script changes its behaviour, this file is updated to match.*
+*This document is maintained alongside the integration. Changes to `build-garden.mjs` behaviour are reflected here.*
+*See also: `kaaroViewer/GARDEN_INTEGRATION.md` for the viewer-side implementation details.*

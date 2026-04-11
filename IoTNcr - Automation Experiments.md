@@ -1,3 +1,11 @@
+---
+published: true
+title: "IoTNcr: Automation Experiments"
+tags:
+  - reflection
+description: "A short reflection on using iPhone Shortcuts for IoT group automation and content discovery."
+---
+
 # IoTNcr Group Hi
 Hi!
 

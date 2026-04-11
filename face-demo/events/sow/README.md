@@ -1,3 +1,12 @@
+---
+published: true
+title: "SOW: FaceEvents Innovation"
+tags:
+  - sow
+  - reference
+description: "Statement of Work for the FaceEvents concept to enable innovation in the Events Industry by [[Akriya]]."
+---
+
 ## FaceEvents - SOW
 Document prepared by 
 

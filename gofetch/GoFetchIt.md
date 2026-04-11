@@ -1,3 +1,12 @@
+---
+published: true
+title: "SOW: GoFetchIt Landing Page"
+tags:
+  - sow
+  - reference
+description: "Statement of Work for the design and development of the GoFetchIt landing page by [[Akriya]]."
+---
+
 ## GoFetchIt - SOW
 Document prepared by Kartik
 

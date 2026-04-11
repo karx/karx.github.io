@@ -1,3 +1,12 @@
+---
+published: true
+title: "SOW: RFC Identity System"
+tags:
+  - sow
+  - reference
+description: "Statement of Work for prototyping the RF-card based identity tracking system (RFC system) by [[Akriya]]."
+---
+
 ## RFC system - SOW
 Document prepared by Kartik
 

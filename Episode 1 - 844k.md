@@ -1,3 +1,11 @@
+---
+published: true
+title: "SAGA: 844k (Episode 1)"
+tags:
+  - reflection
+description: "The first episode of a speculative fiction series exploring 'Sewa' (service) and community architecture in a cyberpunk world."
+---
+
 The CyberPunk style atomic clocks worn by the characters all tick. The clocks has a small section showing SAGA: 844k. 
 
 Panning out from the atomic clocks we see all the different characters. 

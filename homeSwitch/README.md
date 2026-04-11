@@ -1,3 +1,12 @@
+---
+published: true
+title: "SOW: homeSwitch System"
+tags:
+  - sow
+  - reference
+description: "Statement of Work for developing and implementing the homeSwitch System for Abacus Services by [[Akriya]]."
+---
+
 # Statement of Work - homeSwitches (Protoype Development for Initial User Behavior Testing)
 
 

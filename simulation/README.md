@@ -1,3 +1,11 @@
+---
+published: true
+title: "The Simulation: A Conceptual Framework"
+tags:
+  - reflection
+description: "A high-level framework for categorizing personal projects and technical efforts under the banner of 'The Simulation', focusing on compute, social interaction, and visualization."
+---
+
 # The Simulation 
 The Simulation
 
@@ -18,7 +26,7 @@ The Simulation as of now is stable.
 	There are many known way to this. Talking is one of the best way to interact as the density of information flow is increblily high.
 	If we also add visual data to this, the interaction becomes much richer, but sometimes makes it harder for participats to focus on everything, thus causing leakage in the flow of information.
 
-**Computing** - The way the information is proccesses. The abbstraction of Computes is beyound the scope of this text.
+**Computing** - The way the information is proccesses. The abbstraction of [[Compute Theory|Computes]] is beyound the scope of this text.
 	This is the most fundamental. The first class citizen of this simulation. 
 	The archecture is to maximize the potential of these computes.
 
@@ -33,7 +41,7 @@ The reason for this document, is to help abstract/categorize and thus help chann
 So for that very reason, I would try and categorize all my personal computes under this "The Simulation" banner.
 The goal of "The simulation" as the name suggest, is to have a perfect replica/simulation possible.
 
-### Simulator01 - The Karta Device
+### Simulator01 - The [[KartaDharam: IoT Framework|Karta Device]]
 This was the first real attempt at creating an unit of this simulation.
 These Karta devices are defined as any device with compute capabilities + Network capabilities.
 
