@@ -8,7 +8,7 @@ description: "The core entry point for the knowledge garden — summarizing my w
 
 # Kartik "kaaro" Arora
 
-Builder. Tinkerer. Currently at **PhonePe** — building Data Platforms under Fraud & Risk Assessment. Working on Graph DB Interfaces, Data Pipeline Tooling, and AI Tooling.
+Builder. Tinkerer. Currently at **PhonePe** — building Data Platforms under Fraud & Risk Assessment. Working on Graph DB Interfaces, Data Pipeline Tooling, and AI Tooling. (See what I'm doing [[now]])
 
 Previously ran [अkriya](https://akriya.co.in) — a product house in Web Tech & IoT. I still write there sometimes.
 

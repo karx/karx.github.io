@@ -1,5 +1,14 @@
+---
+published: true
+title: "YTKrta: IoT Merchandise"
+tags:
+  - interface
+  - reference
+description: "A project exploring IoT-enabled custom merchandise for streamers to accelerate community engagement through real-time physical notifications."
+---
+
 # YTKrta
-IoT enabled Custom Merchandise for Engagement Acceleration
+IoT enabled Custom Merchandise for Engagement Acceleration. A project by [[Akriya]].
 
 # Things That need to be done
 * Draft to Send to YT Partners

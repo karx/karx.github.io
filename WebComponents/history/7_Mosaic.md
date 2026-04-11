@@ -1,12 +1,13 @@
 ---
+published: true
 title: "NCSA Mosaic"
 players:
-    -  Marc Andreessen
-
-# link: http://info.cern.ch/hypertext/WWW/TheProject.html
-
-date:  1991
-images:
+    - Marc Andreessen
+date: 1993-01-23
+tags:
+    - reference
+description: "The release of NCSA Mosaic, the browser that brought graphics and widespread popularity to the early World Wide Web."
+---
     - WebComponents\history\assets\mosaic.png
     - WebComponents\history\assets\mosaic_2.png
 ---

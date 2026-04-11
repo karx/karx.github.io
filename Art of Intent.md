@@ -1,4 +1,13 @@
-prompt engineering through an elegant word puzzle game where users learn to guide an AI
+---
+published: true
+title: "Art of Intent"
+tags:
+  - interface
+  - reference
+description: "Technical overview and architecture of 'Art of Intent', an AI-powered word puzzle game exploring the boundaries of prompt engineering."
+---
+
+Art of Intent is a project that explores prompt engineering through an elegant word puzzle game where users learn to guide an AI
        bot through careful prompt crafting - a perfect metaphor for the "art of intent" in AI interaction.
   1. PROJECT OVERVIEW
 

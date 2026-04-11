@@ -1,10 +1,13 @@
 ---
+published: true
 title: "The Web’s First (And Second) Browser"
 players:
     - Tim Berners-Lee, CERN
     - Nicola Pellow (Intern)
-
-date:  December 25, 1990
+date: 1990-12-25
+tags:
+    - reference
+description: "The story of WorldWideWeb (the first graphical browser/editor) and the Line Mode Browser, which made the web accessible to everyone."
 ---
 
  

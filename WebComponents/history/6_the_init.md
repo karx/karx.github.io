@@ -1,11 +1,12 @@
 ---
+published: true
 title: "Protocols | URL"
 players:
     - Tim Berners-Lee 
-
-link: http://info.cern.ch/hypertext/WWW/TheProject.html
-
-date:  1992
+date: 1992-01-01
+tags:
+    - reference
+description: "An exploration of the foundational technologies of the web: Domain Names, DNS, and the Uniform Resource Locator (URL)."
 ---
 Their jobs are also remarkably similar to that of a domain name server. And domain names are very important for the URL and, by extension, the web.
 

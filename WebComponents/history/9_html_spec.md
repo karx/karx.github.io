@@ -1,11 +1,12 @@
 ---
+published: true
 title: "HTML+ specification"
 players:
-    -  Marc Andreessen
-
-link: https://www.w3.org/MarkUp/draft-ietf-iiir-html-01.txt
-
-date:   November 8, 1993
+    - Dave Raggett
+date: 1993-11-08
+tags:
+    - reference
+description: "The proposal for HTML+, introducing advanced features like tables, forms, and figures to the web's foundational markup language."
 ---
 In 1450 Johannes Gutenberg is credited with bringing together two ideas: the use of metal dies to make moveable type and a press for obtaining sharp impressions on sheets of paper. The invention of printing at the dawn of the age of great discoveries accelerated economic, social and ideological changes that were to usher in the modern world.
 

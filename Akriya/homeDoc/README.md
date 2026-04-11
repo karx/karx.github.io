@@ -1,3 +1,11 @@
+---
+published: true
+title: "Akriya: The Web 3.0 Toolkit"
+tags:
+  - reference
+description: "The foundational principles, tools, and projects of Akriya — a technology startup building SDKs for the web and IoT."
+---
+
 ## Akriya new home page
 
 ## Req
@@ -61,7 +69,7 @@ knowledge and understanding of the world's largest colarborative tool!
 
 * On-going projects
     - Smart Bike
-    - YTKarta
+    - [[YTKrta]]
     - Engagement Apps
     - IoT platform 
     

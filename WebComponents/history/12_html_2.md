@@ -1,16 +1,13 @@
 ---
-title: "HTML 2.0 is published as IETF RFC 1866"
+published: true
+title: "HTML 2.0 Standard (IETF RFC 1866)"
 players:
-    -  Marc Andreessen
-    -  MIT
-
-
-images:
-    - WebComponents\history\assets\netscape.png
-    - WebComponents\history\assets\browser_wars.bmp
-    
-
-date:   October 13, 1994
+    - Tim Berners-Lee
+    - Dan Connolly
+date: 1995-11-24
+tags:
+    - reference
+description: "HTML 2.0 was the first formal specification of HTML, providing a stable foundation for the rapidly expanding web."
 ---
 
 This was the standard until January 1997.

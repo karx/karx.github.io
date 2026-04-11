@@ -1,3 +1,11 @@
+---
+published: true
+title: "Minecraft Engineering"
+tags:
+  - reference
+description: "Notes on vanilla survival, datapacks, and the technical challenge of documenting Redstone logic."
+---
+
 ## Minecraft 
 BYOSS - build your own Simulator Simulator
 

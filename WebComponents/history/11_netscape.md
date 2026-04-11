@@ -1,14 +1,11 @@
 ---
+published: true
 title: "Netscape Navigator > Browser Wars"
 players:
-    -  Marc Andreessen
-    -  MIT
-
-
-images:
-    - WebComponents\history\assets\netscape.png
-    - WebComponents\history\assets\browser_wars.bmp
-    
-
-date:   October 13, 1994
+    - Marc Andreessen
+    - Jim Clark
+date: 1994-10-13
+tags:
+    - reference
+description: "The launch of Netscape Navigator and the beginning of the intense 'Browser Wars' that accelerated web innovation."
 ---

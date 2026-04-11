@@ -1,6 +1,9 @@
 ---
 published: true
 title: "Information Management: A Proposal"
+players:
+  - Tim Berners-Lee, CERN
+date: 1989-03-12
 tags:
   - reference
 description: "The original 1989 proposal by Tim Berners-Lee at CERN that laid the groundwork for the World Wide Web as a 'universal linked information system'."

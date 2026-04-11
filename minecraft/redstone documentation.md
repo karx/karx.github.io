@@ -1,3 +1,11 @@
+---
+published: true
+title: "Redstone Documentation Patterns"
+tags:
+  - reference
+description: "How the Minecraft community documents complex Redstone designs using Lua and Schematics."
+---
+
 ![[redstone documentation 2024-07-16 01.12.27.excalidraw]]
 
 

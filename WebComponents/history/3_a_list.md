@@ -1,11 +1,12 @@
 ---
+published: true
 title: "WWW Virtual Library | First index of content"
 players:
     - Tim Berners-Lee, CERN
-
-link: http://www.vlib.org/
-
-date:   August 1, 1991
+date: 1991-08-01
+tags:
+    - reference
+description: "The World Wide Web Virtual Library was the first index of content on the web, started by Tim Berners-Lee in 1991."
 ---
 The World Wide Web Virtual Library was the first index of content on the World Wide Web and still operates as a directory of e-texts and information sources on the web. It was started by Tim Berners-Lee creator of HTML and the World Wide Web itself, in 1991 at CERN in Geneva. 
 

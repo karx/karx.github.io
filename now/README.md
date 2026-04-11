@@ -1,3 +1,11 @@
+---
+published: true
+title: "Now"
+tags:
+  - reflection
+description: "A snapshot of my current projects, interests, and focus areas as of April 2026."
+---
+
 # /now page
 
 ## What am I doing now?
@@ -16,11 +24,11 @@
 
 ## Thinking about
 
-- How Interface Patterns will evolve as compute becomes ubiquitous — what replaces the metaphors we've inherited from desktop and mobile?
+- How [[Interface Patterns and Ubiquitous Compute|Interface Patterns]] will evolve as compute becomes ubiquitous — what replaces the metaphors we've inherited from desktop and mobile?
 
 ## Web experiments
 
-- [Art of Intent](https://art-of-intent.netlify.app/) — Check your prompting skills
+- [[Art of Intent]] — Check your prompting skills
 - [Kaaro Marbles](https://kaaromarbles.netlify.app/) — Physics + play
 - Revamping [Langton3D](https://langton3d.netlify.app/)
 - [kaaroExcalidraw](https://karx.github.io/kaaroExcalidraw/) — Generate Excalidraw drawings and libraries with Claude
@@ -35,3 +43,6 @@
 ```
 Last Updated: April 2026
 ```
+
+---
+Back to [[README|Home]]

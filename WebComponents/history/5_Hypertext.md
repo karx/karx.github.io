@@ -1,11 +1,12 @@
 ---
+published: true
 title: "Hypertext"
 players:
     - Douglas Engelbart 
-
-link: http://info.cern.ch/hypertext/WWW/TheProject.html
-
-date:  October 29, 1991
+date: 1991-10-29
+tags:
+    - reference
+description: "Tracing the history of hypertext from Vannevar Bush's Memex and Douglas Engelbart's 'Mother of All Demos' to the World Wide Web."
 ---
 On December 9, 1968 Douglas Engelbart took the stage at the Fall Joint Computer Conference in San Francisco to demo the oN-Line System (NLS), ie. “The Mother of All Demoes.”
 
