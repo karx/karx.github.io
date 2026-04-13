@@ -419,3 +419,6 @@ Art of Intent is a project that explores prompt engineering through an elegant w
 
        The project teaches prompt engineering through an elegant word puzzle game where users learn to guide an AI
        bot through careful prompt crafting - a perfect metaphor for the "art of intent" in AI interaction.
+
+## Related
+[[kaaroCatalogue]] · [[computeTheory]] · [[Interface Patterns and Ubiquitous Compute]]

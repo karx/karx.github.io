@@ -307,3 +307,6 @@ Much stand-up on YouTube is pirated (stolen from Netflix, HBO, or other creators
 Building a catalog of "all" stand-up comedians on YouTube is fundamentally a task of filtering abundance. The challenge is not finding content; it is classifying it. By combining the structured power of the YouTube Data API with the heuristic analysis of metadata (titles, descriptions, and network graphs), one can construct a living database of the global comedy circuit.
 
 This system moves beyond a flat list. It constructs a dynamic ecosystem map, capable of distinguishing between a 15-second crowd work clip and a polished hour-long special, and attributing both to the correct artist regardless of whether the video sits on their personal channel or a global aggregator. This infrastructure serves not just as a directory, but as an analytical engine for understanding the evolution of humor in the digital age. The mechanism proposed here is robust, scalable, and culturally aware, ready to capture the laughter of the world in a structured, accessible format.
+
+## Related
+[[Gemini Indian Kavi Index]] · [[kaaroCatalogue]] · [[WebGraph]]

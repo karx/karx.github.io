@@ -1,3 +1,11 @@
+---
+title: "SOW: Cars24 Platform Replica"
+tags:
+  - sow
+  - reference
+description: "Requirements and delivery documentation for building a Cars24-style used car marketplace platform, prepared by Akriya."
+---
+
 ## Replica of Cars24
 This is going to be the proposed requirement cum delivery doc for this engagement
 

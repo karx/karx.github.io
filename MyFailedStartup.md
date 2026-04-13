@@ -18,3 +18,6 @@ MyFailedStartup was an experiment in normalizing the conversation around profess
 - Normalizing failure as a prerequisite for innovation.
 - Archiving the "un-lauded" history of the startup ecosystem.
 - Community building through shared vulnerability.
+
+## Related
+[[GymVym]] · [[computeTheory]] · [[kaaroCatalogue]]

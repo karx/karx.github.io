@@ -1,3 +1,10 @@
+---
+title: "SmartBike: System Design Specifications"
+tags:
+  - reference
+description: "System design document for the SmartBike IoT platform — architecture, device specs, telemetry pipeline, and data schemas for the full stack."
+---
+
 ## SmartBike
 ## System Design Document
 

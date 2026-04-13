@@ -139,6 +139,9 @@ Unless otherwise agreed in writing, RFC system acknowledges that all intellectua
 The software will be licensed to RFC system on the terms of the relevant license agreement provided with the product or as otherwise agreed between Akriya Technologies and RFC system in writing.
 
 
+## Related Work
+[[GymVym]] · [[SmartBike]] · [[homeSwitch]] · [[publicPulse]] · [[rachit03]]
+
 ## Approved by
 Name:   
 Date:   

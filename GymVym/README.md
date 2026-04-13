@@ -176,6 +176,9 @@ Unless otherwise agreed in writing, GymVym acknowledges that all intellectual pr
 The software will be licensed to GymVym on the terms of the relevant license agreement provided with the product or as otherwise agreed between Akriya Technologies and GymVym in writing.
 
 
+## Related Work
+[[SmartBike]] · [[homeSwitch]] · [[rf-proto]] · [[rachit03]]
+
 ## Approved by
 Name:   
 Date:   

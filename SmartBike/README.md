@@ -166,6 +166,9 @@ Unless otherwise agreed in writing, SmartBike acknowledges that all intellectual
 The software will be licensed to SmartBike on the terms of the relevant license agreement provided with the product or as otherwise agreed between Akriya Technologies and SmartBike in writing.
 
 
+## Related Work
+[[homeSwitch]] · [[GymVym]] · [[rf-proto]] · [[AdEngine]] · [[publicPulse]]
+
 ## Approved by
 Name:   
 Date:   

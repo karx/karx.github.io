@@ -41,5 +41,7 @@ The answer was simple and beautiful.
 For computes like evolution to manifest, we require a true random generator - to enable the variations. 
 The granularity of operations (variations) :: ⛰️/sec
 
+See also: [[computeTheory]] · [[ego-Field]]
+
 
 

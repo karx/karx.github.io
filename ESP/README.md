@@ -86,3 +86,6 @@ JS on device
 
 ## Good reads on ESP32
 * https://www.exploreembedded.com/wiki/Overview_of_ESP32_features._What_do_they_practically_mean%3F
+
+## Related
+[[mqtt]] · [[SmartBike]] · [[GymVym]] · [[homeSwitch]] · [[YTKrta]]

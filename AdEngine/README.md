@@ -1,3 +1,11 @@
+---
+title: "SOW: AdEngine Overlay Platform"
+tags:
+  - sow
+  - reference
+description: "Statement of Work for AdEngine — an HDMI overlay and advertisement delivery system for cable and streaming networks, prepared by Akriya."
+---
+
 ## AdEngine - SOW
 Document prepared by Kartik Arora
 

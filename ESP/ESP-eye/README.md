@@ -1,3 +1,11 @@
+---
+title: "SOW: ESP-Eye Vision Module"
+tags:
+  - sow
+  - reference
+description: "Statement of Work for the ESP-Eye computer vision module — integrating ESP32-CAM for real-time face detection and event-driven automation, by Akriya."
+---
+
 ## ESP-Eye | SOW
 Document prepared by Kartik Arora and Ashtam Singh
 

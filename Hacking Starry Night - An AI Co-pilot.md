@@ -254,3 +254,6 @@ We're going to finish this puzzle.
 *If you're working on something similar or just want to chat about applied CV, reach out — I'd love to hear what "impossible" problems you're engineering your way through.*
 
 ![[Pasted image 20260211144815.png]]
+
+## Related
+[[computeTheory]] · [[Moments per second - Rate of understanding]] · [[Interface Patterns and Ubiquitous Compute]]

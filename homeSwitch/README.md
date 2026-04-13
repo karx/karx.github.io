@@ -167,6 +167,9 @@ Unless otherwise agreed in writing, Abacus Services acknowledges that all intell
 The software will be licensed to Abacus Services on the terms of the relevant license agreement provided with the product or as otherwise agreed between Akriya Technologies and Abacus Services in writing.
 
 
+## Related Work
+[[SmartBike]] · [[rf-proto]] · [[ESP]] · [[GymVym]]
+
 ## Approved by
 Name:   
 Date:   

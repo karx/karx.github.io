@@ -47,6 +47,9 @@ Embracing the idea, like all such ideas makes it 'actually powerful'.
 Interactions between different types of compute systems.
 Like humans and online communities
 
+## Related
+[[simulation]] · [[Moments per second - Rate of understanding]]
+
 
 ## Let's talk
 This is mostly based on a conversation we (me + the Orator) struck during rush office time. The keyboards were clicking.

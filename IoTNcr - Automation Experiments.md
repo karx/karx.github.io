@@ -15,3 +15,6 @@ I tried adding an Automation on Iphone using shortcuts, to trigger on every "Hi"
 Anyway, here is the shortcut you can use to get a random article about IoT/Automation!
 
 > PS recently converted to iPhone user. Loving the shortcuts/actions ecosystem
+
+## Related
+[[homeSwitch]] · [[SmartBike]] · [[ESP]]

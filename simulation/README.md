@@ -53,3 +53,6 @@ But extreamly primitive. And no way to replicate makes it useless.
 
 ## Visualizations
 This mostly comprises of the idea of having a phyical/mental/visual manifestation in the 'here and now' of the system or a part of it atleast.
+
+## Related
+[[computeTheory]] · [[Interface Patterns and Ubiquitous Compute]] · [[KartaDharam]]

@@ -1,3 +1,11 @@
+---
+title: "SOW: beyouID Identity Platform"
+tags:
+  - sow
+  - reference
+description: "Statement of Work for the beyouID identity platform — digital infrastructure for a user identity and access management system, prepared by Akriya."
+---
+
 ## beyouID - SOW
 Document prepared by Kartik
 

@@ -64,4 +64,10 @@ A versioning system for design files. Unlike code, designs don't have direct lin
 - [/kaaro](/kaaro) — longer bio and background
 - Old experiments on [akriya.co.in/labs](http://akriya.co.in/labs/)
 
+---
+
+## Nodes in the Garden
+
+[[computeTheory]] · [[WebGraph]] · [[MyFailedStartup]] · [[kaaroCatalogue]]
+
 

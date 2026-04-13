@@ -14,8 +14,8 @@ kaaroCatalogue is a project dedicated to the systematic creation of personal lis
 
 ## Active Catalogues
 
-- [[The Global Standup Comedy Index]]
-- [[Indian Kavi Index]]
+- [[Gemini - Global Standup Comedy Index|The Global Standup Comedy Index]]
+- [[Gemini Indian Kavi Index|Indian Kavi Index]]
 
 ## Philosophy
 

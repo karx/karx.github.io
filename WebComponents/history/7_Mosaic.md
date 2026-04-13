@@ -48,3 +48,6 @@ The anatomy of a URL, courtesy of Sitechecker.Pro
 This is, of course, followed by a series of slashes that represent a particular location on a domain (i.e. /about, /timeline), which was adopted by Berners-Lee from the Apollo computer, a now defunct workstation and operating system. It was up to individual webmasters to define what the information after that / actually means, but in general it’s come to mean a directory structure much like the paths to folders on each of our computers.
 
 With all of those pieces cobbled together, the URL was complete. It’s an amazingly simple and essential piece of technology. Chances are, you don’t think about it all that much. But without a unique URL for every location on the Internet, and the various influences and technologies that enabled its existence, we wouldn’t have the World Wide Web at all. We’d just have a mess of unidentifiable information.
+
+## Related
+[[6_the_init]] · [[5_Hypertext]] · [[2_first_web_browser]] · [[1_proposal]]

@@ -131,6 +131,9 @@ Unless otherwise agreed in writing, GoFetchIt acknowledges that all intellectual
 The software will be licensed to GoFetchIt on the terms of the relevant license agreement provided with the product or as otherwise agreed between Artiosys Ventures and GoFetchIt in writing.
 
 
+## Related Work
+[[GymVym]] · [[rf-proto]]
+
 ## Approved by
 Name:   
 Date:   

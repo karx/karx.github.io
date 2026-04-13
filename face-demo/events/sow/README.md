@@ -230,6 +230,9 @@ Unless otherwise agreed in writing, FaceEvents acknowledges that all intellectua
 The software will be licensed to FaceEvents on the terms of the relevant license agreement provided with the product or as otherwise agreed between Akriya Technologies and FaceEvents in writing.
 
 
+## Related Work
+[[showtime]] · [[SmartBike]] · [[publicPulse]] · [[AdEngine]]
+
 ## Approved by
 Name:   
 Date:   

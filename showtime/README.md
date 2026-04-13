@@ -1,3 +1,11 @@
+---
+title: "SOW: ShowTimeSynd Event Platform"
+tags:
+  - sow
+  - reference
+description: "Statement of Work for ShowTimeSynd — a live event syndication and ticketing infrastructure platform, prepared by Akriya."
+---
+
 ## ShowTimeSynd - SOW
 Document prepared by 
 

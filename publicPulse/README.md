@@ -1,3 +1,11 @@
+---
+title: "SOW: PublicPulse Community Platform"
+tags:
+  - sow
+  - reference
+description: "Statement of Work for PublicPulse — a community engagement and public data platform built by Akriya."
+---
+
 ## PublicPulse - SOW
 Document prepared by Kartik Arora
 

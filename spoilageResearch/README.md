@@ -1,3 +1,11 @@
+---
+title: "SOW: Food Spoilage Detection System"
+tags:
+  - sow
+  - reference
+description: "Statement of Work for a food spoilage detection system using IoT sensors and computer vision, prepared by Akriya."
+---
+
 ## Spoilage detection - SOW
 Document prepared by Kartik Arora
 

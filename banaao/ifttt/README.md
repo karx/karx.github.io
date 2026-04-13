@@ -1,3 +1,11 @@
+---
+title: "SOW: banaao IFTTT Automation Bridge"
+tags:
+  - sow
+  - reference
+description: "Statement of Work for banaao-IFTTT — a no-code automation bridge connecting IoT devices and web services through an IFTTT-style trigger system, prepared by Akriya."
+---
+
 ## banaao-IFTTT - SOW
 Document prepared by Kartik Arora
 
