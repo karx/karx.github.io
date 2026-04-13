@@ -123,6 +123,9 @@ Few examples/demos of things build using our SDK: SmartBike, Abacus Solutions, V
 
 - [[MyFailedStartup]] — Celebrating and learning from the projects that didn't make it.
 
+### Venture Portfolio
+[[rachit03]] · [[AdEngine]] · [[publicPulse]] · [[showtime]] · [[cars24]] · [[spoilageResearch]] · [[banaao]]
+
 
 
 ### Toolkit

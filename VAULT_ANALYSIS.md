@@ -291,7 +291,90 @@ Notes in the top publishing queue that received proper `title`, `tags`, and `des
 
 ---
 
-## 7. Reorganization Log
+## 7. Nomenclature Analysis (`nomenclature.py`)
+
+> "The folder structure and naming conventions are the primary signal — content is secondary."
+
+### 7.1 Naming Format → Layer Signal
+
+| Format | Count | Implied Layer | Example |
+|--------|-------|--------------|---------|
+| lowercase | 179 | L3-Principle / concept | `computeTheory`, `simulation`, `banaao` |
+| kebab-case | 53 | L2-System / tech artefact | `face-demo`, `rf-proto`, `web-bash` |
+| SentenceCase | 29 | L1-Essay / reflection | `Interface Patterns.md`, `Age of Empires II DE.md` |
+| camelCase | 27 | L2-System / product | `homeSwitch`, `publicPulse`, `AdEngine` |
+| Proper | 21 | L3-Principle / named concept | `Wikidata`, `Esprunio`, `Micropython` |
+| PascalCase | 19 | L3-Principle / named concept | `WebComponents`, `WebGraph`, `KartaDharam` |
+| ABBREV | 7 | L3-Principle / shorthand | `ESP`, `DRI`, `mqtt` |
+| DateName / ISO | 4 | L1-Archival | `15Aug`, `2024-07-22.md` |
+| NumberPrefix | 2 | L1-Cohort | `91Boys`, `91noida` |
+
+### 7.2 Naming Family Clusters (from prefix analysis)
+
+| Cluster | Members | Description |
+|---------|---------|-------------|
+| **kaaro-brand** | kaaro/, kaaroCatalogue, kaaroClips, kaaroStream, kaaroGazette | Personal brand identity — the kaaro product family |
+| **wendor-brand** | wendorEvents, wendorMandir, wendorWorkshop | Client brand family |
+| **91-cohort** | 91Boys, 91noida, 91s-welcome | 91springboard ecosystem |
+| **web-tech** | web-bash, WebComponents, WebGraph | Web technology cluster |
+| **wikidata-community** | Wikidata, WikidataIndia, devConf, pyDelhi, mozfest21 | Open data advocacy |
+
+### 7.3 Hindi/Cultural Vocabulary Layer
+
+These names carry **intentional cultural framing** — not arbitrary labels:
+
+| Folder | Devanagari | Meaning |
+|--------|-----------|---------|
+| `banaao/` | बनाओ | imperative: build/make |
+| `kaaro/` | करो | imperative: do/make |
+| `KartaDharam/` | कर्तव्य | duty of the doer |
+| `Akriya/` | अक्रिया | action / agency |
+| `dlfmoi/` | — | Delhi For Makers of India |
+| `ego-Field.md` | ego-क्षेत्र | concept from Indian philosophy |
+
+The kaaro → banaao → KartaDharam chain is a coherent Sanskrit imperative: **do → build → it is your duty**. This is the vault's philosophical spine.
+
+### 7.4 Structural Patterns (sub-folder conventions)
+
+| Pattern | Count | Projects using it | Meaning |
+|---------|-------|------------------|---------|
+| `day-N/` | 11 | dlfmoi, megaboxing | Day-intensive bootcamp/workshop |
+| `Week-N/` | 6 | homeSwitch, Socks | Week-sprint project tracking |
+| `mail/to-*/` | 6 | kaaro | Directed correspondence archive |
+| `spec-doc` | 3 | AdEngine, SmartBike | Requirements/specs sub-folder |
+| `recruitment` | 3 | hire/frontend, graphic, industrial | Hiring pipeline |
+| `status-N/` | 2 | AdEngine | Status update cadence |
+| `TR/` | 2 | YTKrta, wendorEvents | Tech Report / Talk Recording |
+
+### 7.5 Projects with Richest Internal Structure
+
+| Project | Sub-paths | Note |
+|---------|-----------|------|
+| `kaaro/` | 37 | The deepest project — personal ops, mail, experiments |
+| `YTKrta/` | 22 | Full product lifecycle: TR, doc, narrative, springboard |
+| `streaming/` | 14 | Setup, tools, personal, tanmay_setup |
+| `SmartBike/` | 8 | Specs, delivery, hardware, requirements |
+| `homeSwitch/` | 8 | Issues, Week-1, Week-n, v2 |
+| `AdEngine/` | 6 | AdsStream, HDMI, requirements, status-N, week-1 |
+| `WebComponents/` | 7 | history timeline, HackQuarantine, MozPunjab |
+
+### 7.6 Naming Clusters Wired (this session)
+
+Additional WikiLinks added based on naming family membership:
+
+| Cluster | Links Added |
+|---------|------------|
+| kaaro-brand | kaaro → kaaroCatalogue, kaaroStream, kaaroClips, kaaroGazette |
+| kaaroStream | kaaroStream → kaaro, kaaroClips, streaming, YTKrta |
+| kaaroClips | kaaroClips → kaaro, kaaroStream, streaming, YTKrta |
+| streaming | streaming → YTKrta, kaaroStream, kaaroClips, twitch |
+| wendor-brand | wendorMandir → wendorEvents, wendorWorkshop |
+| 91-cohort | 91s-welcome → 91Boys, 91noida, face-demo, wendorEvents |
+| venture-portfolio | Akriya/homeDoc → rachit03, AdEngine, publicPulse, showtime, cars24, spoilageResearch, banaao |
+
+---
+
+## 8. Reorganization Log
 
 ### WikiLinks Added (2026-04-13)
 

@@ -45,3 +45,8 @@ Builder, DIY enthusiast, occasional 3D printer, and a flexible-but-opinionated p
 ## Contact
 
 - mail: kartik.arora1214@gmail.com
+
+---
+
+## kaaro-brand
+[[kaaroCatalogue]] · [[kaaroStream]] · [[kaaroClips]] · [[kaaroGazette]]
