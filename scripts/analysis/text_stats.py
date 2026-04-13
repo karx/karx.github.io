@@ -17,7 +17,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from vault_loader import load_published_notes, VAULT_ROOT
+from vault_loader import load_all_notes, load_published_notes, VAULT_ROOT
 
 import nltk
 from tabulate import tabulate
@@ -60,23 +60,29 @@ def wikilink_count(raw_body: str) -> int:
 # ─── main ───────────────────────────────────────────────────────────────────
 
 def analyse(notes: list[dict]) -> list[dict]:
+    stopwords = set(nltk.corpus.stopwords.words("english"))
     results = []
     for note in notes:
         text = note["clean_text"]
+        wlinks = wikilink_count(note["raw_body"])
+        pub_flag = "✓" if note["published"] else " "
+
         if not text.strip():
             results.append(
                 {
-                    "slug": note["slug"],
-                    "title": note["title"][:38],
+                    "pub": pub_flag,
+                    "path": note["path"][:45],
+                    "title": note["title"][:34],
+                    "area": note["area"],
                     "words": 0,
                     "sentences": 0,
                     "unique_vocab": 0,
                     "lex_density_%": 0,
                     "avg_sent_len": 0,
-                    "read_min": 0,
+                    "read_min": 0.0,
                     "fk_grade": "—",
-                    "wikilinks": wikilink_count(note["raw_body"]),
-                    "status": "STUB",
+                    "wikilinks": wlinks,
+                    "maturity": "STUB",
                 }
             )
             continue
@@ -85,32 +91,29 @@ def analyse(notes: list[dict]) -> list[dict]:
         words_raw = nltk.word_tokenize(text)
         words = [w for w in words_raw if w.isalpha()]
         unique = set(w.lower() for w in words)
-        content_words = [
-            w for w in words
-            if w.lower()
-            not in nltk.corpus.stopwords.words("english")
-        ]
+        content_words = [w for w in words if w.lower() not in stopwords]
         lex_density = (
             round(len(content_words) / len(words) * 100, 1) if words else 0
         )
         avg_sent = round(len(words) / len(sentences), 1) if sentences else 0
-        read_min = round(len(words) / 200, 1)  # 200 wpm
+        read_min = round(len(words) / 200, 1)
         fk = flesch_kincaid_grade(words, sentences)
 
-        # Classify note maturity by word count
         if len(words) < 50:
-            status = "STUB"
+            maturity = "STUB"
         elif len(words) < 250:
-            status = "SEED"
+            maturity = "SEED"
         elif len(words) < 700:
-            status = "BUDDING"
+            maturity = "BUDDING"
         else:
-            status = "EVERGREEN"
+            maturity = "EVERGREEN"
 
         results.append(
             {
-                "slug": note["slug"],
-                "title": note["title"][:38],
+                "pub": pub_flag,
+                "path": note["path"][:45],
+                "title": note["title"][:34],
+                "area": note["area"],
                 "words": len(words),
                 "sentences": len(sentences),
                 "unique_vocab": len(unique),
@@ -118,63 +121,64 @@ def analyse(notes: list[dict]) -> list[dict]:
                 "avg_sent_len": avg_sent,
                 "read_min": read_min,
                 "fk_grade": round(fk, 1),
-                "wikilinks": wikilink_count(note["raw_body"]),
-                "status": status,
+                "wikilinks": wlinks,
+                "maturity": maturity,
             }
         )
     return results
 
 
 def print_report(results: list[dict]) -> None:
+    rows_sorted = sorted(results, key=lambda r: r["words"], reverse=True)
+
     headers = [
-        "Slug", "Title", "Words", "Sents", "Vocab",
-        "LexDen%", "AvgSL", "Read(m)", "FK", "Links", "Maturity"
+        "P", "Path", "Title", "Area",
+        "Words", "Sents", "Vocab", "LexDen%",
+        "AvgSL", "Read(m)", "FK", "Links", "Maturity"
     ]
     rows = [
         [
-            r["slug"],
-            r["title"],
-            r["words"],
-            r["sentences"],
-            r["unique_vocab"],
-            r["lex_density_%"],
-            r["avg_sent_len"],
-            r["read_min"],
-            r["fk_grade"],
-            r["wikilinks"],
-            r["status"],
+            r["pub"], r["path"], r["title"], r["area"],
+            r["words"], r["sentences"], r["unique_vocab"],
+            r["lex_density_%"], r["avg_sent_len"], r["read_min"],
+            r["fk_grade"], r["wikilinks"], r["maturity"],
         ]
-        for r in results
+        for r in rows_sorted
     ]
-    # Sort by word count descending
-    rows.sort(key=lambda x: x[2], reverse=True)
 
-    print("\n" + "═" * 90)
-    print("  TEXT STATS — karx.github.io vault (published notes only)")
-    print("═" * 90)
+    pub_count = sum(1 for r in results if r["pub"] == "✓")
+    print("\n" + "═" * 110)
+    print(f"  TEXT STATS — karx.github.io vault  "
+          f"({len(results)} notes total · {pub_count} published · "
+          f"{len(results)-pub_count} unpublished)")
+    print("  P = published in garden  |  sorted by word count desc")
+    print("═" * 110)
     print(tabulate(rows, headers=headers, tablefmt="rounded_outline"))
 
-    # Summary
     total_words = sum(r["words"] for r in results)
-    stubs = sum(1 for r in results if r["status"] == "STUB")
-    seeds = sum(1 for r in results if r["status"] == "SEED")
-    budding = sum(1 for r in results if r["status"] == "BUDDING")
-    evergreen = sum(1 for r in results if r["status"] == "EVERGREEN")
     total_links = sum(r["wikilinks"] for r in results)
+    for maturity in ("STUB", "SEED", "BUDDING", "EVERGREEN"):
+        subset = [r for r in results if r["maturity"] == maturity]
+        pub_in = sum(1 for r in subset if r["pub"] == "✓")
+        print(f"  {maturity:10s}: {len(subset):3d} notes  "
+              f"({pub_in} published, {len(subset)-pub_in} unpublished)")
 
-    print(f"\n  Notes analysed : {len(results)}")
-    print(f"  Total words    : {total_words:,}")
+    # Areas with the most unpublished EVERGREEN content
+    unpub_eg = [r for r in results if r["maturity"] == "EVERGREEN" and r["pub"] == " "]
+    if unpub_eg:
+        print(f"\n  ── Unpublished EVERGREEN notes (publish candidates) ──")
+        for r in sorted(unpub_eg, key=lambda x: x["words"], reverse=True)[:15]:
+            print(f"    {r['words']:5d}w  [{r['area']:20s}]  {r['path']}")
+
+    print(f"\n  Total words    : {total_words:,}")
     print(f"  Total wikilinks: {total_links}")
-    print(f"\n  Maturity breakdown:")
-    print(f"    STUB      (< 50 words) : {stubs}")
-    print(f"    SEED      (50–249)     : {seeds}")
-    print(f"    BUDDING   (250–699)    : {budding}")
-    print(f"    EVERGREEN (700+)       : {evergreen}")
     print()
 
 
 if __name__ == "__main__":
-    print("Loading vault …")
-    notes = load_published_notes()
+    import sys
+    mode = sys.argv[1] if len(sys.argv) > 1 else "all"
+    print(f"Loading vault ({mode}) …")
+    notes = load_published_notes() if mode == "published" else load_all_notes()
     results = analyse(notes)
     print_report(results)

@@ -34,7 +34,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from vault_loader import load_published_notes
+from vault_loader import load_all_notes, load_published_notes
 
 import nltk
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -133,12 +133,16 @@ def extract_shabda(note_idx: int, tfidf_matrix,
 
 # ─── main ────────────────────────────────────────────────────────────────────
 
-def run() -> None:
-    print("Loading vault …")
-    notes = load_published_notes()
+def run(mode: str = "all") -> None:
+    print(f"Loading vault ({mode}) …")
+    notes = load_published_notes() if mode == "published" else load_all_notes()
     if not notes:
         print("No published notes found.")
         return
+
+    pub_count = sum(1 for n in notes if n["published"])
+    print(f"  {len(notes)} notes loaded  ({pub_count} published · "
+          f"{len(notes)-pub_count} unpublished)")
 
     texts = [n["clean_text"] for n in notes]
 
@@ -185,17 +189,22 @@ def run() -> None:
         shabda = extract_shabda(i, tfidf_matrix, feature_names)
         tattva = extract_tattva(text, tfidf_matrix, i, vectorizer)
         bhav = f"{mood} · {intent}"
+        pub_flag = "✓" if note["published"] else " "
 
         rows.append([
-            note["slug"],
-            note["title"][:34],
+            pub_flag,
+            note["path"][:40],
+            note["title"][:30],
+            note["area"],
             ", ".join(shabda) if shabda else "—",
             bhav,
         ])
 
         detail_blocks.append({
-            "slug": note["slug"],
+            "pub": pub_flag,
+            "path": note["path"],
             "title": note["title"],
+            "area": note["area"],
             "tattva": tattva,
             "shabda": shabda,
             "bhav": bhav,
@@ -203,44 +212,70 @@ def run() -> None:
         })
 
     # Summary table
-    print(
-        tabulate(
-            rows,
-            headers=["Slug", "Title", "SHABDA (keywords)", "BHAV (mood · intent)"],
-            tablefmt="rounded_outline",
-        )
-    )
+    pub_count = sum(1 for d in detail_blocks if d["pub"] == "✓")
+    print("\n" + "═" * 110)
+    print(f"  BHAVAARTH  —  भावार्थ  —  essential meaning")
+    print(f"  {len(detail_blocks)} notes  ({pub_count} published · "
+          f"{len(detail_blocks)-pub_count} unpublished)")
+    print("  P = published in garden")
+    print("═" * 110)
+    print(tabulate(
+        rows,
+        headers=["P", "Path", "Title", "Area", "SHABDA (keywords)", "BHAV (mood·intent)"],
+        tablefmt="rounded_outline",
+    ))
 
-    # Detailed tattva per note
-    print("\n" + "─" * 100)
-    print("  TATTVA (तत्त्व) — the core sentence of each note")
-    print("─" * 100)
-    for d in detail_blocks:
-        print(f"\n  ▸ [{d['slug']}]  {d['title']}")
+    # Tattva — only show unpublished notes (published already analysed)
+    unpub_details = [d for d in detail_blocks if d["pub"] == " " and d["tattva"] != "(too short to extract tattva)"]
+    print("\n" + "─" * 110)
+    print("  TATTVA — core sentence · UNPUBLISHED notes only (these are the hidden gems)")
+    print("─" * 110)
+    for d in unpub_details:
+        print(f"\n  [ ] {d['path']}")
         print(f"    {d['tattva']}")
 
-    # Intent distribution
-    print("\n" + "─" * 100)
-    print("  INTENT DISTRIBUTION across the vault")
-    print("─" * 100)
-    intent_counts: dict[str, int] = {}
+    # Intent distribution — published vs unpublished breakdown
+    print("\n" + "─" * 110)
+    print("  INTENT DISTRIBUTION")
+    print("─" * 110)
+    intent_totals: dict[str, list] = {}
     for d in detail_blocks:
         intent = d["bhav"].split(" · ")[1]
-        intent_counts[intent] = intent_counts.get(intent, 0) + 1
-    for intent, count in sorted(intent_counts.items(), key=lambda x: -x[1]):
-        bar = "█" * count
-        print(f"  {intent:10s} {bar}  ({count})")
+        intent_totals.setdefault(intent, [0, 0])
+        if d["pub"] == "✓":
+            intent_totals[intent][0] += 1
+        else:
+            intent_totals[intent][1] += 1
+    for intent, (pub, unpub) in sorted(intent_totals.items(), key=lambda x: -(x[1][0]+x[1][1])):
+        total = pub + unpub
+        bar_p = "▓" * pub
+        bar_u = "░" * unpub
+        print(f"  {intent:10s} {bar_p}{bar_u}  ({total} total · {pub} pub · {unpub} unpub)")
+    print("  ▓ = published  ░ = unpublished")
 
-    # Top energised + top contemplative notes
+    # Extreme sentiment notes
     by_compound = sorted(detail_blocks, key=lambda d: d["compound"])
-    print("\n  ── Most CONTEMPLATIVE notes ──────────────────────────────")
-    for d in by_compound[:3]:
-        print(f"  {d['compound']:+.3f}  [{d['slug']}]  {d['title']}")
-    print("\n  ── Most ENERGISED notes ──────────────────────────────────")
-    for d in by_compound[-3:]:
-        print(f"  {d['compound']:+.3f}  [{d['slug']}]  {d['title']}")
+    print("\n  ── Most CONTEMPLATIVE (lowest compound) ─────────────────")
+    for d in by_compound[:5]:
+        print(f"  [{d['pub']}] {d['compound']:+.3f}  {d['path']}")
+    print("\n  ── Most ENERGISED (highest compound) ────────────────────")
+    for d in by_compound[-5:]:
+        print(f"  [{d['pub']}] {d['compound']:+.3f}  {d['path']}")
+
+    # Areas with deep unpublished content
+    from collections import Counter
+    area_words: dict[str, int] = {}
+    for d in detail_blocks:
+        if d["pub"] == " ":
+            area_words[d["area"]] = area_words.get(d["area"], 0) + 1
+    print("\n  ── Areas richest in unpublished notes ───────────────────")
+    for area, count in sorted(area_words.items(), key=lambda x: -x[1])[:10]:
+        bar = "█" * count
+        print(f"  {area:25s} {bar}  ({count})")
     print()
 
 
 if __name__ == "__main__":
-    run()
+    import sys
+    mode = sys.argv[1] if len(sys.argv) > 1 else "all"
+    run(mode)

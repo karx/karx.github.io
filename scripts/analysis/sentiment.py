@@ -19,7 +19,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from vault_loader import load_published_notes
+from vault_loader import load_all_notes, load_published_notes
 
 import nltk
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
@@ -46,22 +46,25 @@ def mood_label(compound: float) -> str:
 
 def analyse_note(note: dict, analyser: SentimentIntensityAnalyzer) -> dict:
     text = note["clean_text"]
+    pub_flag = "✓" if note["published"] else " "
+
     if not text.strip():
         return {
-            "slug": note["slug"],
-            "title": note["title"][:36],
+            "pub": pub_flag,
+            "path": note["path"][:48],
+            "title": note["title"][:34],
+            "area": note["area"],
             "compound": 0.0,
             "pos": 0.0,
             "neu": 1.0,
             "neg": 0.0,
             "mood": "— NEUTRAL",
             "peak_sentence": "(stub — no content)",
+            "peak_score": 0.0,
         }
 
-    # Overall document score
     doc_scores = analyser.polarity_scores(text)
 
-    # Per-sentence — find the single most emotionally charged sentence
     sentences = nltk.sent_tokenize(text)
     scored_sents = [
         (analyser.polarity_scores(s)["compound"], s)
@@ -71,16 +74,17 @@ def analyse_note(note: dict, analyser: SentimentIntensityAnalyzer) -> dict:
     if scored_sents:
         peak_score, peak_sent = max(scored_sents, key=lambda x: abs(x[0]))
     else:
-        peak_score, peak_sent = 0.0, sentences[0] if sentences else ""
+        peak_score, peak_sent = 0.0, (sentences[0] if sentences else "")
 
-    # Trim peak sentence for display
-    peak_display = peak_sent[:90].replace("\n", " ")
-    if len(peak_sent) > 90:
+    peak_display = peak_sent[:95].replace("\n", " ")
+    if len(peak_sent) > 95:
         peak_display += "…"
 
     return {
-        "slug": note["slug"],
-        "title": note["title"][:36],
+        "pub": pub_flag,
+        "path": note["path"][:48],
+        "title": note["title"][:34],
+        "area": note["area"],
         "compound": round(doc_scores["compound"], 3),
         "pos": round(doc_scores["pos"], 3),
         "neu": round(doc_scores["neu"], 3),
@@ -92,69 +96,65 @@ def analyse_note(note: dict, analyser: SentimentIntensityAnalyzer) -> dict:
 
 
 def print_report(results: list[dict]) -> None:
-    # Sort by compound score descending
     results_sorted = sorted(results, key=lambda r: r["compound"], reverse=True)
+    pub_count = sum(1 for r in results if r["pub"] == "✓")
 
-    print("\n" + "═" * 95)
-    print("  SENTIMENT ANALYSIS — karx.github.io vault (VADER, published notes)")
-    print("═" * 95)
+    print("\n" + "═" * 110)
+    print(f"  SENTIMENT — karx.github.io vault  "
+          f"({len(results)} notes · {pub_count} published · "
+          f"{len(results)-pub_count} unpublished)  |  VADER")
+    print("  P = published   |  sorted highest → lowest compound score")
+    print("═" * 110)
 
     summary_rows = [
         [
-            r["slug"],
-            r["title"],
+            r["pub"], r["path"], r["title"], r["area"],
             f"{r['compound']:+.3f}",
-            f"{r['pos']:.2f}",
-            f"{r['neu']:.2f}",
-            f"{r['neg']:.2f}",
+            f"{r['pos']:.2f}", f"{r['neu']:.2f}", f"{r['neg']:.2f}",
             r["mood"],
         ]
         for r in results_sorted
     ]
-    print(
-        tabulate(
-            summary_rows,
-            headers=["Slug", "Title", "Compound", "Pos", "Neu", "Neg", "Mood"],
-            tablefmt="rounded_outline",
-        )
-    )
+    print(tabulate(
+        summary_rows,
+        headers=["P", "Path", "Title", "Area", "Compound", "Pos", "Neu", "Neg", "Mood"],
+        tablefmt="rounded_outline",
+    ))
 
-    # Charged sentences section
-    print("\n  ── PEAK EMOTIONAL SENTENCES ──────────────────────────────────────")
-    charged = sorted(results, key=lambda r: abs(r["compound"]), reverse=True)[:8]
+    # Most charged sentences across the full vault
+    print("\n  ── PEAK EMOTIONAL SENTENCES (top 10 by |compound|) ──────────────")
+    charged = sorted(results, key=lambda r: abs(r["compound"]), reverse=True)[:10]
     for r in charged:
         bar_val = int(abs(r["compound"]) * 20)
         bar = ("█" * bar_val).ljust(20)
         sign = "+" if r["compound"] >= 0 else "-"
-        print(f"\n  [{r['slug']}]  compound={r['compound']:+.3f}  {r['mood']}")
-        print(f"  |{bar}| {sign}")
+        print(f"\n  [{r['pub']}] {r['path']}")
+        print(f"  |{bar}| {r['compound']:+.3f}  {r['mood']}")
         print(f'  "{r["peak_sentence"]}"')
 
-    # Distribution summary
-    enthusiastic = sum(1 for r in results if r["compound"] >= 0.50)
-    optimistic   = sum(1 for r in results if 0.25 <= r["compound"] < 0.50)
-    mild_pos     = sum(1 for r in results if 0.05 <= r["compound"] < 0.25)
-    neutral      = sum(1 for r in results if -0.05 < r["compound"] < 0.05)
-    pensive      = sum(1 for r in results if -0.25 <= r["compound"] <= -0.05)
-    melancholic  = sum(1 for r in results if r["compound"] < -0.25)
-
-    print("\n  ── CORPUS MOOD DISTRIBUTION ──────────────────────────────────────")
-    for label, count in [
-        ("✦ ENTHUSIASTIC  (≥ +0.50)", enthusiastic),
-        ("◎ OPTIMISTIC    (+0.25–0.50)", optimistic),
-        ("· MILDLY POS    (+0.05–0.25)", mild_pos),
-        ("— NEUTRAL       (−0.05–+0.05)", neutral),
-        ("~ PENSIVE       (−0.25–−0.05)", pensive),
-        ("▾ MELANCHOLIC   (< −0.25)", melancholic),
-    ]:
-        bar = "█" * count
-        print(f"  {label:40s} {bar}  ({count})")
+    # Mood distribution — separate published vs unpublished
+    print("\n  ── MOOD DISTRIBUTION ─────────────────────────────────────────────")
+    bands = [
+        ("✦ ENTHUSIASTIC  (≥ +0.50)", lambda c: c >= 0.50),
+        ("◎ OPTIMISTIC    (+0.25–0.50)", lambda c: 0.25 <= c < 0.50),
+        ("· MILDLY POS    (+0.05–0.25)", lambda c: 0.05 <= c < 0.25),
+        ("— NEUTRAL       (−0.05–+0.05)", lambda c: -0.05 < c < 0.05),
+        ("~ PENSIVE       (−0.25–−0.05)", lambda c: -0.25 <= c <= -0.05),
+        ("▾ MELANCHOLIC   (< −0.25)", lambda c: c < -0.25),
+    ]
+    for label, pred in bands:
+        total = sum(1 for r in results if pred(r["compound"]))
+        pub   = sum(1 for r in results if pred(r["compound"]) and r["pub"] == "✓")
+        bar = "█" * total
+        print(f"  {label:40s} {bar:30s} ({total} total · {pub} pub)")
     print()
 
 
 if __name__ == "__main__":
-    print("Loading vault …")
-    notes = load_published_notes()
+    import sys
+    mode = sys.argv[1] if len(sys.argv) > 1 else "all"
+    print(f"Loading vault ({mode}) …")
+    notes = load_published_notes() if mode == "published" else load_all_notes()
     analyser = SentimentIntensityAnalyzer()
     results = [analyse_note(n, analyser) for n in notes]
     print_report(results)
