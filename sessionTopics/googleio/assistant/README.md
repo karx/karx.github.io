@@ -3,7 +3,7 @@
 ## First/Final words
 Community effort drives it!
 
-## Google Approch to this Conversational Platform Era
+## Google Approach to this Conversational Platform Era
 * The Google Assistant
 * Assistant enabled devices
 * Actions on Google

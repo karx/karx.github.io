@@ -92,17 +92,17 @@ Five-layer extraction per note: SUTRA (TextRank central sentence) · SHABDA (ded
 
 ### RASA Distribution
 
-| Rasa | Meaning | Count (est.) |
-|------|---------|-------------|
-| ✦ Adbhuta | Wonder · Curiosity | ~85 |
-| ⚡ Vira | Heroism · Determination | ~62 |
-| ◎ Shanta | Equanimity · Clarity | ~38 |
-| ◎ Shringara | Beauty · Connection | ~35 |
-| ✿ Hasya | Joy · Playfulness | ~28 |
-| ~ Karuna | Compassion · Longing | ~22 |
-| ▼ Bhayanaka | Fear · Anxiety | ~14 |
-| ▼ Raudra | Anger · Frustration | ~8 |
-| ▼ Bibhatsa | Disgust · Rejection | ~5 |
+| Rasa        | Meaning                 | Count (est.) |
+| ----------- | ----------------------- | ------------ |
+| ✦ Adbhuta   | Wonder · Curiosity      | ~85          |
+| ⚡ Vira      | Heroism · Determination | ~62          |
+| ◎ Shanta    | Equanimity · Clarity    | ~38          |
+| ◎ Shringara | Beauty · Connection     | ~35          |
+| ✿ Hasya     | Joy · Playfulness       | ~28          |
+| ~ Karuna    | Compassion · Longing    | ~22          |
+| ▼ Bhayanaka | Fear · Anxiety          | ~14          |
+| ▼ Raudra    | Anger · Frustration     | ~8           |
+| ▼ Bibhatsa  | Disgust · Rejection     | ~5           |
 
 ### ATOMICITY Distribution
 

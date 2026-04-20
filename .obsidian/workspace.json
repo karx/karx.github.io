@@ -679,16 +679,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Art of Intent.md",
+                "file": "Zsolt/Book-on-a-page/Atomic Habits.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Art of Intent"
+              "title": "Atomic Habits"
             }
           },
           {
-            "id": "c3d8e62ac45a8ecb",
+            "id": "12b84b3b70ed6f0e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -700,9 +700,23 @@
               "icon": "lucide-file",
               "title": "README"
             }
+          },
+          {
+            "id": "c3d8e62ac45a8ecb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vaut Snapshot.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Vaut Snapshot"
+            }
           }
         ],
-        "currentTab": 49
+        "currentTab": 50
       }
     ],
     "direction": "vertical"
@@ -776,7 +790,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Art of Intent.md",
+                "file": "computeTheory/README.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -786,7 +800,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Art of Intent"
+              "title": "Backlinks for README"
             }
           },
           {
@@ -865,40 +879,47 @@
       "pomodoro-widget:Toggle pomodoro widget.": false
     }
   },
-  "active": "6f6662f9217b13fc",
+  "active": "12b84b3b70ed6f0e",
   "lastOpenFiles": [
-    "Gemini Indian Kavi Index.md",
-    "Art of Intent.md",
-    "Gemini - Global Standup Comedy Index.md",
-    "Episode 1 - 844k.md",
-    "ego-Field.md",
-    "cultural knowledge dispersion.md",
+    "simulation.md",
     "computeTheory/README.md",
-    "mc server.md",
-    "_site/844k/README.md",
-    "844k.md",
-    "Jules Prompt for Design Review.md",
-    "kaaroGazette/Winter/index.html",
-    "kaaroGazette/Winter",
-    "kaaroGazette/1/index.html",
-    "kaaroGazette/1",
-    "kaaroGazette",
-    "PromptHub.md",
-    "export from Vscode.md",
-    "Riffusion.md",
-    "Untitled.base",
-    "sessionTopics/README.md",
-    "now/README.md",
-    "streaming/tanmay_setup/discord/README.md",
-    "twitch/lookups/README.md",
-    "_site/kaaro/building/README.md",
-    "_site/minecraft/datapack/README.md",
-    "_site/minecraft/sharable/README.md",
-    "_site/minecraft/skinviewer/README.md",
-    "_site/now/README.md",
-    "Github action for observability.md",
-    "Github Actions.md",
-    "A801/Home Storage.md",
+    "Moments per second - Rate of understanding.md",
+    "Compute Theory.md",
+    "computeTheory.md",
+    "VAULT_ANALYSIS.md",
+    "KartaDharam.md",
+    "what is life.md",
+    "sessionTopics/googleio/assistant/README.md",
+    "showtime/README.md",
+    "vidiyo/README.md",
+    "wakatime/README.md",
+    "Excalidraw/Atomic Habits 2024-07-20 01.00.56.excalidraw.md",
+    "Zsolt/Book-on-a-page/Atomic Habits.md",
+    "cars24/README.md",
+    "Akriya/lists/buylist-2/README.md",
+    "minecraft/redstone documentation.md",
+    "kaaro/mail/to-us/January2020/README.md",
+    "scripts/analysis/nomenclature.py",
+    "Interface Patterns and Ubiquitous Compute.md",
+    "mqtt/node_modules/glob/README.md",
+    "mqtt/node_modules/is-windows/README.md",
+    "IoTNcr - Automation Experiments.md",
+    "mqtt/node_modules/ext/node_modules/type/README.md",
+    "nix-build-image.md",
+    "YTKrta/README.md",
+    "Vaut Snapshot.md",
+    "Pasted image 20260414005510.png",
+    "scripts/analysis/__pycache__/vault_loader.cpython-311.pyc",
+    "scripts/analysis/__pycache__",
+    "scripts/analysis/vault_loader.py",
+    "scripts/analysis/text_stats.py",
+    "scripts/analysis/sentiment.py",
+    "scripts/analysis/lattice.py",
+    "scripts/analysis/bhavaarth.py",
+    "scripts/analysis",
+    "scripts/fetch_prints.py",
+    "Pasted image 20260414005310.png",
+    "Pasted image 20260414005247.png",
     "Pasted Image 20240720010104_731.png",
     "Pasted Image 20240720010104_372.svg",
     "Pasted Image 20240720010103_662.svg",
@@ -906,13 +927,6 @@
     "Pasted image 20240525132832.png",
     "Pasted Image 20240720010104_170.svg",
     "Pasted Image 20240722220245_019.png",
-    "Pasted Image 20240722220245_053.png",
-    "Pasted Image 20240722220245_128.png",
-    "Pasted image 20240910012107.png",
-    "Untitled.canvas",
-    "Zsolt/Book-on-a-page",
-    "Zsolt",
-    "A801",
-    "Excalidraw"
+    "Untitled.canvas"
   ]
 }
