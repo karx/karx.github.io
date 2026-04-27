@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:docs.google.com)",
+      "WebFetch(domain:cerebralvalley.ai)",
+      "Bash(curl -s \"https://cerebralvalley.ai/careers\")",
+      "Bash(curl -s \"https://cerebralvalley.ai\")",
+      "Read(//c/Users/karx0/.claude/projects/D--src-karx-github-io/memory//**)",
+      "Read(//c/Users/karx0/.claude/projects/D--src-karx-github-io//**)",
+      "Read(//d/src/eBrain/**)",
+      "Read(//d/src/**)"
+    ]
+  }
+}

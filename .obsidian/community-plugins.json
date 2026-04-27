@@ -3,5 +3,7 @@
   "templater-obsidian",
   "calendar",
   "obsidian-emoji-toolbar",
-  "pomodoro-widget"
+  "pomodoro-widget",
+  "obsidian-dice-roller",
+  "smart-random-note"
 ]
