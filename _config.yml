@@ -8,11 +8,18 @@ theme: minima
 # Prevent Jekyll from parsing Liquid tags inside vault files (Obsidian uses {{ }} syntax)
 render_with_liquid: false
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      render_with_liquid: false
+
 # Don't crash on files with missing frontmatter
 strict_front_matter: false
 
 plugins:
   - jekyll-optional-front-matter
+  - jekyll-readme-index
   - jekyll-titles-from-headings
   - jekyll-relative-links
   - jekyll-seo-tag
@@ -31,6 +38,8 @@ exclude:
   - Gemfile.lock
   - "*.excalidraw"
   - "anatomy-of-excalidraw-file copy.excalidraw"
+  - Excalidraw/
+  - digital-gardener/
   - "*.canvas"
   - "*.base"
   - "*.skill"
@@ -39,6 +48,10 @@ exclude:
   - GARDEN_GUIDELINES.md
   - VAULT_ANALYSIS.md
   - PKM-Engineering-System-Prompt.md
+
+readme_index:
+  with_frontmatter: true
+  remove_originals: true
 
 # Treat these extensions as passthrough (not processed as pages)
 keep_files:
