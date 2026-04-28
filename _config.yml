@@ -12,6 +12,7 @@ defaults:
   - scope:
       path: ""
     values:
+      layout: "page"
       render_with_liquid: false
 
 # Don't crash on files with missing frontmatter
