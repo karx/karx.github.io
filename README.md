@@ -1,9 +1,10 @@
 ---
-published: true
-title: "Kartik 'kaaro' Arora"
+layout: home
+permalink: /
+title: "karx | kaaro"
 tags:
   - reflection
-description: "The core entry point for the knowledge garden — summarizing my work, interests, and current experiments."
+description: "Builder, tinkerer. Notes, experiments, and ongoing work by Kartik Arora."
 ---
 
 # Kartik "kaaro" Arora
