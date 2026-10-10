@@ -3,122 +3,110 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>SilkRoute — Belandur, Outer Ring Road</title>
-<meta name="description" content="SilkRoute: a hyperlocal work economy for Belandur, OMR. Neighbours exchange skills for SilkCoins. No platform cut. Community-funded roles.">
+<title>SilkRoute — Belandur, OMR</title>
+<meta name="description" content="A hyperlocal work economy for Belandur, Outer Ring Road. Neighbours exchange skills for SilkCoins. No platform cut. Community-funded roles.">
 <style>
   :root {
-    --ink: #1a1a1a;
-    --muted: #5a5a5a;
-    --accent: #0b6e4f;
-    --accent-soft: #e6f4ef;
-    --line: #e5e5e5;
-    --bg: #faf9f6;
+    --bg: #0f1419;
+    --card: #1a222c;
+    --text: #e8eef4;
+    --muted: #8b9bb0;
+    --accent: #3ddc97;
+    --accent-dim: #2bb87a;
+    --border: #2a3441;
   }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     background: var(--bg);
-    color: var(--ink);
+    color: var(--text);
     line-height: 1.6;
-    max-width: 720px;
-    margin: 0 auto;
-    padding: 2rem 1.25rem 4rem;
+    min-height: 100vh;
   }
-  header { margin-bottom: 2.5rem; }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 48px 20px 80px; }
+  header { margin-bottom: 48px; }
   .eyebrow {
-    font-size: 0.8rem;
-    letter-spacing: 0.12em;
+    font-size: 13px;
+    letter-spacing: 0.14em;
     text-transform: uppercase;
     color: var(--accent);
-    font-weight: 600;
-    margin-bottom: 0.5rem;
+    margin-bottom: 12px;
   }
-  h1 { font-size: 2rem; line-height: 1.2; margin-bottom: 0.75rem; }
-  .lede { font-size: 1.15rem; color: var(--muted); }
-  h2 {
-    font-size: 1.15rem;
-    margin: 2rem 0 0.75rem;
-    padding-bottom: 0.4rem;
-    border-bottom: 2px solid var(--accent-soft);
-  }
-  p, li { color: var(--ink); }
-  ul { margin: 0.5rem 0 1rem 1.25rem; }
-  li { margin-bottom: 0.4rem; }
+  h1 { font-size: 2.4rem; font-weight: 700; line-height: 1.15; margin-bottom: 16px; }
+  h1 span { color: var(--accent); }
+  .lede { font-size: 1.15rem; color: var(--muted); max-width: 540px; }
   .card {
-    background: #fff;
-    border: 1px solid var(--line);
-    border-radius: 10px;
-    padding: 1.25rem 1.4rem;
-    margin: 1rem 0;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 20px;
   }
-  .card strong { color: var(--accent); }
+  .card h2 { font-size: 1.1rem; margin-bottom: 12px; color: var(--accent); }
+  .card p, .card li { color: var(--muted); font-size: 0.98rem; }
+  .card ul { padding-left: 20px; }
+  .card li { margin-bottom: 6px; }
+  .rate {
+    display: inline-block;
+    background: rgba(61,220,151,0.12);
+    color: var(--accent);
+    border-radius: 6px;
+    padding: 4px 10px;
+    font-weight: 600;
+    font-size: 0.95rem;
+  }
   .cta {
     display: inline-block;
     background: var(--accent);
-    color: #fff;
+    color: var(--bg);
+    font-weight: 700;
     text-decoration: none;
-    font-weight: 600;
-    padding: 0.85rem 1.6rem;
+    padding: 14px 28px;
     border-radius: 8px;
-    margin-top: 1rem;
+    font-size: 1.05rem;
+    margin-top: 8px;
   }
-  .cta:hover { background: #095a40; }
-  .small { font-size: 0.85rem; color: var(--muted); }
-  footer {
-    margin-top: 3rem;
-    padding-top: 1.5rem;
-    border-top: 1px solid var(--line);
-    font-size: 0.85rem;
-    color: var(--muted);
-  }
-  @media (max-width: 480px) {
-    h1 { font-size: 1.6rem; }
-  }
+  .cta:hover { background: var(--accent-dim); }
+  .small { font-size: 0.85rem; color: var(--muted); margin-top: 32px; }
+  .small a { color: var(--accent); }
 </style>
 </head>
 <body>
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Pilot · Belandur, Outer Ring Road · Bengaluru</div>
+    <h1>SilkRoute — work your <span>neighbourhood</span> runs on.</h1>
+    <p class="lede">Your OMR complex already runs on informal favours — parking help, wiring fixes, CCTV checks. SilkRoute makes that formal, fair, and visible.</p>
+  </header>
 
-<header>
-  <div class="eyebrow">SilkRoute · Pilot</div>
-  <h1>A work economy for Belandur, Outer Ring Road</h1>
-  <p class="lede">Your complex already runs on informal favours — parking help, wiring fixes, CCTV checks. SilkRoute makes that formal, fair, and visible.</p>
-</header>
+  <div class="card">
+    <h2>How it works</h2>
+    <ul>
+      <li>Post a job — or claim one. Wiring, parking rosters, common-area upkeep, CCTV checks.</li>
+      <li>Prove completion with a photo or note. Two neighbours confirm.</li>
+      <li>Get paid in <span class="rate">SilkCoins — 1 SC = ₹10, fixed</span>.</li>
+      <li>15% of every job funds community roles: parking attendants, traffic coordinators — chosen by the community, not a company.</li>
+    </ul>
+  </div>
 
-<h2>What it is</h2>
-<p>SilkRoute is a <strong>hyperlocal work economy</strong> for one neighbourhood. You post a job, a neighbour claims it, proves it, and gets paid in <strong>SilkCoins</strong> — at a fixed rate of 1 SC = ₹10. Fifteen percent of every job funds community roles: parking attendants, traffic coordinators, chosen by the community, not a company.</p>
+  <div class="card">
+    <h2>Why this is different</h2>
+    <ul>
+      <li>No platform takes a cut. The community is the platform.</li>
+      <li>Governance weight comes from contribution — posting jobs, completing them, confirming peers. No elections, no inherited authority.</li>
+      <li>Vendors are capped at 10% of community voice, so they can't capture it.</li>
+      <li>Cash-out is simple: 72 hours, minimum 10 SC, at the fixed rate.</li>
+    </ul>
+  </div>
 
-<div class="card">
-  <strong>No platform cut.</strong> There is no company taking a fee. The community is the platform.
+  <div class="card">
+    <h2>Phase 1 — Belandur</h2>
+    <p>One locality. Five founding members. Three seed jobs to start: parking roster coordination, common-area wiring checks, CCTV inspection. Real transactions, a seeded shared fund, and a transparent ledger anyone can read.</p>
+  </div>
+
+  <a class="cta" href="mailto:kaaro@akriya.co.in?subject=SilkRoute%20Belandur%20—%20founding%20member">Join as a founding member</a>
+
+  <p class="small">Full charters and the community ledger live in the <a href="https://github.com/karx/kaaroBrain/tree/master/1%20Projects/SilkRoute">kaaroBrain vault</a>. Questions? Email <a href="mailto:kaaro@akriya.co.in">kaaro@akriya.co.in</a>.</p>
 </div>
-
-<h2>How a job works</h2>
-<ol>
-  <li>Someone posts a job — wiring, parking roster, CCTV check, anything local.</li>
-  <li>A neighbour with the right skill claims it.</li>
-  <li>They submit proof (photo or text).</li>
-  <li>Two of three neighbours confirm it was done.</li>
-  <li>SilkCoins are released. 15% routes automatically to the Shared Fund.</li>
-</ol>
-
-<h2>Why it works here</h2>
-<ul>
-  <li><strong>Density</strong> — apartment clusters along OMR mean neighbours are close enough to actually verify work.</li>
-  <li><strong>Skills</strong> — tech workers with spare time for networking, electronics, coordination.</li>
-  <li><strong>Pain</strong> — parking chaos, traffic, common-area upkeep. These are daily, not occasional.</li>
-</ul>
-
-<h2>Governance, by contribution</h2>
-<p>Your voice in community decisions grows with what you do — completing jobs, posting jobs, confirming work. No elections, no inherited authority. Vendors are capped at 10% of total community weight so they can't capture the process.</p>
-
-<h2>The ask</h2>
-<p>We're starting with <strong>five founding members</strong> in Belandur. If that's you, reply to this page's contact or message the founder directly. Three seed jobs are ready to post on day one.</p>
-
-<a class="cta" href="mailto:kartik@akriya.co.in?subject=SilkRoute%20Belandur%20founding%20member">I'm in — count me as a founding member</a>
-
-<footer>
-  SilkRoute is a community project. Charters and parameters are public in the project vault.
-  Contact: kartik@akriya.co.in · Built for Belandur, OMR, Bengaluru.
-</footer>
-
 </body>
 </html>
